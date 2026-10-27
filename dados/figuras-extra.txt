@@ -1,0 +1,216 @@
+# Figuras acrescentadas na versão Famosodle (mesmo formato de figuras.txt)
+Luiz Inácio Lula da Silva|Luiz_Inácio_Lula_da_Silva|M|BR|pol|1945|-|Ex-metalúrgico e político|Eleito presidente do Brasil três vezes|
+Dilma Rousseff|Dilma_Rousseff|F|BR|pol|1947|-|Economista e política|Primeira mulher a presidir o Brasil|
+Carlos Marighella|Carlos_Marighella|M|BR|pol|1911|1969|Político e guerrilheiro|Escreveu o Minimanual do Guerrilheiro Urbano|
+Luís Carlos Prestes|Luís_Carlos_Prestes|M|BR|pol,mil|1898|1990|Militar e político|Liderou a coluna que percorreu o interior do Brasil nos anos 1920|
+Leonel Brizola|Leonel_Brizola|M|BR|pol|1922|2004|Político|Governou o Rio Grande do Sul e o Rio de Janeiro e liderou a Campanha da Legalidade|
+João Goulart|João_Goulart|M|BR|pol|1919|1976|Presidente|Presidente deposto pelo golpe militar de 1964|
+Darcy Ribeiro|Darcy_Ribeiro|M|BR|cie,pol|1922|1997|Antropólogo e político|Fundou a Universidade de Brasília e escreveu O Povo Brasileiro|
+Chico Mendes|Chico_Mendes|M|BR|ati|1944|1988|Seringueiro e ambientalista|Lutou pela preservação da floresta amazônica no Acre|
+Marielle Franco|Marielle_Franco|F|BR|pol,ati|1979|2018|Vereadora|Vereadora do Rio de Janeiro assassinada em 2018|
+Jair Bolsonaro|Jair_Bolsonaro|M|BR|pol|1955|-|Capitão reformado e político|Presidente do Brasil de 2019 a 2022|
+Fernando Henrique Cardoso|Fernando_Henrique_Cardoso|M|BR|pol|1931|-|Sociólogo e político|Presidente do Brasil por dois mandatos depois do Plano Real|
+Juscelino Kubitschek|Juscelino_Kubitschek|M|BR|pol|1902|1976|Presidente|Construiu Brasília|Cinquenta anos em cinco.
+Castelo Branco|Humberto_de_Alencar_Castelo_Branco|M|BR|pol,mil|1897|1967|Marechal e presidente|Primeiro presidente do regime militar instaurado em 1964|
+Tancredo Neves|Tancredo_Neves|M|BR|pol|1910|1985|Político|Eleito presidente em 1985, morreu antes de tomar posse|
+Carlos Lacerda|Carlos_Lacerda|M|BR|pol,lit|1914|1977|Jornalista e político|Primeiro governador eleito do estado da Guanabara|
+Ulysses Guimarães|Ulysses_Guimarães|M|BR|pol|1916|1992|Político|Presidiu a Assembleia Constituinte de 1988|
+Rui Barbosa|Ruy_Barbosa|M|BR|pol,lit|1849|1923|Jurista e político|Ficou conhecido como Águia de Haia|
+Deodoro da Fonseca|Deodoro_da_Fonseca|M|BR|pol,mil|1827|1892|Marechal|Proclamou a República e foi o primeiro presidente do Brasil|
+Dom Pedro II|Pedro_II_of_Brazil|M|BR|pol|1825|1891|Imperador|Governou o Brasil por quase 50 anos|
+José Bonifácio|José_Bonifácio_de_Andrada_e_Silva|M|BR|pol,cie|1763|1838|Cientista e político|Conhecido como Patriarca da Independência|
+Duque de Caxias|Luís_Alves_de_Lima_e_Silva,_Duke_of_Caxias|M|BR|mil|1803|1880|Militar|Patrono do Exército Brasileiro|
+Paulo Freire|Paulo_Freire|M|BR|fil|1921|1997|Educador e filósofo|Escreveu Pedagogia do Oprimido|
+Oscar Niemeyer|Oscar_Niemeyer|M|BR|art|1907|2012|Arquiteto|Projetou os principais prédios de Brasília|
+Tom Jobim|Antônio_Carlos_Jobim|M|BR|mus|1927|1994|Compositor e músico|Um dos criadores da bossa nova|
+Chico Buarque|Chico_Buarque|M|BR|mus,lit|1944|-|Cantor, compositor e escritor|Venceu o Prêmio Camões de literatura|
+Caetano Veloso|Caetano_Veloso|M|BR|mus|1942|-|Cantor e compositor|Um dos líderes do Tropicalismo|
+Gilberto Gil|Gilberto_Gil|M|BR|mus,pol|1942|-|Cantor e compositor|Foi ministro da Cultura do Brasil|
+Carmen Miranda|Carmen_Miranda|F|BR|mus,cin|1909|1955|Cantora e atriz|Ficou famosa em Hollywood com turbantes de frutas|
+Clarice Lispector|Clarice_Lispector|F|BR|lit|1920|1977|Escritora|Escreveu A Hora da Estrela|
+Carlos Drummond de Andrade|Carlos_Drummond_de_Andrade|M|BR|lit|1902|1987|Poeta|Um dos maiores poetas do modernismo brasileiro|
+Jorge Amado|Jorge_Amado|M|BR|lit|1912|2001|Escritor|Escreveu Capitães da Areia e Gabriela, Cravo e Canela|
+Tarsila do Amaral|Tarsila_do_Amaral|F|BR|art|1886|1973|Pintora|Pintou o Abaporu|
+Heitor Villa-Lobos|Heitor_Villa-Lobos|M|BR|mus|1887|1959|Compositor|Compôs as Bachianas Brasileiras|
+Oswaldo Cruz|Oswaldo_Cruz|M|BR|cie|1872|1917|Médico sanitarista|Liderou a campanha de vacinação que gerou a Revolta da Vacina|
+Anita Garibaldi|Anita_Garibaldi|F|BR|mil|1821|1849|Revolucionária|Lutou na Revolução Farroupilha e na unificação da Itália|
+Garrincha|Garrincha|M|BR|esp|1933|1983|Jogador de futebol|Bicampeão mundial famoso pelos dribles e pelas pernas tortas|
+Ronaldo Fenômeno|Ronaldo_(Brazilian_footballer)|M|BR|esp|1976|-|Jogador de futebol|Artilheiro da Copa de 2002, vencida pelo Brasil|
+Marta|Marta_(footballer)|F|BR|esp|1986|-|Jogadora de futebol|Eleita seis vezes a melhor jogadora do mundo|
+Neymar|Neymar|M|BR|esp|1992|-|Jogador de futebol|Maior artilheiro da história da seleção brasileira|
+Gustavo Kuerten|Gustavo_Kuerten|M|BR|esp|1976|-|Tenista|Tricampeão de Roland Garros|
+Silvio Santos|Silvio_Santos|M|BR|neg,cin|1930|2024|Apresentador e empresário|Fundou o SBT|
+Irmã Dulce|Dulce_de_Souza_Lopes_Pontes|F|BR|rel,ati|1914|1992|Freira|Primeira santa nascida no Brasil|
+Antônio Conselheiro|Antônio_Conselheiro|M|BR|rel|1830|1897|Líder religioso|Liderou o arraial de Canudos|
+Elis Regina|Elis_Regina|F|BR|mus|1945|1982|Cantora|Considerada uma das maiores cantoras do Brasil|
+Franklin D. Roosevelt|Franklin_D._Roosevelt|M|US|pol|1882|1945|Presidente|Único presidente americano eleito quatro vezes|A única coisa que devemos temer é o próprio medo.
+Theodore Roosevelt|Theodore_Roosevelt|M|US|pol|1858|1919|Presidente|Ganhou o Nobel da Paz e ampliou os parques nacionais dos EUA|
+Thomas Jefferson|Thomas_Jefferson|M|US|pol|1743|1826|Presidente|Principal autor da Declaração de Independência dos EUA|Todos os homens são criados iguais.
+Ronald Reagan|Ronald_Reagan|M|US|pol,cin|1911|2004|Ex-ator e presidente|Presidente americano no fim da Guerra Fria|Senhor Gorbachev, derrube este muro!
+Richard Nixon|Richard_Nixon|M|US|pol|1913|1994|Presidente|Renunciou depois do escândalo Watergate|Eu não sou um bandido.
+Dwight D. Eisenhower|Dwight_D._Eisenhower|M|US|pol,mil|1890|1969|General e presidente|Comandou o Dia D na Segunda Guerra Mundial|
+Jimmy Carter|Jimmy_Carter|M|US|pol|1924|2024|Presidente|Ganhou o Nobel da Paz depois de deixar a presidência|
+Bill Clinton|Bill_Clinton|M|US|pol|1946|-|Presidente|Presidente dos EUA nos anos 1990|
+George W. Bush|George_W._Bush|M|US|pol|1946|-|Presidente|Presidente dos EUA durante os ataques de 11 de setembro|
+Donald Trump|Donald_Trump|M|US|pol,neg|1946|-|Empresário e político|Eleito presidente dos EUA em dois mandatos não consecutivos|Tornar a América grande de novo.
+Joe Biden|Joe_Biden|M|US|pol|1942|-|Presidente|46º presidente dos Estados Unidos|
+Hillary Clinton|Hillary_Clinton|F|US|pol|1947|-|Política e advogada|Primeira mulher candidata à presidência por um grande partido americano|
+Kamala Harris|Kamala_Harris|F|US|pol|1964|-|Política e advogada|Primeira mulher vice-presidente dos EUA|
+Bernie Sanders|Bernie_Sanders|M|US|pol|1941|-|Senador|Disputou as primárias democratas de 2016 e 2020|
+Frederick Douglass|Frederick_Douglass|M|US|ati,lit|~1818|1895|Abolicionista e escritor|Fugiu da escravidão e virou um dos maiores oradores dos EUA|
+Susan B. Anthony|Susan_B._Anthony|F|US|ati|1820|1906|Sufragista|Liderou a luta pelo voto feminino nos EUA|
+Eleanor Roosevelt|Eleanor_Roosevelt|F|US|pol,ati|1884|1962|Primeira-dama e diplomata|Ajudou a redigir a Declaração Universal dos Direitos Humanos|
+Henry Kissinger|Henry_Kissinger|M|US|pol|1923|2023|Diplomata|Secretário de Estado americano e Nobel da Paz|
+Amelia Earhart|Amelia_Earhart|F|US|exp|1897|1937|Aviadora|Primeira mulher a cruzar o Atlântico sozinha de avião|
+Ernest Hemingway|Ernest_Hemingway|M|US|lit|1899|1961|Escritor|Escreveu O Velho e o Mar|
+Mark Twain|Mark_Twain|M|US|lit|1835|1910|Escritor|Criou Tom Sawyer e Huckleberry Finn|A notícia da minha morte foi um exagero.
+Andy Warhol|Andy_Warhol|M|US|art|1928|1987|Artista plástico|Ícone da pop art com as latas de sopa Campbell|
+Oprah Winfrey|Oprah_Winfrey|F|US|cin,neg|1954|-|Apresentadora|Comandou um dos talk shows mais famosos da TV|
+Jesse Owens|Jesse_Owens|M|US|esp|1913|1980|Atleta|Ganhou quatro ouros nos Jogos Olímpicos de Berlim, em 1936|
+Hugo Chávez|Hugo_Chávez|M|VE|pol,mil|1954|2013|Militar e presidente|Governou a Venezuela de 1999 a 2013|Por enquanto, os objetivos que nos propusemos não foram alcançados.
+Salvador Allende|Salvador_Allende|M|CL|pol|1908|1973|Médico e presidente|Primeiro marxista eleito presidente na América Latina|
+Augusto Pinochet|Augusto_Pinochet|M|CL|pol,mil|1915|2006|General|Governou o Chile depois do golpe de 1973|
+Juan Perón|Juan_Perón|M|AR|pol,mil|1895|1974|General e presidente|Três vezes presidente da Argentina|
+Javier Milei|Javier_Milei|M|AR|pol|1970|-|Economista|Eleito presidente da Argentina em 2023|Viva a liberdade, caramba!
+Cristina Kirchner|Cristina_Fernández_de_Kirchner|F|AR|pol|1953|-|Advogada e política|Presidente da Argentina de 2007 a 2015|
+Papa Francisco|Pope_Francis|M|AR|rel|1936|2025|Papa|Primeiro papa latino-americano|Quem sou eu para julgar?
+Jorge Luis Borges|Jorge_Luis_Borges|M|AR|lit|1899|1986|Escritor|Escreveu Ficções e O Aleph|
+Juan Manuel Fangio|Juan_Manuel_Fangio|M|AR|esp|1911|1995|Piloto de Fórmula 1|Pentacampeão mundial de Fórmula 1|
+Evo Morales|Evo_Morales|M|BO|pol|1959|-|Líder sindical e político|Primeiro presidente indígena da Bolívia|
+Raúl Castro|Raúl_Castro|M|CU|pol,mil|1931|-|Militar e político|Sucedeu o irmão no governo de Cuba|
+José Martí|José_Martí|M|CU|lit,pol|1853|1895|Poeta e revolucionário|Herói da independência cubana|
+Daniel Ortega|Daniel_Ortega|M|NI|pol|1945|-|Ex-guerrilheiro e político|Líder da revolução sandinista e presidente da Nicarágua|
+Alberto Fujimori|Alberto_Fujimori|M|PE|pol|1938|2024|Engenheiro e presidente|Presidente do Peru nos anos 1990|
+Túpac Amaru II|Túpac_Amaru_II|M|PE|pol,mil|1738|1781|Líder indígena|Liderou uma grande rebelião contra o domínio espanhol|
+Álvaro Uribe|Álvaro_Uribe|M|CO|pol|1952|-|Advogado e político|Presidente da Colômbia de 2002 a 2010|
+Gustavo Petro|Gustavo_Petro|M|CO|pol|1960|-|Ex-guerrilheiro e político|Primeiro presidente de esquerda eleito na Colômbia|
+Shakira|Shakira|F|CO|mus|1977|-|Cantora|Cantora colombiana de sucesso mundial|
+Andrés Manuel López Obrador|Andrés_Manuel_López_Obrador|M|MX|pol|1953|-|Político|Presidente do México de 2018 a 2024|
+Benito Juárez|Benito_Juárez|M|MX|pol|1806|1872|Advogado e presidente|Primeiro presidente indígena do México|
+Pancho Villa|Pancho_Villa|M|MX|mil|1878|1923|Revolucionário|General famoso da Revolução Mexicana|
+Diego Rivera|Diego_Rivera|M|MX|art|1886|1957|Pintor|Mestre do muralismo mexicano|
+José Mujica|José_Mujica|M|UY|pol|1935|2025|Ex-guerrilheiro e presidente|Ficou conhecido como o presidente mais pobre do mundo|Não sou pobre, sou sóbrio, de bagagem leve.
+Nayib Bukele|Nayib_Bukele|M|SV|pol|1981|-|Empresário e político|Eleito presidente de El Salvador em 2019 e reeleito em 2024|
+Pierre Trudeau|Pierre_Trudeau|M|CA|pol|1919|2000|Primeiro-ministro|Governou o Canadá por cerca de 15 anos|
+Justin Trudeau|Justin_Trudeau|M|CA|pol|1971|-|Primeiro-ministro|Primeiro-ministro do Canadá de 2015 a 2025|
+Toussaint Louverture|Toussaint_Louverture|M|HT|mil,pol|~1743|1803|General|Liderou a revolução que levou à independência do Haiti|
+Rigoberta Menchú|Rigoberta_Menchú|F|GT|ati|1959|-|Ativista indígena|Ganhou o Nobel da Paz em 1992|
+Gabriela Mistral|Gabriela_Mistral|F|CL|lit|1889|1957|Poeta|Primeira latino-americana a ganhar o Nobel de Literatura|
+Margaret Thatcher|Margaret_Thatcher|F|GB|pol|1925|2013|Primeira-ministra|Primeira mulher a governar o Reino Unido|A dama não é de dar meia-volta.
+Charles de Gaulle|Charles_de_Gaulle|M|FR|pol,mil|1890|1970|General e presidente|Liderou a França Livre e fundou a Quinta República|Como governar um país que tem 246 variedades de queijo?
+Konrad Adenauer|Konrad_Adenauer|M|DE|pol|1876|1967|Chanceler|Primeiro chanceler da Alemanha Ocidental|
+Angela Merkel|Angela_Merkel|F|DE|pol,cie|1954|-|Física e chanceler|Primeira mulher a chefiar o governo da Alemanha|Nós conseguimos.
+Helmut Kohl|Helmut_Kohl|M|DE|pol|1930|2017|Chanceler|Chanceler da reunificação alemã|
+Otto von Bismarck|Otto_von_Bismarck|M|DE|pol|1815|1898|Chanceler|Unificou a Alemanha em 1871|As grandes questões do nosso tempo não se resolvem com discursos, mas com ferro e sangue.
+Francisco Franco|Francisco_Franco|M|ES|pol,mil|1892|1975|General|Governou a Espanha de 1939 até morrer|
+António de Oliveira Salazar|António_de_Oliveira_Salazar|M|PT|pol|1889|1970|Professor e governante|Comandou o Estado Novo português por 36 anos|
+Vladimir Putin|Vladimir_Putin|M|RU|pol|1952|-|Ex-agente da KGB e político|Governa a Rússia desde 2000, como presidente ou primeiro-ministro|
+Volodymyr Zelensky|Volodymyr_Zelenskyy|M|UA|pol,cin|1978|-|Ex-humorista e presidente|Eleito presidente da Ucrânia em 2019|
+Viktor Orbán|Viktor_Orbán|M|HU|pol|1963|-|Político|Primeiro-ministro da Hungria por mais de 15 anos|
+Giorgia Meloni|Giorgia_Meloni|F|IT|pol|1977|-|Política|Primeira mulher a chefiar o governo da Itália|
+Silvio Berlusconi|Silvio_Berlusconi|M|IT|pol,neg|1936|2023|Empresário e político|Quatro vezes primeiro-ministro da Itália|
+Marine Le Pen|Marine_Le_Pen|F|FR|pol|1968|-|Advogada e política|Três vezes candidata à presidência da França|
+Emmanuel Macron|Emmanuel_Macron|M|FR|pol|1977|-|Presidente|Eleito presidente da França em 2017, aos 39 anos|
+Boris Johnson|Boris_Johnson|M|GB|pol|1964|-|Jornalista e político|Primeiro-ministro do Reino Unido durante o Brexit|
+Tony Blair|Tony_Blair|M|GB|pol|1953|-|Primeiro-ministro|Governou o Reino Unido por dez anos pelo Partido Trabalhista|
+Clement Attlee|Clement_Attlee|M|GB|pol|1883|1967|Primeiro-ministro|Criou o sistema público de saúde britânico|
+Willy Brandt|Willy_Brandt|M|DE|pol|1913|1992|Chanceler|Ganhou o Nobel da Paz pela aproximação com o Leste Europeu|
+François Mitterrand|François_Mitterrand|M|FR|pol|1916|1996|Presidente|Primeiro presidente socialista da Quinta República francesa|
+Olof Palme|Olof_Palme|M|SE|pol|1927|1986|Primeiro-ministro|Primeiro-ministro sueco assassinado em Estocolmo|
+Felipe González|Felipe_González|M|ES|pol|1942|-|Primeiro-ministro|Governou a Espanha por quase 14 anos depois da ditadura|
+Pedro Sánchez|Pedro_Sánchez|M|ES|pol|1972|-|Economista e político|Chegou à chefia do governo da Espanha em 2018|
+Lech Wałęsa|Lech_Wałęsa|M|PL|pol,ati|1943|-|Eletricista e sindicalista|Liderou o sindicato Solidariedade e ganhou o Nobel da Paz|
+Papa João Paulo II|Pope_John_Paul_II|M|PL|rel|1920|2005|Papa|Primeiro papa não italiano em mais de 400 anos|Não tenham medo!
+Papa Bento XVI|Pope_Benedict_XVI|M|DE|rel|1927|2022|Papa|Primeiro papa a renunciar em quase 600 anos|
+Václav Havel|Václav_Havel|M|CZ|pol,lit|1936|2011|Dramaturgo e presidente|Liderou a Revolução de Veludo|
+Josip Broz Tito|Josip_Broz_Tito|M|HR|pol,mil|1892|1980|Líder político e militar|Governou a Iugoslávia por 35 anos|
+Leon Trotsky|Leon_Trotsky|M|RU|pol|1879|1940|Revolucionário|Criou o Exército Vermelho|
+Rosa Luxemburgo|Rosa_Luxemburg|F|DE|pol,fil|1871|1919|Filósofa e revolucionária|Cofundou a Liga Espartaquista na Alemanha|
+Friedrich Engels|Friedrich_Engels|M|DE|fil,pol|1820|1895|Filósofo|Escreveu o Manifesto Comunista com Karl Marx|
+Antonio Gramsci|Antonio_Gramsci|M|IT|fil,pol|1891|1937|Filósofo|Escreveu os Cadernos do Cárcere|
+Boris Yeltsin|Boris_Yeltsin|M|RU|pol|1931|2007|Presidente|Primeiro presidente da Rússia depois do fim da União Soviética|
+Edmund Burke|Edmund_Burke|M|IE|fil,pol|1729|1797|Filósofo e político|Considerado o pai do conservadorismo moderno|
+Friedrich Hayek|Friedrich_Hayek|M|AT|fil,cie|1899|1992|Economista|Escreveu O Caminho da Servidão e ganhou o Nobel de Economia|
+John Maynard Keynes|John_Maynard_Keynes|M|GB|cie|1883|1946|Economista|Defendeu o gasto público para combater crises|
+Adam Smith|Adam_Smith|M|GB|fil,cie|1723|1790|Economista e filósofo|Escreveu A Riqueza das Nações|
+Catarina, a Grande|Catherine_the_Great|F|RU|pol|1729|1796|Imperatriz|Governou a Rússia por mais de 30 anos|
+Pedro, o Grande|Peter_the_Great|M|RU|pol|1672|1725|Czar|Fundou São Petersburgo|
+Luís XIV|Louis_XIV|M|FR|pol|1638|1715|Rei|Conhecido como Rei Sol, construiu Versalhes|
+Maria Antonieta|Marie_Antoinette|F|FR|pol|1755|1793|Rainha|Rainha da França guilhotinada na Revolução Francesa|
+Henrique VIII|Henry_VIII|M|GB|pol|1491|1547|Rei|Casou-se seis vezes e rompeu com a Igreja de Roma|
+Elizabeth I|Elizabeth_I|F|GB|pol|1533|1603|Rainha|Derrotou a Invencível Armada espanhola|
+Maximilien de Robespierre|Maximilien_Robespierre|M|FR|pol|1758|1794|Revolucionário|Líder do período do Terror na Revolução Francesa|
+Giuseppe Garibaldi|Giuseppe_Garibaldi|M|IT|mil,pol|1807|1882|General|Herói da unificação da Itália|
+Dante Alighieri|Dante_Alighieri|M|IT|lit|1265|1321|Poeta|Escreveu A Divina Comédia|Deixai toda esperança, vós que entrais.
+Michelangelo|Michelangelo|M|IT|art|1475|1564|Pintor e escultor|Pintou o teto da Capela Sistina|
+Nicolau Maquiavel|Niccolò_Machiavelli|M|IT|fil,pol|1469|1527|Filósofo e diplomata|Escreveu O Príncipe|
+Platão|Plato|M|GR|fil|~-428|~-348|Filósofo|Fundou a Academia de Atenas|
+Jean-Jacques Rousseau|Jean-Jacques_Rousseau|M|CH|fil|1712|1778|Filósofo|Escreveu O Contrato Social|O homem nasce livre, e por toda parte está acorrentado.
+Voltaire|Voltaire|M|FR|fil,lit|1694|1778|Filósofo e escritor|Escreveu Cândido|
+Victor Hugo|Victor_Hugo|M|FR|lit|1802|1885|Escritor|Escreveu Os Miseráveis|
+Friedrich Nietzsche|Friedrich_Nietzsche|M|DE|fil|1844|1900|Filósofo|Escreveu Assim Falou Zaratustra|Deus está morto.
+Immanuel Kant|Immanuel_Kant|M|DE|fil|1724|1804|Filósofo|Escreveu a Crítica da Razão Pura|
+Simone de Beauvoir|Simone_de_Beauvoir|F|FR|fil,lit|1908|1986|Filósofa e escritora|Escreveu O Segundo Sexo|
+Jean-Paul Sartre|Jean-Paul_Sartre|M|FR|fil,lit|1905|1980|Filósofo|Recusou o Nobel de Literatura|
+George Orwell|George_Orwell|M|GB|lit|1903|1950|Escritor|Escreveu 1984 e A Revolução dos Bichos|
+Liev Tolstói|Leo_Tolstoy|M|RU|lit|1828|1910|Escritor|Escreveu Guerra e Paz|
+Fiódor Dostoiévski|Fyodor_Dostoevsky|M|RU|lit|1821|1881|Escritor|Escreveu Crime e Castigo|
+Charles Dickens|Charles_Dickens|M|GB|lit|1812|1870|Escritor|Escreveu Oliver Twist|
+Miguel de Cervantes|Miguel_de_Cervantes|M|ES|lit|1547|1616|Escritor|Escreveu Dom Quixote|
+Fernando Pessoa|Fernando_Pessoa|M|PT|lit|1888|1935|Poeta|Escreveu com vários heterônimos, como Álvaro de Campos|
+Luís de Camões|Luís_de_Camões|M|PT|lit|~1524|1580|Poeta|Escreveu Os Lusíadas|
+José Saramago|José_Saramago|M|PT|lit|1922|2010|Escritor|Único autor de língua portuguesa a ganhar o Nobel de Literatura|
+Johann Sebastian Bach|Johann_Sebastian_Bach|M|DE|mus|1685|1750|Compositor|Mestre do período barroco|
+Frédéric Chopin|Frédéric_Chopin|M|PL|mus|1810|1849|Compositor e pianista|Compôs noturnos e polonesas para piano|
+Piotr Tchaikovsky|Pyotr_Ilyich_Tchaikovsky|M|RU|mus|1840|1893|Compositor|Compôs O Lago dos Cisnes|
+Salvador Dalí|Salvador_Dalí|M|ES|art|1904|1989|Pintor|Pintou A Persistência da Memória, com relógios derretidos|
+Claude Monet|Claude_Monet|M|FR|art|1840|1926|Pintor|Um dos fundadores do impressionismo|
+Rembrandt|Rembrandt|M|NL|art|1606|1669|Pintor|Pintou A Ronda Noturna|
+Charlie Chaplin|Charlie_Chaplin|M|GB|cin|1889|1977|Ator e diretor|Criou o personagem Carlitos|
+Paul McCartney|Paul_McCartney|M|GB|mus|1942|-|Músico|Cofundou os Beatles com John Lennon|
+David Bowie|David_Bowie|M|GB|mus|1947|2016|Cantor e compositor|Criou o personagem Ziggy Stardust|
+Johan Cruyff|Johan_Cruyff|M|NL|esp|1947|2016|Jogador e técnico de futebol|Símbolo do futebol total holandês|
+Zinedine Zidane|Zinedine_Zidane|M|FR|esp|1972|-|Jogador e técnico de futebol|Campeão da Copa do Mundo de 1998|
+Michael Schumacher|Michael_Schumacher|M|DE|esp|1969|-|Piloto de Fórmula 1|Heptacampeão mundial de Fórmula 1|
+Roger Federer|Roger_Federer|M|CH|esp|1981|-|Tenista|Venceu Wimbledon oito vezes|
+Rafael Nadal|Rafael_Nadal|M|ES|esp|1986|-|Tenista|Venceu Roland Garros 14 vezes|
+Greta Thunberg|Greta_Thunberg|F|SE|ati|2003|-|Ativista ambiental|Começou greves escolares pelo clima aos 15 anos|Como vocês ousam?
+Alfred Nobel|Alfred_Nobel|M|SE|cie,neg|1833|1896|Químico e inventor|Inventou a dinamite e criou o prêmio que leva seu nome|
+Dmitri Mendeleiev|Dmitri_Mendeleev|M|RU|cie|1834|1907|Químico|Criou a tabela periódica|
+Nicolau Copérnico|Nicolaus_Copernicus|M|PL|cie|1473|1543|Astrônomo|Propôs que a Terra gira em torno do Sol|
+Alan Turing|Alan_Turing|M|GB|cie|1912|1954|Matemático|Ajudou a decifrar o código Enigma e é considerado pai da computação|
+Ada Lovelace|Ada_Lovelace|F|GB|cie|1815|1852|Matemática|Considerada a primeira programadora da história|
+Tim Berners-Lee|Tim_Berners-Lee|M|GB|cie|1955|-|Cientista da computação|Inventou a World Wide Web|
+Grigori Rasputin|Grigori_Rasputin|M|RU|rel|1869|1916|Místico|Conselheiro da família do último czar da Rússia|
+Robert Mugabe|Robert_Mugabe|M|ZW|pol|1924|2019|Presidente|Governou o Zimbábue por 37 anos|
+Paul Kagame|Paul_Kagame|M|RW|pol,mil|1957|-|Militar e presidente|Presidente de Ruanda desde 2000|
+Ellen Johnson Sirleaf|Ellen_Johnson_Sirleaf|F|LR|pol|1938|-|Economista e presidente|Primeira mulher eleita presidente de um país africano|
+George Weah|George_Weah|M|LR|esp,pol|1966|-|Jogador de futebol e presidente|Único africano eleito melhor jogador do mundo pela FIFA|
+Agostinho Neto|Agostinho_Neto|M|AO|pol,lit|1922|1979|Médico, poeta e presidente|Primeiro presidente de Angola|
+Samora Machel|Samora_Machel|M|MZ|pol,mil|1933|1986|Militar e presidente|Primeiro presidente de Moçambique|
+Amílcar Cabral|Amílcar_Cabral|M|GW|pol|1924|1973|Agrônomo e revolucionário|Liderou a luta pela independência da Guiné-Bissau e de Cabo Verde|
+Naguib Mahfouz|Naguib_Mahfouz|M|EG|lit|1911|2006|Escritor|Primeiro escritor de língua árabe a ganhar o Nobel de Literatura|
+Frederik de Klerk|F._W._de_Klerk|M|ZA|pol|1936|2021|Presidente|Encerrou o apartheid e dividiu o Nobel da Paz com Mandela|
+Léopold Sédar Senghor|Léopold_Sédar_Senghor|M|SN|pol,lit|1906|2001|Poeta e presidente|Primeiro presidente do Senegal|
+Wole Soyinka|Wole_Soyinka|M|NG|lit|1934|-|Escritor|Primeiro africano a ganhar o Nobel de Literatura|
+Shinzo Abe|Shinzo_Abe|M|JP|pol|1954|2022|Primeiro-ministro|Primeiro-ministro com mais tempo no cargo da história do Japão|
+Narendra Modi|Narendra_Modi|M|IN|pol|1950|-|Primeiro-ministro|Governa a Índia desde 2014|
+Chiang Kai-shek|Chiang_Kai-shek|M|TW|pol,mil|1887|1975|General e governante|Levou o governo nacionalista chinês para Taiwan|
+Park Chung-hee|Park_Chung_Hee|M|KR|pol,mil|1917|1979|General e presidente|Governou a Coreia do Sul durante o seu crescimento acelerado|
+Sukarno|Sukarno|M|ID|pol|1901|1970|Presidente|Primeiro presidente da Indonésia|
+Yitzhak Rabin|Yitzhak_Rabin|M|IL|pol,mil|1922|1995|Militar e primeiro-ministro|Ganhou o Nobel da Paz pelos Acordos de Oslo|
+Benjamin Netanyahu|Benjamin_Netanyahu|M|IL|pol|1949|-|Primeiro-ministro|Primeiro-ministro com mais tempo no cargo da história de Israel|
+Imran Khan|Imran_Khan|M|PK|esp,pol|1952|-|Jogador de críquete e político|Capitão campeão mundial de críquete que virou primeiro-ministro|
+Aung San Suu Kyi|Aung_San_Suu_Kyi|F|MM|pol,ati|1945|-|Política|Ganhou o Nobel da Paz pela luta pela democracia em Mianmar|
+Ban Ki-moon|Ban_Ki-moon|M|KR|pol|1944|-|Diplomata|Secretário-geral da ONU de 2007 a 2016|
+Robert Menzies|Robert_Menzies|M|AU|pol|1894|1978|Primeiro-ministro|Primeiro-ministro com mais tempo no cargo da história da Austrália|
+Gough Whitlam|Gough_Whitlam|M|AU|pol|1916|2014|Primeiro-ministro|Primeiro-ministro australiano destituído pelo governador-geral em 1975|
+Bob Hawke|Bob_Hawke|M|AU|pol|1929|2019|Primeiro-ministro|Ex-líder sindical que governou a Austrália por quase nove anos|
+John Howard|John_Howard|M|AU|pol|1939|-|Primeiro-ministro|Governou a Austrália por mais de 11 anos|
+Julia Gillard|Julia_Gillard|F|AU|pol|1961|-|Primeira-ministra|Primeira mulher a governar a Austrália|
+Helen Clark|Helen_Clark|F|NZ|pol|1950|-|Primeira-ministra|Primeira mulher eleita para governar a Nova Zelândia|
+John Key|John_Key|M|NZ|pol,neg|1961|-|Ex-banqueiro e primeiro-ministro|Primeiro-ministro da Nova Zelândia de 2008 a 2016|
+Kylie Minogue|Kylie_Minogue|F|AU|mus|1968|-|Cantora|Uma das cantoras pop de maior sucesso da Austrália|
+Lorde|Lorde|F|NZ|mus|1996|-|Cantora|Ganhou o Grammy ainda adolescente|
+Heath Ledger|Heath_Ledger|M|AU|cin|1979|2008|Ator|Ganhou um Oscar póstumo por interpretar o Coringa|
+Mary MacKillop|Mary_MacKillop|F|AU|rel|1842|1909|Freira e educadora|Primeira santa da Austrália|

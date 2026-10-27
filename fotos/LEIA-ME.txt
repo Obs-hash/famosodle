@@ -1,0 +1,5 @@
+Aqui ficam as pastas fotos-1, fotos-2, fotos-3 e fotos-4 com as fotos do site e o arquivo fotos-1/creditos.json.
+O jeito mais simples de gerar tudo é o comando npm run baixar-fotos, que baixa as imagens da Wikipedia e grava os créditos.
+Também dá para usar o pacote famosodle-fotos.zip do botão "Gerar pacote de fotos para o site" do arquivo único.
+Depois rode npm run build: ele copia as pastas para o site e marca quem entra no modo Foto.
+Esta pasta vai para o git, porque a Vercel precisa das fotos para montar o site.

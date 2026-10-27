@@ -1,0 +1,32 @@
+{
+  "name": "famosodle",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jogo diário de adivinhar figuras históricas, no estilo Wordle.",
+  "scripts": {
+    "dados": "node scripts/gerar-dados.js",
+    "empacotar": "node scripts/empacotar.js",
+    "build": "npm run dados && npm run empacotar",
+    "pretest": "npm run build",
+    "test": "playwright test",
+    "servir": "node scripts/servir.js",
+    "verificar-fotos": "node scripts/verificar-fotos.js",
+    "verificar-dados": "node scripts/verificar-dados.js",
+    "baixar-fotos": "node scripts/baixar-fotos.js",
+    "imagens": "node scripts/gerar-imagens.js",
+    "lighthouse": "node scripts/medir-lighthouse.js"
+  },
+  "devDependencies": {
+    "@fontsource/instrument-serif": "5.3.0",
+    "@fontsource/open-sauce-sans": "5.3.0",
+    "@playwright/test": "1.64.0",
+    "@rapideditor/country-coder": "5.6.1",
+    "esbuild": "0.28.2",
+    "jpeg-js": "0.4.4",
+    "pngjs": "7.0.0",
+    "world-countries": "5.1.0"
+  },
+  "allowScripts": {
+    "esbuild": false
+  }
+}

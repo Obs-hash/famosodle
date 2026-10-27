@@ -1,0 +1,3746 @@
+{
+ "gerado": "2026-10-26T23:25:03.151Z",
+ "fonte": "Wikipedia e Wikimedia Commons",
+ "fotos": {
+  "p001": {
+   "f": "fotos-1/p001.jpg",
+   "file": "Albert_Einstein_Head_cleaned.jpg",
+   "a": "Oren Jack Turner",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head_cleaned.jpg",
+   "r": "c",
+   "v": "bffef257",
+   "n": "Albert Einstein"
+  },
+  "p002": {
+   "f": "fotos-1/p002.jpg",
+   "file": "Marie_Curie_c._1920s.jpg",
+   "a": "Henri Manuel",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Marie_Curie_c._1920s.jpg",
+   "r": "c",
+   "v": "245b2ebd",
+   "n": "Marie Curie"
+  },
+  "p003": {
+   "f": "fotos-1/p003.jpg",
+   "file": "Portrait_of_Sir_Isaac_Newton,_1689_(brightened).jpg",
+   "a": "Godfrey Kneller",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sir_Isaac_Newton,_1689_(brightened).jpg",
+   "r": "c",
+   "v": "ba75e290",
+   "n": "Isaac Newton"
+  },
+  "p004": {
+   "f": "fotos-1/p004.jpg",
+   "file": "Charles_Darwin_seated_crop.jpg",
+   "a": "Henry Maull (1829-1914) and John Fox (1832-1907) (Maull & Fox) derivative work: Bea o",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Charles_Darwin_seated_crop.jpg",
+   "r": "c",
+   "v": "8b8e69ec",
+   "n": "Charles Darwin"
+  },
+  "p005": {
+   "f": "fotos-1/p005.jpg",
+   "file": "William_Shakespeare_by_John_Taylor,_edited.jpg",
+   "a": "Attributed to John Taylor",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:William_Shakespeare_by_John_Taylor,_edited.jpg",
+   "r": "c",
+   "v": "c1c474dd",
+   "n": "William Shakespeare"
+  },
+  "p006": {
+   "f": "fotos-1/p006.jpg",
+   "file": "Francesco_Melzi_-_Portrait_of_Leonardo_(colour_correction).png",
+   "a": "Attributed to Francesco Melzi",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Francesco_Melzi_-_Portrait_of_Leonardo_(colour_correction).png",
+   "r": "c",
+   "v": "d9bec1e3",
+   "n": "Leonardo da Vinci"
+  },
+  "p007": {
+   "f": "fotos-1/p007.jpg",
+   "file": "Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+   "a": "Jacques-Louis David",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+   "r": "c",
+   "v": "fc78a80f",
+   "n": "Napoleão Bonaparte"
+  },
+  "p008": {
+   "f": "fotos-1/p008.jpg",
+   "file": "Sir_Winston_Churchill_-_19086236948_(restored).jpg",
+   "a": "Flickr : Sir Winston Churchill",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Sir_Winston_Churchill_-_19086236948_(restored).jpg",
+   "r": "c",
+   "v": "b5850061",
+   "n": "Winston Churchill"
+  },
+  "p009": {
+   "f": "fotos-1/p009.jpg",
+   "file": "Retrato_de_Julio_César_(26724093101)_(cropped).jpg",
+   "a": "Ángel M. Felicísimo from Mérida, España",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Retrato_de_Julio_C%C3%A9sar_(26724093101)_(cropped).jpg",
+   "r": "c",
+   "v": "decffc69",
+   "n": "Júlio César"
+  },
+  "p010": {
+   "f": "fotos-1/p010.jpg",
+   "file": "Galileo_Galilei_(1564-1642)_RMG_BHC2700.tiff",
+   "a": "Justus Sustermans",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Galileo_Galilei_(1564-1642)_RMG_BHC2700.tiff",
+   "r": "c",
+   "v": "8253634f",
+   "n": "Galileu Galilei"
+  },
+  "p011": {
+   "f": "fotos-1/p011.jpg",
+   "file": "The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg",
+   "a": "Johann Nepomuk della Croce",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg",
+   "r": "c",
+   "v": "8a92a54c",
+   "n": "Wolfgang Amadeus Mozart"
+  },
+  "p012": {
+   "f": "fotos-1/p012.jpg",
+   "file": "Joseph_Karl_Stieler's_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
+   "a": "Joseph Karl Stieler",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
+   "r": "c",
+   "v": "cf48bbdb",
+   "n": "Ludwig van Beethoven"
+  },
+  "p013": {
+   "f": "fotos-1/p013.jpg",
+   "file": "Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_(454045).jpg",
+   "a": "Vincent van Gogh",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_(454045).jpg",
+   "r": "c",
+   "v": "760b12f5",
+   "n": "Vincent van Gogh"
+  },
+  "p014": {
+   "f": "fotos-1/p014.jpg",
+   "file": "Pablo_picasso_1.jpg",
+   "a": "Argentina . Revista Vea y Lea",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Pablo_picasso_1.jpg",
+   "r": "c",
+   "v": "8ec3b854",
+   "n": "Pablo Picasso"
+  },
+  "p015": {
+   "f": "fotos-1/p015.jpg",
+   "file": "Joan_of_Arc_miniature_graded.jpg",
+   "a": "",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Joan_of_Arc_miniature_graded.jpg",
+   "r": "c",
+   "v": "e96a7357",
+   "n": "Joana d'Arc"
+  },
+  "p016": {
+   "f": "fotos-1/p016.jpg",
+   "file": "Queen_Victoria_by_Bassano.jpg",
+   "a": "Alexander Bassano",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Queen_Victoria_by_Bassano.jpg",
+   "r": "c",
+   "v": "e1d7063b",
+   "n": "Rainha Vitória"
+  },
+  "p017": {
+   "f": "fotos-1/p017.jpg",
+   "file": "Queen_Elizabeth_II_official_portrait_for_1959_tour_(retouched)_(cropped)_(3-to-4_aspect_ratio).jpg",
+   "a": "Donald McKague",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_official_portrait_for_1959_tour_(retouched)_(cropped)_(3-to-4_aspect_ratio).jpg",
+   "r": "c",
+   "v": "f7ac5b42",
+   "n": "Elizabeth II"
+  },
+  "p018": {
+   "f": "fotos-1/p018.jpg",
+   "file": "Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg",
+   "a": "Sebastiano del Piombo",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg",
+   "r": "c",
+   "v": "9b79ecc3",
+   "n": "Cristóvão Colombo"
+  },
+  "p019": {
+   "f": "fotos-1/p019.jpg",
+   "file": "Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png",
+   "a": "John Jabez Edwin Mayall",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png",
+   "r": "c",
+   "v": "b844045e",
+   "n": "Karl Marx"
+  },
+  "p020": {
+   "f": "fotos-1/p020.jpg",
+   "file": "Sigmund_Freud,_by_Max_Halberstadt_(cropped).jpg",
+   "a": "Max Halberstadt",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Sigmund_Freud,_by_Max_Halberstadt_(cropped).jpg",
+   "r": "c",
+   "v": "9b57f9d1",
+   "n": "Sigmund Freud"
+  },
+  "p021": {
+   "f": "fotos-1/p021.jpg",
+   "file": "Aristotle_Altemps_Inv8575.jpg",
+   "a": "After Lysippos",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg",
+   "r": "c",
+   "v": "7f9043fd",
+   "n": "Aristóteles"
+  },
+  "p022": {
+   "f": "fotos-1/p022.jpg",
+   "file": "Socrates_Louvre.jpg",
+   "a": "Copy of Lysippos (?)",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Socrates_Louvre.jpg",
+   "r": "c",
+   "v": "26fe0a8e",
+   "n": "Sócrates"
+  },
+  "p023": {
+   "f": "fotos-1/p023.jpg",
+   "file": "Alexander_Mosaic_detail_of_Alexander_the_Great_(3x4_cropped).jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Alexander_Mosaic_detail_of_Alexander_the_Great_(3x4_cropped).jpg",
+   "r": "c",
+   "v": "d7ce0fa8",
+   "n": "Alexandre, o Grande"
+  },
+  "p024": {
+   "f": "fotos-1/p024.jpg",
+   "file": "Lenin_in_1920_(cropped).jpg",
+   "a": "Autor desconhecido, presumably official",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Lenin_in_1920_(cropped).jpg",
+   "r": "c",
+   "v": "4ea094f2",
+   "n": "Vladimir Lenin"
+  },
+  "p025": {
+   "f": "fotos-1/p025.jpg",
+   "file": "RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_(crop).jpg",
+   "a": "Vladimir Vyatkin / Владимир Вяткин derivative work: Jbarta",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_(crop).jpg",
+   "r": "c",
+   "v": "d38f3102",
+   "n": "Mikhail Gorbachev"
+  },
+  "p026": {
+   "f": "fotos-1/p026.jpg",
+   "file": "Yuri_Gagarin_with_awards_(cropped)_2.jpg",
+   "a": "Александр Моклецов / СовИнформБюро",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Yuri_Gagarin_with_awards_(cropped)_2.jpg",
+   "r": "c",
+   "v": "d480edf4",
+   "n": "Yuri Gagarin"
+  },
+  "p027": {
+   "f": "fotos-1/p027.jpg",
+   "file": "Florence_Nightingale_(H_Hering_NPG_x82368).jpg",
+   "a": "Henry Hering (1814-1893)",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Florence_Nightingale_(H_Hering_NPG_x82368).jpg",
+   "r": "c",
+   "v": "410dc508",
+   "n": "Florence Nightingale"
+  },
+  "p028": {
+   "f": "fotos-1/p028.jpg",
+   "file": "Anne_Frank_passport_photo,_May_1942_(cropped).jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Anne_Frank_passport_photo,_May_1942_(cropped).jpg",
+   "r": "c",
+   "v": "a539c0c3",
+   "n": "Anne Frank"
+  },
+  "p029": {
+   "f": "fotos-1/p029.jpg",
+   "file": "Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg",
+   "a": "Bryan Berlin",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg",
+   "r": "c",
+   "v": "e7a51d31",
+   "n": "Cristiano Ronaldo"
+  },
+  "p030": {
+   "f": "fotos-1/p030.jpg",
+   "file": "Freddie_Mercury_performing_in_New_Haven,_CT,_November_1977.jpg",
+   "a": "Carl Lender",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Freddie_Mercury_performing_in_New_Haven,_CT,_November_1977.jpg",
+   "r": "c",
+   "v": "f4a1de47",
+   "n": "Freddie Mercury"
+  },
+  "p031": {
+   "f": "fotos-1/p031.jpg",
+   "file": "John_Lennon_\"Walls_and_Bridges\"_1974_press_photo_2_(color)_(cropped).jpg",
+   "a": "Bob Gruen; Distributed by Capitol Records",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:John_Lennon_%22Walls_and_Bridges%22_1974_press_photo_2_(color)_(cropped).jpg",
+   "r": "c",
+   "v": "953f1c94",
+   "n": "John Lennon"
+  },
+  "p032": {
+   "f": "fotos-1/p032.jpg",
+   "file": "Lucas_Cranach_d.Ä._-_Martin_Luther,_1528_(Veste_Coburg).jpg",
+   "a": "Lucas Cranach the Elder",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Lucas_Cranach_d.%C3%84._-_Martin_Luther,_1528_(Veste_Coburg).jpg",
+   "r": "c",
+   "v": "2e63b826",
+   "n": "Martinho Lutero"
+  },
+  "p033": {
+   "f": "fotos-1/p033.jpg",
+   "file": "Mainz_Gutenbergdenkmal_2016_(cropped).jpg",
+   "a": "Kenneth C. Zirkel",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Mainz_Gutenbergdenkmal_2016_(cropped).jpg",
+   "r": "c",
+   "v": "b9039f61",
+   "n": "Johannes Gutenberg"
+  },
+  "p034": {
+   "f": "fotos-1/p034.jpg",
+   "file": "Ferdinand_Magellan.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Ferdinand_Magellan.jpg",
+   "r": "c",
+   "v": "4639a5cc",
+   "n": "Fernão de Magalhães"
+  },
+  "p035": {
+   "f": "fotos-1/p035.jpg",
+   "file": "Pedro_Álvares_Cabral.jpg",
+   "a": "Aurélio de Figueiredo",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Pedro_%C3%81lvares_Cabral.jpg",
+   "r": "c",
+   "v": "9678b4c8",
+   "n": "Pedro Álvares Cabral"
+  },
+  "p036": {
+   "f": "fotos-1/p036.jpg",
+   "file": "Agatha_Christie_in_Nederland_(detectiveschrijfster),_bij_aankomst_op_Schiphol_me,_Bestanddeelnr_916-8898_(cropped).jpg",
+   "a": "Joop van Bilsen for Anefo",
+   "l": "CC0",
+   "u": "https://commons.wikimedia.org/wiki/File:Agatha_Christie_in_Nederland_(detectiveschrijfster),_bij_aankomst_op_Schiphol_me,_Bestanddeelnr_916-8898_(cropped).jpg",
+   "r": "c",
+   "v": "5a260949",
+   "n": "Agatha Christie"
+  },
+  "p037": {
+   "f": "fotos-1/p037.jpg",
+   "file": "Diana,_Princess_of_Wales_1997_(2).jpg",
+   "a": "John Mathew Smith & www.celebrity-photos.com from Laurel Maryland, USA",
+   "l": "CC BY-SA 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Diana,_Princess_of_Wales_1997_(2).jpg",
+   "r": "c",
+   "v": "aaa449e6",
+   "n": "Princesa Diana"
+  },
+  "p038": {
+   "f": "fotos-1/p038.jpg",
+   "file": "Stephen_Hawking.StarChild.jpg",
+   "a": "NASA",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Stephen_Hawking.StarChild.jpg",
+   "r": "c",
+   "v": "cceba60d",
+   "n": "Stephen Hawking"
+  },
+  "p039": {
+   "f": "fotos-1/p039.jpg",
+   "file": "Synthetic_Production_of_Penicillin_TR1468.jpg",
+   "a": "Official photographer",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Synthetic_Production_of_Penicillin_TR1468.jpg",
+   "r": "c",
+   "v": "0700bdf8",
+   "n": "Alexander Fleming"
+  },
+  "p040": {
+   "f": "fotos-1/p040.jpg",
+   "file": "Louis_Pasteur,_foto_av_Paul_Nadar,_Crisco_edit.jpg",
+   "a": "Paul Nadar",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Louis_Pasteur,_foto_av_Paul_Nadar,_Crisco_edit.jpg",
+   "r": "c",
+   "v": "210ca436",
+   "n": "Louis Pasteur"
+  },
+  "p041": {
+   "f": "fotos-1/p041.jpg",
+   "file": "Frans_Hals_-_Portret_van_René_Descartes.jpg",
+   "a": "After Frans Hals",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+   "r": "c",
+   "v": "d63f2615",
+   "n": "René Descartes"
+  },
+  "p042": {
+   "f": "fotos-1/p042.jpg",
+   "file": "Coco_Chanel_in_Los_Angeles,_1931_(cropped).jpg",
+   "a": "Los Angeles Times",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Coco_Chanel_in_Los_Angeles,_1931_(cropped).jpg",
+   "r": "c",
+   "v": "10a5b218",
+   "n": "Coco Chanel"
+  },
+  "p043": {
+   "f": "fotos-1/p043.jpg",
+   "file": "Muhammad_Ali_NYWTS.jpg",
+   "a": "Ira Rosenberg",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Muhammad_Ali_NYWTS.jpg",
+   "r": "c",
+   "v": "af39856a",
+   "n": "Muhammad Ali"
+  },
+  "p044": {
+   "f": "fotos-1/p044.jpg",
+   "file": "Malcolm_X_1964_press_photo_(cropped)_(lighting_diff).jpg",
+   "a": "Eddie Adams",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Malcolm_X_1964_press_photo_(cropped)_(lighting_diff).jpg",
+   "r": "c",
+   "v": "e9c3737e",
+   "n": "Malcolm X"
+  },
+  "p045": {
+   "f": "fotos-1/p045.jpg",
+   "file": "Martin_Luther_King,_Jr._and_Lyndon_Johnson_(cropped).jpg",
+   "a": "Yoichi Okamoto",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._and_Lyndon_Johnson_(cropped).jpg",
+   "r": "c",
+   "v": "35347139",
+   "n": "Martin Luther King Jr."
+  },
+  "p046": {
+   "f": "fotos-1/p046.jpg",
+   "file": "Abraham_Lincoln_O-77_matte_collodion_print.jpg",
+   "a": "Alexander Gardner",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg",
+   "r": "c",
+   "v": "434c15df",
+   "n": "Abraham Lincoln"
+  },
+  "p047": {
+   "f": "fotos-1/p047.jpg",
+   "file": "Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+   "a": "Gilbert Stuart",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+   "r": "c",
+   "v": "ef4a4c1d",
+   "n": "George Washington"
+  },
+  "p048": {
+   "f": "fotos-1/p048.jpg",
+   "file": "John_F._Kennedy,_White_House_color_photo_portrait.jpg",
+   "a": "Cecil W. Stoughton",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:John_F._Kennedy,_White_House_color_photo_portrait.jpg",
+   "r": "c",
+   "v": "f52deb36",
+   "n": "John F. Kennedy"
+  },
+  "p049": {
+   "f": "fotos-1/p049.jpg",
+   "file": "President_Barack_Obama.jpg",
+   "a": "Official White House Photo by Pete Souza",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:President_Barack_Obama.jpg",
+   "r": "c",
+   "v": "45059ecb",
+   "n": "Barack Obama"
+  },
+  "p050": {
+   "f": "fotos-1/p050.jpg",
+   "file": "Rosa_Parks,_November_1956_(cropped).jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Rosa_Parks,_November_1956_(cropped).jpg",
+   "r": "c",
+   "v": "58d8f925",
+   "n": "Rosa Parks"
+  },
+  "p051": {
+   "f": "fotos-1/p051.jpg",
+   "file": "Neil_Armstrong_pose.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Neil_Armstrong_pose.jpg",
+   "r": "c",
+   "v": "2838ef5c",
+   "n": "Neil Armstrong"
+  },
+  "p052": {
+   "f": "fotos-1/p052.jpg",
+   "file": "Thomas_Edison2.jpg",
+   "a": "Louis Bachrach, Bachrach Studios , restored by Michel Vuijlsteke",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg",
+   "r": "c",
+   "v": "ea17be3f",
+   "n": "Thomas Edison"
+  },
+  "p053": {
+   "f": "fotos-1/p053.jpg",
+   "file": "Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg",
+   "a": "Joseph-Siffred Duplessis",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg",
+   "r": "c",
+   "v": "a5e4984c",
+   "n": "Benjamin Franklin"
+  },
+  "p054": {
+   "f": "fotos-1/p054.jpg",
+   "file": "Steve_Jobs_Headshot_2010_(cropped_4).jpg",
+   "a": "Matthew Yohe",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010_(cropped_4).jpg",
+   "r": "c",
+   "v": "56a650c3",
+   "n": "Steve Jobs"
+  },
+  "p055": {
+   "f": "fotos-1/p055.jpg",
+   "file": "Walt_Disney_1946_(cropped2).JPG",
+   "a": "Boy Scouts of America",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946_(cropped2).JPG",
+   "r": "c",
+   "v": "704fc39b",
+   "n": "Walt Disney"
+  },
+  "p056": {
+   "f": "fotos-1/p056.jpg",
+   "file": "Michael_Jackson_1983_(3x4_cropped)_(contrast).jpg",
+   "a": "Matthew Rolston; Distributed by Epic Records",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_1983_(3x4_cropped)_(contrast).jpg",
+   "r": "c",
+   "v": "6d97e15a",
+   "n": "Michael Jackson"
+  },
+  "p057": {
+   "f": "fotos-1/p057.jpg",
+   "file": "Elvis_Presley_promoting_Jailhouse_Rock.jpg",
+   "a": "Metro-Goldwyn-Mayer, Inc. Reproduction Number: LC-USZ6-2067 Location: NYWTS -- BIOG",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg",
+   "r": "c",
+   "v": "2fc43100",
+   "n": "Elvis Presley"
+  },
+  "p058": {
+   "f": "fotos-1/p058.jpg",
+   "file": "Monroecirca1953.jpg",
+   "a": "Bert Parry",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Monroecirca1953.jpg",
+   "r": "c",
+   "v": "80fa564a",
+   "n": "Marilyn Monroe"
+  },
+  "p059": {
+   "f": "fotos-1/p059.jpg",
+   "file": "Michael_jordan_admad_rashad_(51276390562)_(cropped).jpg",
+   "a": "Zach Catanzareti Photo",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Michael_jordan_admad_rashad_(51276390562)_(cropped).jpg",
+   "r": "c",
+   "v": "16f11d1a",
+   "n": "Michael Jordan"
+  },
+  "p060": {
+   "f": "fotos-1/p060.jpg",
+   "file": "Bill_Gates_at_the_European_Commission_-_P067383-987995_(cropped)_5.jpg",
+   "a": "Bogdan Hoyaux / European Union",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Bill_Gates_at_the_European_Commission_-_P067383-987995_(cropped)_5.jpg",
+   "r": "c",
+   "v": "b53e2022",
+   "n": "Bill Gates"
+  },
+  "p061": {
+   "f": "fotos-1/p061.jpg",
+   "file": "Serena-Smiling-2020.png",
+   "a": "AndrewHenkelman",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Serena-Smiling-2020.png",
+   "r": "c",
+   "v": "dfb0eb89",
+   "n": "Serena Williams"
+  },
+  "p062": {
+   "f": "fotos-1/p062.jpg",
+   "file": "Carte-de-visite_portrait_of_Harriet_Tubman_(cropped).jpg",
+   "a": "Powelson, Benjamin F. 1823 - 1885",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Carte-de-visite_portrait_of_Harriet_Tubman_(cropped).jpg",
+   "r": "c",
+   "v": "14d88723",
+   "n": "Harriet Tubman"
+  },
+  "p063": {
+   "f": "fotos-1/p063.jpg",
+   "file": "Pele_con_brasil_(cropped).jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Pele_con_brasil_(cropped).jpg",
+   "r": "c",
+   "v": "d8bfab6b",
+   "n": "Pelé"
+  },
+  "p064": {
+   "f": "fotos-1/p064.jpg",
+   "file": "Ayrton_Senna_Pesawat_RC_Cropped.jpg",
+   "a": "Instituto Ayrton Senna derivative work: F1fans",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Ayrton_Senna_Pesawat_RC_Cropped.jpg",
+   "r": "c",
+   "v": "af8a10ce",
+   "n": "Ayrton Senna"
+  },
+  "p065": {
+   "f": "fotos-1/p065.jpg",
+   "file": "Getulio_Vargas_(1930).jpg",
+   "a": "Governo do Brasil",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Getulio_Vargas_(1930).jpg",
+   "r": "c",
+   "v": "9ea19c0a",
+   "n": "Getúlio Vargas"
+  },
+  "p066": {
+   "f": "fotos-1/p066.jpg",
+   "file": "DpedroI-brasil-full_(cropped).jpg",
+   "a": "Simplício Rodrigues de Sá",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:DpedroI-brasil-full_(cropped).jpg",
+   "r": "c",
+   "v": "c5d0d186",
+   "n": "Dom Pedro I"
+  },
+  "p067": {
+   "f": "fotos-1/p067.jpg",
+   "file": "Alberto_Santos-Dumont_by_Zaida_Ben-Yusuf.jpg",
+   "a": "Zaida Ben-Yusuf / Adam Cuerden",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Alberto_Santos-Dumont_by_Zaida_Ben-Yusuf.jpg",
+   "r": "c",
+   "v": "6dc19b13",
+   "n": "Santos Dumont"
+  },
+  "p068": {
+   "f": "fotos-1/p068.jpg",
+   "file": "José_da_Silva_Xavier,_o_Tiradentes.jpg",
+   "a": "Roque Gameiro",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_da_Silva_Xavier,_o_Tiradentes.jpg",
+   "r": "c",
+   "v": "fa21af92",
+   "n": "Tiradentes"
+  },
+  "p069": {
+   "f": "fotos-1/p069.jpg",
+   "file": "Isabel,_Princesa_do_Brasil,_1846-1921_(cropped).jpg",
+   "a": "Joaquim Insley Pacheco",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Isabel,_Princesa_do_Brasil,_1846-1921_(cropped).jpg",
+   "r": "c",
+   "v": "ea13bb6d",
+   "n": "Princesa Isabel"
+  },
+  "p070": {
+   "f": "fotos-1/p070.jpg",
+   "file": "Antônio_Parreiras_-_Zumbi_2.jpg",
+   "a": "Antônio Parreiras",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Ant%C3%B4nio_Parreiras_-_Zumbi_2.jpg",
+   "r": "c",
+   "v": "f867d77a",
+   "n": "Zumbi dos Palmares"
+  },
+  "p071": {
+   "f": "fotos-1/p071.jpg",
+   "file": "Machado_de_Assis_by_Marc_Ferrez.jpg",
+   "a": "Marc Ferrez / Adam Cuerden",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Machado_de_Assis_by_Marc_Ferrez.jpg",
+   "r": "c",
+   "v": "aaa4fb72",
+   "n": "Machado de Assis"
+  },
+  "p072": {
+   "f": "fotos-1/p072.jpg",
+   "file": "Che_Guevara_-_Guerrillero_Heroico_by_Alberto_Korda.jpg",
+   "a": "Alberto Korda, restored by Adam Cuerden",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Che_Guevara_-_Guerrillero_Heroico_by_Alberto_Korda.jpg",
+   "r": "c",
+   "v": "c6de45af",
+   "n": "Che Guevara"
+  },
+  "p073": {
+   "f": "fotos-1/p073.jpg",
+   "file": "Fidel_Castro,_Prime_Minister_of_Cuba._Castro_at_the_United_Nations,_New_York_(3x4_cropped).jpg",
+   "a": "Bernard Gotfryd",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Fidel_Castro,_Prime_Minister_of_Cuba._Castro_at_the_United_Nations,_New_York_(3x4_cropped).jpg",
+   "r": "c",
+   "v": "efa62e00",
+   "n": "Fidel Castro"
+  },
+  "p074": {
+   "f": "fotos-1/p074.jpg",
+   "file": "Simón_Bolívar._Toro_Moreno,_Luis._1922,_Legislative_Palace,_La_Paz.png",
+   "a": "Luis Enrique Toro Moreno (1897-1933)",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Sim%C3%B3n_Bol%C3%ADvar._Toro_Moreno,_Luis._1922,_Legislative_Palace,_La_Paz.png",
+   "r": "c",
+   "v": "a5745fdb",
+   "n": "Simón Bolívar"
+  },
+  "p075": {
+   "f": "fotos-1/p075.jpg",
+   "file": "Frida_Kahlo,_by_Guillermo_Kahlo.jpg",
+   "a": "Guillermo Kahlo",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Frida_Kahlo,_by_Guillermo_Kahlo.jpg",
+   "r": "c",
+   "v": "0651368f",
+   "n": "Frida Kahlo"
+  },
+  "p076": {
+   "f": "fotos-1/p076.jpg",
+   "file": "Argentina_celebrando_copa_(cropped).jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Argentina_celebrando_copa_(cropped).jpg",
+   "r": "c",
+   "v": "542cd4ce",
+   "n": "Diego Maradona"
+  },
+  "p077": {
+   "f": "fotos-1/p077.jpg",
+   "file": "Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg",
+   "a": "Bryan Berlin",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg",
+   "r": "c",
+   "v": "d9dfe941",
+   "n": "Lionel Messi"
+  },
+  "p078": {
+   "f": "fotos-1/p078.jpg",
+   "file": "Evita_(cropped).JPG",
+   "a": "Pinélides Fusco",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Evita_(cropped).JPG",
+   "r": "c",
+   "v": "6d6a3978",
+   "n": "Eva Perón"
+  },
+  "p079": {
+   "f": "fotos-1/p079.jpg",
+   "file": "Emiliano_Zapata4.jpg",
+   "a": "Agustín Casasola",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Emiliano_Zapata4.jpg",
+   "r": "c",
+   "v": "24f40211",
+   "n": "Emiliano Zapata"
+  },
+  "p080": {
+   "f": "fotos-1/p080.jpg",
+   "file": "Bob_Marley_circa_1976_(cropped).jpg",
+   "a": "Not credited",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Bob_Marley_circa_1976_(cropped).jpg",
+   "r": "c",
+   "v": "cf830a97",
+   "n": "Bob Marley"
+  },
+  "p081": {
+   "f": "fotos-1/p081.jpg",
+   "file": "Usain_Bolt_smiling_Berlin_2009.JPG",
+   "a": "Erik van Leeuwen",
+   "l": "GFDL",
+   "u": "https://commons.wikimedia.org/wiki/File:Usain_Bolt_smiling_Berlin_2009.JPG",
+   "r": "c",
+   "v": "c168933e",
+   "n": "Usain Bolt"
+  },
+  "p082": {
+   "f": "fotos-1/p082.jpg",
+   "file": "Gabriel_Garcia_Marquez.jpg",
+   "a": "Jose Lara",
+   "l": "CC BY-SA 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Gabriel_Garcia_Marquez.jpg",
+   "r": "c",
+   "v": "110fa255",
+   "n": "Gabriel García Márquez"
+  },
+  "p083": {
+   "f": "fotos-1/p083.jpg",
+   "file": "Pablo_Neruda_1963.jpg",
+   "a": "Autor desconhecido ( Mondadori Publishers )",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Pablo_Neruda_1963.jpg",
+   "r": "c",
+   "v": "93c75c14",
+   "n": "Pablo Neruda"
+  },
+  "p084": {
+   "f": "fotos-1/p084.jpg",
+   "file": "Nelson_Mandela_1994.jpg",
+   "a": "Kingkongphoto & www.celebrity-photos.com from Laurel",
+   "l": "CC BY-SA 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_1994.jpg",
+   "r": "c",
+   "v": "983ed9d1",
+   "n": "Nelson Mandela"
+  },
+  "p085": {
+   "f": "fotos-1/p085.jpg",
+   "file": "Archbishop-Tutu-medium.jpg",
+   "a": "Benny Gool",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Archbishop-Tutu-medium.jpg",
+   "r": "c",
+   "v": "8688aa04",
+   "n": "Desmond Tutu"
+  },
+  "p086": {
+   "f": "fotos-1/p086.jpg",
+   "file": "Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+   "a": "Louis le Grand",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+   "r": "c",
+   "v": "fc28fd69",
+   "n": "Cleópatra"
+  },
+  "p087": {
+   "f": "fotos-1/p087.jpg",
+   "file": "CairoEgMuseumTaaMaskMostlyPhotographed.jpg",
+   "a": "Roland Unger",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:CairoEgMuseumTaaMaskMostlyPhotographed.jpg",
+   "r": "c",
+   "v": "e265340b",
+   "n": "Tutancâmon"
+  },
+  "p088": {
+   "f": "fotos-1/p088.jpg",
+   "file": "Ramses_II_British_Museum.jpg",
+   "a": "Pbuergler",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Ramses_II_British_Museum.jpg",
+   "r": "c",
+   "v": "2aed936e",
+   "n": "Ramsés II"
+  },
+  "p089": {
+   "f": "fotos-1/p089.jpg",
+   "file": "Nofretete_Neues_Museum.jpg",
+   "a": "Philip Pikart",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Nofretete_Neues_Museum.jpg",
+   "r": "c",
+   "v": "589361e7",
+   "n": "Nefertiti"
+  },
+  "p090": {
+   "f": "fotos-1/p090.jpg",
+   "file": "Stevan_Kragujevic,_Gamal_Abdel_Naser_u_Beogradu,_1962_(cropped).jpg",
+   "a": "Stevan Kragujević",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Stevan_Kragujevic,_Gamal_Abdel_Naser_u_Beogradu,_1962_(cropped).jpg",
+   "r": "c",
+   "v": "dd506d0d",
+   "n": "Gamal Abdel Nasser"
+  },
+  "p091": {
+   "f": "fotos-1/p091.jpg",
+   "file": "Anwar_Sadat_cropped_(cropped)(2).jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Anwar_Sadat_cropped_(cropped)(2).jpg",
+   "r": "c",
+   "v": "9cea2028",
+   "n": "Anwar Sadat"
+  },
+  "p092": {
+   "f": "fotos-1/p092.jpg",
+   "file": "Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_(cropped).jpg",
+   "a": "Bryan Berlin",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_(cropped).jpg",
+   "r": "c",
+   "v": "22a703dc",
+   "n": "Mohamed Salah"
+  },
+  "p093": {
+   "f": "fotos-1/p093.jpg",
+   "file": "Haile_Selassie_in_full_dress_(3x4_cropped).jpg",
+   "a": "Autor desconhecido; according to and an official portrait of which b/w copies were distributed by…",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Haile_Selassie_in_full_dress_(3x4_cropped).jpg",
+   "r": "c",
+   "v": "b339e77e",
+   "n": "Haile Selassie"
+  },
+  "p094": {
+   "f": "fotos-1/p094.jpg",
+   "file": "Abebe_Bikila_1968_(b_retouched).jpg",
+   "a": "Anefo Derivative work MagentaGreen",
+   "l": "CC BY-SA 3.0 nl",
+   "u": "https://commons.wikimedia.org/wiki/File:Abebe_Bikila_1968_(b_retouched).jpg",
+   "r": "c",
+   "v": "6b27875b",
+   "n": "Abebe Bikila"
+  },
+  "p095": {
+   "f": "fotos-1/p095.jpg",
+   "file": "Kwame_Nkrumah_Portrait,_The_National_Archives_UK.jpg",
+   "a": "The National Archives UK - Flickr account",
+   "l": "OGL v1.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Kwame_Nkrumah_Portrait,_The_National_Archives_UK.jpg",
+   "r": "c",
+   "v": "7ddcfb82",
+   "n": "Kwame Nkrumah"
+  },
+  "p096": {
+   "f": "fotos-1/p096.jpg",
+   "file": "Kofi_Annan_2012_(cropped).jpg",
+   "a": "US Mission in Geneva",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Kofi_Annan_2012_(cropped).jpg",
+   "r": "c",
+   "v": "a46749c3",
+   "n": "Kofi Annan"
+  },
+  "p097": {
+   "f": "fotos-1/p097.jpg",
+   "file": "PatriceLumumba1960.jpg",
+   "a": "Harry Pot for Anefo )",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:PatriceLumumba1960.jpg",
+   "r": "c",
+   "v": "ccea9939",
+   "n": "Patrice Lumumba"
+  },
+  "p098": {
+   "f": "fotos-1/p098.jpg",
+   "file": "Thomas_Sankara_in_Harlem_(1984).png",
+   "a": "The Militant/ Ernest Harsch",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Thomas_Sankara_in_Harlem_(1984).png",
+   "r": "c",
+   "v": "481925a5",
+   "n": "Thomas Sankara"
+  },
+  "p099": {
+   "f": "fotos-1/p099.jpg",
+   "file": "Wangari_Maathai_in_2001.jpg",
+   "a": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
+   "l": "CC BY-SA 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Wangari_Maathai_in_2001.jpg",
+   "r": "c",
+   "v": "98dce29c",
+   "n": "Wangari Maathai"
+  },
+  "p100": {
+   "f": "fotos-2/p100.jpg",
+   "file": "Jomo_Kenyatta_(cropped)_in_June_15th,_1966.jpg",
+   "a": "Pridan Moshe",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Jomo_Kenyatta_(cropped)_in_June_15th,_1966.jpg",
+   "r": "c",
+   "v": "751e62fb",
+   "n": "Jomo Kenyatta"
+  },
+  "p101": {
+   "f": "fotos-2/p101.jpg",
+   "file": "Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_(cropped).jpg",
+   "a": "attributed to Abraham Cresques",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_(cropped).jpg",
+   "r": "c",
+   "v": "bdc3bfa4",
+   "n": "Mansa Musa"
+  },
+  "p102": {
+   "f": "fotos-2/p102.jpg",
+   "file": "KingShaka.jpg",
+   "a": "James King",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:KingShaka.jpg",
+   "r": "c",
+   "v": "3a7b6ea9",
+   "n": "Shaka Zulu"
+  },
+  "p103": {
+   "f": "fotos-2/p103.jpg",
+   "file": "Chinua_Achebe,_1966.jpg",
+   "a": "Carlo Bavagnoli",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Chinua_Achebe,_1966.jpg",
+   "r": "c",
+   "v": "b792907d",
+   "n": "Chinua Achebe"
+  },
+  "p104": {
+   "f": "fotos-2/p104.jpg",
+   "file": "Fela_Kuti_circa_1986.jpg",
+   "a": "Distributed by Celluloid Records",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Fela_Kuti_circa_1986.jpg",
+   "r": "c",
+   "v": "683e23e4",
+   "n": "Fela Kuti"
+  },
+  "p105": {
+   "f": "fotos-2/p105.jpg",
+   "file": "Miriam_makeba_01.jpg",
+   "a": "Paul Weinberg",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Miriam_makeba_01.jpg",
+   "r": "c",
+   "v": "5de0815b",
+   "n": "Miriam Makeba"
+  },
+  "p106": {
+   "f": "fotos-2/p106.jpg",
+   "file": "Steve_Biko_on_Flyer_for_Steve_Biko_Memorial_at_the_Carver_Cultural_Center.jpg",
+   "a": "Cape Argus",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Steve_Biko_on_Flyer_for_Steve_Biko_Memorial_at_the_Carver_Cultural_Center.jpg",
+   "r": "c",
+   "v": "2f1f2849",
+   "n": "Steve Biko"
+  },
+  "p107": {
+   "f": "fotos-2/p107.jpg",
+   "file": "President_Nyerere_van_Tanzania,_koppen,_Bestanddeelnr_928-2879_(cropped).jpg",
+   "a": "Rob Mieremet / Anefo",
+   "l": "CC0",
+   "u": "https://commons.wikimedia.org/wiki/File:President_Nyerere_van_Tanzania,_koppen,_Bestanddeelnr_928-2879_(cropped).jpg",
+   "r": "c",
+   "v": "8677f4da",
+   "n": "Julius Nyerere"
+  },
+  "p108": {
+   "f": "fotos-2/p108.jpg",
+   "file": "Moamer_el_Gadafi_(cropped).jpg",
+   "a": "Stevan Kragujević",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Moamer_el_Gadafi_(cropped).jpg",
+   "r": "c",
+   "v": "cb619674",
+   "n": "Muammar Kadafi"
+  },
+  "p109": {
+   "f": "fotos-2/p109.jpg",
+   "file": "Hannibal_Barca_bust_from_Capua_photo.jpg",
+   "a": "Fratelli Alinari",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Hannibal_Barca_bust_from_Capua_photo.jpg",
+   "r": "c",
+   "v": "be8f5f23",
+   "n": "Aníbal"
+  },
+  "p110": {
+   "f": "fotos-2/p110.jpg",
+   "file": "Saint_Augustine_by_Philippe_de_Champaigne.jpg",
+   "a": "Philippe de Champaigne",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Saint_Augustine_by_Philippe_de_Champaigne.jpg",
+   "r": "c",
+   "v": "d375a41a",
+   "n": "Santo Agostinho"
+  },
+  "p111": {
+   "f": "fotos-2/p111.jpg",
+   "file": "Didier_Drogba_(2019)_(cropped2).jpg",
+   "a": "Y.Leclercq©",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Didier_Drogba_(2019)_(cropped2).jpg",
+   "r": "c",
+   "v": "6d099284",
+   "n": "Didier Drogba"
+  },
+  "p112": {
+   "f": "fotos-2/p112.jpg",
+   "file": "Sammuel_Eto'o_Fils_02.jpg",
+   "a": "BACHELOR45",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Sammuel_Eto%27o_Fils_02.jpg",
+   "r": "c",
+   "v": "5b2cbb96",
+   "n": "Samuel Eto'o"
+  },
+  "p113": {
+   "f": "fotos-2/p113.jpg",
+   "file": "Mahatma-Gandhi,_studio,_1931.jpg",
+   "a": "Elliott & Fry",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Mahatma-Gandhi,_studio,_1931.jpg",
+   "r": "c",
+   "v": "0fd96885",
+   "n": "Mahatma Gandhi"
+  },
+  "p114": {
+   "f": "fotos-2/p114.jpg",
+   "file": "Nehru_in_the_Netherlands,_1957.jpg",
+   "a": "Harry Pot",
+   "l": "CC0",
+   "u": "https://commons.wikimedia.org/wiki/File:Nehru_in_the_Netherlands,_1957.jpg",
+   "r": "c",
+   "v": "223ff9e9",
+   "n": "Jawaharlal Nehru"
+  },
+  "p115": {
+   "f": "fotos-2/p115.jpg",
+   "file": "Indira_Gandhi_official_portrait.png",
+   "a": "Prime Minister's Office",
+   "l": "GODL-India",
+   "u": "https://commons.wikimedia.org/wiki/File:Indira_Gandhi_official_portrait.png",
+   "r": "c",
+   "v": "73dcbdfd",
+   "n": "Indira Gandhi"
+  },
+  "p116": {
+   "f": "fotos-2/p116.jpg",
+   "file": "1926_Rabindrath_Tagore.jpg",
+   "a": "Georges Chevalier",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:1926_Rabindrath_Tagore.jpg",
+   "r": "c",
+   "v": "882ba40d",
+   "n": "Rabindranath Tagore"
+  },
+  "p117": {
+   "f": "fotos-2/p117.jpg",
+   "file": "The_cricket_legend_Sachin_Tendulkar_at_the_Oval_Maidan_in_Mumbai_During_the_Duke_and_Duchess_of_Cambridge_Visit(26271019082).jpg",
+   "a": "British High Commission, New Delhi",
+   "l": "CC BY-SA 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:The_cricket_legend_Sachin_Tendulkar_at_the_Oval_Maidan_in_Mumbai_During_the_Duke_and_Duchess_of_Cambridge_Visit(26271019082).jpg",
+   "r": "c",
+   "v": "72e67885",
+   "n": "Sachin Tendulkar"
+  },
+  "p118": {
+   "f": "fotos-2/p118.jpg",
+   "file": "Mao_Zedong_1950_Portrait_(3x4_cropped)(2).jpg",
+   "a": "Chen Zhengqing (1917-1966)",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Mao_Zedong_1950_Portrait_(3x4_cropped)(2).jpg",
+   "r": "c",
+   "v": "1accb131",
+   "n": "Mao Tsé-tung"
+  },
+  "p119": {
+   "f": "fotos-2/p119.jpg",
+   "file": "Prime_Minister_Keir_Starmer_visits_China_(55066713683)_(cropped+angle).jpg",
+   "a": "Simon Dawson / No 10 Downing Street",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Keir_Starmer_visits_China_(55066713683)_(cropped%2Bangle).jpg",
+   "r": "c",
+   "v": "060ca2e3",
+   "n": "Xi Jinping"
+  },
+  "p120": {
+   "f": "fotos-2/p120.jpg",
+   "file": "Deng_Xiaoping_at_the_arrival_ceremony_for_the_Vice_Premier_of_China_(cropped).jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Deng_Xiaoping_at_the_arrival_ceremony_for_the_Vice_Premier_of_China_(cropped).jpg",
+   "r": "c",
+   "v": "88535ce0",
+   "n": "Deng Xiaoping"
+  },
+  "p121": {
+   "f": "fotos-2/p121.jpg",
+   "file": "Confucius,_fresco_from_a_Western_Han_tomb_of_Dongping_County,_Shandong_province,_China_(cropped).jpg",
+   "a": "Anonymous Chinese painter of the Western Han period",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Confucius,_fresco_from_a_Western_Han_tomb_of_Dongping_County,_Shandong_province,_China_(cropped).jpg",
+   "r": "c",
+   "v": "d1333dde",
+   "n": "Confúcio"
+  },
+  "p122": {
+   "f": "fotos-2/p122.jpg",
+   "file": "吴司马孙武.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:%E5%90%B4%E5%8F%B8%E9%A9%AC%E5%AD%99%E6%AD%A6.jpg",
+   "r": "c",
+   "v": "2cb9ff24",
+   "n": "Sun Tzu"
+  },
+  "p123": {
+   "f": "fotos-2/p123.jpg",
+   "file": "Bruce_Lee_as_Chen_Zhen_(4x5_cropped).jpg",
+   "a": "National General Pictures (original photo); uploaded by 999real , cropped by Wabbuh",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Bruce_Lee_as_Chen_Zhen_(4x5_cropped).jpg",
+   "r": "c",
+   "v": "26209594",
+   "n": "Bruce Lee"
+  },
+  "p124": {
+   "f": "fotos-2/p124.jpg",
+   "file": "Jackie_Chan.jpg",
+   "a": "Segolene Liger",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Jackie_Chan.jpg",
+   "r": "c",
+   "v": "18245f64",
+   "n": "Jackie Chan"
+  },
+  "p125": {
+   "f": "fotos-2/p125.jpg",
+   "file": "YuanEmperorAlbumGenghisPortrait.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumGenghisPortrait.jpg",
+   "r": "c",
+   "v": "06856e6d",
+   "n": "Gengis Khan"
+  },
+  "p126": {
+   "f": "fotos-2/p126.jpg",
+   "file": "Kim_Jong-un_and_Vladimir_Putin_(2023-09-13)_12_(cropped_2).jpg",
+   "a": "Владимир Смирнов / ТАСС",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Kim_Jong-un_and_Vladimir_Putin_(2023-09-13)_12_(cropped_2).jpg",
+   "r": "c",
+   "v": "935f3f78",
+   "n": "Kim Jong-un"
+  },
+  "p127": {
+   "f": "fotos-2/p127.jpg",
+   "file": "Kim_Il-sung_in_1950_(cropped).jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Kim_Il-sung_in_1950_(cropped).jpg",
+   "r": "c",
+   "v": "f594672c",
+   "n": "Kim Il-sung"
+  },
+  "p128": {
+   "f": "fotos-2/p128.jpg",
+   "file": "Hirohito_in_dress_uniform_(cropped).jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Hirohito_in_dress_uniform_(cropped).jpg",
+   "r": "c",
+   "v": "8d6b2001",
+   "n": "Hirohito"
+  },
+  "p129": {
+   "f": "fotos-2/p129.jpg",
+   "file": "HayaoMiyazakiCCJuly09.jpg",
+   "a": "Natasha Baucas at https://www.flickr.com/photos/sdnatasha/",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:HayaoMiyazakiCCJuly09.jpg",
+   "r": "c",
+   "v": "57a368d4",
+   "n": "Hayao Miyazaki"
+  },
+  "p130": {
+   "f": "fotos-2/p130.jpg",
+   "file": "Akirakurosawa-onthesetof7samurai-1953-page88.jpg",
+   "a": "映画の友 (Eiga no tomo)",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Akirakurosawa-onthesetof7samurai-1953-page88.jpg",
+   "r": "c",
+   "v": "550f5862",
+   "n": "Akira Kurosawa"
+  },
+  "p131": {
+   "f": "fotos-2/p131.jpg",
+   "file": "Shigeru_Miyamoto_20150610_(cropped_4).jpg",
+   "a": "Minister's Secretariat Personnel Division",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Shigeru_Miyamoto_20150610_(cropped_4).jpg",
+   "r": "c",
+   "v": "64a45a82",
+   "n": "Shigeru Miyamoto"
+  },
+  "p132": {
+   "f": "fotos-2/p132.jpg",
+   "file": "Ho_Chi_Minh_-_1946_Portrait_(cropped).jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_-_1946_Portrait_(cropped).jpg",
+   "r": "c",
+   "v": "f3249dfa",
+   "n": "Ho Chi Minh"
+  },
+  "p133": {
+   "f": "fotos-2/p133.jpg",
+   "file": "Malala_Yousafzai_2023_portrait_2x3.jpg",
+   "a": "flowcomm",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Malala_Yousafzai_2023_portrait_2x3.jpg",
+   "r": "c",
+   "v": "10a9569d",
+   "n": "Malala Yousafzai"
+  },
+  "p134": {
+   "f": "fotos-2/p134.jpg",
+   "file": "Oliver_Mark_-_Benazir_Bhutto,_Dubai_2006_(cropped).jpg",
+   "a": "Oliver Mark",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Oliver_Mark_-_Benazir_Bhutto,_Dubai_2006_(cropped).jpg",
+   "r": "c",
+   "v": "e0df22d1",
+   "n": "Benazir Bhutto"
+  },
+  "p135": {
+   "f": "fotos-2/p135.jpg",
+   "file": "Ataturk1930s.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Ataturk1930s.jpg",
+   "r": "c",
+   "v": "f3f3980e",
+   "n": "Mustafa Kemal Atatürk"
+  },
+  "p136": {
+   "f": "fotos-2/p136.jpg",
+   "file": "EmperorSuleiman.jpg",
+   "a": "Circle of Titian",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:EmperorSuleiman.jpg",
+   "r": "c",
+   "v": "e47343e6",
+   "n": "Solimão, o Magnífico"
+  },
+  "p137": {
+   "f": "fotos-2/p137.jpg",
+   "file": "Golda_Meir_(1964)_cropped.jpg",
+   "a": "Willem van de Poll",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Golda_Meir_(1964)_cropped.jpg",
+   "r": "c",
+   "v": "ceaf5a6f",
+   "n": "Golda Meir"
+  },
+  "p138": {
+   "f": "fotos-2/p138.jpg",
+   "file": "Leader_of_the_PLO,_Yasser_Arafat,_1996_Dan_Hadani_Archive.jpg",
+   "a": "Gideon Markowiz",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Leader_of_the_PLO,_Yasser_Arafat,_1996_Dan_Hadani_Archive.jpg",
+   "r": "c",
+   "v": "97d59c08",
+   "n": "Yasser Arafat"
+  },
+  "p139": {
+   "f": "fotos-2/p139.jpg",
+   "file": "Cyrus_II_(The_Great)_(cropped).jpg",
+   "a": "Surenae",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Cyrus_II_(The_Great)_(cropped).jpg",
+   "r": "c",
+   "v": "3481fe3b",
+   "n": "Ciro, o Grande"
+  },
+  "p140": {
+   "f": "fotos-2/p140.jpg",
+   "file": "Portrait_of_Ruhollah_Khomeini_By_Ali_Kaveh.jpg",
+   "a": "Ali Kaveh",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Portrait_of_Ruhollah_Khomeini_By_Ali_Kaveh.jpg",
+   "r": "c",
+   "v": "b5b72f00",
+   "n": "Ruhollah Khomeini"
+  },
+  "p141": {
+   "f": "fotos-2/p141.jpg",
+   "file": "Prime_Minister_Lee_Kuan_Yew_of_Singapore_Making_a_Toast_at_a_State_Dinner_Held_in_His_Honor,_1975.jpg",
+   "a": "White House Photographic Office. 1974-1977",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Lee_Kuan_Yew_of_Singapore_Making_a_Toast_at_a_State_Dinner_Held_in_His_Honor,_1975.jpg",
+   "r": "c",
+   "v": "fd8ecab0",
+   "n": "Lee Kuan Yew"
+  },
+  "p142": {
+   "f": "fotos-2/p142.jpg",
+   "file": "Edmund_Hillary,_c._1953,_autograph_removed.jpg",
+   "a": "Photographer unidentified. Retouched by TimofKingsland .",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Edmund_Hillary,_c._1953,_autograph_removed.jpg",
+   "r": "c",
+   "v": "01ec8ce4",
+   "n": "Edmund Hillary"
+  },
+  "p143": {
+   "f": "fotos-2/p143.jpg",
+   "file": "Sir_Ernest_Rutherford_LCCN2014716719_-_restoration1.jpg",
+   "a": "Bain News Service, publisher Restored by: Bammesk",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Sir_Ernest_Rutherford_LCCN2014716719_-_restoration1.jpg",
+   "r": "c",
+   "v": "81d8c673",
+   "n": "Ernest Rutherford"
+  },
+  "p144": {
+   "f": "fotos-2/p144.jpg",
+   "file": "Kate_Sheppard.jpg",
+   "a": "H. H. Clifford, see…",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Kate_Sheppard.jpg",
+   "r": "c",
+   "v": "9050f0eb",
+   "n": "Kate Sheppard"
+  },
+  "p145": {
+   "f": "fotos-2/p145.jpg",
+   "file": "New_Zealand_Prime_Minister_Jacinda_Ardern_in_2018.jpg",
+   "a": "Newzild",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:New_Zealand_Prime_Minister_Jacinda_Ardern_in_2018.jpg",
+   "r": "c",
+   "v": "b1162cc6",
+   "n": "Jacinda Ardern"
+  },
+  "p146": {
+   "f": "fotos-2/p146.jpg",
+   "file": "Katherine_Mansfield_(no_signature).jpg",
+   "a": "Original: Unknown Unknown Derivative work: Carnby",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Katherine_Mansfield_(no_signature).jpg",
+   "r": "c",
+   "v": "395010ba",
+   "n": "Katherine Mansfield"
+  },
+  "p147": {
+   "f": "fotos-2/p147.jpg",
+   "file": "Peter_Jackson_SDCC_2014.jpg",
+   "a": "Gage Skidmore",
+   "l": "CC BY-SA 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Peter_Jackson_SDCC_2014.jpg",
+   "r": "c",
+   "v": "ec51a146",
+   "n": "Peter Jackson"
+  },
+  "p148": {
+   "f": "fotos-2/p148.jpg",
+   "file": "Jonah_Lomu_(cropped).jpg",
+   "a": "Bjorn Bednarek from Brisbane, Australia",
+   "l": "CC BY-SA 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Jonah_Lomu_(cropped).jpg",
+   "r": "c",
+   "v": "1133a450",
+   "n": "Jonah Lomu"
+  },
+  "p149": {
+   "f": "fotos-2/p149.jpg",
+   "file": "Sir_Howard_Florey.jpg",
+   "a": "Julian Smith",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Sir_Howard_Florey.jpg",
+   "r": "c",
+   "v": "78ce5b75",
+   "n": "Howard Florey"
+  },
+  "p150": {
+   "f": "fotos-2/p150.jpg",
+   "file": "Don_Bradman_1930.jpg",
+   "a": "State Library of South Australia from Australia",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Don_Bradman_1930.jpg",
+   "r": "c",
+   "v": "1c991dca",
+   "n": "Don Bradman"
+  },
+  "p151": {
+   "f": "fotos-2/p151.jpg",
+   "file": "Steve_Irwin_December_2005_(4x5_cropped).jpg",
+   "a": "Richard Giles aka rich 115",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Steve_Irwin_December_2005_(4x5_cropped).jpg",
+   "r": "c",
+   "v": "345d8a90",
+   "n": "Steve Irwin"
+  },
+  "p152": {
+   "f": "fotos-2/p152.jpg",
+   "file": "Cathy_Freeman_(cropped).jpg",
+   "a": "Jason Pini/AusAID",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Cathy_Freeman_(cropped).jpg",
+   "r": "c",
+   "v": "91096885",
+   "n": "Cathy Freeman"
+  },
+  "p153": {
+   "f": "fotos-2/p153.jpg",
+   "file": "Ian_Thorpe_2012.jpg",
+   "a": "Doha Stadium Plus Qatar from Doha, Qatar",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Ian_Thorpe_2012.jpg",
+   "r": "c",
+   "v": "db7a87bb",
+   "n": "Ian Thorpe"
+  },
+  "p154": {
+   "f": "fotos-2/p154.jpg",
+   "file": "Albert_Namatjira_portrait.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Albert_Namatjira_portrait.jpg",
+   "r": "c",
+   "v": "8a8c5bb1",
+   "n": "Albert Namatjira"
+  },
+  "p156": {
+   "f": "fotos-2/p156.jpg",
+   "file": "Nellie_Melba_-_Rotary_Photo_784_E_(cropped).jpg",
+   "a": "Rotary Photo",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Nellie_Melba_-_Rotary_Photo_784_E_(cropped).jpg",
+   "r": "c",
+   "v": "019ae4ec",
+   "n": "Nellie Melba"
+  },
+  "p157": {
+   "f": "fotos-2/p157.jpg",
+   "file": "JohnCurtin.jpg",
+   "a": "National Library of Australia",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:JohnCurtin.jpg",
+   "r": "c",
+   "v": "f21d2621",
+   "n": "John Curtin"
+  },
+  "p158": {
+   "f": "fotos-2/p158.jpg",
+   "file": "Douglas_Mawson_1914_1.jpeg",
+   "a": "Thompson, J.",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Douglas_Mawson_1914_1.jpeg",
+   "r": "c",
+   "v": "cc916d78",
+   "n": "Douglas Mawson"
+  },
+  "p159": {
+   "f": "fotos-2/p159.jpg",
+   "file": "MKr384262_Nicole_Kidman_(Women_In_Motion,_Cannes_2025).jpg",
+   "a": "Martin Kraft",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:MKr384262_Nicole_Kidman_(Women_In_Motion,_Cannes_2025).jpg",
+   "r": "c",
+   "v": "77faf8d5",
+   "n": "Nicole Kidman"
+  },
+  "p160": {
+   "f": "fotos-2/p160.jpg",
+   "file": "Hugh_Jackman_by_Gage_Skidmore_3.jpg",
+   "a": "Gage Skidmore",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Hugh_Jackman_by_Gage_Skidmore_3.jpg",
+   "r": "c",
+   "v": "16c851f5",
+   "n": "Hugh Jackman"
+  },
+  "p161": {
+   "f": "fotos-2/p161.jpg",
+   "file": "Foto_oficial_de_Luiz_Inácio_Lula_da_Silva_(ombros)_denoise_(cropped).jpg",
+   "a": "Ricardo Stuckert/PR",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_(ombros)_denoise_(cropped).jpg",
+   "r": "c",
+   "v": "5869d228",
+   "n": "Luiz Inácio Lula da Silva"
+  },
+  "p162": {
+   "f": "fotos-2/p162.jpg",
+   "file": "Dilma_Rousseff_-_foto_oficial_2011-01-09.jpg",
+   "a": "Roberto Stuckert Filho/Presidência da República",
+   "l": "Attribution",
+   "u": "https://commons.wikimedia.org/wiki/File:Dilma_Rousseff_-_foto_oficial_2011-01-09.jpg",
+   "r": "c",
+   "v": "90fd5b19",
+   "n": "Dilma Rousseff"
+  },
+  "p163": {
+   "f": "fotos-2/p163.jpg",
+   "file": "Marighella_foto3_deputado_46-47_apeerj_(cropped).jpg",
+   "a": "Arquivo Público do Estado do Rio de Janeiro (Aperj)",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Marighella_foto3_deputado_46-47_apeerj_(cropped).jpg",
+   "r": "c",
+   "v": "b0a2daa3",
+   "n": "Carlos Marighella"
+  },
+  "p164": {
+   "f": "fotos-2/p164.jpg",
+   "file": "Bundesarchiv_Bild_183-69234-0003,_Luis_Carlos_Prestes_(cropped_-_3x4).jpg",
+   "a": "Schutt, Erich",
+   "l": "CC BY-SA 3.0 de",
+   "u": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-69234-0003,_Luis_Carlos_Prestes_(cropped_-_3x4).jpg",
+   "r": "c",
+   "v": "daaa7b95",
+   "n": "Luís Carlos Prestes"
+  },
+  "p165": {
+   "f": "fotos-2/p165.jpg",
+   "file": "Brizola_(cropped).jpg",
+   "a": "Agência Brasil (photographer unknown)",
+   "l": "CC BY 3.0 br",
+   "u": "https://commons.wikimedia.org/wiki/File:Brizola_(cropped).jpg",
+   "r": "c",
+   "v": "916ed404",
+   "n": "Leonel Brizola"
+  },
+  "p166": {
+   "f": "fotos-2/p166.jpg",
+   "file": "João_“Jango”_Goulart,_Presidente_do_Brasil,_foto_oficial,_1961.jpg",
+   "a": "Governo do Brasil",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Jo%C3%A3o_%E2%80%9CJango%E2%80%9D_Goulart,_Presidente_do_Brasil,_foto_oficial,_1961.jpg",
+   "r": "c",
+   "v": "fee78a0c",
+   "n": "João Goulart"
+  },
+  "p167": {
+   "f": "fotos-2/p167.jpg",
+   "file": "Darcy_Ribeiro.jpg",
+   "a": "You may select the license of your choice.",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Darcy_Ribeiro.jpg",
+   "r": "c",
+   "v": "c4129488",
+   "n": "Darcy Ribeiro"
+  },
+  "p168": {
+   "f": "fotos-2/p168.jpg",
+   "file": "Chico_Mendes_in_1988.jpg",
+   "a": "Miranda Smith, Miranda Productions, Inc.",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Chico_Mendes_in_1988.jpg",
+   "r": "c",
+   "v": "59363ea7",
+   "n": "Chico Mendes"
+  },
+  "p169": {
+   "f": "fotos-2/p169.jpg",
+   "file": "Marielle_Franco.jpg",
+   "a": "Mídia Ninja",
+   "l": "CC BY-SA 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Marielle_Franco.jpg",
+   "r": "c",
+   "v": "65f0ba0f",
+   "n": "Marielle Franco"
+  },
+  "p170": {
+   "f": "fotos-2/p170.jpg",
+   "file": "Jair_Bolsonaro_em_24_de_abril_de_2019_(1)_(3x4).jpg",
+   "a": "Isac Nóbrega/PR",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Jair_Bolsonaro_em_24_de_abril_de_2019_(1)_(3x4).jpg",
+   "r": "c",
+   "v": "93b00d9c",
+   "n": "Jair Bolsonaro"
+  },
+  "p171": {
+   "f": "fotos-2/p171.jpg",
+   "file": "Fernando_Henrique_Cardoso_(1999).jpg",
+   "a": "Agência Brasil",
+   "l": "CC BY 3.0 br",
+   "u": "https://commons.wikimedia.org/wiki/File:Fernando_Henrique_Cardoso_(1999).jpg",
+   "r": "c",
+   "v": "d8742060",
+   "n": "Fernando Henrique Cardoso"
+  },
+  "p172": {
+   "f": "fotos-2/p172.jpg",
+   "file": "Juscelino_Kubitschek_in_1956.jpg",
+   "a": "Governo do Brasil",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Juscelino_Kubitschek_in_1956.jpg",
+   "r": "c",
+   "v": "0e194cf2",
+   "n": "Juscelino Kubitschek"
+  },
+  "p173": {
+   "f": "fotos-2/p173.jpg",
+   "file": "Humberto_Castelo_Branco,_presidente_do_Brasil,_1964_(cropped_2).jpg",
+   "a": "Governo do Brasil",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Humberto_Castelo_Branco,_presidente_do_Brasil,_1964_(cropped_2).jpg",
+   "r": "c",
+   "v": "7dfe14a6",
+   "n": "Castelo Branco"
+  },
+  "p174": {
+   "f": "fotos-2/p174.jpg",
+   "file": "Tancredo_de_Almeida_Neves,_primeiro_ministro.tiff",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Tancredo_de_Almeida_Neves,_primeiro_ministro.tiff",
+   "r": "c",
+   "v": "e11eb517",
+   "n": "Tancredo Neves"
+  },
+  "p175": {
+   "f": "fotos-2/p175.jpg",
+   "file": "Carlos_Lacerda,_1954.tif",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Carlos_Lacerda,_1954.tif",
+   "r": "c",
+   "v": "02961e8d",
+   "n": "Carlos Lacerda"
+  },
+  "p176": {
+   "f": "fotos-2/p176.jpg",
+   "file": "Ulysses_nas_Diretas_Já.jpg",
+   "a": "Arquivo da Agência Brasil",
+   "l": "CC BY 3.0 br",
+   "u": "https://commons.wikimedia.org/wiki/File:Ulysses_nas_Diretas_J%C3%A1.jpg",
+   "r": "c",
+   "v": "0b34762d",
+   "n": "Ulysses Guimarães"
+  },
+  "p177": {
+   "f": "fotos-2/p177.jpg",
+   "file": "Ruy_Barbosa_1907.jpg",
+   "a": "Fitz Gerald",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Ruy_Barbosa_1907.jpg",
+   "r": "c",
+   "v": "e9511fc0",
+   "n": "Rui Barbosa"
+  },
+  "p178": {
+   "f": "fotos-2/p178.jpg",
+   "file": "Deodoro_da_Fonseca_(1889).jpg",
+   "a": "Governo do Brasil",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Deodoro_da_Fonseca_(1889).jpg",
+   "r": "c",
+   "v": "395fbd09",
+   "n": "Deodoro da Fonseca"
+  },
+  "p179": {
+   "f": "fotos-2/p179.jpg",
+   "file": "Pedro_II_of_Brazil_-_Brady-Handy.jpg",
+   "a": "Mathew Benjamin Brady / Levin Corbin Handy",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Pedro_II_of_Brazil_-_Brady-Handy.jpg",
+   "r": "c",
+   "v": "f93533af",
+   "n": "Dom Pedro II"
+  },
+  "p180": {
+   "f": "fotos-2/p180.jpg",
+   "file": "MHN_-_José_Bonifácio.jpg",
+   "a": "Décio Villares",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:MHN_-_Jos%C3%A9_Bonif%C3%A1cio.jpg",
+   "r": "c",
+   "v": "fd7cf77d",
+   "n": "José Bonifácio"
+  },
+  "p181": {
+   "f": "fotos-2/p181.jpg",
+   "file": "Luís_Alves_de_Lima_e_Silva.jpg",
+   "a": "Goupil",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Lu%C3%ADs_Alves_de_Lima_e_Silva.jpg",
+   "r": "c",
+   "v": "1bb9e94e",
+   "n": "Duque de Caxias"
+  },
+  "p182": {
+   "f": "fotos-2/p182.jpg",
+   "file": "Paulo_Freire_1977.jpg",
+   "a": "Slobodan Dimitro",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Paulo_Freire_1977.jpg",
+   "r": "c",
+   "v": "a7d9f53e",
+   "n": "Paulo Freire"
+  },
+  "p183": {
+   "f": "fotos-2/p183.jpg",
+   "file": "Oscar_Niemeyer_1968b.jpg",
+   "a": "Autor desconhecido (Mondadori Publishers)",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Oscar_Niemeyer_1968b.jpg",
+   "r": "c",
+   "v": "4fb879ce",
+   "n": "Oscar Niemeyer"
+  },
+  "p184": {
+   "f": "fotos-2/p184.jpg",
+   "file": "Antônio_Carlos_Jobim_(cropped).jpg",
+   "a": "Autor desconhecido ; Restoration by PerfectSoundWhatever",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Ant%C3%B4nio_Carlos_Jobim_(cropped).jpg",
+   "r": "c",
+   "v": "d5ca5884",
+   "n": "Tom Jobim"
+  },
+  "p185": {
+   "f": "fotos-2/p185.jpg",
+   "file": "Chico_Buarque_in_2023.jpg",
+   "a": "Palácio do Planalto from Brasilia, Brasil",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Chico_Buarque_in_2023.jpg",
+   "r": "c",
+   "v": "43865553",
+   "n": "Chico Buarque"
+  },
+  "p186": {
+   "f": "fotos-2/p186.jpg",
+   "file": "Caetano_Veloso_(cropped).jpg",
+   "a": "Secretaría de Cultura Ciudad de México from México",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Caetano_Veloso_(cropped).jpg",
+   "r": "c",
+   "v": "0caa87fb",
+   "n": "Caetano Veloso"
+  },
+  "p187": {
+   "f": "fotos-2/p187.jpg",
+   "file": "22.05.2026_-_Gilberto_Gil_(cropped).jpg",
+   "a": "Ricardo Stuckert / PR",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:22.05.2026_-_Gilberto_Gil_(cropped).jpg",
+   "r": "c",
+   "v": "df01d32d",
+   "n": "Gilberto Gil"
+  },
+  "p188": {
+   "f": "fotos-2/p188.jpg",
+   "file": "Carmen_Miranda_in_That_Night_in_Rio_(1941).jpg",
+   "a": "Autor desconhecido (20th Century Fox)",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Carmen_Miranda_in_That_Night_in_Rio_(1941).jpg",
+   "r": "c",
+   "v": "7ac94c5f",
+   "n": "Carmen Miranda"
+  },
+  "p189": {
+   "f": "fotos-2/p189.jpg",
+   "file": "Clarice_Lispector_(cropped).jpg",
+   "a": "Bisilliat, Maureen",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Clarice_Lispector_(cropped).jpg",
+   "r": "c",
+   "v": "0b94508d",
+   "n": "Clarice Lispector"
+  },
+  "p190": {
+   "f": "fotos-2/p190.jpg",
+   "file": "Carlos_Drummond_de_Andrade,_1970.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Carlos_Drummond_de_Andrade,_1970.jpg",
+   "r": "c",
+   "v": "c1ca64aa",
+   "n": "Carlos Drummond de Andrade"
+  },
+  "p191": {
+   "f": "fotos-2/p191.jpg",
+   "file": "Jorge_Amado,_gtfy.00010.jpg",
+   "a": "Bernard Gotfryd",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Jorge_Amado,_gtfy.00010.jpg",
+   "r": "c",
+   "v": "0745c2ed",
+   "n": "Jorge Amado"
+  },
+  "p192": {
+   "f": "fotos-2/p192.jpg",
+   "file": "Tarsila_do_Amaral,_ca._1925.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Tarsila_do_Amaral,_ca._1925.jpg",
+   "r": "c",
+   "v": "b8d8613b",
+   "n": "Tarsila do Amaral"
+  },
+  "p193": {
+   "f": "fotos-2/p193.jpg",
+   "file": "Heitor_Vila-Lobos_(c._1922)part.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Heitor_Vila-Lobos_(c._1922)part.jpg",
+   "r": "c",
+   "v": "4e08e9aa",
+   "n": "Heitor Villa-Lobos"
+  },
+  "p194": {
+   "f": "fotos-2/p194.jpg",
+   "file": "Oswaldo_cruz.jpg",
+   "a": "",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Oswaldo_cruz.jpg",
+   "r": "c",
+   "v": "253b0421",
+   "n": "Oswaldo Cruz"
+  },
+  "p195": {
+   "f": "fotos-2/p195.jpg",
+   "file": "Anita_Garibaldi_-_1839.jpg",
+   "a": "Gaetano Gallino",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Anita_Garibaldi_-_1839.jpg",
+   "r": "c",
+   "v": "3a7d27ad",
+   "n": "Anita Garibaldi"
+  },
+  "p196": {
+   "f": "fotos-2/p196.jpg",
+   "file": "Manoel_Francisco_dos_Santos-Garrincha.jpg",
+   "a": "El Gráfico, n° 2233",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Manoel_Francisco_dos_Santos-Garrincha.jpg",
+   "r": "c",
+   "v": "151df928",
+   "n": "Garrincha"
+  },
+  "p197": {
+   "f": "fotos-2/p197.jpg",
+   "file": "12.12.2025_–_Cerimônia_de_lançamento_do_SBT_News_-_54980664160_(cropped2).jpg",
+   "a": "Lula Oficial",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:12.12.2025_%E2%80%93_Cerim%C3%B4nia_de_lan%C3%A7amento_do_SBT_News_-_54980664160_(cropped2).jpg",
+   "r": "c",
+   "v": "773cf648",
+   "n": "Ronaldo Fenômeno"
+  },
+  "p198": {
+   "f": "fotos-2/p198.jpg",
+   "file": "NC_Courage_vs_Orlando_Pride_(Jun_2024)_073_(cropped).jpg",
+   "a": "Hameltion",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:NC_Courage_vs_Orlando_Pride_(Jun_2024)_073_(cropped).jpg",
+   "r": "c",
+   "v": "a75d3943",
+   "n": "Marta"
+  },
+  "p199": {
+   "f": "fotos-3/p199.jpg",
+   "file": "Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg",
+   "a": "Bryan Berlin",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg",
+   "r": "c",
+   "v": "0c9839ca",
+   "n": "Neymar"
+  },
+  "p200": {
+   "f": "fotos-3/p200.jpg",
+   "file": "Guga_Kuerten.jpg",
+   "a": "Geraldo Magela/Agência Senado",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Guga_Kuerten.jpg",
+   "r": "c",
+   "v": "988ae4c4",
+   "n": "Gustavo Kuerten"
+  },
+  "p201": {
+   "f": "fotos-3/p201.jpg",
+   "file": "Sílvio_Santos_circa_1970(cropped).tiff",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:S%C3%ADlvio_Santos_circa_1970(cropped).tiff",
+   "r": "c",
+   "v": "e16c27ae",
+   "n": "Silvio Santos"
+  },
+  "p202": {
+   "f": "fotos-3/p202.jpg",
+   "file": "Irma-dulce-santa-canonizada.jpg",
+   "a": "Nascimento Azevedo",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Irma-dulce-santa-canonizada.jpg",
+   "r": "c",
+   "v": "f86f8ee8",
+   "n": "Irmã Dulce"
+  },
+  "p203": {
+   "f": "fotos-3/p203.jpg",
+   "file": "Antonio_Conselheiro_(cropped).jpg",
+   "a": "Flávio de Barros",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Antonio_Conselheiro_(cropped).jpg",
+   "r": "c",
+   "v": "dfa6a5d2",
+   "n": "Antônio Conselheiro"
+  },
+  "p204": {
+   "f": "fotos-3/p204.jpg",
+   "file": "Elis_Regina_1965.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Elis_Regina_1965.jpg",
+   "r": "c",
+   "v": "82d5c81e",
+   "n": "Elis Regina"
+  },
+  "p205": {
+   "f": "fotos-3/p205.jpg",
+   "file": "FDR-1944-Campaign-Portrait_(3x4_retouched,_cropped).jpg",
+   "a": "Leon Perskie",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:FDR-1944-Campaign-Portrait_(3x4_retouched,_cropped).jpg",
+   "r": "c",
+   "v": "d51426f5",
+   "n": "Franklin D. Roosevelt"
+  },
+  "p206": {
+   "f": "fotos-3/p206.jpg",
+   "file": "Theodore_Roosevelt_by_the_Pach_Bros_(4x5_cropped)_(3).jpg",
+   "a": "Adam Cuerden",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Theodore_Roosevelt_by_the_Pach_Bros_(4x5_cropped)_(3).jpg",
+   "r": "c",
+   "v": "ffdc638e",
+   "n": "Theodore Roosevelt"
+  },
+  "p207": {
+   "f": "fotos-3/p207.jpg",
+   "file": "Official_Presidential_portrait_of_Thomas_Jefferson_(by_Rembrandt_Peale,_1800).jpg",
+   "a": "Rembrandt Peale",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Official_Presidential_portrait_of_Thomas_Jefferson_(by_Rembrandt_Peale,_1800).jpg",
+   "r": "c",
+   "v": "ef54b5c1",
+   "n": "Thomas Jefferson"
+  },
+  "p208": {
+   "f": "fotos-3/p208.jpg",
+   "file": "Official_Portrait_of_President_Reagan_1981.jpg",
+   "a": "Michael Evans",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Official_Portrait_of_President_Reagan_1981.jpg",
+   "r": "c",
+   "v": "3cfc6303",
+   "n": "Ronald Reagan"
+  },
+  "p209": {
+   "f": "fotos-3/p209.jpg",
+   "file": "Richard_Nixon_presidential_portrait_(2).jpg",
+   "a": "Department of Defense. Department of the Army. Office of the Deputy Chief of Staff for Operations.…",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Richard_Nixon_presidential_portrait_(2).jpg",
+   "r": "c",
+   "v": "b18f58d2",
+   "n": "Richard Nixon"
+  },
+  "p210": {
+   "f": "fotos-3/p210.jpg",
+   "file": "Dwight_D._Eisenhower,_official_photo_portrait,_May_29,_1959_(cropped)(3).jpg",
+   "a": "White House",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Dwight_D._Eisenhower,_official_photo_portrait,_May_29,_1959_(cropped)(3).jpg",
+   "r": "c",
+   "v": "743945de",
+   "n": "Dwight D. Eisenhower"
+  },
+  "p211": {
+   "f": "fotos-3/p211.jpg",
+   "file": "Jimmy_Carter_Official_Portrait2_(3x4_cropped).jpg",
+   "a": "Department of Defense. Department of the Navy. Naval Photographic Center",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_Official_Portrait2_(3x4_cropped).jpg",
+   "r": "c",
+   "v": "d2122c3b",
+   "n": "Jimmy Carter"
+  },
+  "p212": {
+   "f": "fotos-3/p212.jpg",
+   "file": "Bill_Clinton.jpg",
+   "a": "Bob McNeely, The White House",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Bill_Clinton.jpg",
+   "r": "c",
+   "v": "3c927f95",
+   "n": "Bill Clinton"
+  },
+  "p213": {
+   "f": "fotos-3/p213.jpg",
+   "file": "George-W-Bush.jpeg",
+   "a": "Eric Draper",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:George-W-Bush.jpeg",
+   "r": "c",
+   "v": "3ea48937",
+   "n": "George W. Bush"
+  },
+  "p214": {
+   "f": "fotos-3/p214.jpg",
+   "file": "Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg",
+   "a": "Daniel Torok",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg",
+   "r": "c",
+   "v": "110dd804",
+   "n": "Donald Trump"
+  },
+  "p215": {
+   "f": "fotos-3/p215.jpg",
+   "file": "Joe_Biden_presidential_portrait.jpg",
+   "a": "Adam Schultz",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Joe_Biden_presidential_portrait.jpg",
+   "r": "c",
+   "v": "7eacdd31",
+   "n": "Joe Biden"
+  },
+  "p216": {
+   "f": "fotos-3/p216.jpg",
+   "file": "Former_United_States_Secretary_of_State_Hillary_Rodham_Clinton_at_the_U.S._Department_of_State_on_September_26,_2023_in_Washington,_D.C._14_(cropped).jpg",
+   "a": "U.S. Department of State",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Former_United_States_Secretary_of_State_Hillary_Rodham_Clinton_at_the_U.S._Department_of_State_on_September_26,_2023_in_Washington,_D.C._14_(cropped).jpg",
+   "r": "c",
+   "v": "7a74a6e1",
+   "n": "Hillary Clinton"
+  },
+  "p217": {
+   "f": "fotos-3/p217.jpg",
+   "file": "Kamala_Harris_Vice_Presidential_Portrait.jpg",
+   "a": "Lawrence Jackson",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Kamala_Harris_Vice_Presidential_Portrait.jpg",
+   "r": "c",
+   "v": "34481eab",
+   "n": "Kamala Harris"
+  },
+  "p218": {
+   "f": "fotos-3/p218.jpg",
+   "file": "Bernie_Sanders_February_2026_(cropped).jpg",
+   "a": "Anderseidesvik",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Bernie_Sanders_February_2026_(cropped).jpg",
+   "r": "c",
+   "v": "e4085ee9",
+   "n": "Bernie Sanders"
+  },
+  "p219": {
+   "f": "fotos-3/p219.jpg",
+   "file": "Frederick_Douglass_(circa_1879)_(cropped).jpg",
+   "a": "George Kendall Warren",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Frederick_Douglass_(circa_1879)_(cropped).jpg",
+   "r": "c",
+   "v": "108785dd",
+   "n": "Frederick Douglass"
+  },
+  "p220": {
+   "f": "fotos-3/p220.jpg",
+   "file": "SB_Anthony_from_RoRaWW.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:SB_Anthony_from_RoRaWW.jpg",
+   "r": "c",
+   "v": "1eecab2a",
+   "n": "Susan B. Anthony"
+  },
+  "p221": {
+   "f": "fotos-3/p221.jpg",
+   "file": "Eleanor_Roosevelt_at_the_United_Nations,_circa_1946-1947_(3x4_cropped).jpg",
+   "a": "FDR Presidential Library & Museum",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Eleanor_Roosevelt_at_the_United_Nations,_circa_1946-1947_(3x4_cropped).jpg",
+   "r": "c",
+   "v": "72f5f6dc",
+   "n": "Eleanor Roosevelt"
+  },
+  "p222": {
+   "f": "fotos-3/p222.jpg",
+   "file": "Henry_A._Kissinger,_U.S._Secretary_of_State,_1973-1977.jpg",
+   "a": "U.S. Department of State from United States",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Henry_A._Kissinger,_U.S._Secretary_of_State,_1973-1977.jpg",
+   "r": "c",
+   "v": "18dc499a",
+   "n": "Henry Kissinger"
+  },
+  "p223": {
+   "f": "fotos-3/p223.jpg",
+   "file": "Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg",
+   "a": "Underwood & Underwood (active 1880 - c. 1950)",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg",
+   "r": "c",
+   "v": "2ba3f0fb",
+   "n": "Amelia Earhart"
+  },
+  "p224": {
+   "f": "fotos-3/p224.jpg",
+   "file": "ErnestHemingway.jpg",
+   "a": "Lloyd Arnold",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:ErnestHemingway.jpg",
+   "r": "c",
+   "v": "aeff2170",
+   "n": "Ernest Hemingway"
+  },
+  "p225": {
+   "f": "fotos-3/p225.jpg",
+   "file": "Mark_Twain_by_AF_Bradley_(cropped_2).jpg",
+   "a": "A.F. Bradley, New York",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Mark_Twain_by_AF_Bradley_(cropped_2).jpg",
+   "r": "c",
+   "v": "c4bcda43",
+   "n": "Mark Twain"
+  },
+  "p226": {
+   "f": "fotos-3/p226.jpg",
+   "file": "Andy_Warhol_by_Bernard_Gotfryd_1980.png",
+   "a": "Bernard Gotfryd",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Andy_Warhol_by_Bernard_Gotfryd_1980.png",
+   "r": "c",
+   "v": "6f35f7c8",
+   "n": "Andy Warhol"
+  },
+  "p227": {
+   "f": "fotos-3/p227.jpg",
+   "file": "Oprah_Winfrey_2016.jpg",
+   "a": "US Embassy South Africa",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_2016.jpg",
+   "r": "c",
+   "v": "cea23867",
+   "n": "Oprah Winfrey"
+  },
+  "p228": {
+   "f": "fotos-3/p228.jpg",
+   "file": "Jesse_Owens_1936.jpg",
+   "a": "Acme News Photos",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Jesse_Owens_1936.jpg",
+   "r": "c",
+   "v": "042837dd",
+   "n": "Jesse Owens"
+  },
+  "p229": {
+   "f": "fotos-3/p229.jpg",
+   "file": "Hugo_Chavez_Portrait_(cropped).jpg",
+   "a": "Vicepresidencia de Venezuela",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Hugo_Chavez_Portrait_(cropped).jpg",
+   "r": "c",
+   "v": "05a37971",
+   "n": "Hugo Chávez"
+  },
+  "p230": {
+   "f": "fotos-3/p230.jpg",
+   "file": "Salvador_Allende_Gossens-.jpg",
+   "a": "Biblioteca del Congreso Nacional de Chile",
+   "l": "CC BY 3.0 cl",
+   "u": "https://commons.wikimedia.org/wiki/File:Salvador_Allende_Gossens-.jpg",
+   "r": "c",
+   "v": "9a5208be",
+   "n": "Salvador Allende"
+  },
+  "p231": {
+   "f": "fotos-3/p231.jpg",
+   "file": "Augusto_Pinochet_foto_oficial(b).jpg",
+   "a": "Ministerio de Relaciones Exteriores de Chile",
+   "l": "CC BY 2.0 cl",
+   "u": "https://commons.wikimedia.org/wiki/File:Augusto_Pinochet_foto_oficial(b).jpg",
+   "r": "c",
+   "v": "f570e4f7",
+   "n": "Augusto Pinochet"
+  },
+  "p232": {
+   "f": "fotos-3/p232.jpg",
+   "file": "Juan_Domingo_Perón_(cropped).jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Juan_Domingo_Per%C3%B3n_(cropped).jpg",
+   "r": "c",
+   "v": "b7e83439",
+   "n": "Juan Perón"
+  },
+  "p233": {
+   "f": "fotos-3/p233.jpg",
+   "file": "Javier_Milei_in_pull-aside_meeting_at_the_United_Nations_Headquarters_(3x4_cropped).jpg",
+   "a": "The White House",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Javier_Milei_in_pull-aside_meeting_at_the_United_Nations_Headquarters_(3x4_cropped).jpg",
+   "r": "c",
+   "v": "7ecd0227",
+   "n": "Javier Milei"
+  },
+  "p234": {
+   "f": "fotos-3/p234.jpg",
+   "file": "Cristina_Fernández_de_Kirchner_en_la_Apertura_de_Sesiones_Ordinarias_2022_(cropped).jpg",
+   "a": "Charly Díaz Azcue. Comunicación Senado.",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Cristina_Fern%C3%A1ndez_de_Kirchner_en_la_Apertura_de_Sesiones_Ordinarias_2022_(cropped).jpg",
+   "r": "c",
+   "v": "89f98e7f",
+   "n": "Cristina Kirchner"
+  },
+  "p235": {
+   "f": "fotos-3/p235.jpg",
+   "file": "Pope_Francis_Korea_Haemi_Castle_19_(4x5_cropped).jpg",
+   "a": "Korea.net / Korean Culture and Information Service (Jeon Han)",
+   "l": "",
+   "u": "https://commons.wikimedia.org/wiki/File:Pope_Francis_Korea_Haemi_Castle_19_(4x5_cropped).jpg",
+   "r": "c",
+   "v": "4877a7ee",
+   "n": "Papa Francisco"
+  },
+  "p236": {
+   "f": "fotos-3/p236.jpg",
+   "file": "Jorge_Luis_Borges_1951,_by_Grete_Stern_(full).jpg",
+   "a": "Grete Stern",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Jorge_Luis_Borges_1951,_by_Grete_Stern_(full).jpg",
+   "r": "c",
+   "v": "bd647a78",
+   "n": "Jorge Luis Borges"
+  },
+  "p237": {
+   "f": "fotos-3/p237.jpg",
+   "file": "Fangio_in_1955_(cropped).jpg",
+   "a": "Bjørn Fjørtoft",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Fangio_in_1955_(cropped).jpg",
+   "r": "c",
+   "v": "6acea50e",
+   "n": "Juan Manuel Fangio"
+  },
+  "p238": {
+   "f": "fotos-3/p238.jpg",
+   "file": "Evo_Morales_Ayma_(cropped_3).jpg",
+   "a": "EneasMx",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Evo_Morales_Ayma_(cropped_3).jpg",
+   "r": "c",
+   "v": "2ad5556d",
+   "n": "Evo Morales"
+  },
+  "p239": {
+   "f": "fotos-3/p239.jpg",
+   "file": "Raul-castro-2015_(cropped)(2).jpg",
+   "a": "Пресс-служба Президента России/ Presidential Executive Office Russia",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Raul-castro-2015_(cropped)(2).jpg",
+   "r": "c",
+   "v": "1bb1945d",
+   "n": "Raúl Castro"
+  },
+  "p240": {
+   "f": "fotos-3/p240.jpg",
+   "file": "José_Martí_retrato_hecho_en_México_1875.jpg",
+   "a": "Cuba. Secretaría de Instrucción Pública y Bellas Artes.",
+   "l": "CC0",
+   "u": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Mart%C3%AD_retrato_hecho_en_M%C3%A9xico_1875.jpg",
+   "r": "c",
+   "v": "06356ff4",
+   "n": "José Martí"
+  },
+  "p241": {
+   "f": "fotos-3/p241.jpg",
+   "file": "Daniel_Ortega_2017_(cropped).png",
+   "a": "Autor desconhecido",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Daniel_Ortega_2017_(cropped).png",
+   "r": "c",
+   "v": "b9727ab7",
+   "n": "Daniel Ortega"
+  },
+  "p242": {
+   "f": "fotos-3/p242.jpg",
+   "file": "Visit_of_Alberto_Fujimori,_President_of_Peru,_to_the_CEC_(cropped).jpg",
+   "a": "Christian Lambiotte / European Communities, 1991 / EC - Audiovisual Service",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Visit_of_Alberto_Fujimori,_President_of_Peru,_to_the_CEC_(cropped).jpg",
+   "r": "c",
+   "v": "fa9e484c",
+   "n": "Alberto Fujimori"
+  },
+  "p243": {
+   "f": "fotos-3/p243.jpg",
+   "file": "TupacAmaruII.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:TupacAmaruII.jpg",
+   "r": "c",
+   "v": "87460fe0",
+   "n": "Túpac Amaru II"
+  },
+  "p244": {
+   "f": "fotos-3/p244.jpg",
+   "file": "Presidente_Álvaro_Uribe_Vélez.jpg",
+   "a": "Departamento Nacional de Planeación",
+   "l": "CC BY-SA 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Presidente_%C3%81lvaro_Uribe_V%C3%A9lez.jpg",
+   "r": "c",
+   "v": "da1b7dc3",
+   "n": "Álvaro Uribe"
+  },
+  "p245": {
+   "f": "fotos-3/p245.jpg",
+   "file": "Foto_Oficial_Presidente_Gustavo_Petro_(3x4_cropped).jpg",
+   "a": "Departamento Nacional de Planeación",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Foto_Oficial_Presidente_Gustavo_Petro_(3x4_cropped).jpg",
+   "r": "c",
+   "v": "91f78d1c",
+   "n": "Gustavo Petro"
+  },
+  "p246": {
+   "f": "fotos-3/p246.jpg",
+   "file": "2023-11-16_Gala_de_los_Latin_Grammy,_03_(cropped)02.jpg",
+   "a": "Junta de Andalucía",
+   "l": "CC BY-SA 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:2023-11-16_Gala_de_los_Latin_Grammy,_03_(cropped)02.jpg",
+   "r": "c",
+   "v": "66d8ad63",
+   "n": "Shakira"
+  },
+  "p247": {
+   "f": "fotos-3/p247.jpg",
+   "file": "Andrés_Manuel_López_Obrador_junio_2024.jpg",
+   "a": "EneasMx",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Manuel_L%C3%B3pez_Obrador_junio_2024.jpg",
+   "r": "c",
+   "v": "090d2637",
+   "n": "Andrés Manuel López Obrador"
+  },
+  "p248": {
+   "f": "fotos-3/p248.jpg",
+   "file": "Photograph_of_Benito_Juarez.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Photograph_of_Benito_Juarez.jpg",
+   "r": "c",
+   "v": "dad91f1d",
+   "n": "Benito Juárez"
+  },
+  "p249": {
+   "f": "fotos-3/p249.jpg",
+   "file": "General_Francisco_Villa_(cropped).jpg",
+   "a": "D.W. Hoffman, an El Paso photographer",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:General_Francisco_Villa_(cropped).jpg",
+   "r": "c",
+   "v": "32a5f652",
+   "n": "Pancho Villa"
+  },
+  "p250": {
+   "f": "fotos-3/p250.jpg",
+   "file": "Diego_Rivera_-_Google_Art_Project_(cropped).jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Diego_Rivera_-_Google_Art_Project_(cropped).jpg",
+   "r": "c",
+   "v": "9e474323",
+   "n": "Diego Rivera"
+  },
+  "p251": {
+   "f": "fotos-3/p251.jpg",
+   "file": "Mujica.jpg",
+   "a": "Senado Federal",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Mujica.jpg",
+   "r": "c",
+   "v": "4d803956",
+   "n": "José Mujica"
+  },
+  "p252": {
+   "f": "fotos-3/p252.jpg",
+   "file": "Presidente_Nayib_Bukele_(cropped).jpg",
+   "a": "AndreX",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Presidente_Nayib_Bukele_(cropped).jpg",
+   "r": "c",
+   "v": "323fb1da",
+   "n": "Nayib Bukele"
+  },
+  "p253": {
+   "f": "fotos-3/p253.jpg",
+   "file": "Prime_Minister_Pierre_Trudeau_1975_(UPI_press_photo)_(cropped).jpg",
+   "a": "United Press International",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Pierre_Trudeau_1975_(UPI_press_photo)_(cropped).jpg",
+   "r": "c",
+   "v": "654fde36",
+   "n": "Pierre Trudeau"
+  },
+  "p254": {
+   "f": "fotos-3/p254.jpg",
+   "file": "Prime_Minister_Trudeau's_message_on_Christmas_2023_(0m29s)_(cropped).jpg",
+   "a": "Justin Trudeau - Prime Minister of Canada",
+   "l": "CC BY 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Trudeau%27s_message_on_Christmas_2023_(0m29s)_(cropped).jpg",
+   "r": "c",
+   "v": "40d8ef20",
+   "n": "Justin Trudeau"
+  },
+  "p255": {
+   "f": "fotos-3/p255.jpg",
+   "file": "Toussaint_Louverture_-_Girardin.jpg",
+   "a": "Alexandre-François-Louis, comte de Girardin",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Toussaint_Louverture_-_Girardin.jpg",
+   "r": "c",
+   "v": "c42c853a",
+   "n": "Toussaint Louverture"
+  },
+  "p256": {
+   "f": "fotos-3/p256.jpg",
+   "file": "20240620_NP_PRESIDENTE_BERNARDO_AREVALO_Y_KARIN_HERRERA_PARTICIPAN_EN_DIALOGO_PREMIO_NOBEL_DE_LA_PAZ_054_(cropped).jpg",
+   "a": "Gobierno de Guatemala",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:20240620_NP_PRESIDENTE_BERNARDO_AREVALO_Y_KARIN_HERRERA_PARTICIPAN_EN_DIALOGO_PREMIO_NOBEL_DE_LA_PAZ_054_(cropped).jpg",
+   "r": "c",
+   "v": "ef583986",
+   "n": "Rigoberta Menchú"
+  },
+  "p257": {
+   "f": "fotos-3/p257.jpg",
+   "file": "Gabriela_Mistral_1945.jpg",
+   "a": "Anna Riwkin-Brick",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Gabriela_Mistral_1945.jpg",
+   "r": "c",
+   "v": "9624abdb",
+   "n": "Gabriela Mistral"
+  },
+  "p258": {
+   "f": "fotos-3/p258.jpg",
+   "file": "Margaret_Thatcher_stock_portrait_(cropped).jpg",
+   "a": "derivative work by Begoon",
+   "l": "Copyrighted free use",
+   "u": "https://commons.wikimedia.org/wiki/File:Margaret_Thatcher_stock_portrait_(cropped).jpg",
+   "r": "c",
+   "v": "1bda7a64",
+   "n": "Margaret Thatcher"
+  },
+  "p259": {
+   "f": "fotos-3/p259.jpg",
+   "file": "De_Gaulle-OWI_(cropped)_(c)(2).jpg",
+   "a": "Office of War Information, Overseas Picture Division. The image prefix (LC-USW3) at the Library of…",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:De_Gaulle-OWI_(cropped)_(c)(2).jpg",
+   "r": "c",
+   "v": "766c6720",
+   "n": "Charles de Gaulle"
+  },
+  "p260": {
+   "f": "fotos-3/p260.jpg",
+   "file": "Bundesarchiv_B_145_Bild-F078072-0004,_Konrad_Adenauer.jpg",
+   "a": "Katherine Young (1906-1993)",
+   "l": "CC BY-SA 3.0 de",
+   "u": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F078072-0004,_Konrad_Adenauer.jpg",
+   "r": "c",
+   "v": "a3ba38bd",
+   "n": "Konrad Adenauer"
+  },
+  "p261": {
+   "f": "fotos-3/p261.jpg",
+   "file": "Angela_Merkel_2019_cropped.jpg",
+   "a": "Raimond Spekking",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Angela_Merkel_2019_cropped.jpg",
+   "r": "c",
+   "v": "918509c5",
+   "n": "Angela Merkel"
+  },
+  "p262": {
+   "f": "fotos-3/p262.jpg",
+   "file": "Helmut_Kohl_(1996)_cropped_(2).jpg",
+   "a": "Christian Lambiotte",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Helmut_Kohl_(1996)_cropped_(2).jpg",
+   "r": "c",
+   "v": "81532954",
+   "n": "Helmut Kohl"
+  },
+  "p263": {
+   "f": "fotos-3/p263.jpg",
+   "file": "Otto_von_Bismarck_1885_(cropped).jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Otto_von_Bismarck_1885_(cropped).jpg",
+   "r": "c",
+   "v": "e4645095",
+   "n": "Otto von Bismarck"
+  },
+  "p264": {
+   "f": "fotos-3/p264.jpg",
+   "file": "Francisco_Franco_posed_portrait_photograph.jpg",
+   "a": "Autor desconhecido",
+   "l": "CC0",
+   "u": "https://commons.wikimedia.org/wiki/File:Francisco_Franco_posed_portrait_photograph.jpg",
+   "r": "c",
+   "v": "f9777cb6",
+   "n": "Francisco Franco"
+  },
+  "p265": {
+   "f": "fotos-3/p265.jpg",
+   "file": "António_de_Oliveira_Salazar_portrait_(by_Manuel_Alves_San_Payo)_–_Lisboa.jpg",
+   "a": "Manuel Alves de San Payo",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Ant%C3%B3nio_de_Oliveira_Salazar_portrait_(by_Manuel_Alves_San_Payo)_%E2%80%93_Lisboa.jpg",
+   "r": "c",
+   "v": "218c2510",
+   "n": "António de Oliveira Salazar"
+  },
+  "p266": {
+   "f": "fotos-3/p266.jpg",
+   "file": "Vladimir_Putin_(2026_02_23)_(cropped).jpg",
+   "a": "Kremlin.ru",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_(2026_02_23)_(cropped).jpg",
+   "r": "c",
+   "v": "88d6ce7f",
+   "n": "Vladimir Putin"
+  },
+  "p267": {
+   "f": "fotos-3/p267.jpg",
+   "file": "New_Year's_Eve_from_President_of_Ukraine_Volodymyr_Zelensky_(31-12-2025)_(cropped).jpg",
+   "a": "Press Service of the President of Ukraine",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:New_Year%27s_Eve_from_President_of_Ukraine_Volodymyr_Zelensky_(31-12-2025)_(cropped).jpg",
+   "r": "c",
+   "v": "077e78b9",
+   "n": "Volodymyr Zelensky"
+  },
+  "p268": {
+   "f": "fotos-3/p268.jpg",
+   "file": "Viktor_Orban_2025_(cropped).jpg",
+   "a": "The White House",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Viktor_Orban_2025_(cropped).jpg",
+   "r": "c",
+   "v": "e009d4a7",
+   "n": "Viktor Orbán"
+  },
+  "p269": {
+   "f": "fotos-3/p269.jpg",
+   "file": "Giorgia_Meloni_Official_2024_(cropped).jpg",
+   "a": "Governo Italiano",
+   "l": "CC BY 3.0 it",
+   "u": "https://commons.wikimedia.org/wiki/File:Giorgia_Meloni_Official_2024_(cropped).jpg",
+   "r": "c",
+   "v": "7f05602a",
+   "n": "Giorgia Meloni"
+  },
+  "p270": {
+   "f": "fotos-3/p270.jpg",
+   "file": "Silvio_Berlusconi_(2010)_cropped.jpg",
+   "a": "www.la-moncloa.es derivative work: Off2riorob",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Silvio_Berlusconi_(2010)_cropped.jpg",
+   "r": "c",
+   "v": "81ce933b",
+   "n": "Silvio Berlusconi"
+  },
+  "p271": {
+   "f": "fotos-3/p271.jpg",
+   "file": "Marine_Le_Pen_2025_(3x4_cropped).jpg",
+   "a": "Vox España",
+   "l": "CC0",
+   "u": "https://commons.wikimedia.org/wiki/File:Marine_Le_Pen_2025_(3x4_cropped).jpg",
+   "r": "c",
+   "v": "c7c47c69",
+   "n": "Marine Le Pen"
+  },
+  "p272": {
+   "f": "fotos-3/p272.jpg",
+   "file": "Emmanuel_Macron_2025_(cropped).jpg",
+   "a": "Nebojša Tejić",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Emmanuel_Macron_2025_(cropped).jpg",
+   "r": "c",
+   "v": "0cd6fdd2",
+   "n": "Emmanuel Macron"
+  },
+  "p273": {
+   "f": "fotos-3/p273.jpg",
+   "file": "Boris_Johnson_official_portrait_(cropped).jpg",
+   "a": "Ben Shread",
+   "l": "OGL 3",
+   "u": "https://commons.wikimedia.org/wiki/File:Boris_Johnson_official_portrait_(cropped).jpg",
+   "r": "c",
+   "v": "41336436",
+   "n": "Boris Johnson"
+  },
+  "p274": {
+   "f": "fotos-3/p274.jpg",
+   "file": "Tony_Blair_(2010).jpg",
+   "a": "Pavel Golovkin",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Tony_Blair_(2010).jpg",
+   "r": "c",
+   "v": "8d2c0aef",
+   "n": "Tony Blair"
+  },
+  "p275": {
+   "f": "fotos-3/p275.jpg",
+   "file": "Person_attlee2.jpg",
+   "a": "Presumably Yousuf Karsh",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Person_attlee2.jpg",
+   "r": "c",
+   "v": "a1621912",
+   "n": "Clement Attlee"
+  },
+  "p276": {
+   "f": "fotos-3/p276.jpg",
+   "file": "Bundesarchiv_B_145_Bild-F057884-0009,_Willy_Brandt.jpg",
+   "a": "Engelbert Reineke",
+   "l": "CC BY-SA 3.0 de",
+   "u": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F057884-0009,_Willy_Brandt.jpg",
+   "r": "c",
+   "v": "cce6246f",
+   "n": "Willy Brandt"
+  },
+  "p277": {
+   "f": "fotos-3/p277.jpg",
+   "file": "President_François_Mitterrand_in_1983_(cropped).jpg",
+   "a": "Comet Photo AG (Zürich)",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:President_Fran%C3%A7ois_Mitterrand_in_1983_(cropped).jpg",
+   "r": "c",
+   "v": "eea8f2bb",
+   "n": "François Mitterrand"
+  },
+  "p278": {
+   "f": "fotos-3/p278.jpg",
+   "file": "(Olof_Palme)_Felipe_González_ofrece_una_rueda_de_prensa_junto_al_primer_ministro_de_Suecia._Pool_Moncloa._28_de_septiembre_de_1984_(cropped).jpeg",
+   "a": "Ministerio de la Presidencia. Gobierno de España (Pool Moncloa)",
+   "l": "Attribution",
+   "u": "https://commons.wikimedia.org/wiki/File:(Olof_Palme)_Felipe_Gonz%C3%A1lez_ofrece_una_rueda_de_prensa_junto_al_primer_ministro_de_Suecia._Pool_Moncloa._28_de_septiembre_de_1984_(cropped).jpeg",
+   "r": "c",
+   "v": "7c20bb00",
+   "n": "Olof Palme"
+  },
+  "p279": {
+   "f": "fotos-3/p279.jpg",
+   "file": "Felipe_González_recibe_al_presidente_de_la_Diputación_General_de_Aragón_(cropped).jpg",
+   "a": "Ministerio de la Presidencia. Gobierno de España (Pool Moncloa)",
+   "l": "Attribution",
+   "u": "https://commons.wikimedia.org/wiki/File:Felipe_Gonz%C3%A1lez_recibe_al_presidente_de_la_Diputaci%C3%B3n_General_de_Arag%C3%B3n_(cropped).jpg",
+   "r": "c",
+   "v": "c1bd205d",
+   "n": "Felipe González"
+  },
+  "p280": {
+   "f": "fotos-3/p280.jpg",
+   "file": "Pedro_Sánchez_2026_Portrait_(3x4_cropped).jpg",
+   "a": "Pool Moncloa/ Carlos Spottorno de las Morenas",
+   "l": "Attribution",
+   "u": "https://commons.wikimedia.org/wiki/File:Pedro_S%C3%A1nchez_2026_Portrait_(3x4_cropped).jpg",
+   "r": "c",
+   "v": "fa48bb11",
+   "n": "Pedro Sánchez"
+  },
+  "p281": {
+   "f": "fotos-3/p281.jpg",
+   "file": "03.17_總統接見「波蘭前總統華勒沙乙行」_-_55151702432_(cropped).jpg",
+   "a": "Taiwan Presidential Office",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:03.17_%E7%B8%BD%E7%B5%B1%E6%8E%A5%E8%A6%8B%E3%80%8C%E6%B3%A2%E8%98%AD%E5%89%8D%E7%B8%BD%E7%B5%B1%E8%8F%AF%E5%8B%92%E6%B2%99%E4%B9%99%E8%A1%8C%E3%80%8D_-_55151702432_(cropped).jpg",
+   "r": "c",
+   "v": "b9b3d6b9",
+   "n": "Lech Wałęsa"
+  },
+  "p282": {
+   "f": "fotos-3/p282.jpg",
+   "file": "ADAMELLO_-_PAPA_-_Giovanni_Paolo_II_-_panoramio_(cropped).jpg",
+   "a": "Gregorini Demetrio",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:ADAMELLO_-_PAPA_-_Giovanni_Paolo_II_-_panoramio_(cropped).jpg",
+   "r": "c",
+   "v": "90cf4d30",
+   "n": "Papa João Paulo II"
+  },
+  "p283": {
+   "f": "fotos-3/p283.jpg",
+   "file": "Benedykt_XVI_(2010-10-17)_2.jpg",
+   "a": "Kancelaria Prezydenta RP",
+   "l": "GFDL 1.2",
+   "u": "https://commons.wikimedia.org/wiki/File:Benedykt_XVI_(2010-10-17)_2.jpg",
+   "r": "c",
+   "v": "17836fae",
+   "n": "Papa Bento XVI"
+  },
+  "p284": {
+   "f": "fotos-3/p284.jpg",
+   "file": "Vaclav_Havel.jpg",
+   "a": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
+   "l": "CC BY-SA 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Vaclav_Havel.jpg",
+   "r": "c",
+   "v": "5beddb1c",
+   "n": "Václav Havel"
+  },
+  "p285": {
+   "f": "fotos-3/p285.jpg",
+   "file": "Josip_Broz_Tito_uniform_portrait.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Josip_Broz_Tito_uniform_portrait.jpg",
+   "r": "c",
+   "v": "8c8692d4",
+   "n": "Josip Broz Tito"
+  },
+  "p286": {
+   "f": "fotos-3/p286.jpg",
+   "file": "Leon_Trotsky_1918_(3x4_rotated_cropped_b).jpg",
+   "a": "Rijksmuseum",
+   "l": "CC0",
+   "u": "https://commons.wikimedia.org/wiki/File:Leon_Trotsky_1918_(3x4_rotated_cropped_b).jpg",
+   "r": "c",
+   "v": "9894ec2a",
+   "n": "Leon Trotsky"
+  },
+  "p287": {
+   "f": "fotos-3/p287.jpg",
+   "file": "Rosa_Luxemburg_(cropped).jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Rosa_Luxemburg_(cropped).jpg",
+   "r": "c",
+   "v": "5940f1df",
+   "n": "Rosa Luxemburgo"
+  },
+  "p288": {
+   "f": "fotos-3/p288.jpg",
+   "file": "Friedrich_Engels_portrait_(cropped).jpg",
+   "a": "William Hall (1826-ca. 1898) (cropped and sepia tone removed)",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Friedrich_Engels_portrait_(cropped).jpg",
+   "r": "c",
+   "v": "3d9e8762",
+   "n": "Friedrich Engels"
+  },
+  "p289": {
+   "f": "fotos-3/p289.jpg",
+   "file": "Gramsci.png",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Gramsci.png",
+   "r": "c",
+   "v": "7c2c67f7",
+   "n": "Antonio Gramsci"
+  },
+  "p290": {
+   "f": "fotos-3/p290.jpg",
+   "file": "Boris_Yeltsin_(3x4_cropped).jpg",
+   "a": "Presidential Press and Information Office",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Boris_Yeltsin_(3x4_cropped).jpg",
+   "r": "c",
+   "v": "e65ed569",
+   "n": "Boris Yeltsin"
+  },
+  "p291": {
+   "f": "fotos-3/p291.jpg",
+   "file": "Sir_Joshua_Reynolds_-_Edmund_Burke,_1729_-_1797._Statesman,_orator_and_author_-_PG_2362_-_National_Galleries_of_Scotland_(cropped).jpg",
+   "a": "",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Sir_Joshua_Reynolds_-_Edmund_Burke,_1729_-_1797._Statesman,_orator_and_author_-_PG_2362_-_National_Galleries_of_Scotland_(cropped).jpg",
+   "r": "c",
+   "v": "3c3367f9",
+   "n": "Edmund Burke"
+  },
+  "p292": {
+   "f": "fotos-3/p292.jpg",
+   "file": "Friedrich_Hayek_portrait.jpg",
+   "a": "The original uploader was DickClarkMises at English Wikipedia .",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Friedrich_Hayek_portrait.jpg",
+   "r": "c",
+   "v": "36c1ae8e",
+   "n": "Friedrich Hayek"
+  },
+  "p293": {
+   "f": "fotos-3/p293.jpg",
+   "file": "John_Maynard_Keynes_(1929).jpg",
+   "a": "Autor desconhecido, dedicated to Bettmann Archive",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:John_Maynard_Keynes_(1929).jpg",
+   "r": "c",
+   "v": "7704d112",
+   "n": "John Maynard Keynes"
+  },
+  "p294": {
+   "f": "fotos-3/p294.jpg",
+   "file": "Adam_Smith_The_Muir_portrait.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Adam_Smith_The_Muir_portrait.jpg",
+   "r": "c",
+   "v": "0b8f5790",
+   "n": "Adam Smith"
+  },
+  "p295": {
+   "f": "fotos-3/p295.jpg",
+   "file": "Catherine_II_after_Roslin,_Rokotov_(1780s,_Kunsthistorisches_Museum).jpg",
+   "a": "After Alexander Roslin",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Catherine_II_after_Roslin,_Rokotov_(1780s,_Kunsthistorisches_Museum).jpg",
+   "r": "c",
+   "v": "e69d1684",
+   "n": "Catarina, a Grande"
+  },
+  "p296": {
+   "f": "fotos-3/p296.jpg",
+   "file": "Inconnu_d'après_J.-M._Nattier,_Portrait_de_Pierre_Ier_(musée_de_l’Ermitage).jpg",
+   "a": "Attributed to Jean-Marc Nattier",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Inconnu_d%27apr%C3%A8s_J.-M._Nattier,_Portrait_de_Pierre_Ier_(mus%C3%A9e_de_l%E2%80%99Ermitage).jpg",
+   "r": "c",
+   "v": "a3063d24",
+   "n": "Pedro, o Grande"
+  },
+  "p297": {
+   "f": "fotos-3/p297.jpg",
+   "file": "Louis_XIV_of_France.jpg",
+   "a": "Hyacinthe Rigaud",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Louis_XIV_of_France.jpg",
+   "r": "c",
+   "v": "27e8aa64",
+   "n": "Luís XIV"
+  },
+  "p298": {
+   "f": "fotos-4/p298.jpg",
+   "file": "Louise_Elisabeth_Vigée-Lebrun_-_Marie-Antoinette_dit_«_à_la_Rose_»_-_Google_Art_Project.jpg",
+   "a": "Élisabeth Louise Vigée Le Brun",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Louise_Elisabeth_Vig%C3%A9e-Lebrun_-_Marie-Antoinette_dit_%C2%AB_%C3%A0_la_Rose_%C2%BB_-_Google_Art_Project.jpg",
+   "r": "c",
+   "v": "f9f8db0a",
+   "n": "Maria Antonieta"
+  },
+  "p299": {
+   "f": "fotos-4/p299.jpg",
+   "file": "After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg",
+   "a": "Workshop of Hans Holbein the Younger",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg",
+   "r": "c",
+   "v": "5d44ee3b",
+   "n": "Henrique VIII"
+  },
+  "p300": {
+   "f": "fotos-4/p300.jpg",
+   "file": "Darnley_stage_3.jpg",
+   "a": "Unidentified painter",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Darnley_stage_3.jpg",
+   "r": "c",
+   "v": "8198536a",
+   "n": "Elizabeth I"
+  },
+  "p301": {
+   "f": "fotos-4/p301.jpg",
+   "file": "Robespierre.jpg",
+   "a": "Unidentified painter",
+   "l": "CC0",
+   "u": "https://commons.wikimedia.org/wiki/File:Robespierre.jpg",
+   "r": "c",
+   "v": "747d7666",
+   "n": "Maximilien de Robespierre"
+  },
+  "p302": {
+   "f": "fotos-4/p302.jpg",
+   "file": "Portrait_of_Giuseppe_Garibaldi.jpg",
+   "a": "Salvatore Lo Forte",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Portrait_of_Giuseppe_Garibaldi.jpg",
+   "r": "c",
+   "v": "eda6433b",
+   "n": "Giuseppe Garibaldi"
+  },
+  "p303": {
+   "f": "fotos-4/p303.jpg",
+   "file": "Bargello_-_Kapelle_Fresko_2a.jpg",
+   "a": "Wolfgang Sauber",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Bargello_-_Kapelle_Fresko_2a.jpg",
+   "r": "c",
+   "v": "2f632779",
+   "n": "Dante Alighieri"
+  },
+  "p304": {
+   "f": "fotos-4/p304.jpg",
+   "file": "Michelangelo_Daniele_da_Volterra_(dettaglio).jpg",
+   "a": "Attributed to Daniele da Volterra",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Michelangelo_Daniele_da_Volterra_(dettaglio).jpg",
+   "r": "c",
+   "v": "36c497ea",
+   "n": "Michelangelo"
+  },
+  "p305": {
+   "f": "fotos-4/p305.jpg",
+   "file": "Portrait_of_Niccolò_Machiavelli_by_Santi_di_Tito.jpg",
+   "a": "Santi di Tito",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg",
+   "r": "c",
+   "v": "39561c05",
+   "n": "Nicolau Maquiavel"
+  },
+  "p306": {
+   "f": "fotos-4/p306.jpg",
+   "file": "Plato_Silanion_Musei_Capitolini_MC1377.png",
+   "a": "Marie-Lan Nguyen",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.png",
+   "r": "c",
+   "v": "bb498823",
+   "n": "Platão"
+  },
+  "p307": {
+   "f": "fotos-4/p307.jpg",
+   "file": "Maurice_Quentin_de_La_Tour_-_Portrait_of_Jean-Jacques_Rousseau_-_adjusted.jpg",
+   "a": "Maurice Quentin de La Tour (Life time: 1788)",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Maurice_Quentin_de_La_Tour_-_Portrait_of_Jean-Jacques_Rousseau_-_adjusted.jpg",
+   "r": "c",
+   "v": "7c88315e",
+   "n": "Jean-Jacques Rousseau"
+  },
+  "p308": {
+   "f": "fotos-4/p308.jpg",
+   "file": "Nicolas_de_Largillière_-_Portrait_de_Voltaire_(1694-1778)_en_1718_-_P208_-_musée_Carnavalet_-_5_(cropped).jpg",
+   "a": "Nicolas de Largillière",
+   "l": "CC0",
+   "u": "https://commons.wikimedia.org/wiki/File:Nicolas_de_Largilli%C3%A8re_-_Portrait_de_Voltaire_(1694-1778)_en_1718_-_P208_-_mus%C3%A9e_Carnavalet_-_5_(cropped).jpg",
+   "r": "c",
+   "v": "cbcf0eee",
+   "n": "Voltaire"
+  },
+  "p309": {
+   "f": "fotos-4/p309.jpg",
+   "file": "Victor_Hugo_by_Étienne_Carjat_1876_-_full.jpg",
+   "a": "Étienne Carjat",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg",
+   "r": "c",
+   "v": "0070e8ad",
+   "n": "Victor Hugo"
+  },
+  "p310": {
+   "f": "fotos-4/p310.jpg",
+   "file": "Nietzsche187a.jpg",
+   "a": "Friedrich Hermann Hartmann",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Nietzsche187a.jpg",
+   "r": "c",
+   "v": "cce9ba35",
+   "n": "Friedrich Nietzsche"
+  },
+  "p311": {
+   "f": "fotos-4/p311.jpg",
+   "file": "Immanuel_Kant_-_Gemaelde_1.jpg",
+   "a": "Johann Gottlieb Becker (1720-1782)",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_-_Gemaelde_1.jpg",
+   "r": "c",
+   "v": "91d6ee35",
+   "n": "Immanuel Kant"
+  },
+  "p312": {
+   "f": "fotos-4/p312.jpg",
+   "file": "Simone_De_Beauvoir_(cropped).jpg",
+   "a": "Moshe Milner",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Simone_De_Beauvoir_(cropped).jpg",
+   "r": "c",
+   "v": "f221bf2d",
+   "n": "Simone de Beauvoir"
+  },
+  "p313": {
+   "f": "fotos-4/p313.jpg",
+   "file": "Jean_Paul_Sartre_1965.jpg",
+   "a": "Autor desconhecido",
+   "l": "CC BY-SA 3.0 nl",
+   "u": "https://commons.wikimedia.org/wiki/File:Jean_Paul_Sartre_1965.jpg",
+   "r": "c",
+   "v": "5c848971",
+   "n": "Jean-Paul Sartre"
+  },
+  "p314": {
+   "f": "fotos-4/p314.jpg",
+   "file": "George_Orwell_press_photo.jpg",
+   "a": "Branch of the National Union of Journalists (BNUJ).",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:George_Orwell_press_photo.jpg",
+   "r": "c",
+   "v": "a792acf1",
+   "n": "George Orwell"
+  },
+  "p315": {
+   "f": "fotos-4/p315.jpg",
+   "file": "Leo_Tolstoy_1908_Portrait_(3x4_cropped).jpg",
+   "a": "Sergei Prokudin-Gorskii",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Leo_Tolstoy_1908_Portrait_(3x4_cropped).jpg",
+   "r": "c",
+   "v": "2a3dd7ab",
+   "n": "Liev Tolstói"
+  },
+  "p316": {
+   "f": "fotos-4/p316.jpg",
+   "file": "Vasily_Perov_-_Портрет_Ф.М.Достоевского_-_Google_Art_Project.jpg",
+   "a": "Vasily Perov",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg",
+   "r": "c",
+   "v": "c9b61e75",
+   "n": "Fiódor Dostoiévski"
+  },
+  "p317": {
+   "f": "fotos-4/p317.jpg",
+   "file": "Dickens_Gurney_head.jpg",
+   "a": "Jeremiah Gurney",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Dickens_Gurney_head.jpg",
+   "r": "c",
+   "v": "e0c6daed",
+   "n": "Charles Dickens"
+  },
+  "p318": {
+   "f": "fotos-4/p318.jpg",
+   "file": "Cervantes_Jáuregui.jpg",
+   "a": "Attributed to Juan de Jáuregui",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Cervantes_J%C3%A1uregui.jpg",
+   "r": "c",
+   "v": "19f22a3f",
+   "n": "Miguel de Cervantes"
+  },
+  "p319": {
+   "f": "fotos-4/p319.jpg",
+   "file": "Pessoa_chapeu.jpg",
+   "a": "Template:Cavalão",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Pessoa_chapeu.jpg",
+   "r": "c",
+   "v": "6f8c3e99",
+   "n": "Fernando Pessoa"
+  },
+  "p320": {
+   "f": "fotos-4/p320.jpg",
+   "file": "Camões,_por_Fernão_Gomes.jpg",
+   "a": "Fernão Gomes",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Cam%C3%B5es,_por_Fern%C3%A3o_Gomes.jpg",
+   "r": "c",
+   "v": "d6c91614",
+   "n": "Luís de Camões"
+  },
+  "p321": {
+   "f": "fotos-4/p321.jpg",
+   "file": "1999-Saramago_a_Siena.jpg",
+   "a": "opera propria",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:1999-Saramago_a_Siena.jpg",
+   "r": "c",
+   "v": "46a6fead",
+   "n": "José Saramago"
+  },
+  "p322": {
+   "f": "fotos-4/p322.jpg",
+   "file": "Johann_Sebastian_Bach.jpg",
+   "a": "Elias Gottlob Haussmann",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.jpg",
+   "r": "c",
+   "v": "6c361f0c",
+   "n": "Johann Sebastian Bach"
+  },
+  "p323": {
+   "f": "fotos-4/p323.jpg",
+   "file": "Frederic_Chopin_photo.jpeg",
+   "a": "Louis-Auguste Bisson",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Frederic_Chopin_photo.jpeg",
+   "r": "c",
+   "v": "5cfa95b3",
+   "n": "Frédéric Chopin"
+  },
+  "p324": {
+   "f": "fotos-4/p324.jpg",
+   "file": "Tchaikovsky_by_Reutlinger_(cropped).jpg",
+   "a": "Émile Reutlinger",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_by_Reutlinger_(cropped).jpg",
+   "r": "c",
+   "v": "a1135358",
+   "n": "Piotr Tchaikovsky"
+  },
+  "p325": {
+   "f": "fotos-4/p325.jpg",
+   "file": "Salvador_Dalí_1939.jpg",
+   "a": "Van Vechten, Carl, 1880-1964.",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Salvador_Dal%C3%AD_1939.jpg",
+   "r": "c",
+   "v": "fff744b2",
+   "n": "Salvador Dalí"
+  },
+  "p326": {
+   "f": "fotos-4/p326.jpg",
+   "file": "Claude_Monet_1899_Nadar_crop.jpg",
+   "a": "Nadar",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Claude_Monet_1899_Nadar_crop.jpg",
+   "r": "c",
+   "v": "dcc9a2bf",
+   "n": "Claude Monet"
+  },
+  "p327": {
+   "f": "fotos-4/p327.jpg",
+   "file": "Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg",
+   "a": "Rembrandt",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg",
+   "r": "c",
+   "v": "f0fb739a",
+   "n": "Rembrandt"
+  },
+  "p328": {
+   "f": "fotos-4/p328.jpg",
+   "file": "Charlie_Chaplin_portrait_Getty_1739411952.jpg",
+   "a": "Strauss-Peyton Studio",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Charlie_Chaplin_portrait_Getty_1739411952.jpg",
+   "r": "c",
+   "v": "e6b6df94",
+   "n": "Charlie Chaplin"
+  },
+  "p329": {
+   "f": "fotos-4/p329.jpg",
+   "file": "MaccaLyricsRFH051121_(15_of_18)_(updated)_(cropped).jpg",
+   "a": "Raph_PH",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:MaccaLyricsRFH051121_(15_of_18)_(updated)_(cropped).jpg",
+   "r": "c",
+   "v": "34961d14",
+   "n": "Paul McCartney"
+  },
+  "p330": {
+   "f": "fotos-4/p330.jpg",
+   "file": "David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg",
+   "a": "Adam Bielawski",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg",
+   "r": "c",
+   "v": "12de6178",
+   "n": "David Bowie"
+  },
+  "p331": {
+   "f": "fotos-4/p331.jpg",
+   "file": "Johan_Cruijff_(1974).jpg",
+   "a": "Rob Mieremet / Anefo",
+   "l": "CC0",
+   "u": "https://commons.wikimedia.org/wiki/File:Johan_Cruijff_(1974).jpg",
+   "r": "c",
+   "v": "c924e1fa",
+   "n": "Johan Cruyff"
+  },
+  "p332": {
+   "f": "fotos-4/p332.jpg",
+   "file": "Zinedine_Zidane_by_Tasnim_03.jpg",
+   "a": "Hadi Abyar",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Zinedine_Zidane_by_Tasnim_03.jpg",
+   "r": "c",
+   "v": "1c8e3936",
+   "n": "Zinedine Zidane"
+  },
+  "p333": {
+   "f": "fotos-4/p333.jpg",
+   "file": "Michael_Schumacher,_September_2005.jpg",
+   "a": "Original: Aécio Neves - Wellington Pedro/Imprensa MG / Derivative work: F1fans , FMSky",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Michael_Schumacher,_September_2005.jpg",
+   "r": "c",
+   "v": "7168f701",
+   "n": "Michael Schumacher"
+  },
+  "p334": {
+   "f": "fotos-4/p334.jpg",
+   "file": "Roger_Federer_2015_(cropped).jpg",
+   "a": "Tatiana from Moscow, Russia",
+   "l": "CC BY-SA 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Roger_Federer_2015_(cropped).jpg",
+   "r": "c",
+   "v": "e66e170c",
+   "n": "Roger Federer"
+  },
+  "p335": {
+   "f": "fotos-4/p335.jpg",
+   "file": "Rafael_Nadal_en_2024_(cropped).jpg",
+   "a": "Barcex",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Rafael_Nadal_en_2024_(cropped).jpg",
+   "r": "c",
+   "v": "96cbcbdb",
+   "n": "Rafael Nadal"
+  },
+  "p336": {
+   "f": "fotos-4/p336.jpg",
+   "file": "Greta_Thunberg_in_May_2026_(cropped_3x4).jpg",
+   "a": "Kushal Das",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Greta_Thunberg_in_May_2026_(cropped_3x4).jpg",
+   "r": "c",
+   "v": "2f8bd99d",
+   "n": "Greta Thunberg"
+  },
+  "p337": {
+   "f": "fotos-4/p337.jpg",
+   "file": "Alfred_Nobel3.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Alfred_Nobel3.jpg",
+   "r": "c",
+   "v": "43157612",
+   "n": "Alfred Nobel"
+  },
+  "p338": {
+   "f": "fotos-4/p338.jpg",
+   "file": "Dmitri_Mendeleev.jpg",
+   "a": "Original: Unknown author Unknown author Upload: Germansociety2014",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Dmitri_Mendeleev.jpg",
+   "r": "c",
+   "v": "6c938083",
+   "n": "Dmitri Mendeleiev"
+  },
+  "p339": {
+   "f": "fotos-4/p339.jpg",
+   "file": "Nikolaus_Kopernikus_MOT.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Nikolaus_Kopernikus_MOT.jpg",
+   "r": "c",
+   "v": "437dc5b6",
+   "n": "Nicolau Copérnico"
+  },
+  "p340": {
+   "f": "fotos-4/p340.jpg",
+   "file": "Alan_turing_header.jpg",
+   "a": "Elliott & Fry",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Alan_turing_header.jpg",
+   "r": "c",
+   "v": "c699a761",
+   "n": "Alan Turing"
+  },
+  "p341": {
+   "f": "fotos-4/p341.jpg",
+   "file": "Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png",
+   "a": "Antoine Claudet",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png",
+   "r": "c",
+   "v": "56ebfed9",
+   "n": "Ada Lovelace"
+  },
+  "p342": {
+   "f": "fotos-4/p342.jpg",
+   "file": "Tim_Berners-Lee_at_the_2025_Web_Summit_(Cropped).jpg",
+   "a": "Summit",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Tim_Berners-Lee_at_the_2025_Web_Summit_(Cropped).jpg",
+   "r": "c",
+   "v": "6db0f67b",
+   "n": "Tim Berners-Lee"
+  },
+  "p343": {
+   "f": "fotos-4/p343.jpg",
+   "file": "Rasputin_PA.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Rasputin_PA.jpg",
+   "r": "c",
+   "v": "7bddfd36",
+   "n": "Grigori Rasputin"
+  },
+  "p344": {
+   "f": "fotos-4/p344.jpg",
+   "file": "Robert_Mugabe_Official_Portrait_(4x5_cropped).jpg",
+   "a": "Government of Zimbabwe, taken by Joseph Nyadzayo as Presidential Photographer",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Robert_Mugabe_Official_Portrait_(4x5_cropped).jpg",
+   "r": "c",
+   "v": "d4b53ad2",
+   "n": "Robert Mugabe"
+  },
+  "p345": {
+   "f": "fotos-4/p345.jpg",
+   "file": "Paul_Kagame_2024_(cropped).jpg",
+   "a": "Saeima",
+   "l": "CC BY-SA 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Paul_Kagame_2024_(cropped).jpg",
+   "r": "c",
+   "v": "d25964d6",
+   "n": "Paul Kagame"
+  },
+  "p346": {
+   "f": "fotos-4/p346.jpg",
+   "file": "Ellen_Johnson-Sirleaf_(2022)_(cropped).jpg",
+   "a": "PMO Barbados",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Ellen_Johnson-Sirleaf_(2022)_(cropped).jpg",
+   "r": "c",
+   "v": "8557bb74",
+   "n": "Ellen Johnson Sirleaf"
+  },
+  "p347": {
+   "f": "fotos-4/p347.jpg",
+   "file": "Clar_Weah,_George_Weah,_Joe_Biden,_Jill_Biden_(cropped).jpg",
+   "a": "United States Department of State Africa U.S.-Africa Leaders Summit: Photos and Videos",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Clar_Weah,_George_Weah,_Joe_Biden,_Jill_Biden_(cropped).jpg",
+   "r": "c",
+   "v": "3719b023",
+   "n": "George Weah"
+  },
+  "p348": {
+   "f": "fotos-4/p348.jpg",
+   "file": "President_MPLA,_heer_Neto_door_Den_Uyl_ontvangen_premier_Den_Uyl_en_A_Neto_(r),_Bestanddeelnr_927-8518_(cropped).jpg",
+   "a": "Rob Mieremet / Anefo",
+   "l": "CC0",
+   "u": "https://commons.wikimedia.org/wiki/File:President_MPLA,_heer_Neto_door_Den_Uyl_ontvangen_premier_Den_Uyl_en_A_Neto_(r),_Bestanddeelnr_927-8518_(cropped).jpg",
+   "r": "c",
+   "v": "136848fa",
+   "n": "Agostinho Neto"
+  },
+  "p349": {
+   "f": "fotos-4/p349.jpg",
+   "file": "Samora_Moises_Machel_detail_DF-SC-88-01383.jpg",
+   "a": "Department of Defense. American Forces Information Service. Defense Visual Information Center. 1994",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Samora_Moises_Machel_detail_DF-SC-88-01383.jpg",
+   "r": "c",
+   "v": "5a9d82f6",
+   "n": "Samora Machel"
+  },
+  "p350": {
+   "f": "fotos-4/p350.jpg",
+   "file": "Cabral_2.png",
+   "a": "Anonymous Unknown author",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Cabral_2.png",
+   "r": "c",
+   "v": "baecf258",
+   "n": "Amílcar Cabral"
+  },
+  "p351": {
+   "f": "fotos-4/p351.jpg",
+   "file": "Naguib_Mahfouz_HR.jpg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Naguib_Mahfouz_HR.jpg",
+   "r": "c",
+   "v": "b4a16d94",
+   "n": "Naguib Mahfouz"
+  },
+  "p352": {
+   "f": "fotos-4/p352.jpg",
+   "file": "F.W._de_Klerk_wait_to_speak_in_Philadelphia,_Pennsylvania_LCCN2011634246_(cropped).tif",
+   "a": "Carol M. Highsmith",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:F.W._de_Klerk_wait_to_speak_in_Philadelphia,_Pennsylvania_LCCN2011634246_(cropped).tif",
+   "r": "c",
+   "v": "2d3e5728",
+   "n": "Frederik de Klerk"
+  },
+  "p353": {
+   "f": "fotos-4/p353.jpg",
+   "file": "UNESCO_History,_Visite_de_S._Exc._M._Léopold_Sedar_Senghor,_Président_de_la_République_du_Sénégal_-_UNESCO_-_PHOTO0000002688_0001_(cropped).tiff",
+   "a": "Dominique Roger",
+   "l": "CC BY-SA 3.0 igo",
+   "u": "https://commons.wikimedia.org/wiki/File:UNESCO_History,_Visite_de_S._Exc._M._L%C3%A9opold_Sedar_Senghor,_Pr%C3%A9sident_de_la_R%C3%A9publique_du_S%C3%A9n%C3%A9gal_-_UNESCO_-_PHOTO0000002688_0001_(cropped).tiff",
+   "r": "c",
+   "v": "91c5d824",
+   "n": "Léopold Sédar Senghor"
+  },
+  "p354": {
+   "f": "fotos-4/p354.jpg",
+   "file": "Wole_Soyinka_in_2018_(3x4_cropped).jpg",
+   "a": "Frankie Fouganthin",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Wole_Soyinka_in_2018_(3x4_cropped).jpg",
+   "r": "c",
+   "v": "6e7265b9",
+   "n": "Wole Soyinka"
+  },
+  "p355": {
+   "f": "fotos-4/p355.jpg",
+   "file": "Shinzō_Abe_20120501.jpg",
+   "a": "Prime Minister of Japan Official",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Shinz%C5%8D_Abe_20120501.jpg",
+   "r": "c",
+   "v": "3dcaec8e",
+   "n": "Shinzo Abe"
+  },
+  "p356": {
+   "f": "fotos-4/p356.jpg",
+   "file": "Narendra_Modi_Portrait_2026.jpg",
+   "a": "Prime Minister's Office",
+   "l": "GODL-India",
+   "u": "https://commons.wikimedia.org/wiki/File:Narendra_Modi_Portrait_2026.jpg",
+   "r": "c",
+   "v": "c6086414",
+   "n": "Narendra Modi"
+  },
+  "p357": {
+   "f": "fotos-4/p357.jpg",
+   "file": "蔣中正總統玉照.png",
+   "a": "Autor desconhecido",
+   "l": "Attribution",
+   "u": "https://commons.wikimedia.org/wiki/File:%E8%94%A3%E4%B8%AD%E6%AD%A3%E7%B8%BD%E7%B5%B1%E7%8E%89%E7%85%A7.png",
+   "r": "c",
+   "v": "bffc569a",
+   "n": "Chiang Kai-shek"
+  },
+  "p358": {
+   "f": "fotos-4/p358.jpg",
+   "file": "Park_Chung_Hee_(박정희)_Presidential_Portrait_(cropped).jpg",
+   "a": "Korea.net / Korean Culture and Information Service",
+   "l": "CC BY-SA 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Park_Chung_Hee_(%EB%B0%95%EC%A0%95%ED%9D%AC)_Presidential_Portrait_(cropped).jpg",
+   "r": "c",
+   "v": "08edf355",
+   "n": "Park Chung-hee"
+  },
+  "p359": {
+   "f": "fotos-4/p359.jpg",
+   "file": "Presiden_Sukarno.jpg",
+   "a": "Onbekend /Anonymous",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Presiden_Sukarno.jpg",
+   "r": "c",
+   "v": "54f283c3",
+   "n": "Sukarno"
+  },
+  "p360": {
+   "f": "fotos-4/p360.jpg",
+   "file": "Yitzhak_Rabin_1994_Portrait_(3x4_cropped).jpg",
+   "a": "Yaakov Saar",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Yitzhak_Rabin_1994_Portrait_(3x4_cropped).jpg",
+   "r": "c",
+   "v": "aa774c45",
+   "n": "Yitzhak Rabin"
+  },
+  "p361": {
+   "f": "fotos-4/p361.jpg",
+   "file": "Benjamin_Netanyahu,_February_2023_(cropped)(b).jpg",
+   "a": "Avi Ohayon",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Benjamin_Netanyahu,_February_2023_(cropped)(b).jpg",
+   "r": "c",
+   "v": "b3792f62",
+   "n": "Benjamin Netanyahu"
+  },
+  "p362": {
+   "f": "fotos-4/p362.jpg",
+   "file": "Prime_Minister_Imran_Khan_Adresses_the_Forum_01.jpg",
+   "a": "Imran Khan",
+   "l": "CC BY 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Imran_Khan_Adresses_the_Forum_01.jpg",
+   "r": "c",
+   "v": "4184cd79",
+   "n": "Imran Khan"
+  },
+  "p363": {
+   "f": "fotos-4/p363.jpg",
+   "file": "Aung_San_Suu_Kyi_at_the_Enthronement_of_Naruhito_(1).jpg",
+   "a": "Cabinet Public Relations Office of the Cabinet Secretariat",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Aung_San_Suu_Kyi_at_the_Enthronement_of_Naruhito_(1).jpg",
+   "r": "c",
+   "v": "d3213cff",
+   "n": "Aung San Suu Kyi"
+  },
+  "p364": {
+   "f": "fotos-4/p364.jpg",
+   "file": "Ban_Ki-moon_February_2016.jpg",
+   "a": "Chatham House",
+   "l": "CC BY 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Ban_Ki-moon_February_2016.jpg",
+   "r": "c",
+   "v": "d452162c",
+   "n": "Ban Ki-moon"
+  },
+  "p365": {
+   "f": "fotos-4/p365.jpg",
+   "file": "Portrait_Menzies_1950s.jpg",
+   "a": "National Library of Australia",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Portrait_Menzies_1950s.jpg",
+   "r": "c",
+   "v": "78fa64f1",
+   "n": "Robert Menzies"
+  },
+  "p366": {
+   "f": "fotos-4/p366.jpg",
+   "file": "Gough_Whitlam_at_the_Lodge_1974.jpg",
+   "a": "Work of the Australian Government",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Gough_Whitlam_at_the_Lodge_1974.jpg",
+   "r": "c",
+   "v": "3715b5a3",
+   "n": "Gough Whitlam"
+  },
+  "p367": {
+   "f": "fotos-4/p367.jpg",
+   "file": "Bob_Hawke-1983.jpg",
+   "a": "© Commonwealth of Australia 2011",
+   "l": "CC BY-SA 3.0 au",
+   "u": "https://commons.wikimedia.org/wiki/File:Bob_Hawke-1983.jpg",
+   "r": "c",
+   "v": "7a17959a",
+   "n": "Bob Hawke"
+  },
+  "p368": {
+   "f": "fotos-4/p368.jpg",
+   "file": "Howard_John_BANNER.jpg",
+   "a": "© Commonwealth of Australia 2011",
+   "l": "CC BY-SA 3.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Howard_John_BANNER.jpg",
+   "r": "c",
+   "v": "47c5a170",
+   "n": "John Howard"
+  },
+  "p369": {
+   "f": "fotos-4/p369.jpg",
+   "file": "Julia-gillard-official-portrait-pmc.jpg",
+   "a": "© Commonwealth of Australia (National Archives of Australia) 2019.",
+   "l": "CC BY 3.0 au",
+   "u": "https://commons.wikimedia.org/wiki/File:Julia-gillard-official-portrait-pmc.jpg",
+   "r": "c",
+   "v": "50241976",
+   "n": "Julia Gillard"
+  },
+  "p370": {
+   "f": "fotos-4/p370.jpg",
+   "file": "Helen_Clark_official_photo_(cropped).jpg",
+   "a": "Global Commission on Drug Policy",
+   "l": "CC BY-SA 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Helen_Clark_official_photo_(cropped).jpg",
+   "r": "c",
+   "v": "33745573",
+   "n": "Helen Clark"
+  },
+  "p371": {
+   "f": "fotos-4/p371.jpg",
+   "file": "John_Key_February_2015.jpg",
+   "a": "US Embassy NZ",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:John_Key_February_2015.jpg",
+   "r": "c",
+   "v": "60ea560c",
+   "n": "John Key"
+  },
+  "p372": {
+   "f": "fotos-4/p372.jpg",
+   "file": "KylieMinogue-byPhilipRomano.jpg",
+   "a": "PhilipRomanoPhoto",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:KylieMinogue-byPhilipRomano.jpg",
+   "r": "c",
+   "v": "2adb6fc5",
+   "n": "Kylie Minogue"
+  },
+  "p373": {
+   "f": "fotos-4/p373.jpg",
+   "file": "Lorde_Glasto2025-9_(cropped).jpg",
+   "a": "Raph_PH",
+   "l": "CC BY 4.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Lorde_Glasto2025-9_(cropped).jpg",
+   "r": "c",
+   "v": "029d093c",
+   "n": "Lorde"
+  },
+  "p374": {
+   "f": "fotos-4/p374.jpg",
+   "file": "Heath_Ledger_(2).jpg",
+   "a": "Howie",
+   "l": "CC BY-SA 2.0",
+   "u": "https://commons.wikimedia.org/wiki/File:Heath_Ledger_(2).jpg",
+   "r": "c",
+   "v": "44f794ff",
+   "n": "Heath Ledger"
+  },
+  "p375": {
+   "f": "fotos-4/p375.jpg",
+   "file": "Mary_MacKillop.jpg",
+   "a": "N.",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Mary_MacKillop.jpg",
+   "r": "c",
+   "v": "00ece84b",
+   "n": "Mary MacKillop"
+  }
+ }
+}

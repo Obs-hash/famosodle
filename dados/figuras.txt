@@ -1,0 +1,163 @@
+# nome|título na Wikipedia (en)|gênero|país (ISO2)|áreas|nascimento|morte (- = vivo)|dica 1|dica 2|frase (opcional)
+# anos negativos = antes de Cristo; ~ = data aproximada
+# áreas: pol política, cie ciência, art artes, mus música, lit literatura, esp esporte, ati ativismo, exp exploração, mil militar, fil filosofia, neg negócios, cin cinema e TV, rel religião
+Albert Einstein|Albert_Einstein|M|DE|cie|1879|1955|Físico teórico|Formulou a teoria da relatividade|A imaginação é mais importante que o conhecimento.
+Marie Curie|Marie_Curie|F|PL|cie|1867|1934|Física e química|Primeira pessoa a ganhar dois prêmios Nobel|
+Isaac Newton|Isaac_Newton|M|GB|cie|1643|1727|Físico e matemático|Formulou a lei da gravitação universal|Se vi mais longe, foi por estar sobre ombros de gigantes.
+Charles Darwin|Charles_Darwin|M|GB|cie|1809|1882|Naturalista|Propôs a teoria da evolução por seleção natural|
+William Shakespeare|William_Shakespeare|M|GB|lit|1564|1616|Dramaturgo e poeta|Escreveu Romeu e Julieta e Hamlet|Ser ou não ser, eis a questão.
+Leonardo da Vinci|Leonardo_da_Vinci|M|IT|art,cie|1452|1519|Pintor e inventor|Pintou a Mona Lisa|
+Napoleão Bonaparte|Napoleon|M|FR|pol,mil|1769|1821|Imperador|Conquistou boa parte da Europa no início do século XIX|Impossível não é uma palavra francesa.
+Winston Churchill|Winston_Churchill|M|GB|pol|1874|1965|Primeiro-ministro|Liderou o Reino Unido na Segunda Guerra Mundial|Nunca nos renderemos.
+Júlio César|Julius_Caesar|M|IT|pol,mil|-100|-44|General e ditador romano|Atravessou o rio Rubicão e tomou o poder em Roma|Vim, vi, venci.
+Galileu Galilei|Galileo_Galilei|M|IT|cie|1564|1642|Astrônomo e físico|Descobriu as quatro maiores luas de Júpiter com um telescópio|
+Wolfgang Amadeus Mozart|Wolfgang_Amadeus_Mozart|M|AT|mus|1756|1791|Compositor|Compôs a ópera A Flauta Mágica|
+Ludwig van Beethoven|Ludwig_van_Beethoven|M|DE|mus|1770|1827|Compositor e pianista|Compôs a Nona Sinfonia já quase completamente surdo|
+Vincent van Gogh|Vincent_van_Gogh|M|NL|art|1853|1890|Pintor|Pintou A Noite Estrelada|
+Pablo Picasso|Pablo_Picasso|M|ES|art|1881|1973|Pintor e escultor|Cofundou o cubismo e pintou Guernica|
+Joana d'Arc|Joan_of_Arc|F|FR|mil,rel|~1412|1431|Líder militar|Liderou o exército francês ainda adolescente na Guerra dos Cem Anos|
+Rainha Vitória|Queen_Victoria|F|GB|pol|1819|1901|Rainha|Reinou por mais de 63 anos no auge do Império Britânico|
+Elizabeth II|Elizabeth_II|F|GB|pol|1926|2022|Rainha|Monarca com o reinado mais longo da história britânica|
+Cristóvão Colombo|Christopher_Columbus|M|IT|exp|1451|1506|Navegador|Chegou à América em 1492|
+Karl Marx|Karl_Marx|M|DE|fil,pol|1818|1883|Filósofo e economista|Escreveu O Capital e o Manifesto Comunista|
+Sigmund Freud|Sigmund_Freud|M|AT|cie|1856|1939|Médico neurologista|Criou a psicanálise|
+Aristóteles|Aristotle|M|GR|fil,cie|-384|-322|Filósofo|Foi professor de Alexandre, o Grande|
+Sócrates|Socrates|M|GR|fil|~-470|-399|Filósofo|Foi condenado a beber cicuta em Atenas|Uma vida sem exame não vale a pena ser vivida.
+Alexandre, o Grande|Alexander_the_Great|M|GR|mil,pol|-356|-323|Rei da Macedônia|Criou um império que ia da Grécia até a Índia|
+Vladimir Lenin|Vladimir_Lenin|M|RU|pol|1870|1924|Revolucionário|Liderou a Revolução Russa de 1917|
+Mikhail Gorbachev|Mikhail_Gorbachev|M|RU|pol|1931|2022|Líder soviético|Último líder da União Soviética|
+Yuri Gagarin|Yuri_Gagarin|M|RU|exp|1934|1968|Cosmonauta|Primeiro ser humano a viajar ao espaço|
+Florence Nightingale|Florence_Nightingale|F|GB|cie|1820|1910|Enfermeira|Fundou a enfermagem moderna|
+Anne Frank|Anne_Frank|F|NL|lit|1929|1945|Autora de diário|Escreveu um diário enquanto vivia escondida durante a Segunda Guerra|
+Cristiano Ronaldo|Cristiano_Ronaldo|M|PT|esp|1985|-|Jogador de futebol|Maior artilheiro da história das seleções nacionais|
+Freddie Mercury|Freddie_Mercury|M|GB|mus|1946|1991|Cantor e compositor|Vocalista da banda Queen|
+John Lennon|John_Lennon|M|GB|mus|1940|1980|Músico|Cofundou os Beatles|
+Martinho Lutero|Martin_Luther|M|DE|rel|1483|1546|Monge e teólogo|Iniciou a Reforma Protestante|
+Johannes Gutenberg|Johannes_Gutenberg|M|DE|cie|~1400|1468|Inventor|Criou a prensa de tipos móveis na Europa|
+Fernão de Magalhães|Ferdinand_Magellan|M|PT|exp|~1480|1521|Navegador|Liderou a primeira expedição de volta ao mundo|
+Pedro Álvares Cabral|Pedro_Álvares_Cabral|M|PT|exp|~1467|~1520|Navegador|Chegou ao Brasil em 1500|
+Agatha Christie|Agatha_Christie|F|GB|lit|1890|1976|Escritora|Criou o detetive Hercule Poirot|
+Princesa Diana|Diana,_Princess_of_Wales|F|GB|ati|1961|1997|Princesa|Ficou conhecida como a princesa do povo|
+Stephen Hawking|Stephen_Hawking|M|GB|cie|1942|2018|Físico teórico|Escreveu Uma Breve História do Tempo|
+Alexander Fleming|Alexander_Fleming|M|GB|cie|1881|1955|Médico e bacteriologista|Descobriu a penicilina|
+Louis Pasteur|Louis_Pasteur|M|FR|cie|1822|1895|Químico e biólogo|Criou a pasteurização e a vacina contra a raiva|
+René Descartes|René_Descartes|M|FR|fil,cie|1596|1650|Filósofo e matemático|Criou o plano cartesiano|Penso, logo existo.
+Coco Chanel|Coco_Chanel|F|FR|neg,art|1883|1971|Estilista|Popularizou o pretinho básico|
+Muhammad Ali|Muhammad_Ali|M|US|esp,ati|1942|2016|Boxeador|Foi campeão mundial dos pesos-pesados três vezes|Flutue como uma borboleta, ferroe como uma abelha.
+Malcolm X|Malcolm_X|M|US|ati|1925|1965|Ativista e orador|Líder pelos direitos dos negros, ligado à Nação do Islã|Por quaisquer meios necessários.
+Martin Luther King Jr.|Martin_Luther_King_Jr.|M|US|ati,rel|1929|1968|Pastor e ativista|Ganhou o Nobel da Paz liderando o movimento pelos direitos civis|Eu tenho um sonho.
+Abraham Lincoln|Abraham_Lincoln|M|US|pol|1809|1865|Presidente|Aboliu a escravidão nos Estados Unidos durante a Guerra Civil|Uma casa dividida contra si mesma não pode se manter de pé.
+George Washington|George_Washington|M|US|pol,mil|1732|1799|Presidente e general|Primeiro presidente dos Estados Unidos|
+John F. Kennedy|John_F._Kennedy|M|US|pol|1917|1963|Presidente|Presidente americano assassinado em Dallas|Não pergunte o que seu país pode fazer por você; pergunte o que você pode fazer por seu país.
+Barack Obama|Barack_Obama|M|US|pol|1961|-|Presidente|Primeiro presidente negro dos Estados Unidos|Sim, nós podemos.
+Rosa Parks|Rosa_Parks|F|US|ati|1913|2005|Ativista|Recusou-se a ceder o assento em um ônibus segregado|O único cansaço que eu tinha era o de ceder.
+Neil Armstrong|Neil_Armstrong|M|US|exp|1930|2012|Astronauta|Primeira pessoa a pisar na Lua|É um pequeno passo para um homem, um salto gigante para a humanidade.
+Thomas Edison|Thomas_Edison|M|US|cie,neg|1847|1931|Inventor|Desenvolveu a lâmpada elétrica comercial|Gênio é um por cento inspiração e noventa e nove por cento transpiração.
+Benjamin Franklin|Benjamin_Franklin|M|US|pol,cie|1706|1790|Inventor e político|Inventou o para-raios|Tempo é dinheiro.
+Steve Jobs|Steve_Jobs|M|US|neg|1955|2011|Empresário|Cofundou a Apple|A única maneira de fazer um ótimo trabalho é amar o que você faz.
+Walt Disney|Walt_Disney|M|US|cin,neg|1901|1966|Animador e empresário|Criou o Mickey Mouse|Espero que nunca esqueçamos que tudo começou com um rato.
+Michael Jackson|Michael_Jackson|M|US|mus|1958|2009|Cantor e dançarino|Conhecido como o Rei do Pop|
+Elvis Presley|Elvis_Presley|M|US|mus,cin|1935|1977|Cantor|Conhecido como o Rei do Rock|
+Marilyn Monroe|Marilyn_Monroe|F|US|cin|1926|1962|Atriz|Ícone do cinema de Hollywood nos anos 1950|
+Michael Jordan|Michael_Jordan|M|US|esp|1963|-|Jogador de basquete|Seis vezes campeão da NBA com o Chicago Bulls|Errei mais de nove mil arremessos na minha carreira.
+Bill Gates|Bill_Gates|M|US|neg|1955|-|Empresário|Cofundou a Microsoft|
+Serena Williams|Serena_Williams|F|US|esp|1981|-|Tenista|Venceu 23 torneios de Grand Slam em simples|
+Harriet Tubman|Harriet_Tubman|F|US|ati|~1822|1913|Abolicionista|Guiou pessoas escravizadas rumo à liberdade pela Ferrovia Subterrânea|
+Pelé|Pelé|M|BR|esp|1940|2022|Jogador de futebol|Único jogador a vencer três Copas do Mundo|
+Ayrton Senna|Ayrton_Senna|M|BR|esp|1960|1994|Piloto de Fórmula 1|Tricampeão mundial de Fórmula 1|Se você não vai mais atrás de uma brecha que existe, deixa de ser um piloto de corrida.
+Getúlio Vargas|Getúlio_Vargas|M|BR|pol|1882|1954|Presidente|Criou a CLT e governou o Brasil por quase 19 anos|Saio da vida para entrar na história.
+Dom Pedro I|Pedro_I_of_Brazil|M|BR|pol|1798|1834|Imperador|Proclamou a independência do Brasil|Independência ou morte!
+Santos Dumont|Alberto_Santos-Dumont|M|BR|cie,exp|1873|1932|Inventor e aviador|Voou com o 14-Bis em Paris|
+Tiradentes|Tiradentes|M|BR|pol|1746|1792|Dentista e militar|Líder da Inconfidência Mineira|
+Princesa Isabel|Isabel,_Princess_Imperial_of_Brazil|F|BR|pol|1846|1921|Princesa regente|Assinou a Lei Áurea, que aboliu a escravidão no Brasil|
+Zumbi dos Palmares|Zumbi|M|BR|ati,mil|~1655|1695|Líder quilombola|Liderou o Quilombo dos Palmares|
+Machado de Assis|Machado_de_Assis|M|BR|lit|1839|1908|Escritor|Primeiro presidente da Academia Brasileira de Letras|
+Che Guevara|Che_Guevara|M|AR|pol,mil|1928|1967|Médico e revolucionário|Figura central da Revolução Cubana|Até a vitória, sempre.
+Fidel Castro|Fidel_Castro|M|CU|pol|1926|2016|Revolucionário e governante|Governou Cuba por quase cinco décadas|A história me absolverá.
+Simón Bolívar|Simón_Bolívar|M|VE|pol,mil|1783|1830|Líder militar e político|Liderou a independência de vários países sul-americanos|Arei no mar.
+Frida Kahlo|Frida_Kahlo|F|MX|art|1907|1954|Pintora|Ficou famosa pelos autorretratos|Pés, para que os quero, se tenho asas para voar?
+Diego Maradona|Diego_Maradona|M|AR|esp|1960|2020|Jogador de futebol|Campeão da Copa do Mundo de 1986|
+Lionel Messi|Lionel_Messi|M|AR|esp|1987|-|Jogador de futebol|Campeão da Copa do Mundo de 2022 e oito vezes Bola de Ouro|
+Eva Perón|Eva_Perón|F|AR|pol|1919|1952|Atriz e primeira-dama|Primeira-dama argentina conhecida como Evita|
+Emiliano Zapata|Emiliano_Zapata|M|MX|mil,pol|1879|1919|Revolucionário|Líder camponês da Revolução Mexicana|
+Bob Marley|Bob_Marley|M|JM|mus|1945|1981|Cantor e compositor|Levou o reggae para o mundo todo|
+Usain Bolt|Usain_Bolt|M|JM|esp|1986|-|Velocista|Recordista mundial dos 100 e dos 200 metros rasos|
+Gabriel García Márquez|Gabriel_García_Márquez|M|CO|lit|1927|2014|Escritor|Escreveu Cem Anos de Solidão|
+Pablo Neruda|Pablo_Neruda|M|CL|lit|1904|1973|Poeta|Poeta chileno vencedor do Nobel de Literatura|
+Nelson Mandela|Nelson_Mandela|M|ZA|pol,ati|1918|2013|Presidente|Passou 27 anos preso e se tornou o primeiro presidente negro da África do Sul|É um ideal pelo qual estou preparado para morrer.
+Desmond Tutu|Desmond_Tutu|M|ZA|rel,ati|1931|2021|Arcebispo|Ganhou o Nobel da Paz pela luta contra o apartheid|
+Cleópatra|Cleopatra|F|EG|pol|-69|-30|Rainha|Última governante do Egito ptolomaico|
+Tutancâmon|Tutankhamun|M|EG|pol|~-1341|~-1323|Faraó|Sua tumba foi encontrada quase intacta em 1922|
+Ramsés II|Ramesses_II|M|EG|pol,mil|~-1303|~-1213|Faraó|Reinou por 66 anos e construiu os templos de Abu Simbel|
+Nefertiti|Nefertiti|F|EG|pol|~-1370|~-1330|Rainha|Ficou famosa por um busto de calcário pintado|
+Gamal Abdel Nasser|Gamal_Abdel_Nasser|M|EG|pol|1918|1970|Presidente|Nacionalizou o Canal de Suez|
+Anwar Sadat|Anwar_Sadat|M|EG|pol|1918|1981|Presidente|Assinou a paz com Israel e ganhou o Nobel da Paz|
+Mohamed Salah|Mohamed_Salah|M|EG|esp|1992|-|Jogador de futebol|Craque egípcio e ídolo do Liverpool|
+Haile Selassie|Haile_Selassie|M|ET|pol|1892|1975|Imperador|Último imperador da Etiópia|
+Abebe Bikila|Abebe_Bikila|M|ET|esp|1932|1973|Maratonista|Venceu a maratona olímpica de Roma correndo descalço|
+Kwame Nkrumah|Kwame_Nkrumah|M|GH|pol|1909|1972|Presidente|Liderou Gana à independência em 1957|
+Kofi Annan|Kofi_Annan|M|GH|pol|1938|2018|Diplomata|Foi secretário-geral da ONU e ganhou o Nobel da Paz|
+Patrice Lumumba|Patrice_Lumumba|M|CD|pol|1925|1961|Primeiro-ministro|Primeiro chefe de governo do Congo independente|
+Thomas Sankara|Thomas_Sankara|M|BF|pol|1949|1987|Presidente|Deu ao seu país o nome de Burkina Faso|Pode-se matar um homem, mas não as suas ideias.
+Wangari Maathai|Wangarĩ_Maathai|F|KE|ati,cie|1940|2011|Ambientalista|Primeira mulher africana a ganhar o Nobel da Paz|
+Jomo Kenyatta|Jomo_Kenyatta|M|KE|pol|~1897|1978|Presidente|Primeiro presidente do Quênia|
+Mansa Musa|Mansa_Musa|M|ML|pol|~1280|~1337|Imperador|Imperador do Mali considerado um dos homens mais ricos da história|
+Shaka Zulu|Shaka|M|ZA|mil,pol|~1787|1828|Rei|Fundou o Reino Zulu|
+Chinua Achebe|Chinua_Achebe|M|NG|lit|1930|2013|Escritor|Escreveu O Mundo se Despedaça|
+Fela Kuti|Fela_Kuti|M|NG|mus,ati|1938|1997|Músico|Criou o afrobeat|
+Miriam Makeba|Miriam_Makeba|F|ZA|mus,ati|1932|2008|Cantora|Ficou conhecida como Mama África|
+Steve Biko|Steve_Biko|M|ZA|ati|1946|1977|Ativista|Liderou o Movimento da Consciência Negra|
+Julius Nyerere|Julius_Nyerere|M|TZ|pol|1922|1999|Presidente|Primeiro presidente da Tanzânia|
+Muammar Kadafi|Muammar_Gaddafi|M|LY|pol|1942|2011|Governante|Governou a Líbia por 42 anos|
+Aníbal|Hannibal|M|TN|mil|-247|~-183|General cartaginês|Atravessou os Alpes com elefantes|
+Santo Agostinho|Augustine_of_Hippo|M|DZ|fil,rel|354|430|Teólogo e filósofo|Escreveu o livro Confissões|
+Didier Drogba|Didier_Drogba|M|CI|esp|1978|-|Jogador de futebol|Maior artilheiro da história da seleção da Costa do Marfim|
+Samuel Eto'o|Samuel_Eto'o|M|CM|esp|1981|-|Jogador de futebol|Eleito quatro vezes o melhor jogador africano do ano|
+Mahatma Gandhi|Mahatma_Gandhi|M|IN|ati,pol|1869|1948|Advogado e ativista|Liderou a independência da Índia com resistência não violenta|Faça ou morra.
+Jawaharlal Nehru|Jawaharlal_Nehru|M|IN|pol|1889|1964|Primeiro-ministro|Primeiro chefe de governo da Índia independente|
+Indira Gandhi|Indira_Gandhi|F|IN|pol|1917|1984|Primeira-ministra|Primeira mulher a governar a Índia|
+Rabindranath Tagore|Rabindranath_Tagore|M|IN|lit,mus|1861|1941|Poeta|Primeiro não europeu a ganhar o Nobel de Literatura|
+Sachin Tendulkar|Sachin_Tendulkar|M|IN|esp|1973|-|Jogador de críquete|Maior pontuador da história do críquete internacional|
+Mao Tsé-tung|Mao_Zedong|M|CN|pol|1893|1976|Líder revolucionário|Fundou a República Popular da China|O poder político nasce do cano de uma arma.
+Xi Jinping|Xi_Jinping|M|CN|pol|1953|-|Presidente|Líder da China desde 2012|Águas claras e montanhas verdes valem tanto quanto montanhas de ouro e prata.
+Deng Xiaoping|Deng_Xiaoping|M|CN|pol|1904|1997|Líder político|Abriu a economia chinesa ao mercado|Não importa se o gato é preto ou branco, desde que ele cace ratos.
+Confúcio|Confucius|M|CN|fil|-551|-479|Filósofo|Seus ensinamentos moldaram a cultura chinesa por séculos|Não faça aos outros o que não quer para si.
+Sun Tzu|Sun_Tzu|M|CN|mil,fil|~-544|~-496|General e estrategista|Escreveu A Arte da Guerra|Conheça o inimigo e a si mesmo, e não correrá perigo em cem batalhas.
+Bruce Lee|Bruce_Lee|M|CN|esp,cin|1940|1973|Ator e lutador|Levou as artes marciais ao cinema mundial|Seja água, meu amigo.
+Jackie Chan|Jackie_Chan|M|CN|cin|1954|-|Ator e dublê|Famoso por fazer as próprias cenas de ação|
+Gengis Khan|Genghis_Khan|M|MN|mil,pol|~1162|1227|Imperador|Fundou o Império Mongol|
+Kim Jong-un|Kim_Jong_Un|M|KP|pol|~1984|-|Líder supremo|Governa a Coreia do Norte desde 2011|
+Kim Il-sung|Kim_Il_Sung|M|KP|pol|1912|1994|Líder supremo|Fundou a Coreia do Norte|
+Hirohito|Hirohito|M|JP|pol|1901|1989|Imperador|Imperador do Japão durante a Segunda Guerra Mundial|
+Hayao Miyazaki|Hayao_Miyazaki|M|JP|cin,art|1941|-|Animador e diretor|Cofundou o Studio Ghibli|
+Akira Kurosawa|Akira_Kurosawa|M|JP|cin|1910|1998|Cineasta|Dirigiu Os Sete Samurais|
+Shigeru Miyamoto|Shigeru_Miyamoto|M|JP|art,neg|1952|-|Criador de videogames|Criou Mario e The Legend of Zelda|
+Ho Chi Minh|Ho_Chi_Minh|M|VN|pol|1890|1969|Líder revolucionário|Liderou a luta pela independência do Vietnã|
+Malala Yousafzai|Malala_Yousafzai|F|PK|ati|1997|-|Ativista|Pessoa mais jovem a ganhar o Nobel da Paz|Uma criança, um professor, um livro e uma caneta podem mudar o mundo.
+Benazir Bhutto|Benazir_Bhutto|F|PK|pol|1953|2007|Primeira-ministra|Primeira mulher a governar um país de maioria muçulmana nos tempos modernos|
+Mustafa Kemal Atatürk|Mustafa_Kemal_Atatürk|M|TR|pol,mil|1881|1938|Presidente|Fundou a Turquia moderna|Paz em casa, paz no mundo.
+Solimão, o Magnífico|Suleiman_the_Magnificent|M|TR|pol|1494|1566|Sultão|Governou o Império Otomano no seu auge|
+Golda Meir|Golda_Meir|F|IL|pol|1898|1978|Primeira-ministra|Primeira mulher a chefiar o governo de Israel|
+Yasser Arafat|Yasser_Arafat|M|PS|pol|1929|2004|Líder político|Ganhou o Nobel da Paz pelos Acordos de Oslo|
+Ciro, o Grande|Cyrus_the_Great|M|IR|pol|~-600|-530|Rei|Fundou o Império Persa|
+Ruhollah Khomeini|Ruhollah_Khomeini|M|IR|rel,pol|1902|1989|Líder religioso|Liderou a Revolução Iraniana de 1979|
+Lee Kuan Yew|Lee_Kuan_Yew|M|SG|pol|1923|2015|Primeiro-ministro|Transformou Cingapura em um dos países mais ricos do mundo|
+Edmund Hillary|Edmund_Hillary|M|NZ|exp|1919|2008|Montanhista|Um dos dois primeiros a chegar ao topo do Everest|
+Ernest Rutherford|Ernest_Rutherford|M|NZ|cie|1871|1937|Físico|Descobriu o núcleo atômico|
+Kate Sheppard|Kate_Sheppard|F|NZ|ati|1848|1934|Sufragista|Liderou a campanha que deu às mulheres da Nova Zelândia o direito ao voto em 1893|
+Jacinda Ardern|Jacinda_Ardern|F|NZ|pol|1980|-|Primeira-ministra|Governou a Nova Zelândia durante a pandemia de covid-19|Eles somos nós.
+Katherine Mansfield|Katherine_Mansfield|F|NZ|lit|1888|1923|Escritora|Considerada uma mestra do conto moderno|
+Peter Jackson|Peter_Jackson|M|NZ|cin|1961|-|Cineasta|Dirigiu a trilogia O Senhor dos Anéis|
+Jonah Lomu|Jonah_Lomu|M|NZ|esp|1975|2015|Jogador de rúgbi|Astro dos All Blacks nos anos 1990|
+Howard Florey|Howard_Florey|M|AU|cie|1898|1968|Farmacologista|Transformou a penicilina em um remédio produzido em massa|
+Don Bradman|Don_Bradman|M|AU|esp|1908|2001|Jogador de críquete|Considerado o maior rebatedor da história do críquete|
+Steve Irwin|Steve_Irwin|M|AU|cie,cin|1962|2006|Apresentador e zoólogo|Ficou famoso como o Caçador de Crocodilos|
+Cathy Freeman|Cathy_Freeman|F|AU|esp|1973|-|Velocista|Campeã olímpica dos 400 metros em Sydney 2000|
+Ian Thorpe|Ian_Thorpe|M|AU|esp|1982|-|Nadador|Conquistou cinco medalhas de ouro olímpicas|
+Albert Namatjira|Albert_Namatjira|M|AU|art|1902|1959|Pintor|Pintor aborígene famoso por paisagens em aquarela|
+Eddie Mabo|Eddie_Mabo|M|AU|ati|1936|1992|Ativista|Sua causa na Justiça reconheceu o direito dos povos indígenas à terra|
+Nellie Melba|Nellie_Melba|F|AU|mus|1861|1931|Cantora de ópera|Uma sobremesa com pêssego foi batizada em sua homenagem|
+John Curtin|John_Curtin|M|AU|pol|1885|1945|Primeiro-ministro|Liderou a Austrália na Segunda Guerra Mundial|
+Douglas Mawson|Douglas_Mawson|M|AU|exp|1882|1958|Explorador e geólogo|Liderou expedições pioneiras à Antártida|
+Nicole Kidman|Nicole_Kidman|F|AU|cin|1967|-|Atriz|Ganhou o Oscar de melhor atriz|
+Hugh Jackman|Hugh_Jackman|M|AU|cin|1968|-|Ator|Interpretou o Wolverine no cinema|

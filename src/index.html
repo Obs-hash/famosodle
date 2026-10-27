@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Famosodle · Adivinhe a figura histórica do dia</title>
+<meta name="description" content="Jogo diário em português: adivinhe a figura histórica do dia pelas pistas de país, área, nascimento e morte, por um retrato borrado ou por uma frase famosa.">
+<link rel="canonical" href="__SITE__">
+<meta name="theme-color" content="#1f1b1d">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Famosodle">
+<meta property="og:url" content="__SITE__">
+<meta property="og:title" content="Famosodle · Adivinhe a figura histórica do dia">
+<meta property="og:description" content="Uma figura histórica nova por dia. Adivinhe pelas pistas, pelo retrato borrado ou pela frase famosa.">
+<meta property="og:image" content="__SITE__og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Famosodle, jogo diário de adivinhar figuras históricas">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Famosodle · Adivinhe a figura histórica do dia">
+<meta name="twitter:description" content="Uma figura histórica nova por dia. Adivinhe pelas pistas, pelo retrato borrado ou pela frase famosa.">
+<meta name="twitter:image" content="__SITE__og.png">
+<!--__ICONS__-->
+<!--__PRELOAD__-->
+<!--__CSS__-->
+</head>
+<body>
+<div class="wrap">
+  <header class="cover dark">
+    <div class="row1">
+      <span class="eyebrow">Jogo diário · figuras históricas</span>
+      <span class="star" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 1.5c.7 5.6 3.9 8.8 10.5 10.5-6.6 1.7-9.8 4.9-10.5 10.5C11.3 16.9 8.1 13.7 1.5 12 8.1 10.3 11.3 7.1 12 1.5z"/></svg></span>
+    </div>
+    <h1 class="disp">Famosodle</h1>
+    <div class="row3">
+      <p class="sub">Quem marcou a história, uma pista por vez. Uma figura nova por dia em cada modo.</p>
+      <div class="navs">
+        <div class="kinds" role="tablist" aria-label="Modos de jogo">
+          <button type="button" role="tab" id="tab-classic" aria-controls="panel-classic" aria-selected="true">Clássico</button>
+          <button type="button" role="tab" id="tab-photo" aria-controls="panel-photo" aria-selected="false" tabindex="-1">Foto</button>
+          <button type="button" role="tab" id="tab-quote" aria-controls="panel-quote" aria-selected="false" tabindex="-1">Frase</button>
+        </div>
+        <button type="button" class="iconbtn" id="btn-help" aria-label="Como jogar" title="Como jogar"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"></circle><path d="M9.4 9.2a2.7 2.7 0 0 1 5.2 1c0 1.8-2.6 2.3-2.6 4"></path><path d="M12 17.6h.01"></path></svg></button>
+        <button type="button" class="iconbtn" id="btn-stats" aria-label="Estatísticas" title="Estatísticas"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V11"></path><path d="M10 20V5"></path><path d="M16 20v-7"></path><path d="M22 20H2"></path></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <noscript><p class="noscript">O Famosodle precisa do JavaScript ativado no navegador para funcionar.</p></noscript>
+
+  <main class="stack">
+    <!-- CLÁSSICO -->
+    <section id="panel-classic" class="panel" role="tabpanel" aria-labelledby="tab-classic">
+      <div class="regions" id="regions" role="group" aria-label="Região"><button type="button" data-region="g" aria-pressed="true">Global</button><button type="button" data-region="af" aria-pressed="false">África</button><button type="button" data-region="am" aria-pressed="false">América</button><button type="button" data-region="as" aria-pressed="false">Ásia</button><button type="button" data-region="eu" aria-pressed="false">Europa</button><button type="button" data-region="oc" aria-pressed="false">Oceania</button></div>
+      <div class="prompt dark">
+        <div class="meta"><span id="classic-meta"></span><span id="classic-date"></span></div>
+        <h2 class="disp" id="classic-title">Quem é a figura de hoje?</h2>
+        <p>Digite o nome de qualquer figura. Cada palpite mostra o que ela tem em comum com a figura secreta.</p>
+        <div class="search" id="classic-search">
+          <label class="sr" for="classic-input">Nome da figura</label>
+          <input id="classic-input" type="text" autocomplete="off" autocapitalize="words" spellcheck="false" enterkeyhint="send" placeholder="Digite um nome" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="classic-list">
+          <button type="button" class="go" id="classic-go" aria-label="Enviar palpite"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></button>
+          <ul class="list" id="classic-list" role="listbox" aria-label="Sugestões" hidden></ul>
+        </div>
+        <div class="hints" id="classic-hints"><button type="button" class="hint" disabled><b>Ocupação</b>libera em 5 erros</button><button type="button" class="hint" disabled><b>Feito</b>libera em 10 erros</button></div>
+        <button type="button" class="subtle" id="classic-reveal" hidden>Revelar a resposta deste treino</button>
+      </div>
+      <div class="result" id="classic-result" hidden></div>
+      <div class="boardwrap"><div class="board" id="classic-board" role="table" aria-label="Seus palpites, o mais recente primeiro"><div class="row heads" role="row"><div role="columnheader">Pessoa</div><div role="columnheader">Gênero</div><div role="columnheader">País</div><div role="columnheader">Área</div><div role="columnheader">Nascimento</div><div role="columnheader">Morte</div><div role="columnheader">Idade</div></div></div></div>
+      <p class="emptyboard" id="classic-empty">Seus palpites aparecem aqui, o mais recente no topo.</p>
+      <ul class="legend" aria-label="Legenda">
+        <li><span class="sw ok" aria-hidden="true"><span class="lk"><svg viewBox="0 0 12 12"><path d="M2.5 6.3l2.2 2.2 4.8-5"/></svg></span></span>Igual</li>
+        <li><span class="sw near" aria-hidden="true"><span class="lk"><svg viewBox="0 0 12 12"><path d="M1.5 4c1.5-1.3 3-1.3 4.5 0s3 1.3 4.5 0M1.5 8.5c1.5-1.3 3-1.3 4.5 0s3 1.3 4.5 0"/></svg></span></span>Perto: mesmo continente, país vizinho ou até 10 anos</li>
+        <li><span class="sw bad" aria-hidden="true"><span class="lk"><svg viewBox="0 0 12 12"><path d="M3 3l6 6M9 3l-6 6"/></svg></span></span>Diferente</li>
+        <li><span aria-hidden="true">▲▼</span> Na figura secreta é maior ou menor</li>
+      </ul>
+      <p class="yesterday" id="classic-yesterday"></p>
+    </section>
+
+    <!-- FOTO -->
+    <section id="panel-photo" class="panel" role="tabpanel" aria-labelledby="tab-photo" hidden>
+      <div class="prompt dark">
+        <div class="meta"><span id="photo-meta"></span><span id="photo-date"></span></div>
+        <h2 class="disp">De quem é este retrato?</h2>
+        <div>
+          <div class="frame" id="photo-frame"><div class="canvas"><img id="photo-img" alt="Retrato borrado da figura secreta" width="400" height="500" decoding="async" crossorigin="anonymous" referrerpolicy="no-referrer" hidden><div class="state" id="photo-state">Carregando o retrato de hoje…</div><span class="blurtag" id="photo-blur" hidden></span><span class="star badge" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 1.5c.7 5.6 3.9 8.8 10.5 10.5-6.6 1.7-9.8 4.9-10.5 10.5C11.3 16.9 8.1 13.7 1.5 12 8.1 10.3 11.3 7.1 12 1.5z"/></svg></span></div></div>
+          <p class="credit" id="photo-credit"></p>
+        </div>
+        <p>O retrato fica mais nítido a cada erro e aparece por inteiro no 10º erro.</p>
+        <div class="search" id="photo-search">
+          <label class="sr" for="photo-input">Nome da figura</label>
+          <input id="photo-input" type="text" autocomplete="off" autocapitalize="words" spellcheck="false" enterkeyhint="send" placeholder="Digite um nome" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="photo-list">
+          <button type="button" class="go" id="photo-go" aria-label="Enviar palpite"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></button>
+          <ul class="list" id="photo-list" role="listbox" aria-label="Sugestões" hidden></ul>
+        </div>
+        <div class="hints" id="photo-hints"><button type="button" class="hint" disabled><b>Dica 1</b>libera em 5 erros</button><button type="button" class="hint" disabled><b>Dica 2</b>libera em 10 erros</button></div>
+        <button type="button" class="subtle" id="photo-reveal" hidden>Revelar a resposta deste treino</button>
+      </div>
+      <div class="result" id="photo-result" hidden></div>
+      <ol class="glist" id="photo-guesses" reversed aria-label="Seus palpites, o mais recente primeiro"></ol>
+      <p class="yesterday" id="photo-yesterday"></p>
+    </section>
+
+    <!-- FRASE -->
+    <section id="panel-quote" class="panel" role="tabpanel" aria-labelledby="tab-quote" hidden>
+      <div class="prompt dark">
+        <div class="meta"><span id="quote-meta"></span><span id="quote-date"></span></div>
+        <h2 class="disp">Quem disse esta frase?</h2>
+        <blockquote class="quote"><p id="quote-text"></p><small>Tradução livre para o português.</small></blockquote>
+        <div class="search" id="quote-search">
+          <label class="sr" for="quote-input">Nome da figura</label>
+          <input id="quote-input" type="text" autocomplete="off" autocapitalize="words" spellcheck="false" enterkeyhint="send" placeholder="Digite um nome" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="quote-list">
+          <button type="button" class="go" id="quote-go" aria-label="Enviar palpite"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></button>
+          <ul class="list" id="quote-list" role="listbox" aria-label="Sugestões" hidden></ul>
+        </div>
+        <div class="hints" id="quote-hints"><button type="button" class="hint" disabled><b>Dica 1</b>libera em 5 erros</button><button type="button" class="hint" disabled><b>Dica 2</b>libera em 10 erros</button></div>
+        <button type="button" class="subtle" id="quote-reveal" hidden>Revelar a resposta deste treino</button>
+      </div>
+      <div class="result" id="quote-result" hidden></div>
+      <ol class="glist" id="quote-guesses" reversed aria-label="Seus palpites, o mais recente primeiro"></ol>
+      <p class="yesterday" id="quote-yesterday"></p>
+    </section>
+  </main>
+
+  <footer class="foot dark">
+    <div class="top">
+      <p class="bye disp">Até amanhã</p>
+      <span class="eyebrow muted-d" id="foot-count"></span>
+    </div>
+    <p>Retratos da Wikipedia e do Wikimedia Commons, só com licença livre. Autor e licença aparecem em cada imagem. <button type="button" id="btn-credits">Sobre as imagens e privacidade</button></p>
+    <div class="savebar" data-build-wrap>
+      <span data-online-note>As fotos carregam da internet. Para ter um arquivo com todas as fotos dentro, que funciona até sem internet:</span>
+      <span data-offline-note hidden></span>
+      <button type="button" class="btn" data-build>Salvar cópia com as fotos</button>
+      <button type="button" class="btn" data-pack title="Gera um .zip com as fotos em pastas, para colocar no seu site">Gerar pacote de fotos para o site</button>
+      <span class="savestatus" data-build-status role="status"></span>
+    </div>
+  </footer>
+</div>
+
+<dialog id="dlg-help" aria-labelledby="help-title">
+  <div class="dlg">
+    <header><h2 class="disp" id="help-title">Como jogar</h2><button type="button" class="iconbtn" data-close aria-label="Fechar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></button></header>
+    <div class="body">
+      <p>Todo dia há uma figura secreta nova em cada modo, igual para todo mundo. A virada acontece à meia-noite, no horário de Brasília. Não há limite de tentativas.</p>
+      <h3>Modo clássico</h3>
+      <p>Escolha Global ou um continente. Cada palpite mostra o que a figura tem em comum com a secreta. Verde (✓) é igual, amarelo (≈) é perto e vermelho (✕) é diferente.</p>
+      <dl class="cols">
+        <div><dt>País</dt><dd>País com que a pessoa é mais associada. No Global, amarelo indica o mesmo continente. Nos continentes, indica país vizinho.</dd></div>
+        <div><dt>Área</dt><dd>Política, ciência, esporte, artes e outras. Amarelo indica que uma das áreas coincide.</dd></div>
+        <div><dt>Nascimento e morte</dt><dd>Amarelo indica até 10 anos de diferença. A seta mostra se o ano da figura secreta é maior (▲) ou menor (▼). Quem está vivo conta como o maior.</dd></div>
+        <div><dt>Idade</dt><dd>Idade com que morreu, ou idade atual. Amarelo indica até 5 anos de diferença.</dd></div>
+      </dl>
+      <h3>Modo foto</h3>
+      <p>O retrato começa muito borrado e fica mais nítido a cada erro. No 10º erro ele aparece por inteiro. Durante a partida aparece só a licença da foto, porque o nome do autor e do arquivo podem entregar a resposta; o crédito completo aparece quando você acerta ou pede para ver.</p>
+      <h3>Modo frase</h3>
+      <p>Uma frase famosa da figura, traduzida para o português.</p>
+      <h3>Dicas</h3>
+      <p>Em todos os modos, a primeira dica libera depois de 5 erros e a segunda depois de 10.</p>
+      <h3>Treino e progresso</h3>
+      <p>Depois de acertar, jogue com figuras aleatórias quantas vezes quiser. O treino não conta nas estatísticas. Não há cadastro: o progresso fica salvo só neste navegador.</p>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dlg-stats" aria-labelledby="stats-title">
+  <div class="dlg">
+    <header><h2 class="disp" id="stats-title">Estatísticas</h2><button type="button" class="iconbtn" data-close aria-label="Fechar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></button></header>
+    <div class="body">
+      <div class="scroll-x"><table class="stattable" id="stats-table"></table></div>
+      <p class="note">Guardadas só neste navegador.</p>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dlg-credits" aria-labelledby="credits-title">
+  <div class="dlg">
+    <header><h2 class="disp" id="credits-title">Sobre as imagens</h2><button type="button" class="iconbtn" data-close aria-label="Fechar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></button></header>
+    <div class="body">
+      <p>Os retratos são a imagem principal do artigo de cada pessoa na Wikipedia em inglês. A maioria fica hospedada no próprio site; as que faltarem são carregadas direto da Wikipedia. O jogo só usa imagens com licença livre, como domínio público e Creative Commons, hospedadas no Wikimedia Commons.</p>
+      <p>Cada retrato mostra o autor e a licença informados pelo Commons, com link para a página do arquivo, onde estão os termos completos. As fotos foram reduzidas para 500 pixels de largura e recomprimidas, sem cortes.</p>
+      <p>As frases do modo frase são traduções livres de falas, slogans e textos conhecidos de cada pessoa.</p>
+      <h3>Privacidade</h3>
+      <p>O jogo não tem cadastro, não usa cookies, não tem anúncios nem ferramentas de análise e não coleta dados. Progresso e estatísticas ficam só no seu navegador. Quando um retrato precisa vir da Wikipedia, o navegador o busca lá, e a Wikipedia recebe o endereço de internet de quem joga, como em qualquer site que exibe imagens dela.</p>
+      <p>Fontes: Open Sauce Sans e Instrument Serif, ambas com licença SIL Open Font License. Se a fonte Perandory estiver instalada no seu computador, os títulos usam ela.</p>
+    </div>
+  </div>
+</dialog>
+
+<div class="sr" id="announce" aria-live="polite" aria-atomic="true"></div>
+<div class="toast" id="toast" aria-hidden="true" hidden></div>
+<!--__JS__-->
+</body>
+</html>
