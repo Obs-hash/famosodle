@@ -9,12 +9,15 @@ const CORROMPIDOS = [
   "5", "\"texto\"", "null", "[1,2,3]", "{json quebrado",
   JSON.stringify({ games: "x", stats: [1] }),
   JSON.stringify({ stats: { g: { played: "9e999", won: -4, dist: { "__proto__": 3, "7": "2", "abc": 1 }, lastKey: "<img>" } } }),
-  JSON.stringify({ games: { g: { key: hoje, guesses: ["constructor", "__proto__", "toString", "p001", 42, null, "p999"], hints: "h1" }, foto: { key: hoje, guesses: "p001" } } })
+  JSON.stringify({ games: { g: { key: hoje, guesses: ["constructor", "__proto__", "toString", "p001", 42, null, "p999"], hints: "h1" }, foto: { key: hoje, guesses: "p001" } } }),
+  JSON.stringify({ v: 2, stats: { "g:1": { played: "x", dist: [] }, "g:9": {}, "__proto__": { played: 5 } }, games: { "g:1": { key: hoje, guesses: ["p001", "p001", "p999"] }, "g:0": { key: hoje }, "constructor": {} } }),
+  JSON.stringify({ k: "x", r: "__proto__", l: 9 })
 ];
+// o valor estragado vai para o progresso novo (v2), o antigo (v1, lido na migração), a interface e o cache de fotos
 for (const valor of CORROMPIDOS) {
   test(`localStorage corrompido não quebra a página: ${valor.slice(0, 40)}`, async ({ page }) => {
     const erros = await preparar(page);
-    await page.addInitScript(v => { try { localStorage.setItem("famosodle:v1", v); localStorage.setItem("famosodle:v1:ui", v); localStorage.setItem("famosodle:fotos:v1", v); } catch (e) { } }, valor);
+    await page.addInitScript(v => { try { for (const k of ["famosodle:v2", "famosodle:v1", "famosodle:v1:ui", "famosodle:fotos:v1"]) localStorage.setItem(k, v); } catch (e) { } }, valor);
     await page.goto("/");
     await palpite(page, "classic", "Marie Curie");
     await expect(page.locator("#classic-board .tile-person .cn").first()).toHaveText("Marie Curie");

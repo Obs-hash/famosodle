@@ -16,13 +16,14 @@ Se o PowerShell bloquear o `npm` por política de execução, use `npm.cmd` ou u
 
 Comandos:
 
-- `npm run dados` lê as listas de figuras, valida tudo e grava `dados/data.json`, marcando quem tem foto no pacote.
+- `npm run dados` lê as listas de figuras e o `fama.txt`, valida tudo, calcula os níveis e grava `dados/data.json`, marcando quem tem foto no pacote. Imprime a tabela de figuras por modo e nível.
 - `npm run empacotar` junta dados, código, fontes, imagens fixas e fotos, minifica e grava `dist/` e os dois `vercel.json`.
 - `npm run build` faz os dois passos acima.
 - `npm test` roda o build e depois os testes do Playwright (pasta `testes/`).
 - `npm run servir` serve `dist/famosodle` como a Vercel serviria.
-- `npm run baixar-fotos` baixa as fotos da Wikipedia para `fotos/` e grava os créditos.
-- `npm run baixar-bandeiras` baixa do Wikimedia Commons a bandeira de cada país das figuras para `bandeiras/` e grava os créditos. Rode depois de incluir figuras de um país novo.
+- `npm run baixar-fotos` baixa da Wikipedia as fotos que faltam em `fotos/` e grava os créditos. As fotos que já existem ficam como estão; `npm run baixar-fotos -- --todas` refaz o pacote inteiro.
+- `npm run baixar-bandeiras` baixa do Wikimedia Commons a bandeira dos países que ainda não têm uma em `bandeiras/` e grava os créditos (`-- --todas` baixa todas). Rode depois de incluir figuras de um país novo.
+- `npm run visitas` busca as visitas de 12 meses de cada figura na Wikipedia em português e grava `dados/visitas.json` (desempate dentro de cada nível de fama). Também lista figuras cujas visitas destoam muito do nível.
 - `npm run verificar-fotos` confere os títulos da Wikipedia (artigo inexistente, redirecionamento, desambiguação, sem foto livre).
 - `npm run verificar-dados` compara nascimento, morte e gênero com o Wikidata (serve para descobrir quem morreu).
 - `npm run imagens` gera de novo `og.png`, os ícones e o `favicon.ico` em `src/estaticos/`.
@@ -38,25 +39,28 @@ package.json              scripts e dependências de build e teste, todas com ve
 vercel.json               gerado pelo empacotar; não edite à mão, mas faça commit dele
 playwright.config.js      configuração dos testes
 dados/figuras.txt         primeira lista de figuras (160)
-dados/figuras-extra.txt   segunda lista (215), inclui as figuras brasileiras e políticas
+dados/figuras-extra.txt   segunda lista (365): figuras brasileiras e políticas, e as 150 de esporte, cinema e política da atualização de níveis
+dados/fama.txt            nível de fama de cada figura (1 a 4), do ponto de vista de quem joga no Brasil
+dados/visitas.json        gerado por npm run visitas; vai para o git, o build só lê
 dados/data.json           gerado; não edite à mão
 src/index.html            página do jogo, com marcadores que o build troca (ícones, fontes, CSS e JS)
 src/404.html              página de erro no mesmo estilo, sem JavaScript
 src/estilo.css            todo o CSS (cores, fontes de reserva, layout)
-src/app.js                toda a lógica do jogo. Marcadores /*__DATA__*/{}, /*__SITE__*/"" e /*__FLAGS__*/null recebem os dados, o endereço e (só no arquivo único) as bandeiras
+src/app.js                toda a lógica do jogo. Marcadores /*__DATA__*/{}, /*__SITE__*/"", /*__BUILT__*/"" e /*__FLAGS__*/null recebem os dados, o endereço, o dia do build e (só no arquivo único) as bandeiras
 src/estaticos/            favicon, ícones, og.png, robots.txt, sitemap.xml e site.webmanifest (__SITE__ vira o endereço)
 scripts/gerar-dados.js    valida as listas e gera data.json
 scripts/empacotar.js      monta dist/, minifica, põe hash nos nomes e escreve os cabeçalhos de segurança
 scripts/wikimedia.js      funções comuns dos scripts que falam com a Wikimedia (User-Agent, pausas, lotes)
 scripts/baixar-fotos.js   baixa as fotos e grava fotos/fotos-1/creditos.json
 scripts/baixar-bandeiras.js baixa as bandeiras e grava bandeiras/creditos.json
+scripts/visitas.js        busca as visitas na Wikipedia e grava dados/visitas.json
 scripts/verificar-fotos.js, scripts/verificar-dados.js   conferências dos dados (não mudam arquivos)
 scripts/gerar-imagens.js  gera og.png, ícones e favicon.ico no Chrome
 scripts/calibrar-fontes.js mede o size-adjust das fontes de reserva
 scripts/servir.js         servidor local com os cabeçalhos do vercel.json (testes, Lighthouse, npm run servir)
 scripts/medir-lighthouse.js roda o Lighthouse por npx, na versão fixa 13.5.0
 testes/                   testes do Playwright
-fotos/                    fotos-1 a fotos-4 com as fotos do site e o creditos.json (vai para o git)
+fotos/                    fotos-1 a fotos-6 com as fotos do site e o creditos.json (vai para o git)
 bandeiras/                xx.png de cada país (código ISO em minúsculas) e o creditos.json (vai para o git)
 dist/famosodle/           o site: index.html, 404.html, assets/, fotos, bandeiras, ícones e vercel.json
 dist/famosodle.html       versão em arquivo único, sem minificar, com fontes e script embutidos
@@ -84,7 +88,9 @@ Paulo Freire|Paulo_Freire|M|BR|fil|1921|1997|Educador e filósofo|Escreveu Pedag
 - **dica2**: um feito marcante. Aparece depois de 10 erros.
 - **frase**: opcional, até 140 caracteres. Só quem tem frase entra no modo Frase.
 
-Apelidos que o jogador pode digitar (Lula, JK, FHC, Jango, Evita, MLK...) ficam no objeto `ALIAS` em `gerar-dados.js`. A busca ignora acentos e maiúsculas, e o nome exato digitado sempre vem primeiro nas sugestões.
+Apelidos que o jogador pode digitar (Lula, JK, FHC, Jango, Evita, MLK, Stalin, Shaq, The Rock, Vini Jr, Rubinho, Mão Santa...) ficam no objeto `ALIAS` em `gerar-dados.js`. A busca ignora acentos e maiúsculas, e o nome exato digitado sempre vem primeiro nas sugestões.
+
+Toda figura precisa de uma linha em `dados/fama.txt`, no formato `nome|nível`, com o nome igual ao da lista: 1 Iniciante, 2 Fácil, 3 Médio, 4 Difícil, pensando em quem joga no Brasil. Linhas com `#` são comentários. O build para se faltar o nível de alguma figura, se um nome do `fama.txt` não for de nenhuma figura, se o nível não for de 1 a 4 ou se um nome aparecer duas vezes. Os arquivos de texto podem ter a marca de UTF-8 (BOM) que o Bloco de Notas às vezes põe; o build ignora essa marca.
 
 O `gerar-dados.js` para o build com erro se encontrar: número errado de colunas, espaço sobrando no começo ou no fim de um campo, país inexistente, área ou gênero inválido, ano em formato errado ou no futuro, morte antes do nascimento, dica vazia, frase longa demais, nome repetido, título da Wikipedia repetido, apelido para figura que não existe, apelido igual ao nome de outra figura ou travessão em qualquer campo. Ele avisa (sem parar) quando alguém marcado como vivo teria mais de 105 anos.
 
@@ -92,7 +98,7 @@ O `gerar-dados.js` para o build com erro se encontrar: número errado de colunas
 
 Cada figura recebe um id pela posição (`p001`, `p002`...), contando só as linhas válidas, primeiro de `figuras.txt` e depois de `figuras-extra.txt`. Por isso:
 
-- Figuras novas entram sempre **no fim de `dados/figuras-extra.txt`**.
+- Figuras novas entram sempre **no fim de `dados/figuras-extra.txt`**, com uma linha em `dados/fama.txt`. Depois rode `npm run dados`, `npm run verificar-fotos`, `npm run baixar-fotos`, `npm run visitas` (e `npm run baixar-bandeiras` se houver país novo) e `npm run build`.
 - Nunca apague, mova ou reordene linhas existentes. Para corrigir uma figura, edite a linha dela no lugar. Para tirar alguém, troque a linha por outra figura em vez de apagar.
 - Mudar ids quebra os jogos salvos dos jogadores e o mapa de fotos (`fotos-1/creditos.json`).
 
@@ -111,13 +117,40 @@ Modos, com o id usado no código e no armazenamento:
 - `foto`: foto da figura borrada, que fica mais nítida a cada erro (níveis em `BLUR`).
 - `frase`: uma frase da figura.
 
-Resposta do dia (função `answer()`):
+### Níveis de dificuldade
+
+Quatro níveis, Iniciante, Fácil, Médio e Difícil (1 a 4), em todos os modos: Global, os cinco continentes, Foto e Frase.
+
+- As faixas são calculadas no build (`gerar-dados.js`, função `faixas()`) e vão para `data.json` em `levels[modo]`, uma lista de ids por nível. As faixas de um modo não se repetem.
+- Cálculo: as figuras que podem ser resposta no modo são ordenadas pelo nível de fama (`fama.txt`) e, dentro do nível, por visitas (`visitas.json`, mais vista primeiro; sem visitas, vale a ordem dos ids). Os cortes começam onde o nível de fama muda. Com N figuras no modo e MIN = min(12, N / 4 arredondado para baixo), os cortes são ajustados para cada nível ter pelo menos MIN figuras: primeiro de cima para baixo (b1 = max(b1, MIN), b2 = max(b2, b1 + MIN), b3 = max(b3, b2 + MIN)) e depois de baixo para cima (b3 = min(b3, N - MIN), b2 = min(b2, b3 - MIN), b1 = min(b1, b2 - MIN)).
+- Nos modos grandes (Global, América, Europa, Foto) os níveis seguem a fama exatamente. Nos pequenos (África, Ásia, Oceania, Frase) eles viram relativos: Iniciante na África são os africanos mais famosos.
+- Os palpites aceitam o modo inteiro, de todos os níveis, para as sugestões não entregarem o nível.
+- O seletor fica logo abaixo do cabeçalho, como um grupo de botões de rádio do navegador (`#levels`, setas e anúncio prontos), com um selo verde nos níveis do modo atual já resolvidos hoje. Quem chega pela primeira vez começa no Iniciante; o nível escolhido fica em `famosodle:v1:ui` (campo `l`).
+- O nível aparece no cabeçalho da ficha ("Ficha nº 2 · Global · Médio"), no cartão do resultado e no texto de compartilhar ("Famosodle #2 · Global · Médio").
+
+Figuras por modo e nível em 27/10/2026 (525 figuras):
+
+```
+                Iniciante  Fácil  Médio  Difícil  total
+Global                 82    141    169      133    525
+África                 12     12     12       15     51
+América                49     64     58       29    200
+Ásia                   12     12     12       15     51
+Europa                 23     59     72       27    181
+Oceania                10     10     10       12     42
+Foto                   82    141    169      132    524
+Frase                  25     26     12       12     75
+```
+
+### Resposta do dia (função `answer(modo, nível, dia)`)
 
 - O dia vira à meia-noite de Brasília (UTC menos 3), em `spKey()`. A virada é conferida a cada segundo e quando a aba volta do segundo plano.
-- `LAUNCH` (hoje `2026-10-26`) é o dia 1 da contagem. Cada modo tem uma semente em `SEEDS`, e a lista do modo é embaralhada uma vez com `mulberry32`; a resposta é a posição do dia nessa ordem. Pergunte à pessoa dona do projeto antes de mudar `SEEDS`, o embaralhamento ou essa lógica.
-- O Global evita repetir as respostas dos continentes no mesmo dia. Foto e Frase evitam a resposta do Global.
-- O modo Foto sorteia só entre as figuras com `ph: 1` em `data.json`, isto é, as que têm foto no pacote `fotos/`. Assim a resposta é igual para todo mundo e não depende da rede. Se o build não tiver fotos, o Foto sorteia entre todas.
-- Há modo treino com figura aleatória (Fisher-Yates com `Math.random`), que não conta nas estatísticas. Ele aparece depois de resolver o dia.
+- `LAUNCH` (hoje `2026-10-26`) é o dia 1 da contagem. Cada modo e nível tem a sua ordem: a faixa é embaralhada uma vez com `mulberry32` e a semente `SEEDS[modo] * 7919 + nível * 104729`; a resposta é a posição do dia nessa ordem. Pergunte à pessoa dona do projeto antes de mudar `SEEDS`, o embaralhamento ou essa lógica. Os testes têm uma cópia dessa lógica (`testes/ajuda.js`) e acusam qualquer mudança.
+- Cada modo e nível tem a sua resposta, o seu sorteio e a sua partida salva. Como as faixas de um modo não se repetem, ninguém é resposta de dois níveis do mesmo modo no mesmo dia.
+- Dentro de cada nível, o Global evita as respostas dos continentes daquele nível, e Foto e Frase evitam a resposta do Global daquele nível.
+- O modo Foto sorteia só entre as figuras com `ph: 1` em `data.json`, isto é, as que têm foto no pacote `fotos/`, divididas pela mesma regra. Assim a resposta é igual para todo mundo e não depende da rede. Se o build não tiver fotos, o Foto sorteia entre todas.
+- Há modo treino com figura aleatória do nível escolhido (Fisher-Yates com `Math.random`), que não conta nas estatísticas. Ele aparece depois de resolver o dia.
+- "A figura de ontem" só aparece se os dados deste build já valiam ontem: o empacotar grava o dia do build em `BUILT`. Depois de uma mudança nas figuras, ela some por um dia, em vez de mostrar uma resposta que ninguém jogou.
 
 Comparação do modo clássico, coluna por coluna: Pessoa (foto e nome), Gênero, País, Área, Nascimento, Morte, Idade.
 
@@ -130,7 +163,7 @@ Nos modos Foto e Frase, cada palpite mostra etiquetas curtas (mesmo país, mesmo
 
 Cada palpite é anunciado numa região `aria-live` (`#announce`). Ao acertar, o foco vai para o nome da figura no cartão do resultado. As abas respondem às setas, Home e End. Os diálogos devolvem o foco a quem os abriu.
 
-O progresso fica no `localStorage` do jogador, na chave `famosodle:v1` (formato `{ v: 1, stats, games }`, o mesmo desde o início). A aba escolhida fica em `famosodle:v1:ui`, a ajuda vista em `famosodle:v1:help` e o cache das fotos da Wikipedia em `famosodle:fotos:v1`, por 14 dias. Tudo que volta do `localStorage` passa por `readState()`, que só aceita números, datas e ids conhecidos. Se o `localStorage` estiver desligado ou cheio, o jogo funciona e avisa uma vez que não vai salvar. Duas abas abertas se mantêm em dia pelo evento `storage`. Não existe servidor nem conta.
+O progresso fica no `localStorage` do jogador, na chave `famosodle:v2` (formato `{ v: 2, stats, games }`). Partidas e estatísticas são por modo e nível (`"g:1"` a `"g:4"`, `"foto:3"`...); `stats["g"]`, sem nível, guarda o que foi jogado antes dos níveis e entra só no total do modo. Na primeira visita depois da atualização, as estatísticas do formato antigo (`famosodle:v1`, `{ v: 1, stats, games }` por modo) viram essa parte de antes dos níveis e as partidas antigas em andamento são descartadas; o `famosodle:v1` continua guardado como estava. As estatísticas mostram cada nível (abrem no nível atual) e um total por modo, que soma os níveis e o que veio de antes; no total, sequência e recorde são os maiores entre as partes. A aba, a região e o nível ficam em `famosodle:v1:ui`, a ajuda vista em `famosodle:v1:help` e o cache das fotos da Wikipedia em `famosodle:fotos:v1`, por 14 dias. Tudo que volta do `localStorage` passa por `readState()`, que só aceita números, datas e ids conhecidos. Se o `localStorage` estiver desligado ou cheio, o jogo funciona e avisa uma vez que não vai salvar. Duas abas abertas se mantêm em dia pelo evento `storage`. Não existe servidor nem conta.
 
 ## Fotos
 
@@ -149,14 +182,15 @@ As imagens externas são carregadas com `crossOrigin = "anonymous"` e `referrerP
 O caminho principal é `npm run baixar-fotos`:
 
 - Para cada figura, pega a imagem principal livre do artigo, numa miniatura de 500 px de largura (um dos tamanhos padrão da Wikimedia; as miniaturas vêm de `thumb.wikimedia.org` e arquivos menores vêm inteiros de `upload.wikimedia.org`).
-- PNG vira JPEG (com pngjs e jpeg-js, pintando a transparência com a cor do quadro). GIF e WebP ficam de fora e o jogo busca na Wikipedia.
+- Por padrão só baixa as figuras que ainda não têm foto no pacote (ou cuja linha passou a ser de outra pessoa): as fotos que já existem ficam com os mesmos bytes e o mesmo hash, e só mudam os arquivos novos e o `creditos.json`. Isso importa para quem publica pelo site do GitHub, que exige enviar cada arquivo mudado. `npm run baixar-fotos -- --todas` refaz o pacote inteiro.
+- PNG vira JPEG (com pngjs e jpeg-js, pintando a transparência com a cor do quadro). WebP vira JPEG pelo Chrome (o Cantinflas tem a imagem principal em WebP). GIF fica de fora e o jogo busca na Wikipedia.
 - Recomprime todas com o codificador JPEG do Chrome, pelo Playwright, na qualidade 0,8. Sem Chrome, as fotos ficam como vieram (maiores).
 - Tira o HTML do campo de autor, corta textos longos e grava `fotos/fotos-1/creditos.json` com `f` (caminho), `file`, `a` (autor), `l` (licença), `u` (página do arquivo), `r` (`c` Commons ou `w` Wikipedia), `v` (hash do arquivo, vai na URL da foto para furar o cache quando ela muda) e `n` (nome, só para leitura humana).
-- Quando a imagem principal do artigo não é livre, mas o Commons tem um retrato livre da pessoa, ponha o arquivo em `ALTERNATIVAS` no começo do script (hoje só Darcy Ribeiro). Eddie Mabo não tem retrato livre e fica sem foto (e fora do modo Foto).
+- Quando a imagem principal do artigo não é livre, mas o Commons tem um retrato livre da pessoa, ponha o arquivo em `ALTERNATIVAS` no começo do script (hoje Darcy Ribeiro e Lee Jung-jae, cujo artigo não tem imagem principal). Eddie Mabo não tem retrato livre e fica sem foto (e fora do modo Foto).
 - Segue a política de User-Agent da Wikimedia (`FamosodleBuild/1.0 (https://famosodle.vercel.app/)`), um pedido por vez com pausa de 300 ms, e respeita 429, Retry-After e maxlag. Se o endereço do site mudar, troque `SITE` em `scripts/wikimedia.js` também.
-- As pastas só são trocadas no fim; se algo falhar no meio, `fotos/` fica como estava.
+- Os arquivos só entram em `fotos/` no fim; se algo falhar no meio, a pasta fica como estava.
 
-Em outubro de 2026 o pacote tem 374 fotos e cerca de 23,5 MB.
+Em 27/10/2026 o pacote tem 524 fotos (todas as figuras menos o Eddie Mabo) e cerca de 33 MB, em `fotos-1` a `fotos-6`.
 
 Cada pasta tem no máximo 100 arquivos (99 fotos, mais o `creditos.json` na primeira). O envio pelo site do GitHub aceita **menos** de 100 arquivos por vez, então a `fotos-1`, que tem 100, precisa ir em duas vezes. Pelo git (VS Code ou terminal) esse limite não existe. Depois de adicionar figuras, rode `npm run baixar-fotos` e `npm run build` de novo.
 
@@ -233,7 +267,7 @@ Acessibilidade: áreas de toque com pelo menos 44 px, contorno de foco preto nas
 
 ## Testes
 
-`npm test` roda o build e 26 testes do Playwright em `testes/`, usando o Chrome instalado (`channel: "chrome"`). Sem Chrome, rode `npx playwright install chromium` e defina `PW_CHROMIUM=1`. O servidor de teste é o `scripts/servir.js`, com os mesmos cabeçalhos do `vercel.json`. A Wikipedia é sempre simulada; nenhum teste depende da internet. Os testes cobrem:
+`npm test` roda o build e 38 testes do Playwright em `testes/`, usando o Chrome instalado (`channel: "chrome"`). Sem Chrome, rode `npx playwright install chromium` e defina `PW_CHROMIUM=1`. O servidor de teste é o `scripts/servir.js`, com os mesmos cabeçalhos do `vercel.json`. A Wikipedia é sempre simulada; nenhum teste depende da internet. Os testes cobrem:
 
 - carga sem erros no console e sem violações de CSP;
 - um palpite em cada modo, com cores, sinais e setas; vitória no dia, compartilhar, treino com vitória e com derrota;
@@ -242,7 +276,8 @@ Acessibilidade: áreas de toque com pelo menos 44 px, contorno de foco preto nas
 - Wikipedia fora do ar (iniciais no lugar das fotos) e fotos locais com créditos de um `creditos.json` de teste;
 - teclado (busca, abas e diálogos) e virada da meia-noite com a página aberta (relógio simulado);
 - ausência de rolagem lateral e áreas de toque em 360, 390 e 430 px, página 404 e cabeçalhos servidos;
-- o arquivo único aberto por `file://`, com os dois botões gerando o `.zip` e a cópia offline, que funciona sem rede.
+- o arquivo único aberto por `file://`, com os dois botões gerando o `.zip` e a cópia offline, que funciona sem rede;
+- níveis (`testes/niveis.spec.js`): seletor por clique e por teclado, com foco visível, nível lembrado e selo de resolvido; cada nível do Global e da África com a resposta da faixa certa; 400 dias de sorteio sem resposta repetida entre níveis e com as regras de evitar; treino dentro do nível; estatísticas por nível e total; migração do progresso antigo; texto de compartilhar com o nível; seletor numa linha e sem rolagem lateral em 360 px.
 
 ## Publicar na Vercel
 
@@ -257,10 +292,13 @@ Veja o passo a passo em `DEPLOY.md`. Resumo:
 
 - `npm ci`, `npm run build` e `npm test` terminam sem erros nem avisos.
 - `npm run verificar-fotos` sem títulos para corrigir.
+- Figuras novas com nível no `fama.txt`, foto baixada e `npm run visitas` rodado.
 - `vercel.json` da raiz atualizado no commit.
+- Mudança nas figuras, nos níveis ou no pacote de fotos publicada logo depois da meia-noite de Brasília.
 - `npm run lighthouse` com pelo menos 95 nas quatro notas.
 
 ## Pendências e ideias
 
 - Uma melhoria possível é tornar a ordem das respostas estável quando figuras novas entram no fim da lista, para não precisar reembaralhar a sequência. Isso muda a lógica do sorteio e precisa de aprovação.
-- Os dados foram conferidos com o Wikidata em 26/10/2026. Rode `npm run verificar-dados` antes de cada leva de mudanças para pegar mortes recentes.
+- Os dados foram conferidos com o Wikidata em 27/10/2026 (as 525 figuras). Rode `npm run verificar-dados` antes de cada leva de mudanças para pegar mortes recentes.
+- O relatório de visitas de 27/10/2026 não apontou nenhuma figura pelas duas regras (nível 4 entre os 15% mais vistos, nível 1 entre os 40% menos vistos). Os casos mais perto: Clarice Lispector e Henrique VIII estão no nível 3, mas entre os 10% mais vistos; Lev Yashin é o nível 4 mais visto. Os níveis só mudam com a aprovação da pessoa dona do projeto.

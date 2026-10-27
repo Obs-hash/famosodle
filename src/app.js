@@ -5,6 +5,8 @@ const PHOTO_EMBED = null; /*__EMBED__*/
 const FLAG_EMBED = /*__FLAGS__*/null;
 const DATA = /*__DATA__*/{};
 const SITE = /*__SITE__*/"";
+// dia (horário de Brasília) em que este build foi feito; a "figura de ontem" só aparece se os dados de agora já valiam ontem
+const BUILT = /*__BUILT__*/"";
 const $ = s => document.querySelector(s);
 const esc = s => String(s).replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
 const norm = s => String(s).normalize("NFD").replace(/\p{Mn}/gu, "").toLowerCase().replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
@@ -21,7 +23,11 @@ const CTRY = DATA.countries;
 const contOf = p => CTRY[p.c].ct;
 const AREA = { pol: "Política", cie: "Ciência", art: "Artes", mus: "Música", lit: "Literatura", esp: "Esporte", ati: "Ativismo", exp: "Exploração", mil: "Militar", fil: "Filosofia", neg: "Negócios", cin: "Cinema e TV", rel: "Religião" };
 const LAUNCH = "2026-10-26";
-const KEY = "famosodle:v1";
+// progresso com níveis; o famosodle:v1 é o de antes dos níveis e só é lido uma vez, na migração
+const KEY = "famosodle:v2";
+const OLD_KEY = "famosodle:v1";
+const UI_KEY = "famosodle:v1:ui";
+const HELP_KEY = "famosodle:v1:help";
 const PHOTO_KEY = "famosodle:fotos:v1";
 
 /* ---------- modos ---------- */
@@ -45,9 +51,19 @@ MODES.forEach(m => {
   else if (m.kind === "quote") POOL[m.id] = PEOPLE.filter(p => p.q).map(p => p.id);
   else POOL[m.id] = PEOPLE.filter(p => p.ph || !HAS_PACK).map(p => p.id);
 });
-// quem pode ser digitado como palpite em cada modo
+// quem pode ser digitado como palpite em cada modo: todos os níveis juntos, para as sugestões não entregarem o nível
 const ALL_IDS = PEOPLE.map(p => p.id);
 const GUESSABLE = dict(); MODES.forEach(m => { GUESSABLE[m.id] = m.kind === "classic" ? POOL[m.id] : ALL_IDS; });
+
+/* ---------- níveis ---------- */
+// cada modo divide as figuras que podem ser resposta em 4 faixas sem repetição, calculadas no build pela fama
+// (scripts/gerar-dados.js): LEVEL_POOL[modo][nível - 1]. Cada modo e nível tem resposta, sorteio e partida próprios.
+const LEVELS = [1, 2, 3, 4];
+const LEVEL_NAME = { 1: "Iniciante", 2: "Fácil", 3: "Médio", 4: "Difícil" };
+const LEVEL_POOL = DATA.levels;
+const gid = (modeId, lv) => `${modeId}:${lv}`;
+let currentLevel = 1;
+const cur = id => gid(id, currentLevel);
 const PANEL = { classic: "classic", photo: "photo", quote: "quote" };
 const KINDS = ["classic", "photo", "quote"];
 
@@ -55,24 +71,27 @@ const KINDS = ["classic", "photo", "quote"];
 function mulberry32(a) { return function () { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
 function shuffled(list, seed) { const r = mulberry32(seed); const a = list.slice().sort(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 const SEEDS = { g: 1966, af: 1957, am: 1888, as: 1947, eu: 1789, oc: 1893, foto: 1839, frase: 1963 };
-const ORDER = dict(); MODES.forEach(m => { ORDER[m.id] = shuffled(POOL[m.id], SEEDS[m.id] * 7919); });
+// uma ordem por modo e nível, cada uma com a sua semente
+const ORDER = dict();
+MODES.forEach(m => LEVELS.forEach(lv => { ORDER[gid(m.id, lv)] = shuffled(LEVEL_POOL[m.id][lv - 1], SEEDS[m.id] * 7919 + lv * 104729); }));
 function spKey(offsetDays = 0) { return new Date(Date.now() - 3 * 3600e3 + offsetDays * 86400e3).toISOString().slice(0, 10); }
 function dayIdx(key) { return Math.round((Date.parse(key) - Date.parse(LAUNCH)) / 86400e3); }
 const yearNow = () => new Date(Date.now() - 3 * 3600e3).getUTCFullYear();
 let curYear = yearNow();
 const mod = (k, n) => ((k % n) + n) % n;
-function contAnswers(key) { return CONT_MODES.map(m => ORDER[m.id][mod(dayIdx(key), ORDER[m.id].length)]); }
-function globalAnswer(key) {
-  const o = ORDER.g, used = new Set(contAnswers(key)), i = dayIdx(key);
+function contAnswers(lv, key) { return CONT_MODES.map(m => { const o = ORDER[gid(m.id, lv)]; return o[mod(dayIdx(key), o.length)]; }); }
+// o Global de cada nível evita as respostas dos continentes no mesmo nível
+function globalAnswer(lv, key) {
+  const o = ORDER[gid("g", lv)], used = new Set(contAnswers(lv, key)), i = dayIdx(key);
   for (let k = 0; k < o.length; k++) { const c = o[mod(i + k, o.length)]; if (!used.has(c)) return c; }
   return o[mod(i, o.length)];
 }
-// resposta do dia em cada modo; Foto e Frase evitam a resposta do Global
-function answer(modeId, key) {
-  const o = ORDER[modeId], i = dayIdx(key);
-  if (modeId === "g") return globalAnswer(key);
+// resposta do dia em cada modo e nível; Foto e Frase evitam a resposta do Global no mesmo nível
+function answer(modeId, lv, key) {
+  const o = ORDER[gid(modeId, lv)], i = dayIdx(key);
+  if (modeId === "g") return globalAnswer(lv, key);
   if (MODE[modeId].kind === "classic") return o[mod(i, o.length)];
-  const avoid = globalAnswer(key);
+  const avoid = globalAnswer(lv, key);
   for (let k = 0; k < o.length; k++) { const c = o[mod(i + k, o.length)]; if (c !== avoid) return c; }
   return o[mod(i, o.length)];
 }
@@ -166,59 +185,73 @@ const store = {
 const DAY = /^\d{4}-\d{2}-\d{2}$/;
 const emptyStats = () => ({ played: 0, won: 0, cur: 0, best: 0, lastKey: null, dist: dict() });
 const count = x => Math.min(1e6, Math.max(0, Math.floor(Number(x) || 0)));
-// tudo que volta do localStorage é tratado como não confiável: só passam números, datas e ids conhecidos
+function readStats(r) {
+  const st = emptyStats();
+  if (!isObj(r)) return st;
+  for (const f of ["played", "won", "cur", "best"]) st[f] = count(r[f]);
+  st.lastKey = typeof r.lastKey === "string" && DAY.test(r.lastKey) ? r.lastKey : null;
+  if (isObj(r.dist)) for (const [k, v] of Object.entries(r.dist)) if (/^(\d{1,2}|15\+)$/.test(k)) st.dist[k] = count(v);
+  return st;
+}
+// formato 2 (famosodle:v2): { v: 2, stats, games }. stats["g"] guarda as estatísticas de antes dos níveis, que entram
+// só no total do modo; stats["g:1"] a stats["g:4"] e games["g:1"] a games["g:4"] são de cada nível.
+// Sem formato 2 salvo, as estatísticas do formato 1 (famosodle:v1, sem níveis) viram a parte de antes dos níveis e as
+// partidas antigas são descartadas. O famosodle:v1 continua guardado como estava.
+// Tudo que volta do localStorage é tratado como não confiável: só passam números, datas e ids conhecidos.
 function readState() {
-  const raw = store.get(KEY), rs = isObj(raw.stats) ? raw.stats : {}, rg = isObj(raw.games) ? raw.games : {};
+  const raw = store.get(KEY), v2 = isObj(raw.stats), old = v2 ? {} : store.get(OLD_KEY);
+  const rs = v2 ? raw.stats : isObj(old.stats) ? old.stats : {}, rg = v2 && isObj(raw.games) ? raw.games : {};
   const stats = dict(), games = dict();
   for (const m of MODES) {
-    const r = isObj(rs[m.id]) ? rs[m.id] : {}, st = emptyStats();
-    for (const f of ["played", "won", "cur", "best"]) st[f] = count(r[f]);
-    st.lastKey = typeof r.lastKey === "string" && DAY.test(r.lastKey) ? r.lastKey : null;
-    if (isObj(r.dist)) for (const [k, v] of Object.entries(r.dist)) if (/^(\d{1,2}|15\+)$/.test(k)) st.dist[k] = count(v);
-    stats[m.id] = st;
-    const g = rg[m.id];
-    if (isObj(g) && typeof g.key === "string" && DAY.test(g.key)) games[m.id] = {
-      key: g.key,
-      guesses: Array.isArray(g.guesses) ? [...new Set(g.guesses.filter(isId))] : [],
-      hints: Array.isArray(g.hints) ? [...new Set(g.hints.filter(h => h === "h1" || h === "h2"))] : []
-    };
+    stats[m.id] = readStats(rs[m.id]);
+    for (const lv of LEVELS) {
+      const id = gid(m.id, lv), g = rg[id];
+      stats[id] = v2 ? readStats(rs[id]) : emptyStats();
+      if (isObj(g) && typeof g.key === "string" && DAY.test(g.key)) games[id] = {
+        key: g.key,
+        guesses: Array.isArray(g.guesses) ? [...new Set(g.guesses.filter(isId))] : [],
+        hints: Array.isArray(g.hints) ? [...new Set(g.hints.filter(h => h === "h1" || h === "h2"))] : []
+      };
+    }
   }
   return { stats, games };
 }
 let S = readState();
 let today = spKey();
-const P = dict(); // treinos em andamento
+const P = dict(); // treinos em andamento, por modo e nível
 let currentKind = "classic";
 let currentRegion = "g";
-const freshAnim = {};
+const freshAnim = dict();
 const resultTimer = {};
 let saveWarned = false;
 
 function loadDaily() {
   today = spKey(); curYear = yearNow();
-  for (const m of MODES) {
-    let g = S.games[m.id];
-    if (!g || g.key !== today) g = S.games[m.id] = { key: today, guesses: [], hints: [] };
-    g.target = answer(m.id, today);
+  for (const m of MODES) for (const lv of LEVELS) {
+    const id = gid(m.id, lv);
+    let g = S.games[id];
+    if (!g || g.key !== today) g = S.games[id] = { key: today, guesses: [], hints: [] };
+    g.target = answer(m.id, lv, today);
     g.done = g.guesses.includes(g.target);
   }
 }
 function save() {
-  const out = { v: 1, stats: S.stats, games: {} };
-  for (const m of MODES) { const g = S.games[m.id]; out.games[m.id] = { key: g.key, target: g.target, guesses: g.guesses, done: g.done, hints: g.hints }; }
+  const out = { v: 2, stats: S.stats, games: {} };
+  for (const m of MODES) for (const lv of LEVELS) { const id = gid(m.id, lv), g = S.games[id]; out.games[id] = { key: g.key, target: g.target, guesses: g.guesses, done: g.done, hints: g.hints }; }
   if (!store.set(KEY, out) && !saveWarned) { saveWarned = true; toast("Não deu para salvar o progresso neste navegador."); }
 }
-const game = id => P[id] || S.games[id];
+// partida aberta do modo no nível escolhido: o treino, se houver, ou a do dia
+const game = id => P[cur(id)] || S.games[cur(id)];
 const wrongCount = g => g.guesses.filter(x => x !== g.target).length;
 function recordDaily(id, firstGuess, won) {
-  const st = S.stats[id];
+  const st = S.stats[cur(id)];
   if (firstGuess) st.played++;
   if (won) {
     st.won++;
     st.cur = st.lastKey === spKey(-1) ? st.cur + 1 : 1;
     st.best = Math.max(st.best, st.cur);
     st.lastKey = today;
-    const n = S.games[id].guesses.length, b = n >= 15 ? "15+" : String(n);
+    const n = S.games[cur(id)].guesses.length, b = n >= 15 ? "15+" : String(n);
     st.dist[b] = (st.dist[b] || 0) + 1;
   }
 }
@@ -228,8 +261,8 @@ function guess(id, pid) {
   const first = g.guesses.length === 0, wrongBefore = wrongCount(g);
   g.guesses.push(pid);
   if (pid === g.target) g.done = true;
-  if (!P[id]) { recordDaily(id, first, g.done); save(); }
-  if (g.done) freshAnim[id] = true;
+  if (!P[cur(id)]) { recordDaily(id, first, g.done); save(); }
+  if (g.done) freshAnim[cur(id)] = true;
   render(id, true);
   announceGuess(id, pid, wrongBefore);
   return true;
@@ -642,7 +675,7 @@ function renderHints(id) {
 function openHint(id, k) {
   const g = game(id);
   if (!g.hints.includes(k)) g.hints.push(k);
-  if (!P[id]) save();
+  if (!P[cur(id)]) save();
   renderHints(id);
   const h = hintDefs(id).find(x => x.k === k), b = $(`#${PANEL[MODE[id].kind]}-hints .hint.open:nth-child(${k === "h1" ? 1 : 2})`);
   if (h) announce(`${h.label}: ${h.val(BY[g.target])}`);
@@ -653,19 +686,30 @@ function openHint(id, k) {
 function renderMeta(id) {
   const m = MODE[id], panel = PANEL[m.kind], g = game(id);
   const meta = $(`#${panel}-meta`), date = $(`#${panel}-date`);
-  if (P[id]) { meta.innerHTML = `<span class="tag">Treino</span> · figura aleatória`; date.textContent = `${g.guesses.length} ${g.guesses.length === 1 ? "palpite" : "palpites"}`; }
-  else { meta.textContent = `Ficha nº ${dayIdx(today) + 1}${m.kind === "classic" ? " · " + m.label : ""}`; date.textContent = dateLabel(today); }
+  const lvName = LEVEL_NAME[currentLevel];
+  if (P[cur(id)]) { meta.innerHTML = `<span class="tag">Treino</span> · figura aleatória · ${lvName}`; date.textContent = `${g.guesses.length} ${g.guesses.length === 1 ? "palpite" : "palpites"}`; }
+  else { meta.textContent = `Ficha nº ${dayIdx(today) + 1}${m.kind === "classic" ? " · " + m.label : ""} · ${lvName}`; date.textContent = dateLabel(today); }
   const inp = $(`#${panel}-input`);
   inp.disabled = g.done; $(`#${panel}-go`).disabled = g.done;
   inp.placeholder = g.done ? "Resolvido. Veja a ficha abaixo." : "Digite um nome";
-  $(`#${panel}-reveal`).hidden = !(P[id] && !g.done);
+  $(`#${panel}-reveal`).hidden = !(P[cur(id)] && !g.done);
   if (m.kind === "classic") $("#classic-title").textContent = m.cont ? `Quem é a figura de hoje da ${m.label}?` : "Quem é a figura de hoje?";
 }
+const CHECK = `<span class="ck" aria-hidden="true"><svg viewBox="0 0 12 12"><path d="M2.5 6.3l2.2 2.2 4.8-5"/></svg></span>`;
 function renderRegions() {
   $("#regions").innerHTML = MODES.filter(m => m.kind === "classic").map(m => {
-    const solved = S.games[m.id] && S.games[m.id].done;
-    return `<button type="button" data-region="${m.id}" aria-pressed="${m.id === currentRegion}">${solved ? `<span class="ck" aria-hidden="true"><svg viewBox="0 0 12 12"><path d="M2.5 6.3l2.2 2.2 4.8-5"/></svg></span>` : ""}${m.label}${solved ? `<span class="sr">, resolvido</span>` : ""}</button>`;
+    const solved = S.games[gid(m.id, currentLevel)].done;
+    return `<button type="button" data-region="${m.id}" aria-pressed="${m.id === currentRegion}">${solved ? CHECK : ""}${m.label}${solved ? `<span class="sr">, resolvido</span>` : ""}</button>`;
   }).join("");
+}
+// seletor de nível: marca o nível escolhido e os níveis do modo atual já resolvidos hoje
+function renderLevels(id) {
+  for (const lv of LEVELS) {
+    const inp = $(`#lv-${lv}`), solved = S.games[gid(id, lv)].done;
+    inp.checked = lv === currentLevel;
+    inp.parentElement.querySelector(".ck").hidden = !solved;
+    inp.parentElement.querySelector("[data-done]").textContent = solved ? ", resolvido hoje" : "";
+  }
 }
 function renderClassic(id, animate) {
   const g = game(id), t = BY[g.target], board = $("#classic-board");
@@ -707,14 +751,14 @@ function renderQuote(id) {
 function renderResult(id) {
   const m = MODE[id], panel = PANEL[m.kind], g = game(id), box = $(`#${panel}-result`);
   if (!g.done) { box.hidden = true; box.innerHTML = ""; return; }
-  const t = BY[g.target], n = g.guesses.length;
-  const actions = P[id]
+  const t = BY[g.target], n = g.guesses.length, practice = !!P[cur(id)];
+  const actions = practice
     ? `<button type="button" class="btn primary" data-act="practice">Nova figura aleatória</button><button type="button" class="btn" data-act="daily">Voltar à figura do dia</button>`
     : `<button type="button" class="btn primary" data-act="share">Copiar resultado</button><button type="button" class="btn" data-act="practice">Treinar com figura aleatória</button><span class="countdown">Próxima figura em <b data-cd>--:--:--</b></span>`;
   box.innerHTML = `
     <div class="left"><div class="frame" data-photo="${t.id}"><div class="canvas"><div class="state" aria-hidden="true">${esc(initials(t.n))}</div></div></div><p class="credit" data-credit="${t.id}"></p></div>
     <div class="right">
-      <div class="kicker">${g.gaveUp ? "Resposta revelada" : `Encontrada em ${n} ${n === 1 ? "palpite" : "palpites"}`}</div>
+      <div class="kicker">${practice ? "Treino · " : ""}${LEVEL_NAME[currentLevel]} · ${g.gaveUp ? "Resposta revelada" : `Encontrada em ${n} ${n === 1 ? "palpite" : "palpites"}`}</div>
       <h3 class="disp" tabindex="-1">${esc(t.n)}</h3>
       <div class="life">${flag(t)} ${esc(ctryName(t.c))} · ${esc(areasTxt(t))} · ${esc(lifeSpan(t))}</div>
       <p class="what">${esc(t.h1)}. ${esc(t.h2)}.</p>
@@ -722,8 +766,8 @@ function renderResult(id) {
     </div>
     <div class="actions">${actions}</div>`;
   box.hidden = false;
-  if (freshAnim[id]) {
-    box.classList.remove("fresh"); void box.offsetWidth; box.classList.add("fresh"); freshAnim[id] = false;
+  if (freshAnim[cur(id)]) {
+    box.classList.remove("fresh"); void box.offsetWidth; box.classList.add("fresh"); freshAnim[cur(id)] = false;
     // leva o foco ao nome da figura, para quem joga pelo teclado ou com leitor de tela não ficar perdido
     box.querySelector("h3").focus();
   } else box.classList.remove("fresh");
@@ -740,14 +784,16 @@ function renderResult(id) {
 }
 function renderYesterday(id) {
   const el = $(`#${PANEL[MODE[id].kind]}-yesterday`), key = spKey(-1);
-  if (dayIdx(key) < 0) { el.textContent = ""; return; }
-  const y = BY[answer(id, key)];
+  // antes do lançamento não havia figura; antes deste build os dados (e as respostas) eram outros
+  if (dayIdx(key) < 0 || (BUILT && key < BUILT)) { el.textContent = ""; return; }
+  const y = BY[answer(id, currentLevel, key)];
   el.innerHTML = `A figura de ontem foi ${flag(y)} <b>${esc(y.n)}</b>`;
 }
 function render(id, animate = false) {
   const m = MODE[id];
   if (m.kind === "classic" && id !== currentRegion) return;
   renderMeta(id);
+  renderLevels(id);
   renderHints(id);
   if (m.kind === "classic") { renderRegions(); renderClassic(id, animate); }
   else renderGuessList(id, animate);
@@ -756,8 +802,9 @@ function render(id, animate = false) {
   const g = game(id);
   const delay = animate && g.done ? (m.kind === "classic" ? 1000 : 400) : 0;
   clearTimeout(resultTimer[id]);
-  // o cartão do resultado espera a animação; se o jogador trocar de modo nesse meio tempo, ele não aparece no lugar errado
-  if (delay) { $(`#${PANEL[m.kind]}-result`).hidden = true; resultTimer[id] = setTimeout(() => { if (activeMode() === id) renderResult(id); }, delay); }
+  // o cartão do resultado espera a animação; se o jogador trocar de modo ou de nível nesse meio tempo, ele não aparece no lugar errado
+  const lv = currentLevel;
+  if (delay) { $(`#${PANEL[m.kind]}-result`).hidden = true; resultTimer[id] = setTimeout(() => { if (activeMode() === id && currentLevel === lv) renderResult(id); }, delay); }
   else renderResult(id);
   renderYesterday(id);
 }
@@ -765,8 +812,8 @@ function render(id, animate = false) {
 /* ---------- compartilhar ---------- */
 const shareUrl = () => (/^https?:$/.test(location.protocol) ? location.origin + location.pathname.replace(/[^/]*$/, "") : SITE);
 function shareText(id) {
-  const m = MODE[id], g = S.games[id], n = g.guesses.length, t = BY[g.target];
-  let s = `Famosodle nº ${dayIdx(today) + 1} · ${m.kind === "classic" ? "Clássico " + m.label : m.label}\nAcertei em ${n} ${n === 1 ? "palpite" : "palpites"}\n`;
+  const m = MODE[id], g = S.games[cur(id)], n = g.guesses.length, t = BY[g.target];
+  let s = `Famosodle #${dayIdx(today) + 1} · ${m.label} · ${LEVEL_NAME[currentLevel]}\nAcertei em ${n} ${n === 1 ? "palpite" : "palpites"}\n`;
   if (m.kind === "classic") {
     const rows = g.guesses.map(pid => shareRow(compare(BY[pid], t, id)));
     if (rows.length > 6) s += `+${rows.length - 6} linhas\n`;
@@ -789,21 +836,35 @@ function toast(msg) { const t = $("#toast"); t.textContent = msg; t.hidden = fal
 
 /* ---------- treino ---------- */
 function shuffle(list) { const a = list.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+// o treino sorteia dentro do nível escolhido, sem repetir a figura do dia nem a do treino anterior
 function startPractice(id) {
-  const avoid = new Set([S.games[id].target, P[id] && P[id].target]);
-  const pool = POOL[id].filter(x => !avoid.has(x));
-  P[id] = { target: shuffle(pool.length ? pool : POOL[id])[0], guesses: [], done: false, hints: [] };
+  const k = cur(id), all = LEVEL_POOL[id][currentLevel - 1];
+  const avoid = new Set([S.games[k].target, P[k] && P[k].target]);
+  const pool = all.filter(x => !avoid.has(x));
+  P[k] = { target: shuffle(pool.length ? pool : all)[0], guesses: [], done: false, hints: [] };
   render(id);
   window.scrollTo({ top: 0, behavior: reducedMotion() ? "auto" : "smooth" });
   $(`#${PANEL[MODE[id].kind]}-input`).focus({ preventScroll: true });
 }
-function backToDaily(id) { delete P[id]; render(id); $(`#${PANEL[MODE[id].kind]}-input`).focus({ preventScroll: true }); }
-function revealPractice(id) { const g = P[id]; if (!g || g.done) return; g.gaveUp = true; g.done = true; freshAnim[id] = true; render(id); announce(`Resposta revelada: ${BY[g.target].n}.`); }
+function backToDaily(id) { delete P[cur(id)]; render(id); $(`#${PANEL[MODE[id].kind]}-input`).focus({ preventScroll: true }); }
+function revealPractice(id) { const g = P[cur(id)]; if (!g || g.done) return; g.gaveUp = true; g.done = true; freshAnim[cur(id)] = true; render(id); announce(`Resposta revelada: ${BY[g.target].n}.`); }
 
 /* ---------- abas e diálogos ---------- */
 function activeMode() { return currentKind === "classic" ? currentRegion : currentKind === "photo" ? "foto" : "frase"; }
-function saveUi() { try { localStorage.setItem(KEY + ":ui", JSON.stringify({ k: currentKind, r: currentRegion })); } catch (e) { } }
+function saveUi() { try { localStorage.setItem(UI_KEY, JSON.stringify({ k: currentKind, r: currentRegion, l: currentLevel })); } catch (e) { } }
+// quem troca de aba, região ou nível antes do cartão do resultado aparecer já saiu do momento do acerto:
+// ao voltar, o cartão aparece sem animação e sem puxar o foco
+function forgetFresh() { for (const k in freshAnim) delete freshAnim[k]; }
+function setLevel(lv) {
+  if (!LEVELS.includes(lv) || lv === currentLevel) return;
+  forgetFresh();
+  currentLevel = lv;
+  for (const panel of KINDS) { $(`#${panel}-input`).value = ""; $(`#${panel}-list`).hidden = true; }
+  saveUi();
+  render(activeMode());
+}
 function setKind(k, focusTab) {
+  forgetFresh();
   currentKind = k;
   for (const x of KINDS) {
     const tab = $(`#tab-${x}`);
@@ -817,6 +878,7 @@ function setKind(k, focusTab) {
 }
 function setRegion(r) {
   if (!MODE[r] || MODE[r].kind !== "classic") return;
+  forgetFresh();
   currentRegion = r;
   const inp = $("#classic-input"); inp.value = ""; $("#classic-list").hidden = true;
   saveUi();
@@ -831,15 +893,27 @@ function openDlg(d) {
   d.setAttribute("open", "");
 }
 function closeDlg(d) { if (d.close) d.close(); else d.removeAttribute("open"); }
-function renderStats() {
+const streakNow = st => (st.lastKey === today || st.lastKey === spKey(-1) ? st.cur : 0);
+// total de um modo: os 4 níveis mais o que foi jogado antes dos níveis. Sequência e recorde são os maiores entre as partes
+function totalStats(id) {
+  const t = emptyStats();
+  for (const st of [S.stats[id], ...LEVELS.map(lv => S.stats[gid(id, lv)])]) {
+    t.played += st.played; t.won += st.won; t.best = Math.max(t.best, st.best); t.cur = Math.max(t.cur, streakNow(st));
+    for (const [k, v] of Object.entries(st.dist)) t.dist[k] = (t.dist[k] || 0) + v;
+  }
+  t.lastKey = today;
+  return t;
+}
+// tabela de um nível (1 a 4) ou do total ("t")
+function renderStats(sel) {
   const rows = MODES.map(m => {
-    const st = S.stats[m.id];
-    const cur = (st.lastKey === today || st.lastKey === spKey(-1)) ? st.cur : 0;
+    const st = sel === "t" ? totalStats(m.id) : S.stats[gid(m.id, sel)];
     const total = Object.entries(st.dist).reduce((a, [k, v]) => a + (k === "15+" ? 15 : +k) * v, 0);
     const avg = st.won ? (total / st.won).toFixed(1).replace(".", ",") : "0";
-    return `<tr><td>${m.kind === "classic" ? "Clássico " + m.label : m.label}</td><td>${st.played}</td><td>${st.won}</td><td>${cur}</td><td>${st.best}</td><td>${avg}</td></tr>`;
+    return `<tr><td>${m.kind === "classic" ? "Clássico " + m.label : m.label}</td><td>${st.played}</td><td>${st.won}</td><td>${streakNow(st)}</td><td>${st.best}</td><td>${avg}</td></tr>`;
   }).join("");
-  $("#stats-table").innerHTML = `<thead><tr><th scope="col">Modo</th><th scope="col">Jogos</th><th scope="col">Acertos</th><th scope="col">Sequência</th><th scope="col">Recorde</th><th scope="col">Média</th></tr></thead><tbody>${rows}</tbody>`;
+  $("#stats-table").innerHTML = `<caption class="sr">${sel === "t" ? "Total de todos os níveis" : "Nível " + LEVEL_NAME[sel]}</caption><thead><tr><th scope="col">Modo</th><th scope="col">Jogos</th><th scope="col">Acertos</th><th scope="col">Sequência</th><th scope="col">Recorde</th><th scope="col">Média</th></tr></thead><tbody>${rows}</tbody>`;
+  $("#stats-total-note").hidden = sel !== "t";
 }
 
 /* ---------- relógio ---------- */
@@ -854,7 +928,13 @@ function tick() {
 /* ---------- início ---------- */
 function start() {
   loadDaily();
-  try { const ui = JSON.parse(localStorage.getItem(KEY + ":ui")) || {}; if (KINDS.includes(ui.k)) currentKind = ui.k; if (typeof ui.r === "string" && MODE[ui.r] && MODE[ui.r].kind === "classic") currentRegion = ui.r; } catch (e) { }
+  // aba, região e nível da última visita; quem chega pela primeira vez começa no Iniciante
+  try {
+    const ui = JSON.parse(localStorage.getItem(UI_KEY)) || {};
+    if (KINDS.includes(ui.k)) currentKind = ui.k;
+    if (typeof ui.r === "string" && MODE[ui.r] && MODE[ui.r].kind === "classic") currentRegion = ui.r;
+    if (LEVELS.includes(ui.l)) currentLevel = ui.l;
+  } catch (e) { }
   for (const panel of KINDS) {
     setupSearch(panel);
     $(`#${panel}-hints`).addEventListener("click", e => { const b = e.target.closest("[data-h]"); if (b) openHint(searchMode[panel](), b.dataset.h); });
@@ -876,8 +956,12 @@ function start() {
   });
   $("#photo-credit").addEventListener("click", e => { if (e.target.closest("[data-credit-show]")) { creditShown[game("foto").target] = true; renderPhoto("foto"); } });
   $("#regions").addEventListener("click", e => { const b = e.target.closest("[data-region]"); if (b) setRegion(b.dataset.region); });
+  // o seletor de nível é um grupo de botões de rádio do navegador: setas, foco e anúncio do item marcado vêm prontos
+  $("#levels").addEventListener("change", e => { if (e.target.name === "nivel") setLevel(Number(e.target.value)); });
+  $("#stats-levels").addEventListener("change", e => { if (e.target.name === "stats-nivel") renderStats(e.target.value === "t" ? "t" : Number(e.target.value)); });
   $("#btn-help").addEventListener("click", () => openDlg($("#dlg-help")));
-  $("#btn-stats").addEventListener("click", () => { renderStats(); openDlg($("#dlg-stats")); });
+  // as estatísticas abrem no nível que está sendo jogado
+  $("#btn-stats").addEventListener("click", () => { $(`#st-${currentLevel}`).checked = true; renderStats(currentLevel); openDlg($("#dlg-stats")); });
   $("#btn-credits").addEventListener("click", () => openDlg($("#dlg-credits")));
   const canBuild = !PHOTO_EMBED && PRISTINE.includes("/*__EMBED__*/");
   document.querySelectorAll("[data-build]").forEach(b => { b.hidden = !canBuild; if (canBuild) b.addEventListener("click", buildOffline); });
@@ -886,13 +970,13 @@ function start() {
   document.querySelectorAll("[data-offline-note]").forEach(el => { el.hidden = !PHOTO_EMBED; if (PHOTO_EMBED) el.textContent = `Este arquivo já tem ${Object.keys(PHOTO_EMBED).length} fotos dentro e funciona sem internet.`; });
   if (PHOTO_EMBED) document.querySelectorAll("[data-online-note]").forEach(el => { el.hidden = true; });
   document.querySelectorAll("dialog").forEach(d => d.addEventListener("click", e => { if (e.target === d || e.target.closest("[data-close]")) closeDlg(d); }));
-  $("#foot-count").textContent = `${PEOPLE.length} figuras · ${Object.keys(CTRY).length} países · ${MODES.length} modos`;
+  $("#foot-count").textContent = `${PEOPLE.length} figuras · ${Object.keys(CTRY).length} países · ${MODES.length} modos · ${LEVELS.length} níveis`;
   setKind(currentKind);
   setInterval(tick, 1000); tick();
   // a aba volta do segundo plano: confere a virada do dia na hora
   document.addEventListener("visibilitychange", () => { if (!document.hidden) tick(); });
   // outra aba salvou progresso: recarrega para uma não apagar o que a outra fez
   window.addEventListener("storage", e => { if (e.key === KEY) { S = readState(); loadDaily(); render(activeMode()); } });
-  try { if (!localStorage.getItem(KEY + ":help")) { localStorage.setItem(KEY + ":help", "1"); openDlg($("#dlg-help")); } } catch (e) { }
+  try { if (!localStorage.getItem(HELP_KEY)) { localStorage.setItem(HELP_KEY, "1"); openDlg($("#dlg-help")); } } catch (e) { }
 }
 start();

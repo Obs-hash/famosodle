@@ -89,7 +89,15 @@ Cuidados:
 
 - Sempre envie o `vercel.json` junto. A Vercel lê esse arquivo antes de montar o site, e o build às vezes muda ele (o terminal avisa).
 - Mudanças nas figuras e no pacote de fotos trocam a sequência das respostas dos próximos dias. Publique essas mudanças logo depois da meia-noite de Brasília.
-- Figuras novas entram sempre no fim de `dados/figuras-extra.txt`. Depois rode `npm run verificar-fotos`, `npm run baixar-fotos` e `npm run build`. Se a figura for de um país que ainda não estava no jogo, rode também `npm run baixar-bandeiras` antes do build.
+- Figuras novas entram sempre no fim de `dados/figuras-extra.txt`, e cada uma precisa de uma linha com o nível em `dados/fama.txt`. Depois rode `npm run dados`, `npm run verificar-fotos`, `npm run baixar-fotos`, `npm run visitas` e `npm run build`. Se a figura for de um país que ainda não estava no jogo, rode também `npm run baixar-bandeiras` antes do build.
+
+### Atualizar pelo site do GitHub, sem git
+
+Também dá para atualizar sem o git, enviando pelo site do GitHub só os arquivos que mudaram:
+
+- Na página principal do repositório, clique em **Add file** e depois em **Upload files**, e arraste os arquivos e pastas mantendo a estrutura do projeto. O GitHub troca os arquivos de mesmo nome.
+- O site aceita **menos de 100 arquivos** por envio. Se forem mais, divida em partes.
+- Cada envio vira um deploy na Vercel. Mande primeiro as fotos novas, que não mudam nada no site sozinhas, e por último o código e os dados. Assim o site só muda uma vez.
 
 ## Alternativa: publicar só a pasta pronta
 
@@ -107,6 +115,6 @@ Na primeira vez, o `npx vercel` pede para entrar na Vercel e faz algumas pergunt
 
 - **O deploy falhou na Vercel**: abra o projeto na Vercel, clique em **Deployments**, depois no deploy com erro e em **Build Logs**. A mensagem de erro do `npm run build` aparece ali.
 - **`npm test` diz que não achou o Chrome**: instale o Google Chrome, ou rode `npx playwright install chromium` e depois, no PowerShell, `$env:PW_CHROMIUM = "1"` antes de `npm test`.
-- **As fotos não aparecem no site**: confira se a pasta `fotos` está no GitHub com as pastas `fotos-1` a `fotos-4`.
+- **As fotos não aparecem no site**: confira se a pasta `fotos` está no GitHub com as pastas `fotos-1` a `fotos-6`.
 - **As bandeiras aparecem como letras ("BR")**: confira se a pasta `bandeiras` está no GitHub, com os arquivos `.png` e o `creditos.json`.
 - **O GitHub diz "Yowza, that's a lot of files"**: o envio pelo site aceita menos de 100 arquivos por vez. Mande em partes menores.

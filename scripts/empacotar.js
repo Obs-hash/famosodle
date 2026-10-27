@@ -55,7 +55,9 @@ const cssNome = comHash("famosodle.css", Buffer.from(cssSite));
 gravar("assets/" + cssNome, cssSite);
 
 const data = ler("dados/data.json").replace(/</g, ESC_LT);
-const app = ler("src/app.js").replace("/*__DATA__*/{}", () => data).replace('/*__SITE__*/""', () => JSON.stringify(SITE));
+// dia do build no horário de Brasília: a "figura de ontem" só aparece se estes dados já valiam ontem
+const BUILT = new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10);
+const app = ler("src/app.js").replace("/*__DATA__*/{}", () => data).replace('/*__SITE__*/""', () => JSON.stringify(SITE)).replace('/*__BUILT__*/""', () => JSON.stringify(BUILT));
 // os botões do arquivo único trocam exatamente este texto pelas fotos embutidas
 if (!app.includes("const PHOTO_EMBED = null; /*__EMBED__*/")) throw new Error("o marcador do PHOTO_EMBED sumiu de src/app.js");
 if (/<\/script|<!--/i.test(app)) throw new Error("app.js contém </script ou <!--");

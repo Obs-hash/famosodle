@@ -4,7 +4,10 @@
 // PNG vira JPEG com pngjs e jpeg-js (só JavaScript). GIF, WebP e outros formatos ficam de fora:
 // nesses casos o jogo busca a imagem direto na Wikipedia. Depois, todas as fotos são recomprimidas com o
 // codificador JPEG do Chrome (o mesmo do botão do navegador), pelo Playwright; sem Chrome, ficam como vieram.
-// Uso: npm run baixar-fotos   (depois rode npm run build e faça commit da pasta fotos/)
+// Por padrão só baixa as figuras que ainda não têm foto no pacote: as fotos que já existem ficam com os
+// mesmos bytes e o mesmo hash, e só mudam os arquivos novos e o creditos.json. Com --todas, refaz o pacote inteiro.
+// Uso: npm run baixar-fotos   ou   npm run baixar-fotos -- --todas
+// (depois rode npm run build e faça commit da pasta fotos/)
 "use strict";
 const fs = require("fs");
 const path = require("path");
@@ -17,9 +20,11 @@ const LARGURA = 500; // um dos tamanhos padrão de miniatura da Wikimedia
 const FUNDO = [43, 38, 41]; // --ink-2, a cor do quadro, para fotos com transparência
 const QUALIDADE = 0.8; // mesma qualidade do botão "Gerar pacote de fotos para o site"
 // quando a imagem principal do artigo não é livre, mas o Commons tem um retrato livre da pessoa
-const ALTERNATIVAS = { p167: "Darcy Ribeiro.jpg" };
+const ALTERNATIVAS = { p167: "Darcy Ribeiro.jpg", p520: "240305 Lee Jung-jae (cropped).jpg" };
 const RAIZ = path.join(__dirname, "..", "fotos");
 const TEMP = path.join(RAIZ, ".baixando");
+const CREDITOS = path.join(RAIZ, "fotos-1", "creditos.json");
+const TODAS = process.argv.includes("--todas");
 const PAGINA = /^https:\/\/(commons\.wikimedia|en\.wikipedia)\.org\/wiki\//;
 // 99 fotos por pasta; a fotos-1 leva também o creditos.json (no máximo 100 arquivos por pasta)
 const pasta = pid => `fotos-${Math.floor((Number(pid.slice(1)) - 1) / 99) + 1}`;
@@ -51,18 +56,20 @@ async function abrirCodificador() {
     browser = await chromium.launch({ channel: "chrome" }).catch(() => chromium.launch());
     const page = await browser.newPage();
     return {
-      async jpeg(buf) {
-        const b64 = await page.evaluate(async ([src, q]) => {
-          const bmp = await createImageBitmap(await (await fetch("data:image/jpeg;base64," + src)).blob());
-          const c = new OffscreenCanvas(bmp.width, bmp.height);
-          c.getContext("2d").drawImage(bmp, 0, 0);
+      // recomprime um JPEG (fica com o menor) ou converte um WebP para JPEG (sempre), pintando a transparência com a cor do quadro
+      async jpeg(buf, tipo = "jpeg") {
+        const b64 = await page.evaluate(async ([src, mime, q, fundo]) => {
+          const bmp = await createImageBitmap(await (await fetch(`data:${mime};base64,` + src)).blob());
+          const c = new OffscreenCanvas(bmp.width, bmp.height), ctx = c.getContext("2d");
+          ctx.fillStyle = `rgb(${fundo.join(",")})`; ctx.fillRect(0, 0, c.width, c.height);
+          ctx.drawImage(bmp, 0, 0);
           const u8 = new Uint8Array(await (await c.convertToBlob({ type: "image/jpeg", quality: q })).arrayBuffer());
           let s = "";
           for (let i = 0; i < u8.length; i += 0x8000) s += String.fromCharCode(...u8.subarray(i, i + 0x8000));
           return btoa(s);
-        }, [buf.toString("base64"), QUALIDADE]);
+        }, [buf.toString("base64"), "image/" + tipo, QUALIDADE, FUNDO]);
         const novo = Buffer.from(b64, "base64");
-        return novo.length < buf.length ? novo : buf;
+        return tipo !== "jpeg" || novo.length < buf.length ? novo : buf;
       },
       fechar: () => browser.close()
     };
@@ -73,8 +80,21 @@ async function abrirCodificador() {
   }
 }
 
+// fotos que já estão no pacote, com arquivo presente e do mesmo nome de figura (uma linha trocada por outra pessoa baixa de novo)
+function fotosAtuais(todas) {
+  if (TODAS || !fs.existsSync(CREDITOS)) return {};
+  const lista = (JSON.parse(fs.readFileSync(CREDITOS, "utf8")) || {}).fotos || {}, nome = new Map(todas.map(p => [p.id, p.n])), ok = {};
+  for (const [pid, e] of Object.entries(lista)) {
+    if (e && typeof e.f === "string" && /^fotos-\d\/p\d{3}\.jpg$/.test(e.f) && e.n === nome.get(pid) && fs.existsSync(path.join(RAIZ, e.f))) ok[pid] = e;
+  }
+  return ok;
+}
+
 (async () => {
-  const pessoas = figuras();
+  const todas = figuras(), atuais = fotosAtuais(todas);
+  const pessoas = todas.filter(p => !atuais[p.id]);
+  if (!TODAS) console.log(`${Object.keys(atuais).length} figuras já têm foto no pacote e ficam como estão.`);
+  if (!pessoas.length) { console.log("Nenhuma foto faltando."); return; }
   console.log(`Buscando a imagem principal de ${pessoas.length} artigos...`);
   const arquivo = new Map();
   for (const lote of lotes(pessoas, 50)) {
@@ -118,6 +138,9 @@ async function abrirCodificador() {
     const tipo = formato(buf);
     if (tipo === "png") {
       try { buf = pngParaJpeg(buf); convertidas++; } catch (e) { falhas.push(`${p.id} ${p.n}: ${e.message}`); continue; }
+    } else if (tipo === "webp" && cod) {
+      // WebP vira JPEG pelo Chrome (o jpeg-js não lê WebP)
+      try { buf = await cod.jpeg(buf, "webp"); convertidas++; } catch (e) { falhas.push(`${p.id} ${p.n}: ${e.message}`); continue; }
     } else if (tipo !== "jpeg") { falhas.push(`${p.id} ${p.n}: formato ${tipo} não suportado`); continue; }
     original += buf.length;
     if (cod) buf = await cod.jpeg(buf);
@@ -133,21 +156,39 @@ async function abrirCodificador() {
   }
   console.log("");
   if (cod) await cod.fechar();
-  if (Object.keys(fotos).length < 100) {
+  if (TODAS && Object.keys(fotos).length < 100) {
     if (falhas.length) console.log(`Não baixadas (${falhas.length}):\n  ` + falhas.slice(0, 30).join("\n  "));
     fs.rmSync(TEMP, { recursive: true, force: true });
     throw new Error("Poucas fotos baixadas; nada foi alterado na pasta fotos/.");
   }
+  if (!TODAS && !Object.keys(fotos).length) {
+    fs.rmSync(TEMP, { recursive: true, force: true });
+    console.log("Nenhuma foto nova; nada foi alterado na pasta fotos/.");
+    if (semFoto.length) console.log(`Sem imagem principal livre (${semFoto.length}):\n  ` + semFoto.join("\n  "));
+    if (falhas.length) console.log(`Não baixadas (${falhas.length}):\n  ` + falhas.join("\n  "));
+    return;
+  }
+  // créditos em ordem de id: os que já existiam e os novos
+  const todasFotos = Object.fromEntries(Object.entries({ ...atuais, ...fotos }).sort(([a], [b]) => a.localeCompare(b)));
   fs.mkdirSync(path.join(TEMP, "fotos-1"), { recursive: true });
-  fs.writeFileSync(path.join(TEMP, "fotos-1", "creditos.json"), JSON.stringify({ gerado: new Date().toISOString(), fonte: "Wikipedia e Wikimedia Commons", fotos }, null, 1) + "\n");
-  // troca as pastas antigas pelas novas só no fim, para não deixar o pacote pela metade
-  for (const d of fs.readdirSync(RAIZ)) if (/^fotos-\d$/.test(d)) fs.rmSync(path.join(RAIZ, d), { recursive: true, force: true });
-  for (const d of fs.readdirSync(TEMP)) fs.renameSync(path.join(TEMP, d), path.join(RAIZ, d));
+  fs.writeFileSync(path.join(TEMP, "fotos-1", "creditos.json"), JSON.stringify({ gerado: new Date().toISOString(), fonte: "Wikipedia e Wikimedia Commons", fotos: todasFotos }, null, 1) + "\n");
+  if (TODAS) {
+    // troca as pastas antigas pelas novas só no fim, para não deixar o pacote pela metade
+    for (const d of fs.readdirSync(RAIZ)) if (/^fotos-\d$/.test(d)) fs.rmSync(path.join(RAIZ, d), { recursive: true, force: true });
+    for (const d of fs.readdirSync(TEMP)) fs.renameSync(path.join(TEMP, d), path.join(RAIZ, d));
+  } else {
+    // só acrescenta: as fotos novas entram nas pastas e o creditos.json é trocado por último
+    for (const d of fs.readdirSync(TEMP)) {
+      fs.mkdirSync(path.join(RAIZ, d), { recursive: true });
+      for (const f of fs.readdirSync(path.join(TEMP, d))) if (f !== "creditos.json") fs.renameSync(path.join(TEMP, d, f), path.join(RAIZ, d, f));
+    }
+    fs.renameSync(path.join(TEMP, "fotos-1", "creditos.json"), CREDITOS);
+  }
   fs.rmSync(TEMP, { recursive: true, force: true });
 
   const porPasta = {};
-  for (const e of Object.values(fotos)) { const d = e.f.split("/")[0]; porPasta[d] = (porPasta[d] || 0) + 1; }
-  console.log(`Pronto: ${Object.keys(fotos).length} fotos, ${(bytes / 1048576).toFixed(1)} MB (${(original / 1048576).toFixed(1)} MB antes da recompressão) | por pasta ${JSON.stringify(porPasta)} | PNG convertidos ${convertidas}`);
+  for (const e of Object.values(todasFotos)) { const d = e.f.split("/")[0]; porPasta[d] = (porPasta[d] || 0) + 1; }
+  console.log(`Pronto: ${Object.keys(fotos).length} fotos ${TODAS ? "" : "novas "}(${(bytes / 1048576).toFixed(1)} MB; ${(original / 1048576).toFixed(1)} MB antes da recompressão) | no pacote: ${Object.keys(todasFotos).length} | por pasta ${JSON.stringify(porPasta)} | PNG e WebP convertidos ${convertidas}`);
   if (semFoto.length) console.log(`Sem imagem principal livre (${semFoto.length}):\n  ` + semFoto.join("\n  "));
   if (falhas.length) console.log(`Não baixadas (${falhas.length}):\n  ` + falhas.join("\n  "));
 })().catch(e => { console.error("\nErro:", e.message); process.exit(1); });

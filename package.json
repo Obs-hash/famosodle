@@ -14,6 +14,7 @@
     "verificar-dados": "node scripts/verificar-dados.js",
     "baixar-fotos": "node scripts/baixar-fotos.js",
     "baixar-bandeiras": "node scripts/baixar-bandeiras.js",
+    "visitas": "node scripts/visitas.js",
     "imagens": "node scripts/gerar-imagens.js",
     "lighthouse": "node scripts/medir-lighthouse.js"
   },

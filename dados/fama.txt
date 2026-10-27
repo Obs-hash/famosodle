@@ -1,0 +1,527 @@
+# Nível de fama de cada figura, do ponto de vista de um jogador brasileiro.
+# 1 = Iniciante, 2 = Fácil, 3 = Médio, 4 = Difícil. Formato: nome|nível
+Albert Einstein|1
+Marie Curie|2
+Isaac Newton|1
+Charles Darwin|2
+William Shakespeare|1
+Leonardo da Vinci|1
+Napoleão Bonaparte|1
+Winston Churchill|2
+Júlio César|2
+Galileu Galilei|2
+Wolfgang Amadeus Mozart|1
+Ludwig van Beethoven|1
+Vincent van Gogh|1
+Pablo Picasso|1
+Joana d'Arc|2
+Rainha Vitória|3
+Elizabeth II|1
+Cristóvão Colombo|1
+Karl Marx|1
+Sigmund Freud|2
+Aristóteles|2
+Sócrates|2
+Alexandre, o Grande|2
+Vladimir Lenin|2
+Mikhail Gorbachev|3
+Yuri Gagarin|3
+Florence Nightingale|3
+Anne Frank|2
+Cristiano Ronaldo|1
+Freddie Mercury|1
+John Lennon|2
+Martinho Lutero|2
+Johannes Gutenberg|3
+Fernão de Magalhães|3
+Pedro Álvares Cabral|1
+Agatha Christie|2
+Princesa Diana|2
+Stephen Hawking|2
+Alexander Fleming|3
+Louis Pasteur|3
+René Descartes|2
+Coco Chanel|2
+Muhammad Ali|2
+Malcolm X|2
+Martin Luther King Jr.|1
+Abraham Lincoln|1
+George Washington|2
+John F. Kennedy|1
+Barack Obama|1
+Rosa Parks|3
+Neil Armstrong|2
+Thomas Edison|2
+Benjamin Franklin|2
+Steve Jobs|1
+Walt Disney|1
+Michael Jackson|1
+Elvis Presley|1
+Marilyn Monroe|1
+Michael Jordan|1
+Bill Gates|1
+Serena Williams|2
+Harriet Tubman|3
+Pelé|1
+Ayrton Senna|1
+Getúlio Vargas|2
+Dom Pedro I|1
+Santos Dumont|1
+Tiradentes|1
+Princesa Isabel|2
+Zumbi dos Palmares|2
+Machado de Assis|2
+Che Guevara|2
+Fidel Castro|2
+Simón Bolívar|2
+Frida Kahlo|2
+Diego Maradona|1
+Lionel Messi|1
+Eva Perón|3
+Emiliano Zapata|3
+Bob Marley|1
+Usain Bolt|1
+Gabriel García Márquez|3
+Pablo Neruda|3
+Nelson Mandela|1
+Desmond Tutu|3
+Cleópatra|1
+Tutancâmon|2
+Ramsés II|3
+Nefertiti|3
+Gamal Abdel Nasser|4
+Anwar Sadat|4
+Mohamed Salah|2
+Haile Selassie|3
+Abebe Bikila|4
+Kwame Nkrumah|4
+Kofi Annan|3
+Patrice Lumumba|4
+Thomas Sankara|4
+Wangari Maathai|4
+Jomo Kenyatta|4
+Mansa Musa|3
+Shaka Zulu|3
+Chinua Achebe|4
+Fela Kuti|4
+Miriam Makeba|4
+Steve Biko|4
+Julius Nyerere|4
+Muammar Kadafi|2
+Aníbal|3
+Santo Agostinho|3
+Didier Drogba|2
+Samuel Eto'o|2
+Mahatma Gandhi|1
+Jawaharlal Nehru|4
+Indira Gandhi|3
+Rabindranath Tagore|4
+Sachin Tendulkar|4
+Mao Tsé-tung|2
+Xi Jinping|2
+Deng Xiaoping|4
+Confúcio|2
+Sun Tzu|2
+Bruce Lee|1
+Jackie Chan|1
+Gengis Khan|2
+Kim Jong-un|1
+Kim Il-sung|3
+Hirohito|3
+Hayao Miyazaki|2
+Akira Kurosawa|3
+Shigeru Miyamoto|3
+Ho Chi Minh|3
+Malala Yousafzai|2
+Benazir Bhutto|4
+Mustafa Kemal Atatürk|4
+Solimão, o Magnífico|4
+Golda Meir|4
+Yasser Arafat|3
+Ciro, o Grande|4
+Ruhollah Khomeini|3
+Lee Kuan Yew|4
+Edmund Hillary|3
+Ernest Rutherford|3
+Kate Sheppard|4
+Jacinda Ardern|3
+Katherine Mansfield|4
+Peter Jackson|3
+Jonah Lomu|4
+Howard Florey|4
+Don Bradman|4
+Steve Irwin|2
+Cathy Freeman|4
+Ian Thorpe|3
+Albert Namatjira|4
+Eddie Mabo|4
+Nellie Melba|4
+John Curtin|4
+Douglas Mawson|4
+Nicole Kidman|1
+Hugh Jackman|1
+Luiz Inácio Lula da Silva|1
+Dilma Rousseff|1
+Carlos Marighella|3
+Luís Carlos Prestes|3
+Leonel Brizola|3
+João Goulart|2
+Darcy Ribeiro|3
+Chico Mendes|3
+Marielle Franco|2
+Jair Bolsonaro|1
+Fernando Henrique Cardoso|2
+Juscelino Kubitschek|2
+Castelo Branco|3
+Tancredo Neves|3
+Carlos Lacerda|4
+Ulysses Guimarães|3
+Rui Barbosa|3
+Deodoro da Fonseca|2
+Dom Pedro II|1
+José Bonifácio|3
+Duque de Caxias|3
+Paulo Freire|2
+Oscar Niemeyer|2
+Tom Jobim|2
+Chico Buarque|2
+Caetano Veloso|2
+Gilberto Gil|2
+Carmen Miranda|2
+Clarice Lispector|3
+Carlos Drummond de Andrade|3
+Jorge Amado|3
+Tarsila do Amaral|3
+Heitor Villa-Lobos|4
+Oswaldo Cruz|3
+Anita Garibaldi|4
+Garrincha|2
+Ronaldo Fenômeno|1
+Marta|2
+Neymar|1
+Gustavo Kuerten|2
+Silvio Santos|1
+Irmã Dulce|3
+Antônio Conselheiro|3
+Elis Regina|2
+Franklin D. Roosevelt|3
+Theodore Roosevelt|3
+Thomas Jefferson|3
+Ronald Reagan|3
+Richard Nixon|3
+Dwight D. Eisenhower|4
+Jimmy Carter|4
+Bill Clinton|2
+George W. Bush|2
+Donald Trump|1
+Joe Biden|1
+Hillary Clinton|2
+Kamala Harris|2
+Bernie Sanders|3
+Frederick Douglass|4
+Susan B. Anthony|4
+Eleanor Roosevelt|4
+Henry Kissinger|4
+Amelia Earhart|3
+Ernest Hemingway|3
+Mark Twain|3
+Andy Warhol|2
+Oprah Winfrey|2
+Jesse Owens|3
+Hugo Chávez|2
+Salvador Allende|3
+Augusto Pinochet|2
+Juan Perón|3
+Javier Milei|2
+Cristina Kirchner|3
+Papa Francisco|1
+Jorge Luis Borges|4
+Juan Manuel Fangio|3
+Evo Morales|3
+Raúl Castro|3
+José Martí|4
+Daniel Ortega|4
+Alberto Fujimori|4
+Túpac Amaru II|4
+Álvaro Uribe|4
+Gustavo Petro|4
+Shakira|1
+Andrés Manuel López Obrador|4
+Benito Juárez|4
+Pancho Villa|3
+Diego Rivera|4
+José Mujica|3
+Nayib Bukele|3
+Pierre Trudeau|4
+Justin Trudeau|3
+Toussaint Louverture|4
+Rigoberta Menchú|4
+Gabriela Mistral|4
+Margaret Thatcher|2
+Charles de Gaulle|3
+Konrad Adenauer|4
+Angela Merkel|2
+Helmut Kohl|4
+Otto von Bismarck|3
+Francisco Franco|3
+António de Oliveira Salazar|3
+Vladimir Putin|1
+Volodymyr Zelensky|2
+Viktor Orbán|4
+Giorgia Meloni|3
+Silvio Berlusconi|3
+Marine Le Pen|3
+Emmanuel Macron|2
+Boris Johnson|3
+Tony Blair|3
+Clement Attlee|4
+Willy Brandt|4
+François Mitterrand|4
+Olof Palme|4
+Felipe González|4
+Pedro Sánchez|4
+Lech Wałęsa|4
+Papa João Paulo II|1
+Papa Bento XVI|2
+Václav Havel|4
+Josip Broz Tito|4
+Leon Trotsky|3
+Rosa Luxemburgo|3
+Friedrich Engels|3
+Antonio Gramsci|4
+Boris Yeltsin|4
+Edmund Burke|4
+Friedrich Hayek|4
+John Maynard Keynes|4
+Adam Smith|3
+Catarina, a Grande|3
+Pedro, o Grande|3
+Luís XIV|3
+Maria Antonieta|2
+Henrique VIII|3
+Elizabeth I|3
+Maximilien de Robespierre|3
+Giuseppe Garibaldi|3
+Dante Alighieri|3
+Michelangelo|2
+Nicolau Maquiavel|2
+Platão|2
+Jean-Jacques Rousseau|3
+Voltaire|3
+Victor Hugo|3
+Friedrich Nietzsche|2
+Immanuel Kant|3
+Simone de Beauvoir|3
+Jean-Paul Sartre|3
+George Orwell|2
+Liev Tolstói|3
+Fiódor Dostoiévski|3
+Charles Dickens|3
+Miguel de Cervantes|3
+Fernando Pessoa|3
+Luís de Camões|3
+José Saramago|3
+Johann Sebastian Bach|2
+Frédéric Chopin|3
+Piotr Tchaikovsky|3
+Salvador Dalí|2
+Claude Monet|3
+Rembrandt|3
+Charlie Chaplin|1
+Paul McCartney|2
+David Bowie|2
+Johan Cruyff|3
+Zinedine Zidane|2
+Michael Schumacher|2
+Roger Federer|2
+Rafael Nadal|2
+Greta Thunberg|2
+Alfred Nobel|3
+Dmitri Mendeleiev|3
+Nicolau Copérnico|3
+Alan Turing|3
+Ada Lovelace|4
+Tim Berners-Lee|4
+Grigori Rasputin|3
+Robert Mugabe|4
+Paul Kagame|4
+Ellen Johnson Sirleaf|4
+George Weah|3
+Agostinho Neto|4
+Samora Machel|4
+Amílcar Cabral|4
+Naguib Mahfouz|4
+Frederik de Klerk|4
+Léopold Sédar Senghor|4
+Wole Soyinka|4
+Shinzo Abe|3
+Narendra Modi|3
+Chiang Kai-shek|4
+Park Chung-hee|4
+Sukarno|4
+Yitzhak Rabin|4
+Benjamin Netanyahu|2
+Imran Khan|4
+Aung San Suu Kyi|4
+Ban Ki-moon|4
+Robert Menzies|4
+Gough Whitlam|4
+Bob Hawke|4
+John Howard|4
+Julia Gillard|4
+Helen Clark|4
+John Key|4
+Kylie Minogue|3
+Lorde|3
+Heath Ledger|2
+Mary MacKillop|4
+Josef Stálin|2
+Angela Davis|3
+Nikita Kruschev|3
+Benito Mussolini|2
+Ronaldinho|1
+Kaká|1
+Romário|1
+Zico|2
+Rivaldo|2
+Cafu|2
+Vinícius Júnior|1
+Mário Zagallo|2
+Franz Beckenbauer|3
+Ferenc Puskás|3
+Eusébio|3
+Kylian Mbappé|1
+Erling Haaland|2
+Robert Lewandowski|2
+Luka Modrić|2
+Zlatan Ibrahimović|2
+David Beckham|1
+Andrés Iniesta|2
+Gianluigi Buffon|2
+Paolo Maldini|3
+Roberto Baggio|3
+Michel Platini|3
+George Best|4
+Lev Yashin|4
+Thierry Henry|3
+Pep Guardiola|2
+José Mourinho|2
+Alex Ferguson|3
+Carlo Ancelotti|2
+Alexia Putellas|4
+Sadio Mané|3
+Roger Milla|3
+Jay-Jay Okocha|4
+Achraf Hakimi|3
+Yaya Touré|3
+Son Heung-min|3
+Hidetoshi Nakata|4
+Ali Daei|4
+Sam Kerr|4
+Tim Cahill|4
+Megan Rapinoe|3
+Luis Suárez|2
+Hugo Sánchez|4
+James Rodríguez|3
+Alfredo Di Stéfano|3
+Gabriel Batistuta|3
+Lewis Hamilton|1
+Max Verstappen|2
+Lando Norris|3
+Oscar Piastri|3
+Daniel Ricciardo|3
+Jack Brabham|4
+Alain Prost|3
+Niki Lauda|3
+Fernando Alonso|2
+Sebastian Vettel|3
+Kimi Räikkönen|3
+Mika Häkkinen|4
+Nelson Piquet|2
+Emerson Fittipaldi|3
+Rubens Barrichello|2
+Felipe Massa|2
+Jackie Stewart|4
+Charles Leclerc|3
+Sergio Pérez|3
+LeBron James|1
+Kobe Bryant|1
+Magic Johnson|2
+Larry Bird|3
+Shaquille O'Neal|2
+Stephen Curry|2
+Kareem Abdul-Jabbar|3
+Wilt Chamberlain|4
+Bill Russell|4
+Giannis Antetokounmpo|3
+Dirk Nowitzki|4
+Nikola Jokić|3
+Luka Dončić|3
+Yao Ming|3
+Manu Ginóbili|4
+Oscar Schmidt|2
+Hortência|3
+Dikembe Mutombo|4
+Hakeem Olajuwon|4
+Lauren Jackson|4
+Patty Mills|4
+Rui Hachimura|4
+Tom Hanks|1
+Leonardo DiCaprio|1
+Meryl Streep|2
+Brad Pitt|1
+Angelina Jolie|1
+Denzel Washington|2
+Morgan Freeman|1
+Robert De Niro|2
+Al Pacino|2
+Marlon Brando|2
+Tom Cruise|1
+Will Smith|1
+Johnny Depp|1
+Sylvester Stallone|1
+Dwayne Johnson|1
+Scarlett Johansson|2
+Julia Roberts|2
+Viola Davis|3
+Chadwick Boseman|3
+Keanu Reeves|1
+Jim Carrey|1
+Arnold Schwarzenegger|1
+Audrey Hepburn|2
+Anthony Hopkins|2
+Daniel Radcliffe|2
+Emma Watson|2
+Rowan Atkinson|1
+Sean Connery|2
+Kate Winslet|2
+Sophia Loren|3
+Penélope Cruz|3
+Antonio Banderas|2
+Alain Delon|4
+Marion Cotillard|4
+Fernanda Montenegro|2
+Fernanda Torres|2
+Wagner Moura|2
+Rodrigo Santoro|3
+Sônia Braga|3
+Salma Hayek|2
+Cantinflas|4
+Ricardo Darín|4
+Pedro Pascal|2
+Charlize Theron|2
+Lupita Nyong'o|3
+Omar Sharif|4
+Djimon Hounsou|4
+Shah Rukh Khan|3
+Amitabh Bachchan|4
+Toshiro Mifune|4
+Michelle Yeoh|3
+Gong Li|4
+Song Kang-ho|4
+Lee Jung-jae|3
+Margot Robbie|1
+Chris Hemsworth|1
+Cate Blanchett|2
+Russell Crowe|2
+Taika Waititi|4

@@ -1,0 +1,3683 @@
+{
+ "gerado": "2026-10-27T16:39:53.406Z",
+ "periodo": "2025-10 a 2026-09",
+ "fonte": "Wikimedia Pageviews API, visitas de pessoas (sem robôs)",
+ "proporcaoPtEn": 0.0481,
+ "visitas": {
+  "Albert Einstein": {
+   "v": 234320,
+   "wiki": "pt",
+   "pt": 234320,
+   "en": 4570172,
+   "titulo": "Albert Einstein"
+  },
+  "Marie Curie": {
+   "v": 242337,
+   "wiki": "pt",
+   "pt": 242337,
+   "en": 2108618,
+   "titulo": "Marie Curie"
+  },
+  "Isaac Newton": {
+   "v": 141786,
+   "wiki": "pt",
+   "pt": 141786,
+   "en": 2473711,
+   "titulo": "Isaac Newton"
+  },
+  "Charles Darwin": {
+   "v": 80217,
+   "wiki": "pt",
+   "pt": 80217,
+   "en": 1142289,
+   "titulo": "Charles Darwin"
+  },
+  "William Shakespeare": {
+   "v": 264297,
+   "wiki": "pt",
+   "pt": 264297,
+   "en": 4665105,
+   "titulo": "William Shakespeare"
+  },
+  "Leonardo da Vinci": {
+   "v": 190550,
+   "wiki": "pt",
+   "pt": 190550,
+   "en": 2072683,
+   "titulo": "Leonardo da Vinci"
+  },
+  "Napoleão Bonaparte": {
+   "v": 258748,
+   "wiki": "pt",
+   "pt": 258748,
+   "en": 4145861,
+   "titulo": "Napoleão Bonaparte"
+  },
+  "Winston Churchill": {
+   "v": 133462,
+   "wiki": "pt",
+   "pt": 133462,
+   "en": 3631097,
+   "titulo": "Winston Churchill"
+  },
+  "Júlio César": {
+   "v": 135161,
+   "wiki": "pt",
+   "pt": 135161,
+   "en": 2777181,
+   "titulo": "Júlio César"
+  },
+  "Galileu Galilei": {
+   "v": 113165,
+   "wiki": "pt",
+   "pt": 113165,
+   "en": 1049741,
+   "titulo": "Galileu Galilei"
+  },
+  "Wolfgang Amadeus Mozart": {
+   "v": 121421,
+   "wiki": "pt",
+   "pt": 121421,
+   "en": 2602426,
+   "titulo": "Wolfgang Amadeus Mozart"
+  },
+  "Ludwig van Beethoven": {
+   "v": 87959,
+   "wiki": "pt",
+   "pt": 87959,
+   "en": 1477717,
+   "titulo": "Ludwig van Beethoven"
+  },
+  "Vincent van Gogh": {
+   "v": 202827,
+   "wiki": "pt",
+   "pt": 202827,
+   "en": 1953827,
+   "titulo": "Vincent van Gogh"
+  },
+  "Pablo Picasso": {
+   "v": 104028,
+   "wiki": "pt",
+   "pt": 104028,
+   "en": 1752210,
+   "titulo": "Pablo Picasso"
+  },
+  "Joana d'Arc": {
+   "v": 203891,
+   "wiki": "pt",
+   "pt": 203891,
+   "en": 2246365,
+   "titulo": "Joana d'Arc"
+  },
+  "Rainha Vitória": {
+   "v": 179419,
+   "wiki": "pt",
+   "pt": 179419,
+   "en": 7268592,
+   "titulo": "Vitória do Reino Unido"
+  },
+  "Elizabeth II": {
+   "v": 275641,
+   "wiki": "pt",
+   "pt": 275641,
+   "en": 7180814,
+   "titulo": "Isabel II do Reino Unido"
+  },
+  "Cristóvão Colombo": {
+   "v": 131142,
+   "wiki": "pt",
+   "pt": 131142,
+   "en": 2653624,
+   "titulo": "Cristóvão Colombo"
+  },
+  "Karl Marx": {
+   "v": 195960,
+   "wiki": "pt",
+   "pt": 195960,
+   "en": 2150052,
+   "titulo": "Karl Marx"
+  },
+  "Sigmund Freud": {
+   "v": 179656,
+   "wiki": "pt",
+   "pt": 179656,
+   "en": 1631209,
+   "titulo": "Sigmund Freud"
+  },
+  "Aristóteles": {
+   "v": 119942,
+   "wiki": "pt",
+   "pt": 119942,
+   "en": 1408755,
+   "titulo": "Aristóteles"
+  },
+  "Sócrates": {
+   "v": 139103,
+   "wiki": "pt",
+   "pt": 139103,
+   "en": 1385883,
+   "titulo": "Sócrates"
+  },
+  "Alexandre, o Grande": {
+   "v": 199203,
+   "wiki": "pt",
+   "pt": 199203,
+   "en": 3447844,
+   "titulo": "Alexandre, o Grande"
+  },
+  "Vladimir Lenin": {
+   "v": 103335,
+   "wiki": "pt",
+   "pt": 103335,
+   "en": 2266077,
+   "titulo": "Lenin"
+  },
+  "Mikhail Gorbachev": {
+   "v": 54782,
+   "wiki": "pt",
+   "pt": 54782,
+   "en": 1742913,
+   "titulo": "Mikhail Gorbatchov"
+  },
+  "Yuri Gagarin": {
+   "v": 48386,
+   "wiki": "pt",
+   "pt": 48386,
+   "en": 1015004,
+   "titulo": "Iuri Gagarin"
+  },
+  "Florence Nightingale": {
+   "v": 58365,
+   "wiki": "pt",
+   "pt": 58365,
+   "en": 1201503,
+   "titulo": "Florence Nightingale"
+  },
+  "Anne Frank": {
+   "v": 189624,
+   "wiki": "pt",
+   "pt": 189624,
+   "en": 1985967,
+   "titulo": "Anne Frank"
+  },
+  "Cristiano Ronaldo": {
+   "v": 1104758,
+   "wiki": "pt",
+   "pt": 1104758,
+   "en": 15607601,
+   "titulo": "Cristiano Ronaldo"
+  },
+  "Freddie Mercury": {
+   "v": 215235,
+   "wiki": "pt",
+   "pt": 215235,
+   "en": 5151273,
+   "titulo": "Freddie Mercury"
+  },
+  "John Lennon": {
+   "v": 144971,
+   "wiki": "pt",
+   "pt": 144971,
+   "en": 3679759,
+   "titulo": "John Lennon"
+  },
+  "Martinho Lutero": {
+   "v": 155614,
+   "wiki": "pt",
+   "pt": 155614,
+   "en": 1465682,
+   "titulo": "Martinho Lutero"
+  },
+  "Johannes Gutenberg": {
+   "v": 28550,
+   "wiki": "pt",
+   "pt": 28550,
+   "en": 385903,
+   "titulo": "Johannes Gutenberg"
+  },
+  "Fernão de Magalhães": {
+   "v": 66427,
+   "wiki": "pt",
+   "pt": 66427,
+   "en": 816542,
+   "titulo": "Fernão de Magalhães"
+  },
+  "Pedro Álvares Cabral": {
+   "v": 97106,
+   "wiki": "pt",
+   "pt": 97106,
+   "en": 82520,
+   "titulo": "Pedro Álvares Cabral"
+  },
+  "Agatha Christie": {
+   "v": 96464,
+   "wiki": "pt",
+   "pt": 96464,
+   "en": 1974923,
+   "titulo": "Agatha Christie"
+  },
+  "Princesa Diana": {
+   "v": 192078,
+   "wiki": "pt",
+   "pt": 192078,
+   "en": 3450393,
+   "titulo": "Diana, Princesa de Gales"
+  },
+  "Stephen Hawking": {
+   "v": 183744,
+   "wiki": "pt",
+   "pt": 183744,
+   "en": 3258211,
+   "titulo": "Stephen Hawking"
+  },
+  "Alexander Fleming": {
+   "v": 23657,
+   "wiki": "pt",
+   "pt": 23657,
+   "en": 384981,
+   "titulo": "Alexander Fleming"
+  },
+  "Louis Pasteur": {
+   "v": 33939,
+   "wiki": "pt",
+   "pt": 33939,
+   "en": 485507,
+   "titulo": "Louis Pasteur"
+  },
+  "René Descartes": {
+   "v": 76720,
+   "wiki": "pt",
+   "pt": 76720,
+   "en": 723383,
+   "titulo": "René Descartes"
+  },
+  "Coco Chanel": {
+   "v": 141456,
+   "wiki": "pt",
+   "pt": 141456,
+   "en": 989703,
+   "titulo": "Coco Chanel"
+  },
+  "Muhammad Ali": {
+   "v": 110149,
+   "wiki": "pt",
+   "pt": 110149,
+   "en": 3139737,
+   "titulo": "Muhammad Ali"
+  },
+  "Malcolm X": {
+   "v": 103940,
+   "wiki": "pt",
+   "pt": 103940,
+   "en": 2327096,
+   "titulo": "Malcolm X"
+  },
+  "Martin Luther King Jr.": {
+   "v": 177701,
+   "wiki": "pt",
+   "pt": 177701,
+   "en": 3298064,
+   "titulo": "Martin Luther King Jr."
+  },
+  "Abraham Lincoln": {
+   "v": 144906,
+   "wiki": "pt",
+   "pt": 144906,
+   "en": 4318489,
+   "titulo": "Abraham Lincoln"
+  },
+  "George Washington": {
+   "v": 115351,
+   "wiki": "pt",
+   "pt": 115351,
+   "en": 4522301,
+   "titulo": "George Washington"
+  },
+  "John F. Kennedy": {
+   "v": 231461,
+   "wiki": "pt",
+   "pt": 231461,
+   "en": 6443708,
+   "titulo": "John F. Kennedy"
+  },
+  "Barack Obama": {
+   "v": 172300,
+   "wiki": "pt",
+   "pt": 172300,
+   "en": 6353358,
+   "titulo": "Barack Obama"
+  },
+  "Rosa Parks": {
+   "v": 59486,
+   "wiki": "pt",
+   "pt": 59486,
+   "en": 1440015,
+   "titulo": "Rosa Parks"
+  },
+  "Neil Armstrong": {
+   "v": 76452,
+   "wiki": "pt",
+   "pt": 76452,
+   "en": 1874440,
+   "titulo": "Neil Armstrong"
+  },
+  "Thomas Edison": {
+   "v": 64386,
+   "wiki": "pt",
+   "pt": 64386,
+   "en": 1283947,
+   "titulo": "Thomas Edison"
+  },
+  "Benjamin Franklin": {
+   "v": 64220,
+   "wiki": "pt",
+   "pt": 64220,
+   "en": 2138941,
+   "titulo": "Benjamin Franklin"
+  },
+  "Steve Jobs": {
+   "v": 143918,
+   "wiki": "pt",
+   "pt": 143918,
+   "en": 4493385,
+   "titulo": "Steve Jobs"
+  },
+  "Walt Disney": {
+   "v": 72578,
+   "wiki": "pt",
+   "pt": 72578,
+   "en": 2067908,
+   "titulo": "Walt Disney"
+  },
+  "Michael Jackson": {
+   "v": 905391,
+   "wiki": "pt",
+   "pt": 905391,
+   "en": 16785757,
+   "titulo": "Michael Jackson"
+  },
+  "Elvis Presley": {
+   "v": 231596,
+   "wiki": "pt",
+   "pt": 231596,
+   "en": 5400829,
+   "titulo": "Elvis Presley"
+  },
+  "Marilyn Monroe": {
+   "v": 193816,
+   "wiki": "pt",
+   "pt": 193816,
+   "en": 3822915,
+   "titulo": "Marilyn Monroe"
+  },
+  "Michael Jordan": {
+   "v": 145614,
+   "wiki": "pt",
+   "pt": 145614,
+   "en": 4432803,
+   "titulo": "Michael Jordan"
+  },
+  "Bill Gates": {
+   "v": 116538,
+   "wiki": "pt",
+   "pt": 116538,
+   "en": 2514625,
+   "titulo": "Bill Gates"
+  },
+  "Serena Williams": {
+   "v": 105729,
+   "wiki": "pt",
+   "pt": 105729,
+   "en": 2550543,
+   "titulo": "Serena Williams"
+  },
+  "Harriet Tubman": {
+   "v": 30476,
+   "wiki": "pt",
+   "pt": 30476,
+   "en": 1409119,
+   "titulo": "Harriet Tubman"
+  },
+  "Pelé": {
+   "v": 507290,
+   "wiki": "pt",
+   "pt": 507290,
+   "en": 3146869,
+   "titulo": "Pelé"
+  },
+  "Ayrton Senna": {
+   "v": 262243,
+   "wiki": "pt",
+   "pt": 262243,
+   "en": 1562061,
+   "titulo": "Ayrton Senna"
+  },
+  "Getúlio Vargas": {
+   "v": 306325,
+   "wiki": "pt",
+   "pt": 306325,
+   "en": 163439,
+   "titulo": "Getúlio Vargas"
+  },
+  "Dom Pedro I": {
+   "v": 270494,
+   "wiki": "pt",
+   "pt": 270494,
+   "en": 291238,
+   "titulo": "Pedro I do Brasil"
+  },
+  "Santos Dumont": {
+   "v": 154236,
+   "wiki": "pt",
+   "pt": 154236,
+   "en": 136757,
+   "titulo": "Santos Dumont"
+  },
+  "Tiradentes": {
+   "v": 267476,
+   "wiki": "pt",
+   "pt": 267476,
+   "en": 47029,
+   "titulo": "Tiradentes"
+  },
+  "Princesa Isabel": {
+   "v": 92990,
+   "wiki": "pt",
+   "pt": 92990,
+   "en": 84101,
+   "titulo": "Isabel, Princesa Imperial do Brasil"
+  },
+  "Zumbi dos Palmares": {
+   "v": 195677,
+   "wiki": "pt",
+   "pt": 195677,
+   "en": 35305,
+   "titulo": "Zumbi dos Palmares"
+  },
+  "Machado de Assis": {
+   "v": 232803,
+   "wiki": "pt",
+   "pt": 232803,
+   "en": 55701,
+   "titulo": "Machado de Assis"
+  },
+  "Che Guevara": {
+   "v": 308352,
+   "wiki": "pt",
+   "pt": 308352,
+   "en": 3199582,
+   "titulo": "Che Guevara"
+  },
+  "Fidel Castro": {
+   "v": 107095,
+   "wiki": "pt",
+   "pt": 107095,
+   "en": 2190061,
+   "titulo": "Fidel Castro"
+  },
+  "Simón Bolívar": {
+   "v": 97008,
+   "wiki": "pt",
+   "pt": 97008,
+   "en": 893968,
+   "titulo": "Simón Bolívar"
+  },
+  "Frida Kahlo": {
+   "v": 179712,
+   "wiki": "pt",
+   "pt": 179712,
+   "en": 1921327,
+   "titulo": "Frida Kahlo"
+  },
+  "Diego Maradona": {
+   "v": 258264,
+   "wiki": "pt",
+   "pt": 258264,
+   "en": 3931200,
+   "titulo": "Diego Maradona"
+  },
+  "Lionel Messi": {
+   "v": 876341,
+   "wiki": "pt",
+   "pt": 876341,
+   "en": 15245006,
+   "titulo": "Lionel Messi"
+  },
+  "Eva Perón": {
+   "v": 91550,
+   "wiki": "pt",
+   "pt": 91550,
+   "en": 1019848,
+   "titulo": "Eva Perón"
+  },
+  "Emiliano Zapata": {
+   "v": 20798,
+   "wiki": "pt",
+   "pt": 20798,
+   "en": 375223,
+   "titulo": "Emiliano Zapata"
+  },
+  "Bob Marley": {
+   "v": 146545,
+   "wiki": "pt",
+   "pt": 146545,
+   "en": 2262352,
+   "titulo": "Bob Marley"
+  },
+  "Usain Bolt": {
+   "v": 68733,
+   "wiki": "pt",
+   "pt": 68733,
+   "en": 1349042,
+   "titulo": "Usain Bolt"
+  },
+  "Gabriel García Márquez": {
+   "v": 67094,
+   "wiki": "pt",
+   "pt": 67094,
+   "en": 554172,
+   "titulo": "Gabriel García Márquez"
+  },
+  "Pablo Neruda": {
+   "v": 39445,
+   "wiki": "pt",
+   "pt": 39445,
+   "en": 340781,
+   "titulo": "Pablo Neruda"
+  },
+  "Nelson Mandela": {
+   "v": 167800,
+   "wiki": "pt",
+   "pt": 167800,
+   "en": 2104681,
+   "titulo": "Nelson Mandela"
+  },
+  "Desmond Tutu": {
+   "v": 12524,
+   "wiki": "pt",
+   "pt": 12524,
+   "en": 400624,
+   "titulo": "Desmond Tutu"
+  },
+  "Cleópatra": {
+   "v": 173275,
+   "wiki": "pt",
+   "pt": 173275,
+   "en": 10006103,
+   "titulo": "Cleópatra"
+  },
+  "Tutancâmon": {
+   "v": 80384,
+   "wiki": "pt",
+   "pt": 80384,
+   "en": 1291331,
+   "titulo": "Tutancâmon"
+  },
+  "Ramsés II": {
+   "v": 62944,
+   "wiki": "pt",
+   "pt": 62944,
+   "en": 1002151,
+   "titulo": "Ramessés II"
+  },
+  "Nefertiti": {
+   "v": 51466,
+   "wiki": "pt",
+   "pt": 51466,
+   "en": 568478,
+   "titulo": "Nefertiti"
+  },
+  "Gamal Abdel Nasser": {
+   "v": 20890,
+   "wiki": "pt",
+   "pt": 20890,
+   "en": 765977,
+   "titulo": "Gamal Abdel Nasser"
+  },
+  "Anwar Sadat": {
+   "v": 13000,
+   "wiki": "pt",
+   "pt": 13000,
+   "en": 641504,
+   "titulo": "Anwar Al Sadat"
+  },
+  "Mohamed Salah": {
+   "v": 206862,
+   "wiki": "pt",
+   "pt": 206862,
+   "en": 3900844,
+   "titulo": "Mohamed Salah"
+  },
+  "Haile Selassie": {
+   "v": 49954,
+   "wiki": "pt",
+   "pt": 49954,
+   "en": 1056394,
+   "titulo": "Haile Selassie"
+  },
+  "Abebe Bikila": {
+   "v": 16141,
+   "wiki": "pt",
+   "pt": 16141,
+   "en": 75830,
+   "titulo": "Abebe Bikila"
+  },
+  "Kwame Nkrumah": {
+   "v": 12445,
+   "wiki": "pt",
+   "pt": 12445,
+   "en": 488302,
+   "titulo": "Kwame Nkrumah"
+  },
+  "Kofi Annan": {
+   "v": 15411,
+   "wiki": "pt",
+   "pt": 15411,
+   "en": 380652,
+   "titulo": "Kofi Annan"
+  },
+  "Patrice Lumumba": {
+   "v": 68974,
+   "wiki": "pt",
+   "pt": 68974,
+   "en": 1432595,
+   "titulo": "Patrice Lumumba"
+  },
+  "Thomas Sankara": {
+   "v": 40862,
+   "wiki": "pt",
+   "pt": 40862,
+   "en": 756935,
+   "titulo": "Thomas Sankara"
+  },
+  "Wangari Maathai": {
+   "v": 14497,
+   "wiki": "pt",
+   "pt": 14497,
+   "en": 123469,
+   "titulo": "Wangari Maathai"
+  },
+  "Jomo Kenyatta": {
+   "v": 3187,
+   "wiki": "pt",
+   "pt": 3187,
+   "en": 206456,
+   "titulo": "Jomo Kenyatta"
+  },
+  "Mansa Musa": {
+   "v": 51854,
+   "wiki": "pt",
+   "pt": 51854,
+   "en": 1274772,
+   "titulo": "Mansa Muça"
+  },
+  "Shaka Zulu": {
+   "v": 10423,
+   "wiki": "pt",
+   "pt": 10423,
+   "en": 331040,
+   "titulo": "Shaka Zulu"
+  },
+  "Chinua Achebe": {
+   "v": 3652,
+   "wiki": "pt",
+   "pt": 3652,
+   "en": 237936,
+   "titulo": "Chinua Achebe"
+  },
+  "Fela Kuti": {
+   "v": 13280,
+   "wiki": "pt",
+   "pt": 13280,
+   "en": 486153,
+   "titulo": "Fela Kuti"
+  },
+  "Miriam Makeba": {
+   "v": 11005,
+   "wiki": "pt",
+   "pt": 11005,
+   "en": 199647,
+   "titulo": "Miriam Makeba"
+  },
+  "Steve Biko": {
+   "v": 6843,
+   "wiki": "pt",
+   "pt": 6843,
+   "en": 240986,
+   "titulo": "Steve Biko"
+  },
+  "Julius Nyerere": {
+   "v": 8644,
+   "wiki": "pt",
+   "pt": 8644,
+   "en": 199443,
+   "titulo": "Julius Nyerere"
+  },
+  "Muammar Kadafi": {
+   "v": 82746,
+   "wiki": "pt",
+   "pt": 82746,
+   "en": 2620193,
+   "titulo": "Muammar Gaddafi"
+  },
+  "Aníbal": {
+   "v": 33981,
+   "wiki": "pt",
+   "pt": 33981,
+   "en": 1234406,
+   "titulo": "Aníbal"
+  },
+  "Santo Agostinho": {
+   "v": 161172,
+   "wiki": "pt",
+   "pt": 161172,
+   "en": 1170175,
+   "titulo": "Agostinho de Hipona"
+  },
+  "Didier Drogba": {
+   "v": 68893,
+   "wiki": "pt",
+   "pt": 68893,
+   "en": 1104003,
+   "titulo": "Didier Drogba"
+  },
+  "Samuel Eto'o": {
+   "v": 69815,
+   "wiki": "pt",
+   "pt": 69815,
+   "en": 899029,
+   "titulo": "Samuel Eto'o"
+  },
+  "Mahatma Gandhi": {
+   "v": 118790,
+   "wiki": "pt",
+   "pt": 118790,
+   "en": 3004489,
+   "titulo": "Mahatma Gandhi"
+  },
+  "Jawaharlal Nehru": {
+   "v": 7822,
+   "wiki": "pt",
+   "pt": 7822,
+   "en": 1540305,
+   "titulo": "Jawaharlal Nehru"
+  },
+  "Indira Gandhi": {
+   "v": 21368,
+   "wiki": "pt",
+   "pt": 21368,
+   "en": 1762018,
+   "titulo": "Indira Gandhi"
+  },
+  "Rabindranath Tagore": {
+   "v": 10378,
+   "wiki": "pt",
+   "pt": 10378,
+   "en": 938030,
+   "titulo": "Rabindranath Tagore"
+  },
+  "Sachin Tendulkar": {
+   "v": 1380,
+   "wiki": "pt",
+   "pt": 1380,
+   "en": 1647136,
+   "titulo": "Sachin Tendulkar"
+  },
+  "Mao Tsé-tung": {
+   "v": 98847,
+   "wiki": "pt",
+   "pt": 98847,
+   "en": 2429393,
+   "titulo": "Mao Tsé-Tung"
+  },
+  "Xi Jinping": {
+   "v": 145667,
+   "wiki": "pt",
+   "pt": 145667,
+   "en": 3341599,
+   "titulo": "Xi Jinping"
+  },
+  "Deng Xiaoping": {
+   "v": 36181,
+   "wiki": "pt",
+   "pt": 36181,
+   "en": 1060264,
+   "titulo": "Deng Xiaoping"
+  },
+  "Confúcio": {
+   "v": 57832,
+   "wiki": "pt",
+   "pt": 57832,
+   "en": 812760,
+   "titulo": "Confúcio"
+  },
+  "Sun Tzu": {
+   "v": 20467,
+   "wiki": "pt",
+   "pt": 20467,
+   "en": 421295,
+   "titulo": "Sun Tzu"
+  },
+  "Bruce Lee": {
+   "v": 191209,
+   "wiki": "pt",
+   "pt": 191209,
+   "en": 14612343,
+   "titulo": "Bruce Lee"
+  },
+  "Jackie Chan": {
+   "v": 172129,
+   "wiki": "pt",
+   "pt": 172129,
+   "en": 2590023,
+   "titulo": "Jackie Chan"
+  },
+  "Gengis Khan": {
+   "v": 117766,
+   "wiki": "pt",
+   "pt": 117766,
+   "en": 3246765,
+   "titulo": "Gengis Khan"
+  },
+  "Kim Jong-un": {
+   "v": 141426,
+   "wiki": "pt",
+   "pt": 141426,
+   "en": 2860248,
+   "titulo": "Kim Jong-un"
+  },
+  "Kim Il-sung": {
+   "v": 35309,
+   "wiki": "pt",
+   "pt": 35309,
+   "en": 1186451,
+   "titulo": "Kim Il-sung"
+  },
+  "Hirohito": {
+   "v": 65798,
+   "wiki": "pt",
+   "pt": 65798,
+   "en": 1634418,
+   "titulo": "Hirohito"
+  },
+  "Hayao Miyazaki": {
+   "v": 29710,
+   "wiki": "pt",
+   "pt": 29710,
+   "en": 1205664,
+   "titulo": "Hayao Miyazaki"
+  },
+  "Akira Kurosawa": {
+   "v": 27515,
+   "wiki": "pt",
+   "pt": 27515,
+   "en": 919312,
+   "titulo": "Akira Kurosawa"
+  },
+  "Shigeru Miyamoto": {
+   "v": 23161,
+   "wiki": "pt",
+   "pt": 23161,
+   "en": 667537,
+   "titulo": "Shigeru Miyamoto"
+  },
+  "Ho Chi Minh": {
+   "v": 32749,
+   "wiki": "pt",
+   "pt": 32749,
+   "en": 1085447,
+   "titulo": "Ho Chi Minh"
+  },
+  "Malala Yousafzai": {
+   "v": 185706,
+   "wiki": "pt",
+   "pt": 185706,
+   "en": 2260683,
+   "titulo": "Malala Yousafzai"
+  },
+  "Benazir Bhutto": {
+   "v": 8890,
+   "wiki": "pt",
+   "pt": 8890,
+   "en": 1127271,
+   "titulo": "Benazir Bhutto"
+  },
+  "Mustafa Kemal Atatürk": {
+   "v": 39303,
+   "wiki": "pt",
+   "pt": 39303,
+   "en": 1105159,
+   "titulo": "Mustafa Kemal Atatürk"
+  },
+  "Solimão, o Magnífico": {
+   "v": 18365,
+   "wiki": "pt",
+   "pt": 18365,
+   "en": 983708,
+   "titulo": "Solimão, o Magnífico"
+  },
+  "Golda Meir": {
+   "v": 24909,
+   "wiki": "pt",
+   "pt": 24909,
+   "en": 725702,
+   "titulo": "Golda Meir"
+  },
+  "Yasser Arafat": {
+   "v": 38696,
+   "wiki": "pt",
+   "pt": 38696,
+   "en": 958910,
+   "titulo": "Yasser Arafat"
+  },
+  "Ciro, o Grande": {
+   "v": 48092,
+   "wiki": "pt",
+   "pt": 48092,
+   "en": 1271902,
+   "titulo": "Ciro II"
+  },
+  "Ruhollah Khomeini": {
+   "v": 129873,
+   "wiki": "pt",
+   "pt": 129873,
+   "en": 4200009,
+   "titulo": "Ruhollah Khomeini"
+  },
+  "Lee Kuan Yew": {
+   "v": 20342,
+   "wiki": "pt",
+   "pt": 20342,
+   "en": 1278757,
+   "titulo": "Lee Kuan Yew"
+  },
+  "Edmund Hillary": {
+   "v": 8223,
+   "wiki": "pt",
+   "pt": 8223,
+   "en": 596758,
+   "titulo": "Edmund Hillary"
+  },
+  "Ernest Rutherford": {
+   "v": 15560,
+   "wiki": "pt",
+   "pt": 15560,
+   "en": 299558,
+   "titulo": "Ernest Rutherford"
+  },
+  "Kate Sheppard": {
+   "v": 1378,
+   "wiki": "pt",
+   "pt": 1378,
+   "en": 55257,
+   "titulo": "Kate Sheppard"
+  },
+  "Jacinda Ardern": {
+   "v": 6624,
+   "wiki": "pt",
+   "pt": 6624,
+   "en": 782347,
+   "titulo": "Jacinda Ardern"
+  },
+  "Katherine Mansfield": {
+   "v": 3753,
+   "wiki": "pt",
+   "pt": 3753,
+   "en": 135031,
+   "titulo": "Katherine Mansfield"
+  },
+  "Peter Jackson": {
+   "v": 21696,
+   "wiki": "pt",
+   "pt": 21696,
+   "en": 1135153,
+   "titulo": "Peter Jackson"
+  },
+  "Jonah Lomu": {
+   "v": 2975,
+   "wiki": "pt",
+   "pt": 2975,
+   "en": 295179,
+   "titulo": "Jonah Lomu"
+  },
+  "Howard Florey": {
+   "v": 591,
+   "wiki": "pt",
+   "pt": 591,
+   "en": 47501,
+   "titulo": "Howard Florey"
+  },
+  "Don Bradman": {
+   "v": 620,
+   "wiki": "pt",
+   "pt": 620,
+   "en": 378574,
+   "titulo": "Donald Bradman"
+  },
+  "Steve Irwin": {
+   "v": 44032,
+   "wiki": "pt",
+   "pt": 44032,
+   "en": 2107377,
+   "titulo": "Steve Irwin"
+  },
+  "Cathy Freeman": {
+   "v": 1274,
+   "wiki": "pt",
+   "pt": 1274,
+   "en": 218947,
+   "titulo": "Cathy Freeman"
+  },
+  "Ian Thorpe": {
+   "v": 3039,
+   "wiki": "pt",
+   "pt": 3039,
+   "en": 154406,
+   "titulo": "Ian Thorpe"
+  },
+  "Albert Namatjira": {
+   "v": 522,
+   "wiki": "pt",
+   "pt": 522,
+   "en": 50301,
+   "titulo": "Albert Namatjira"
+  },
+  "Eddie Mabo": {
+   "v": 2496,
+   "wiki": "en",
+   "pt": null,
+   "en": 51849,
+   "titulo": null
+  },
+  "Nellie Melba": {
+   "v": 642,
+   "wiki": "pt",
+   "pt": 642,
+   "en": 89279,
+   "titulo": "Nellie Melba"
+  },
+  "John Curtin": {
+   "v": 472,
+   "wiki": "pt",
+   "pt": 472,
+   "en": 121724,
+   "titulo": "John Curtin"
+  },
+  "Douglas Mawson": {
+   "v": 532,
+   "wiki": "pt",
+   "pt": 532,
+   "en": 55271,
+   "titulo": "Douglas Mawson"
+  },
+  "Nicole Kidman": {
+   "v": 121853,
+   "wiki": "pt",
+   "pt": 121853,
+   "en": 4631381,
+   "titulo": "Nicole Kidman"
+  },
+  "Hugh Jackman": {
+   "v": 61641,
+   "wiki": "pt",
+   "pt": 61641,
+   "en": 3340193,
+   "titulo": "Hugh Jackman"
+  },
+  "Luiz Inácio Lula da Silva": {
+   "v": 795208,
+   "wiki": "pt",
+   "pt": 795208,
+   "en": 980026,
+   "titulo": "Luiz Inácio Lula da Silva"
+  },
+  "Dilma Rousseff": {
+   "v": 231336,
+   "wiki": "pt",
+   "pt": 231336,
+   "en": 213337,
+   "titulo": "Dilma Rousseff"
+  },
+  "Carlos Marighella": {
+   "v": 96864,
+   "wiki": "pt",
+   "pt": 96864,
+   "en": 28486,
+   "titulo": "Carlos Marighella"
+  },
+  "Luís Carlos Prestes": {
+   "v": 93733,
+   "wiki": "pt",
+   "pt": 93733,
+   "en": 17694,
+   "titulo": "Luís Carlos Prestes"
+  },
+  "Leonel Brizola": {
+   "v": 175956,
+   "wiki": "pt",
+   "pt": 175956,
+   "en": 20177,
+   "titulo": "Leonel Brizola"
+  },
+  "João Goulart": {
+   "v": 164728,
+   "wiki": "pt",
+   "pt": 164728,
+   "en": 112636,
+   "titulo": "João Goulart"
+  },
+  "Darcy Ribeiro": {
+   "v": 65425,
+   "wiki": "pt",
+   "pt": 65425,
+   "en": 7135,
+   "titulo": "Darcy Ribeiro"
+  },
+  "Chico Mendes": {
+   "v": 60198,
+   "wiki": "pt",
+   "pt": 60198,
+   "en": 35473,
+   "titulo": "Chico Mendes"
+  },
+  "Marielle Franco": {
+   "v": 94240,
+   "wiki": "pt",
+   "pt": 94240,
+   "en": 39416,
+   "titulo": "Marielle Franco"
+  },
+  "Jair Bolsonaro": {
+   "v": 603103,
+   "wiki": "pt",
+   "pt": 603103,
+   "en": 814138,
+   "titulo": "Jair Bolsonaro"
+  },
+  "Fernando Henrique Cardoso": {
+   "v": 274879,
+   "wiki": "pt",
+   "pt": 274879,
+   "en": 77972,
+   "titulo": "Fernando Henrique Cardoso"
+  },
+  "Juscelino Kubitschek": {
+   "v": 251784,
+   "wiki": "pt",
+   "pt": 251784,
+   "en": 76542,
+   "titulo": "Juscelino Kubitschek"
+  },
+  "Castelo Branco": {
+   "v": 79042,
+   "wiki": "pt",
+   "pt": 79042,
+   "en": 38321,
+   "titulo": "Humberto Castelo Branco"
+  },
+  "Tancredo Neves": {
+   "v": 142626,
+   "wiki": "pt",
+   "pt": 142626,
+   "en": 35672,
+   "titulo": "Tancredo Neves"
+  },
+  "Carlos Lacerda": {
+   "v": 84192,
+   "wiki": "pt",
+   "pt": 84192,
+   "en": 15028,
+   "titulo": "Carlos Lacerda"
+  },
+  "Ulysses Guimarães": {
+   "v": 97200,
+   "wiki": "pt",
+   "pt": 97200,
+   "en": 6979,
+   "titulo": "Ulysses Guimarães"
+  },
+  "Rui Barbosa": {
+   "v": 93860,
+   "wiki": "pt",
+   "pt": 93860,
+   "en": 10723,
+   "titulo": "Ruy Barbosa"
+  },
+  "Deodoro da Fonseca": {
+   "v": 113021,
+   "wiki": "pt",
+   "pt": 113021,
+   "en": 35355,
+   "titulo": "Deodoro da Fonseca"
+  },
+  "Dom Pedro II": {
+   "v": 286709,
+   "wiki": "pt",
+   "pt": 286709,
+   "en": 326930,
+   "titulo": "Pedro II do Brasil"
+  },
+  "José Bonifácio": {
+   "v": 63074,
+   "wiki": "pt",
+   "pt": 63074,
+   "en": 10689,
+   "titulo": "José Bonifácio de Andrada e Silva"
+  },
+  "Duque de Caxias": {
+   "v": 62833,
+   "wiki": "pt",
+   "pt": 62833,
+   "en": 20638,
+   "titulo": "Luís Alves de Lima e Silva"
+  },
+  "Paulo Freire": {
+   "v": 146542,
+   "wiki": "pt",
+   "pt": 146542,
+   "en": 150639,
+   "titulo": "Paulo Freire"
+  },
+  "Oscar Niemeyer": {
+   "v": 88820,
+   "wiki": "pt",
+   "pt": 88820,
+   "en": 112263,
+   "titulo": "Oscar Niemeyer"
+  },
+  "Tom Jobim": {
+   "v": 97445,
+   "wiki": "pt",
+   "pt": 97445,
+   "en": 147811,
+   "titulo": "Tom Jobim"
+  },
+  "Chico Buarque": {
+   "v": 166103,
+   "wiki": "pt",
+   "pt": 166103,
+   "en": 51103,
+   "titulo": "Chico Buarque"
+  },
+  "Caetano Veloso": {
+   "v": 190350,
+   "wiki": "pt",
+   "pt": 190350,
+   "en": 78932,
+   "titulo": "Caetano Veloso"
+  },
+  "Gilberto Gil": {
+   "v": 172112,
+   "wiki": "pt",
+   "pt": 172112,
+   "en": 66569,
+   "titulo": "Gilberto Gil"
+  },
+  "Carmen Miranda": {
+   "v": 208839,
+   "wiki": "pt",
+   "pt": 208839,
+   "en": 233128,
+   "titulo": "Carmen Miranda"
+  },
+  "Clarice Lispector": {
+   "v": 267143,
+   "wiki": "pt",
+   "pt": 267143,
+   "en": 217844,
+   "titulo": "Clarice Lispector"
+  },
+  "Carlos Drummond de Andrade": {
+   "v": 95955,
+   "wiki": "pt",
+   "pt": 95955,
+   "en": 12707,
+   "titulo": "Carlos Drummond de Andrade"
+  },
+  "Jorge Amado": {
+   "v": 98767,
+   "wiki": "pt",
+   "pt": 98767,
+   "en": 34227,
+   "titulo": "Jorge Amado"
+  },
+  "Tarsila do Amaral": {
+   "v": 158621,
+   "wiki": "pt",
+   "pt": 158621,
+   "en": 21252,
+   "titulo": "Tarsila do Amaral"
+  },
+  "Heitor Villa-Lobos": {
+   "v": 52098,
+   "wiki": "pt",
+   "pt": 52098,
+   "en": 46323,
+   "titulo": "Heitor Villa-Lobos"
+  },
+  "Oswaldo Cruz": {
+   "v": 40026,
+   "wiki": "pt",
+   "pt": 40026,
+   "en": 5424,
+   "titulo": "Oswaldo Cruz"
+  },
+  "Anita Garibaldi": {
+   "v": 83715,
+   "wiki": "pt",
+   "pt": 83715,
+   "en": 39130,
+   "titulo": "Anita Garibaldi"
+  },
+  "Garrincha": {
+   "v": 209858,
+   "wiki": "pt",
+   "pt": 209858,
+   "en": 326014,
+   "titulo": "Garrincha"
+  },
+  "Ronaldo Fenômeno": {
+   "v": 560564,
+   "wiki": "pt",
+   "pt": 560564,
+   "en": 3604642,
+   "titulo": "Ronaldo Nazário"
+  },
+  "Marta": {
+   "v": 143470,
+   "wiki": "pt",
+   "pt": 143470,
+   "en": 269942,
+   "titulo": "Marta (futebolista)"
+  },
+  "Neymar": {
+   "v": 1017575,
+   "wiki": "pt",
+   "pt": 1017575,
+   "en": 5417828,
+   "titulo": "Neymar"
+  },
+  "Gustavo Kuerten": {
+   "v": 127582,
+   "wiki": "pt",
+   "pt": 127582,
+   "en": 197251,
+   "titulo": "Gustavo Kuerten"
+  },
+  "Silvio Santos": {
+   "v": 260714,
+   "wiki": "pt",
+   "pt": 260714,
+   "en": 38754,
+   "titulo": "Silvio Santos"
+  },
+  "Irmã Dulce": {
+   "v": 70877,
+   "wiki": "pt",
+   "pt": 70877,
+   "en": 8989,
+   "titulo": "Irmã Dulce"
+  },
+  "Antônio Conselheiro": {
+   "v": 55189,
+   "wiki": "pt",
+   "pt": 55189,
+   "en": 16083,
+   "titulo": "Antônio Conselheiro"
+  },
+  "Elis Regina": {
+   "v": 210927,
+   "wiki": "pt",
+   "pt": 210927,
+   "en": 59092,
+   "titulo": "Elis Regina"
+  },
+  "Franklin D. Roosevelt": {
+   "v": 108245,
+   "wiki": "pt",
+   "pt": 108245,
+   "en": 4401960,
+   "titulo": "Franklin D. Roosevelt"
+  },
+  "Theodore Roosevelt": {
+   "v": 60188,
+   "wiki": "pt",
+   "pt": 60188,
+   "en": 3922217,
+   "titulo": "Theodore Roosevelt"
+  },
+  "Thomas Jefferson": {
+   "v": 52267,
+   "wiki": "pt",
+   "pt": 52267,
+   "en": 2527970,
+   "titulo": "Thomas Jefferson"
+  },
+  "Ronald Reagan": {
+   "v": 118848,
+   "wiki": "pt",
+   "pt": 118848,
+   "en": 3953836,
+   "titulo": "Ronald Reagan"
+  },
+  "Richard Nixon": {
+   "v": 76206,
+   "wiki": "pt",
+   "pt": 76206,
+   "en": 3022752,
+   "titulo": "Richard Nixon"
+  },
+  "Dwight D. Eisenhower": {
+   "v": 71599,
+   "wiki": "pt",
+   "pt": 71599,
+   "en": 3298976,
+   "titulo": "Dwight D. Eisenhower"
+  },
+  "Jimmy Carter": {
+   "v": 70102,
+   "wiki": "pt",
+   "pt": 70102,
+   "en": 2781885,
+   "titulo": "Jimmy Carter"
+  },
+  "Bill Clinton": {
+   "v": 108116,
+   "wiki": "pt",
+   "pt": 108116,
+   "en": 4259094,
+   "titulo": "Bill Clinton"
+  },
+  "George W. Bush": {
+   "v": 128434,
+   "wiki": "pt",
+   "pt": 128434,
+   "en": 4327214,
+   "titulo": "George W. Bush"
+  },
+  "Donald Trump": {
+   "v": 590111,
+   "wiki": "pt",
+   "pt": 590111,
+   "en": 19881324,
+   "titulo": "Donald Trump"
+  },
+  "Joe Biden": {
+   "v": 84434,
+   "wiki": "pt",
+   "pt": 84434,
+   "en": 4552577,
+   "titulo": "Joe Biden"
+  },
+  "Hillary Clinton": {
+   "v": 40399,
+   "wiki": "pt",
+   "pt": 40399,
+   "en": 2020842,
+   "titulo": "Hillary Clinton"
+  },
+  "Kamala Harris": {
+   "v": 32641,
+   "wiki": "pt",
+   "pt": 32641,
+   "en": 2005525,
+   "titulo": "Kamala Harris"
+  },
+  "Bernie Sanders": {
+   "v": 22920,
+   "wiki": "pt",
+   "pt": 22920,
+   "en": 1984422,
+   "titulo": "Bernie Sanders"
+  },
+  "Frederick Douglass": {
+   "v": 8798,
+   "wiki": "pt",
+   "pt": 8798,
+   "en": 1094258,
+   "titulo": "Frederick Douglass"
+  },
+  "Susan B. Anthony": {
+   "v": 2943,
+   "wiki": "pt",
+   "pt": 2943,
+   "en": 423188,
+   "titulo": "Susan B. Anthony"
+  },
+  "Eleanor Roosevelt": {
+   "v": 21200,
+   "wiki": "pt",
+   "pt": 21200,
+   "en": 1091737,
+   "titulo": "Eleanor Roosevelt"
+  },
+  "Henry Kissinger": {
+   "v": 39406,
+   "wiki": "pt",
+   "pt": 39406,
+   "en": 1766219,
+   "titulo": "Henry Kissinger"
+  },
+  "Amelia Earhart": {
+   "v": 37264,
+   "wiki": "pt",
+   "pt": 37264,
+   "en": 1776921,
+   "titulo": "Amelia Earhart"
+  },
+  "Ernest Hemingway": {
+   "v": 56261,
+   "wiki": "pt",
+   "pt": 56261,
+   "en": 2283597,
+   "titulo": "Ernest Hemingway"
+  },
+  "Mark Twain": {
+   "v": 33721,
+   "wiki": "pt",
+   "pt": 33721,
+   "en": 1374235,
+   "titulo": "Mark Twain"
+  },
+  "Andy Warhol": {
+   "v": 39781,
+   "wiki": "pt",
+   "pt": 39781,
+   "en": 1659555,
+   "titulo": "Andy Warhol"
+  },
+  "Oprah Winfrey": {
+   "v": 38187,
+   "wiki": "pt",
+   "pt": 38187,
+   "en": 1472023,
+   "titulo": "Oprah Winfrey"
+  },
+  "Jesse Owens": {
+   "v": 19318,
+   "wiki": "pt",
+   "pt": 19318,
+   "en": 690540,
+   "titulo": "Jesse Owens"
+  },
+  "Hugo Chávez": {
+   "v": 194194,
+   "wiki": "pt",
+   "pt": 194194,
+   "en": 2344022,
+   "titulo": "Hugo Chávez"
+  },
+  "Salvador Allende": {
+   "v": 45522,
+   "wiki": "pt",
+   "pt": 45522,
+   "en": 534552,
+   "titulo": "Salvador Allende"
+  },
+  "Augusto Pinochet": {
+   "v": 59330,
+   "wiki": "pt",
+   "pt": 59330,
+   "en": 948248,
+   "titulo": "Augusto Pinochet"
+  },
+  "Juan Perón": {
+   "v": 42750,
+   "wiki": "pt",
+   "pt": 42750,
+   "en": 597532,
+   "titulo": "Juan Domingo Perón"
+  },
+  "Javier Milei": {
+   "v": 98038,
+   "wiki": "pt",
+   "pt": 98038,
+   "en": 1837609,
+   "titulo": "Javier Milei"
+  },
+  "Cristina Kirchner": {
+   "v": 28402,
+   "wiki": "pt",
+   "pt": 28402,
+   "en": 262483,
+   "titulo": "Cristina Kirchner"
+  },
+  "Papa Francisco": {
+   "v": 160544,
+   "wiki": "pt",
+   "pt": 160544,
+   "en": 2009161,
+   "titulo": "Papa Francisco"
+  },
+  "Jorge Luis Borges": {
+   "v": 34495,
+   "wiki": "pt",
+   "pt": 34495,
+   "en": 488640,
+   "titulo": "Jorge Luis Borges"
+  },
+  "Juan Manuel Fangio": {
+   "v": 23952,
+   "wiki": "pt",
+   "pt": 23952,
+   "en": 250156,
+   "titulo": "Juan Manuel Fangio"
+  },
+  "Evo Morales": {
+   "v": 38585,
+   "wiki": "pt",
+   "pt": 38585,
+   "en": 273372,
+   "titulo": "Evo Morales"
+  },
+  "Raúl Castro": {
+   "v": 53678,
+   "wiki": "pt",
+   "pt": 53678,
+   "en": 1084426,
+   "titulo": "Raúl Castro"
+  },
+  "José Martí": {
+   "v": 9873,
+   "wiki": "pt",
+   "pt": 9873,
+   "en": 162866,
+   "titulo": "José Martí"
+  },
+  "Daniel Ortega": {
+   "v": 56121,
+   "wiki": "pt",
+   "pt": 56121,
+   "en": 650205,
+   "titulo": "Daniel Ortega"
+  },
+  "Alberto Fujimori": {
+   "v": 80782,
+   "wiki": "pt",
+   "pt": 80782,
+   "en": 857618,
+   "titulo": "Alberto Fujimori"
+  },
+  "Túpac Amaru II": {
+   "v": 16422,
+   "wiki": "pt",
+   "pt": 16422,
+   "en": 171491,
+   "titulo": "Túpac Amaru II"
+  },
+  "Álvaro Uribe": {
+   "v": 9185,
+   "wiki": "pt",
+   "pt": 9185,
+   "en": 117685,
+   "titulo": "Álvaro Uribe"
+  },
+  "Gustavo Petro": {
+   "v": 88466,
+   "wiki": "pt",
+   "pt": 88466,
+   "en": 856207,
+   "titulo": "Gustavo Petro"
+  },
+  "Shakira": {
+   "v": 679191,
+   "wiki": "pt",
+   "pt": 679191,
+   "en": 6227530,
+   "titulo": "Shakira"
+  },
+  "Andrés Manuel López Obrador": {
+   "v": 12910,
+   "wiki": "pt",
+   "pt": 12910,
+   "en": 351275,
+   "titulo": "Andrés Manuel López Obrador"
+  },
+  "Benito Juárez": {
+   "v": 9325,
+   "wiki": "pt",
+   "pt": 9325,
+   "en": 313486,
+   "titulo": "Benito Juárez"
+  },
+  "Pancho Villa": {
+   "v": 15681,
+   "wiki": "pt",
+   "pt": 15681,
+   "en": 586662,
+   "titulo": "Pancho Villa"
+  },
+  "Diego Rivera": {
+   "v": 18967,
+   "wiki": "pt",
+   "pt": 18967,
+   "en": 473484,
+   "titulo": "Diego Rivera"
+  },
+  "José Mujica": {
+   "v": 61063,
+   "wiki": "pt",
+   "pt": 61063,
+   "en": 293358,
+   "titulo": "José Mujica"
+  },
+  "Nayib Bukele": {
+   "v": 192697,
+   "wiki": "pt",
+   "pt": 192697,
+   "en": 1217168,
+   "titulo": "Nayib Bukele"
+  },
+  "Pierre Trudeau": {
+   "v": 7595,
+   "wiki": "pt",
+   "pt": 7595,
+   "en": 774246,
+   "titulo": "Pierre Trudeau"
+  },
+  "Justin Trudeau": {
+   "v": 54498,
+   "wiki": "pt",
+   "pt": 54498,
+   "en": 3804564,
+   "titulo": "Justin Trudeau"
+  },
+  "Toussaint Louverture": {
+   "v": 15797,
+   "wiki": "pt",
+   "pt": 15797,
+   "en": 382309,
+   "titulo": "Toussaint Louverture"
+  },
+  "Rigoberta Menchú": {
+   "v": 4059,
+   "wiki": "pt",
+   "pt": 4059,
+   "en": 114399,
+   "titulo": "Rigoberta Menchú"
+  },
+  "Gabriela Mistral": {
+   "v": 12458,
+   "wiki": "pt",
+   "pt": 12458,
+   "en": 67449,
+   "titulo": "Gabriela Mistral"
+  },
+  "Margaret Thatcher": {
+   "v": 121285,
+   "wiki": "pt",
+   "pt": 121285,
+   "en": 2650603,
+   "titulo": "Margaret Thatcher"
+  },
+  "Charles de Gaulle": {
+   "v": 46301,
+   "wiki": "pt",
+   "pt": 46301,
+   "en": 1353950,
+   "titulo": "Charles de Gaulle"
+  },
+  "Konrad Adenauer": {
+   "v": 12681,
+   "wiki": "pt",
+   "pt": 12681,
+   "en": 371010,
+   "titulo": "Konrad Adenauer"
+  },
+  "Angela Merkel": {
+   "v": 34589,
+   "wiki": "pt",
+   "pt": 34589,
+   "en": 794942,
+   "titulo": "Angela Merkel"
+  },
+  "Helmut Kohl": {
+   "v": 8429,
+   "wiki": "pt",
+   "pt": 8429,
+   "en": 251729,
+   "titulo": "Helmut Kohl"
+  },
+  "Otto von Bismarck": {
+   "v": 55422,
+   "wiki": "pt",
+   "pt": 55422,
+   "en": 1015926,
+   "titulo": "Otto von Bismarck"
+  },
+  "Francisco Franco": {
+   "v": 70573,
+   "wiki": "pt",
+   "pt": 70573,
+   "en": 1480979,
+   "titulo": "Francisco Franco"
+  },
+  "António de Oliveira Salazar": {
+   "v": 134823,
+   "wiki": "pt",
+   "pt": 134823,
+   "en": 425782,
+   "titulo": "António de Oliveira Salazar"
+  },
+  "Vladimir Putin": {
+   "v": 201690,
+   "wiki": "pt",
+   "pt": 201690,
+   "en": 4330062,
+   "titulo": "Vladimir Putin"
+  },
+  "Volodymyr Zelensky": {
+   "v": 55561,
+   "wiki": "pt",
+   "pt": 55561,
+   "en": 1695262,
+   "titulo": "Volodymyr Zelensky"
+  },
+  "Viktor Orbán": {
+   "v": 52820,
+   "wiki": "pt",
+   "pt": 52820,
+   "en": 1792895,
+   "titulo": "Viktor Orbán"
+  },
+  "Giorgia Meloni": {
+   "v": 105106,
+   "wiki": "pt",
+   "pt": 105106,
+   "en": 3040992,
+   "titulo": "Giorgia Meloni"
+  },
+  "Silvio Berlusconi": {
+   "v": 36988,
+   "wiki": "pt",
+   "pt": 36988,
+   "en": 599793,
+   "titulo": "Silvio Berlusconi"
+  },
+  "Marine Le Pen": {
+   "v": 17253,
+   "wiki": "pt",
+   "pt": 17253,
+   "en": 533050,
+   "titulo": "Marine Le Pen"
+  },
+  "Emmanuel Macron": {
+   "v": 124564,
+   "wiki": "pt",
+   "pt": 124564,
+   "en": 2480693,
+   "titulo": "Emmanuel Macron"
+  },
+  "Boris Johnson": {
+   "v": 26443,
+   "wiki": "pt",
+   "pt": 26443,
+   "en": 1736925,
+   "titulo": "Boris Johnson"
+  },
+  "Tony Blair": {
+   "v": 30903,
+   "wiki": "pt",
+   "pt": 30903,
+   "en": 1736287,
+   "titulo": "Tony Blair"
+  },
+  "Clement Attlee": {
+   "v": 7824,
+   "wiki": "pt",
+   "pt": 7824,
+   "en": 607395,
+   "titulo": "Clement Attlee"
+  },
+  "Willy Brandt": {
+   "v": 7303,
+   "wiki": "pt",
+   "pt": 7303,
+   "en": 287140,
+   "titulo": "Willy Brandt"
+  },
+  "François Mitterrand": {
+   "v": 19646,
+   "wiki": "pt",
+   "pt": 19646,
+   "en": 403121,
+   "titulo": "François Mitterrand"
+  },
+  "Olof Palme": {
+   "v": 8965,
+   "wiki": "pt",
+   "pt": 8965,
+   "en": 242773,
+   "titulo": "Olof Palme"
+  },
+  "Felipe González": {
+   "v": 6791,
+   "wiki": "pt",
+   "pt": 6791,
+   "en": 81957,
+   "titulo": "Felipe González"
+  },
+  "Pedro Sánchez": {
+   "v": 67249,
+   "wiki": "pt",
+   "pt": 67249,
+   "en": 1058354,
+   "titulo": "Pedro Sánchez"
+  },
+  "Lech Wałęsa": {
+   "v": 17712,
+   "wiki": "pt",
+   "pt": 17712,
+   "en": 359405,
+   "titulo": "Lech Wałęsa"
+  },
+  "Papa João Paulo II": {
+   "v": 159064,
+   "wiki": "pt",
+   "pt": 159064,
+   "en": 1301315,
+   "titulo": "Papa João Paulo II"
+  },
+  "Papa Bento XVI": {
+   "v": 119467,
+   "wiki": "pt",
+   "pt": 119467,
+   "en": 968615,
+   "titulo": "Papa Bento XVI"
+  },
+  "Václav Havel": {
+   "v": 6616,
+   "wiki": "pt",
+   "pt": 6616,
+   "en": 276249,
+   "titulo": "Václav Havel"
+  },
+  "Josip Broz Tito": {
+   "v": 32923,
+   "wiki": "pt",
+   "pt": 32923,
+   "en": 1000043,
+   "titulo": "Josip Broz Tito"
+  },
+  "Leon Trotsky": {
+   "v": 51525,
+   "wiki": "pt",
+   "pt": 51525,
+   "en": 1351904,
+   "titulo": "Leon Trótski"
+  },
+  "Rosa Luxemburgo": {
+   "v": 34955,
+   "wiki": "pt",
+   "pt": 34955,
+   "en": 581570,
+   "titulo": "Rosa Luxemburgo"
+  },
+  "Friedrich Engels": {
+   "v": 35843,
+   "wiki": "pt",
+   "pt": 35843,
+   "en": 508799,
+   "titulo": "Friedrich Engels"
+  },
+  "Antonio Gramsci": {
+   "v": 49817,
+   "wiki": "pt",
+   "pt": 49817,
+   "en": 441797,
+   "titulo": "Antonio Gramsci"
+  },
+  "Boris Yeltsin": {
+   "v": 36272,
+   "wiki": "pt",
+   "pt": 36272,
+   "en": 966508,
+   "titulo": "Boris Iéltsin"
+  },
+  "Edmund Burke": {
+   "v": 15173,
+   "wiki": "pt",
+   "pt": 15173,
+   "en": 355576,
+   "titulo": "Edmund Burke"
+  },
+  "Friedrich Hayek": {
+   "v": 18061,
+   "wiki": "pt",
+   "pt": 18061,
+   "en": 327611,
+   "titulo": "Friedrich Hayek"
+  },
+  "John Maynard Keynes": {
+   "v": 22115,
+   "wiki": "pt",
+   "pt": 22115,
+   "en": 551188,
+   "titulo": "John Maynard Keynes"
+  },
+  "Adam Smith": {
+   "v": 50511,
+   "wiki": "pt",
+   "pt": 50511,
+   "en": 592896,
+   "titulo": "Adam Smith"
+  },
+  "Catarina, a Grande": {
+   "v": 69697,
+   "wiki": "pt",
+   "pt": 69697,
+   "en": 2164987,
+   "titulo": "Catarina II da Rússia"
+  },
+  "Pedro, o Grande": {
+   "v": 27216,
+   "wiki": "pt",
+   "pt": 27216,
+   "en": 957784,
+   "titulo": "Pedro I da Rússia"
+  },
+  "Luís XIV": {
+   "v": 106251,
+   "wiki": "pt",
+   "pt": 106251,
+   "en": 2047158,
+   "titulo": "Luís XIV de França"
+  },
+  "Maria Antonieta": {
+   "v": 119824,
+   "wiki": "pt",
+   "pt": 119824,
+   "en": 2931198,
+   "titulo": "Maria Antonieta"
+  },
+  "Henrique VIII": {
+   "v": 230507,
+   "wiki": "pt",
+   "pt": 230507,
+   "en": 3907151,
+   "titulo": "Henrique VIII de Inglaterra"
+  },
+  "Elizabeth I": {
+   "v": 157920,
+   "wiki": "pt",
+   "pt": 157920,
+   "en": 3247955,
+   "titulo": "Isabel I de Inglaterra"
+  },
+  "Maximilien de Robespierre": {
+   "v": 36916,
+   "wiki": "pt",
+   "pt": 36916,
+   "en": 907486,
+   "titulo": "Maximilien de Robespierre"
+  },
+  "Giuseppe Garibaldi": {
+   "v": 77209,
+   "wiki": "pt",
+   "pt": 77209,
+   "en": 589894,
+   "titulo": "Giuseppe Garibaldi"
+  },
+  "Dante Alighieri": {
+   "v": 72163,
+   "wiki": "pt",
+   "pt": 72163,
+   "en": 903160,
+   "titulo": "Dante Alighieri"
+  },
+  "Michelangelo": {
+   "v": 95356,
+   "wiki": "pt",
+   "pt": 95356,
+   "en": 1143789,
+   "titulo": "Michelangelo"
+  },
+  "Nicolau Maquiavel": {
+   "v": 122607,
+   "wiki": "pt",
+   "pt": 122607,
+   "en": 1118029,
+   "titulo": "Nicolau Maquiavel"
+  },
+  "Platão": {
+   "v": 116912,
+   "wiki": "pt",
+   "pt": 116912,
+   "en": 1215926,
+   "titulo": "Platão"
+  },
+  "Jean-Jacques Rousseau": {
+   "v": 70632,
+   "wiki": "pt",
+   "pt": 70632,
+   "en": 620314,
+   "titulo": "Jean-Jacques Rousseau"
+  },
+  "Voltaire": {
+   "v": 57059,
+   "wiki": "pt",
+   "pt": 57059,
+   "en": 823454,
+   "titulo": "Voltaire"
+  },
+  "Victor Hugo": {
+   "v": 49756,
+   "wiki": "pt",
+   "pt": 49756,
+   "en": 758630,
+   "titulo": "Victor Hugo"
+  },
+  "Friedrich Nietzsche": {
+   "v": 178707,
+   "wiki": "pt",
+   "pt": 178707,
+   "en": 1753362,
+   "titulo": "Friedrich Nietzsche"
+  },
+  "Immanuel Kant": {
+   "v": 98103,
+   "wiki": "pt",
+   "pt": 98103,
+   "en": 1029598,
+   "titulo": "Immanuel Kant"
+  },
+  "Simone de Beauvoir": {
+   "v": 88135,
+   "wiki": "pt",
+   "pt": 88135,
+   "en": 613079,
+   "titulo": "Simone de Beauvoir"
+  },
+  "Jean-Paul Sartre": {
+   "v": 71140,
+   "wiki": "pt",
+   "pt": 71140,
+   "en": 723487,
+   "titulo": "Jean-Paul Sartre"
+  },
+  "George Orwell": {
+   "v": 73958,
+   "wiki": "pt",
+   "pt": 73958,
+   "en": 1783814,
+   "titulo": "George Orwell"
+  },
+  "Liev Tolstói": {
+   "v": 87702,
+   "wiki": "pt",
+   "pt": 87702,
+   "en": 1077711,
+   "titulo": "Liev Tolstói"
+  },
+  "Fiódor Dostoiévski": {
+   "v": 202520,
+   "wiki": "pt",
+   "pt": 202520,
+   "en": 1814195,
+   "titulo": "Fiódor Dostoiévski"
+  },
+  "Charles Dickens": {
+   "v": 38932,
+   "wiki": "pt",
+   "pt": 38932,
+   "en": 1662769,
+   "titulo": "Charles Dickens"
+  },
+  "Miguel de Cervantes": {
+   "v": 91781,
+   "wiki": "pt",
+   "pt": 91781,
+   "en": 411509,
+   "titulo": "Miguel de Cervantes"
+  },
+  "Fernando Pessoa": {
+   "v": 126611,
+   "wiki": "pt",
+   "pt": 126611,
+   "en": 169003,
+   "titulo": "Fernando Pessoa"
+  },
+  "Luís de Camões": {
+   "v": 103966,
+   "wiki": "pt",
+   "pt": 103966,
+   "en": 57254,
+   "titulo": "Luís de Camões"
+  },
+  "José Saramago": {
+   "v": 108499,
+   "wiki": "pt",
+   "pt": 108499,
+   "en": 144491,
+   "titulo": "José Saramago"
+  },
+  "Johann Sebastian Bach": {
+   "v": 64143,
+   "wiki": "pt",
+   "pt": 64143,
+   "en": 930813,
+   "titulo": "Johann Sebastian Bach"
+  },
+  "Frédéric Chopin": {
+   "v": 57679,
+   "wiki": "pt",
+   "pt": 57679,
+   "en": 897396,
+   "titulo": "Frédéric Chopin"
+  },
+  "Piotr Tchaikovsky": {
+   "v": 37850,
+   "wiki": "pt",
+   "pt": 37850,
+   "en": 786704,
+   "titulo": "Piotr Ilitch Tchaikovski"
+  },
+  "Salvador Dalí": {
+   "v": 67566,
+   "wiki": "pt",
+   "pt": 67566,
+   "en": 1101437,
+   "titulo": "Salvador Dalí"
+  },
+  "Claude Monet": {
+   "v": 50073,
+   "wiki": "pt",
+   "pt": 50073,
+   "en": 717886,
+   "titulo": "Claude Monet"
+  },
+  "Rembrandt": {
+   "v": 35721,
+   "wiki": "pt",
+   "pt": 35721,
+   "en": 588786,
+   "titulo": "Rembrandt"
+  },
+  "Charlie Chaplin": {
+   "v": 145239,
+   "wiki": "pt",
+   "pt": 145239,
+   "en": 2934607,
+   "titulo": "Charlie Chaplin"
+  },
+  "Paul McCartney": {
+   "v": 107374,
+   "wiki": "pt",
+   "pt": 107374,
+   "en": 4532728,
+   "titulo": "Paul McCartney"
+  },
+  "David Bowie": {
+   "v": 102693,
+   "wiki": "pt",
+   "pt": 102693,
+   "en": 4072779,
+   "titulo": "David Bowie"
+  },
+  "Johan Cruyff": {
+   "v": 112993,
+   "wiki": "pt",
+   "pt": 112993,
+   "en": 1192522,
+   "titulo": "Johan Cruijff"
+  },
+  "Zinedine Zidane": {
+   "v": 255962,
+   "wiki": "pt",
+   "pt": 255962,
+   "en": 3594755,
+   "titulo": "Zinédine Zidane"
+  },
+  "Michael Schumacher": {
+   "v": 191845,
+   "wiki": "pt",
+   "pt": 191845,
+   "en": 2515397,
+   "titulo": "Michael Schumacher"
+  },
+  "Roger Federer": {
+   "v": 79513,
+   "wiki": "pt",
+   "pt": 79513,
+   "en": 2365573,
+   "titulo": "Roger Federer"
+  },
+  "Rafael Nadal": {
+   "v": 105866,
+   "wiki": "pt",
+   "pt": 105866,
+   "en": 2429437,
+   "titulo": "Rafael Nadal"
+  },
+  "Greta Thunberg": {
+   "v": 82401,
+   "wiki": "pt",
+   "pt": 82401,
+   "en": 1885114,
+   "titulo": "Greta Thunberg"
+  },
+  "Alfred Nobel": {
+   "v": 35619,
+   "wiki": "pt",
+   "pt": 35619,
+   "en": 723323,
+   "titulo": "Alfred Nobel"
+  },
+  "Dmitri Mendeleiev": {
+   "v": 15060,
+   "wiki": "pt",
+   "pt": 15060,
+   "en": 263915,
+   "titulo": "Dmitri Mendeleiev"
+  },
+  "Nicolau Copérnico": {
+   "v": 58843,
+   "wiki": "pt",
+   "pt": 58843,
+   "en": 660909,
+   "titulo": "Nicolau Copérnico"
+  },
+  "Alan Turing": {
+   "v": 112549,
+   "wiki": "pt",
+   "pt": 112549,
+   "en": 2164172,
+   "titulo": "Alan Turing"
+  },
+  "Ada Lovelace": {
+   "v": 81661,
+   "wiki": "pt",
+   "pt": 81661,
+   "en": 1212747,
+   "titulo": "Ada Lovelace"
+  },
+  "Tim Berners-Lee": {
+   "v": 22875,
+   "wiki": "pt",
+   "pt": 22875,
+   "en": 830846,
+   "titulo": "Tim Berners-Lee"
+  },
+  "Grigori Rasputin": {
+   "v": 84643,
+   "wiki": "pt",
+   "pt": 84643,
+   "en": 2162271,
+   "titulo": "Grigori Rasputin"
+  },
+  "Robert Mugabe": {
+   "v": 14062,
+   "wiki": "pt",
+   "pt": 14062,
+   "en": 692424,
+   "titulo": "Robert Mugabe"
+  },
+  "Paul Kagame": {
+   "v": 11324,
+   "wiki": "pt",
+   "pt": 11324,
+   "en": 478190,
+   "titulo": "Paul Kagame"
+  },
+  "Ellen Johnson Sirleaf": {
+   "v": 4502,
+   "wiki": "pt",
+   "pt": 4502,
+   "en": 170700,
+   "titulo": "Ellen Johnson Sirleaf"
+  },
+  "George Weah": {
+   "v": 54341,
+   "wiki": "pt",
+   "pt": 54341,
+   "en": 877675,
+   "titulo": "George Weah"
+  },
+  "Agostinho Neto": {
+   "v": 54993,
+   "wiki": "pt",
+   "pt": 54993,
+   "en": 82653,
+   "titulo": "Agostinho Neto"
+  },
+  "Samora Machel": {
+   "v": 31723,
+   "wiki": "pt",
+   "pt": 31723,
+   "en": 113077,
+   "titulo": "Samora Machel"
+  },
+  "Amílcar Cabral": {
+   "v": 40129,
+   "wiki": "pt",
+   "pt": 40129,
+   "en": 109008,
+   "titulo": "Amílcar Cabral"
+  },
+  "Naguib Mahfouz": {
+   "v": 3285,
+   "wiki": "pt",
+   "pt": 3285,
+   "en": 103757,
+   "titulo": "Naguib Mahfouz"
+  },
+  "Frederik de Klerk": {
+   "v": 9799,
+   "wiki": "pt",
+   "pt": 9799,
+   "en": 338883,
+   "titulo": "Frederik Willem de Klerk"
+  },
+  "Léopold Sédar Senghor": {
+   "v": 6739,
+   "wiki": "pt",
+   "pt": 6739,
+   "en": 80474,
+   "titulo": "Léopold Sédar Senghor"
+  },
+  "Wole Soyinka": {
+   "v": 3939,
+   "wiki": "pt",
+   "pt": 3939,
+   "en": 171734,
+   "titulo": "Wole Soyinka"
+  },
+  "Shinzo Abe": {
+   "v": 7165,
+   "wiki": "pt",
+   "pt": 7165,
+   "en": 1130470,
+   "titulo": "Shinzō Abe"
+  },
+  "Narendra Modi": {
+   "v": 25570,
+   "wiki": "pt",
+   "pt": 25570,
+   "en": 3255697,
+   "titulo": "Narendra Modi"
+  },
+  "Chiang Kai-shek": {
+   "v": 30241,
+   "wiki": "pt",
+   "pt": 30241,
+   "en": 1389616,
+   "titulo": "Chiang Kai-shek"
+  },
+  "Park Chung-hee": {
+   "v": 6223,
+   "wiki": "pt",
+   "pt": 6223,
+   "en": 426304,
+   "titulo": "Park Chung-hee"
+  },
+  "Sukarno": {
+   "v": 5942,
+   "wiki": "pt",
+   "pt": 5942,
+   "en": 476390,
+   "titulo": "Sukarno"
+  },
+  "Yitzhak Rabin": {
+   "v": 27180,
+   "wiki": "pt",
+   "pt": 27180,
+   "en": 928562,
+   "titulo": "Yitzhak Rabin"
+  },
+  "Benjamin Netanyahu": {
+   "v": 145917,
+   "wiki": "pt",
+   "pt": 145917,
+   "en": 7568705,
+   "titulo": "Benjamin Netanyahu"
+  },
+  "Imran Khan": {
+   "v": 5293,
+   "wiki": "pt",
+   "pt": 5293,
+   "en": 2228203,
+   "titulo": "Imran Khan"
+  },
+  "Aung San Suu Kyi": {
+   "v": 10527,
+   "wiki": "pt",
+   "pt": 10527,
+   "en": 669273,
+   "titulo": "Aung San Suu Kyi"
+  },
+  "Ban Ki-moon": {
+   "v": 11525,
+   "wiki": "pt",
+   "pt": 11525,
+   "en": 235602,
+   "titulo": "Ban Ki-moon"
+  },
+  "Robert Menzies": {
+   "v": 800,
+   "wiki": "pt",
+   "pt": 800,
+   "en": 183148,
+   "titulo": "Robert Menzies"
+  },
+  "Gough Whitlam": {
+   "v": 442,
+   "wiki": "pt",
+   "pt": 442,
+   "en": 267172,
+   "titulo": "Gough Whitlam"
+  },
+  "Bob Hawke": {
+   "v": 521,
+   "wiki": "pt",
+   "pt": 521,
+   "en": 235875,
+   "titulo": "Bob Hawke"
+  },
+  "John Howard": {
+   "v": 262,
+   "wiki": "pt",
+   "pt": 262,
+   "en": 305422,
+   "titulo": "John Howard (político australiano)"
+  },
+  "Julia Gillard": {
+   "v": 2368,
+   "wiki": "pt",
+   "pt": 2368,
+   "en": 259635,
+   "titulo": "Julia Gillard"
+  },
+  "Helen Clark": {
+   "v": 592,
+   "wiki": "pt",
+   "pt": 592,
+   "en": 104899,
+   "titulo": "Helen Clark"
+  },
+  "John Key": {
+   "v": 304,
+   "wiki": "pt",
+   "pt": 304,
+   "en": 72693,
+   "titulo": "John Key"
+  },
+  "Kylie Minogue": {
+   "v": 40017,
+   "wiki": "pt",
+   "pt": 40017,
+   "en": 2662698,
+   "titulo": "Kylie Minogue"
+  },
+  "Lorde": {
+   "v": 27069,
+   "wiki": "pt",
+   "pt": 27069,
+   "en": 1019811,
+   "titulo": "Lorde (cantora)"
+  },
+  "Heath Ledger": {
+   "v": 239444,
+   "wiki": "pt",
+   "pt": 239444,
+   "en": 4186389,
+   "titulo": "Heath Ledger"
+  },
+  "Mary MacKillop": {
+   "v": 1024,
+   "wiki": "pt",
+   "pt": 1024,
+   "en": 84586,
+   "titulo": "Mary MacKillop"
+  },
+  "Josef Stálin": {
+   "v": 171024,
+   "wiki": "pt",
+   "pt": 171024,
+   "en": 3754064,
+   "titulo": "Josef Stalin"
+  },
+  "Angela Davis": {
+   "v": 46062,
+   "wiki": "pt",
+   "pt": 46062,
+   "en": 672368,
+   "titulo": "Angela Davis"
+  },
+  "Nikita Kruschev": {
+   "v": 37063,
+   "wiki": "pt",
+   "pt": 37063,
+   "en": 1383031,
+   "titulo": "Nikita Khrushchov"
+  },
+  "Benito Mussolini": {
+   "v": 130835,
+   "wiki": "pt",
+   "pt": 130835,
+   "en": 2764657,
+   "titulo": "Benito Mussolini"
+  },
+  "Ronaldinho": {
+   "v": 664851,
+   "wiki": "pt",
+   "pt": 664851,
+   "en": 3323925,
+   "titulo": "Ronaldinho Gaúcho"
+  },
+  "Kaká": {
+   "v": 314842,
+   "wiki": "pt",
+   "pt": 314842,
+   "en": 1384227,
+   "titulo": "Kaká"
+  },
+  "Romário": {
+   "v": 423646,
+   "wiki": "pt",
+   "pt": 423646,
+   "en": 887370,
+   "titulo": "Romário"
+  },
+  "Zico": {
+   "v": 256073,
+   "wiki": "pt",
+   "pt": 256073,
+   "en": 408167,
+   "titulo": "Zico"
+  },
+  "Rivaldo": {
+   "v": 183736,
+   "wiki": "pt",
+   "pt": 183736,
+   "en": 715691,
+   "titulo": "Rivaldo"
+  },
+  "Cafu": {
+   "v": 196201,
+   "wiki": "pt",
+   "pt": 196201,
+   "en": 566259,
+   "titulo": "Cafu"
+  },
+  "Vinícius Júnior": {
+   "v": 715085,
+   "wiki": "pt",
+   "pt": 715085,
+   "en": 2426371,
+   "titulo": "Vinícius Júnior"
+  },
+  "Mário Zagallo": {
+   "v": 200355,
+   "wiki": "pt",
+   "pt": 200355,
+   "en": 195093,
+   "titulo": "Zagallo"
+  },
+  "Franz Beckenbauer": {
+   "v": 84212,
+   "wiki": "pt",
+   "pt": 84212,
+   "en": 704293,
+   "titulo": "Franz Beckenbauer"
+  },
+  "Ferenc Puskás": {
+   "v": 70335,
+   "wiki": "pt",
+   "pt": 70335,
+   "en": 627289,
+   "titulo": "Ferenc Puskás"
+  },
+  "Eusébio": {
+   "v": 103340,
+   "wiki": "pt",
+   "pt": 103340,
+   "en": 508775,
+   "titulo": "Eusébio"
+  },
+  "Kylian Mbappé": {
+   "v": 828220,
+   "wiki": "pt",
+   "pt": 828220,
+   "en": 9990489,
+   "titulo": "Kylian Mbappé"
+  },
+  "Erling Haaland": {
+   "v": 1143233,
+   "wiki": "pt",
+   "pt": 1143233,
+   "en": 13834536,
+   "titulo": "Erling Haaland"
+  },
+  "Robert Lewandowski": {
+   "v": 182983,
+   "wiki": "pt",
+   "pt": 182983,
+   "en": 2646053,
+   "titulo": "Robert Lewandowski"
+  },
+  "Luka Modrić": {
+   "v": 162356,
+   "wiki": "pt",
+   "pt": 162356,
+   "en": 2617079,
+   "titulo": "Luka Modrić"
+  },
+  "Zlatan Ibrahimović": {
+   "v": 197826,
+   "wiki": "pt",
+   "pt": 197826,
+   "en": 4430415,
+   "titulo": "Zlatan Ibrahimović"
+  },
+  "David Beckham": {
+   "v": 195284,
+   "wiki": "pt",
+   "pt": 195284,
+   "en": 4509507,
+   "titulo": "David Beckham"
+  },
+  "Andrés Iniesta": {
+   "v": 60126,
+   "wiki": "pt",
+   "pt": 60126,
+   "en": 770697,
+   "titulo": "Andrés Iniesta"
+  },
+  "Gianluigi Buffon": {
+   "v": 85233,
+   "wiki": "pt",
+   "pt": 85233,
+   "en": 903853,
+   "titulo": "Gianluigi Buffon"
+  },
+  "Paolo Maldini": {
+   "v": 89326,
+   "wiki": "pt",
+   "pt": 89326,
+   "en": 1025345,
+   "titulo": "Paolo Maldini"
+  },
+  "Roberto Baggio": {
+   "v": 84656,
+   "wiki": "pt",
+   "pt": 84656,
+   "en": 780667,
+   "titulo": "Roberto Baggio"
+  },
+  "Michel Platini": {
+   "v": 52419,
+   "wiki": "pt",
+   "pt": 52419,
+   "en": 572523,
+   "titulo": "Michel Platini"
+  },
+  "George Best": {
+   "v": 45635,
+   "wiki": "pt",
+   "pt": 45635,
+   "en": 923321,
+   "titulo": "George Best"
+  },
+  "Lev Yashin": {
+   "v": 101530,
+   "wiki": "pt",
+   "pt": 101530,
+   "en": 572570,
+   "titulo": "Lev Yashin"
+  },
+  "Thierry Henry": {
+   "v": 118333,
+   "wiki": "pt",
+   "pt": 118333,
+   "en": 3135041,
+   "titulo": "Thierry Henry"
+  },
+  "Pep Guardiola": {
+   "v": 203620,
+   "wiki": "pt",
+   "pt": 203620,
+   "en": 3273828,
+   "titulo": "Josep Guardiola"
+  },
+  "José Mourinho": {
+   "v": 333625,
+   "wiki": "pt",
+   "pt": 333625,
+   "en": 3862075,
+   "titulo": "José Mourinho"
+  },
+  "Alex Ferguson": {
+   "v": 74502,
+   "wiki": "pt",
+   "pt": 74502,
+   "en": 1493881,
+   "titulo": "Alex Ferguson"
+  },
+  "Carlo Ancelotti": {
+   "v": 884074,
+   "wiki": "pt",
+   "pt": 884074,
+   "en": 2088528,
+   "titulo": "Carlo Ancelotti"
+  },
+  "Alexia Putellas": {
+   "v": 22781,
+   "wiki": "pt",
+   "pt": 22781,
+   "en": 495022,
+   "titulo": "Alexia Putellas"
+  },
+  "Sadio Mané": {
+   "v": 105940,
+   "wiki": "pt",
+   "pt": 105940,
+   "en": 1535192,
+   "titulo": "Sadio Mané"
+  },
+  "Roger Milla": {
+   "v": 24548,
+   "wiki": "pt",
+   "pt": 24548,
+   "en": 247234,
+   "titulo": "Roger Milla"
+  },
+  "Jay-Jay Okocha": {
+   "v": 36034,
+   "wiki": "pt",
+   "pt": 36034,
+   "en": 515976,
+   "titulo": "Jay-Jay Okocha"
+  },
+  "Achraf Hakimi": {
+   "v": 126023,
+   "wiki": "pt",
+   "pt": 126023,
+   "en": 1801491,
+   "titulo": "Achraf Hakimi"
+  },
+  "Yaya Touré": {
+   "v": 41706,
+   "wiki": "pt",
+   "pt": 41706,
+   "en": 638478,
+   "titulo": "Yaya Touré"
+  },
+  "Son Heung-min": {
+   "v": 100118,
+   "wiki": "pt",
+   "pt": 100118,
+   "en": 1759810,
+   "titulo": "Son Heung-min"
+  },
+  "Hidetoshi Nakata": {
+   "v": 12456,
+   "wiki": "pt",
+   "pt": 12456,
+   "en": 211763,
+   "titulo": "Hidetoshi Nakata"
+  },
+  "Ali Daei": {
+   "v": 3657,
+   "wiki": "pt",
+   "pt": 3657,
+   "en": 234393,
+   "titulo": "Ali Daei"
+  },
+  "Sam Kerr": {
+   "v": 3492,
+   "wiki": "pt",
+   "pt": 3492,
+   "en": 366555,
+   "titulo": "Sam Kerr"
+  },
+  "Tim Cahill": {
+   "v": 14262,
+   "wiki": "pt",
+   "pt": 14262,
+   "en": 360013,
+   "titulo": "Tim Cahill"
+  },
+  "Megan Rapinoe": {
+   "v": 8050,
+   "wiki": "pt",
+   "pt": 8050,
+   "en": 485597,
+   "titulo": "Megan Rapinoe"
+  },
+  "Luis Suárez": {
+   "v": 155867,
+   "wiki": "pt",
+   "pt": 155867,
+   "en": 20152,
+   "titulo": "Luis Alberto Suárez"
+  },
+  "Hugo Sánchez": {
+   "v": 22680,
+   "wiki": "pt",
+   "pt": 22680,
+   "en": 362330,
+   "titulo": "Hugo Sánchez"
+  },
+  "James Rodríguez": {
+   "v": 180188,
+   "wiki": "pt",
+   "pt": 180188,
+   "en": 1889101,
+   "titulo": "James Rodríguez"
+  },
+  "Alfredo Di Stéfano": {
+   "v": 65675,
+   "wiki": "pt",
+   "pt": 65675,
+   "en": 572412,
+   "titulo": "Alfredo Di Stéfano"
+  },
+  "Gabriel Batistuta": {
+   "v": 64286,
+   "wiki": "pt",
+   "pt": 64286,
+   "en": 663227,
+   "titulo": "Gabriel Batistuta"
+  },
+  "Lewis Hamilton": {
+   "v": 202382,
+   "wiki": "pt",
+   "pt": 202382,
+   "en": 4600256,
+   "titulo": "Lewis Hamilton"
+  },
+  "Max Verstappen": {
+   "v": 240195,
+   "wiki": "pt",
+   "pt": 240195,
+   "en": 3067588,
+   "titulo": "Max Verstappen"
+  },
+  "Lando Norris": {
+   "v": 136960,
+   "wiki": "pt",
+   "pt": 136960,
+   "en": 3132666,
+   "titulo": "Lando Norris"
+  },
+  "Oscar Piastri": {
+   "v": 47621,
+   "wiki": "pt",
+   "pt": 47621,
+   "en": 1201311,
+   "titulo": "Oscar Piastri"
+  },
+  "Daniel Ricciardo": {
+   "v": 29339,
+   "wiki": "pt",
+   "pt": 29339,
+   "en": 704561,
+   "titulo": "Daniel Ricciardo"
+  },
+  "Jack Brabham": {
+   "v": 7216,
+   "wiki": "pt",
+   "pt": 7216,
+   "en": 132397,
+   "titulo": "Jack Brabham"
+  },
+  "Alain Prost": {
+   "v": 39354,
+   "wiki": "pt",
+   "pt": 39354,
+   "en": 359694,
+   "titulo": "Alain Prost"
+  },
+  "Niki Lauda": {
+   "v": 64848,
+   "wiki": "pt",
+   "pt": 64848,
+   "en": 1338131,
+   "titulo": "Niki Lauda"
+  },
+  "Fernando Alonso": {
+   "v": 91580,
+   "wiki": "pt",
+   "pt": 91580,
+   "en": 1262019,
+   "titulo": "Fernando Alonso"
+  },
+  "Sebastian Vettel": {
+   "v": 55086,
+   "wiki": "pt",
+   "pt": 55086,
+   "en": 779743,
+   "titulo": "Sebastian Vettel"
+  },
+  "Kimi Räikkönen": {
+   "v": 40754,
+   "wiki": "pt",
+   "pt": 40754,
+   "en": 709881,
+   "titulo": "Kimi Räikkönen"
+  },
+  "Mika Häkkinen": {
+   "v": 22086,
+   "wiki": "pt",
+   "pt": 22086,
+   "en": 328115,
+   "titulo": "Mika Häkkinen"
+  },
+  "Nelson Piquet": {
+   "v": 97684,
+   "wiki": "pt",
+   "pt": 97684,
+   "en": 371126,
+   "titulo": "Nelson Piquet"
+  },
+  "Emerson Fittipaldi": {
+   "v": 72243,
+   "wiki": "pt",
+   "pt": 72243,
+   "en": 232141,
+   "titulo": "Emerson Fittipaldi"
+  },
+  "Rubens Barrichello": {
+   "v": 84192,
+   "wiki": "pt",
+   "pt": 84192,
+   "en": 227754,
+   "titulo": "Rubens Barrichello"
+  },
+  "Felipe Massa": {
+   "v": 50593,
+   "wiki": "pt",
+   "pt": 50593,
+   "en": 234578,
+   "titulo": "Felipe Massa"
+  },
+  "Jackie Stewart": {
+   "v": 11145,
+   "wiki": "pt",
+   "pt": 11145,
+   "en": 297343,
+   "titulo": "Jackie Stewart"
+  },
+  "Charles Leclerc": {
+   "v": 123871,
+   "wiki": "pt",
+   "pt": 123871,
+   "en": 1930898,
+   "titulo": "Charles Leclerc"
+  },
+  "Sergio Pérez": {
+   "v": 22156,
+   "wiki": "pt",
+   "pt": 22156,
+   "en": 533532,
+   "titulo": "Sergio Pérez"
+  },
+  "LeBron James": {
+   "v": 193802,
+   "wiki": "pt",
+   "pt": 193802,
+   "en": 6718492,
+   "titulo": "LeBron James"
+  },
+  "Kobe Bryant": {
+   "v": 95782,
+   "wiki": "pt",
+   "pt": 95782,
+   "en": 3204479,
+   "titulo": "Kobe Bryant"
+  },
+  "Magic Johnson": {
+   "v": 46995,
+   "wiki": "pt",
+   "pt": 46995,
+   "en": 1997223,
+   "titulo": "Magic Johnson"
+  },
+  "Larry Bird": {
+   "v": 24475,
+   "wiki": "pt",
+   "pt": 24475,
+   "en": 1654698,
+   "titulo": "Larry Bird"
+  },
+  "Shaquille O'Neal": {
+   "v": 95865,
+   "wiki": "pt",
+   "pt": 95865,
+   "en": 3314488,
+   "titulo": "Shaquille O'Neal"
+  },
+  "Stephen Curry": {
+   "v": 81228,
+   "wiki": "pt",
+   "pt": 81228,
+   "en": 3177637,
+   "titulo": "Stephen Curry"
+  },
+  "Kareem Abdul-Jabbar": {
+   "v": 39074,
+   "wiki": "pt",
+   "pt": 39074,
+   "en": 1828593,
+   "titulo": "Kareem Abdul-Jabbar"
+  },
+  "Wilt Chamberlain": {
+   "v": 31284,
+   "wiki": "pt",
+   "pt": 31284,
+   "en": 1449339,
+   "titulo": "Wilt Chamberlain"
+  },
+  "Bill Russell": {
+   "v": 16116,
+   "wiki": "pt",
+   "pt": 16116,
+   "en": 778445,
+   "titulo": "Bill Russell"
+  },
+  "Giannis Antetokounmpo": {
+   "v": 37189,
+   "wiki": "pt",
+   "pt": 37189,
+   "en": 2152163,
+   "titulo": "Giannis Antetokounmpo"
+  },
+  "Dirk Nowitzki": {
+   "v": 8111,
+   "wiki": "pt",
+   "pt": 8111,
+   "en": 736502,
+   "titulo": "Dirk Nowitzki"
+  },
+  "Nikola Jokić": {
+   "v": 34646,
+   "wiki": "pt",
+   "pt": 34646,
+   "en": 1607969,
+   "titulo": "Nikola Jokić"
+  },
+  "Luka Dončić": {
+   "v": 37721,
+   "wiki": "pt",
+   "pt": 37721,
+   "en": 1909369,
+   "titulo": "Luka Dončić"
+  },
+  "Yao Ming": {
+   "v": 15181,
+   "wiki": "pt",
+   "pt": 15181,
+   "en": 1036899,
+   "titulo": "Yao Ming"
+  },
+  "Manu Ginóbili": {
+   "v": 10165,
+   "wiki": "pt",
+   "pt": 10165,
+   "en": 415153,
+   "titulo": "Manu Ginóbili"
+  },
+  "Oscar Schmidt": {
+   "v": 510118,
+   "wiki": "pt",
+   "pt": 510118,
+   "en": 205185,
+   "titulo": "Oscar Schmidt"
+  },
+  "Hortência": {
+   "v": 41942,
+   "wiki": "pt",
+   "pt": 41942,
+   "en": 6285,
+   "titulo": "Hortência Marcari"
+  },
+  "Dikembe Mutombo": {
+   "v": 6926,
+   "wiki": "pt",
+   "pt": 6926,
+   "en": 515841,
+   "titulo": "Dikembe Mutombo"
+  },
+  "Hakeem Olajuwon": {
+   "v": 11904,
+   "wiki": "pt",
+   "pt": 11904,
+   "en": 739991,
+   "titulo": "Hakeem Olajuwon"
+  },
+  "Lauren Jackson": {
+   "v": 781,
+   "wiki": "pt",
+   "pt": 781,
+   "en": 85866,
+   "titulo": "Lauren Jackson"
+  },
+  "Patty Mills": {
+   "v": 677,
+   "wiki": "pt",
+   "pt": 677,
+   "en": 211438,
+   "titulo": "Patty Mills"
+  },
+  "Rui Hachimura": {
+   "v": 21697,
+   "wiki": "pt",
+   "pt": 21697,
+   "en": 677711,
+   "titulo": "Rui Hachimura"
+  },
+  "Tom Hanks": {
+   "v": 87960,
+   "wiki": "pt",
+   "pt": 87960,
+   "en": 3586494,
+   "titulo": "Tom Hanks"
+  },
+  "Leonardo DiCaprio": {
+   "v": 151151,
+   "wiki": "pt",
+   "pt": 151151,
+   "en": 5264347,
+   "titulo": "Leonardo DiCaprio"
+  },
+  "Meryl Streep": {
+   "v": 155027,
+   "wiki": "pt",
+   "pt": 155027,
+   "en": 4340106,
+   "titulo": "Meryl Streep"
+  },
+  "Brad Pitt": {
+   "v": 150862,
+   "wiki": "pt",
+   "pt": 150862,
+   "en": 4552611,
+   "titulo": "Brad Pitt"
+  },
+  "Angelina Jolie": {
+   "v": 119840,
+   "wiki": "pt",
+   "pt": 119840,
+   "en": 3779274,
+   "titulo": "Angelina Jolie"
+  },
+  "Denzel Washington": {
+   "v": 106345,
+   "wiki": "pt",
+   "pt": 106345,
+   "en": 2782374,
+   "titulo": "Denzel Washington"
+  },
+  "Morgan Freeman": {
+   "v": 75425,
+   "wiki": "pt",
+   "pt": 75425,
+   "en": 2772715,
+   "titulo": "Morgan Freeman"
+  },
+  "Robert De Niro": {
+   "v": 99174,
+   "wiki": "pt",
+   "pt": 99174,
+   "en": 3684520,
+   "titulo": "Robert De Niro"
+  },
+  "Al Pacino": {
+   "v": 134838,
+   "wiki": "pt",
+   "pt": 134838,
+   "en": 3550846,
+   "titulo": "Al Pacino"
+  },
+  "Marlon Brando": {
+   "v": 103330,
+   "wiki": "pt",
+   "pt": 103330,
+   "en": 2813768,
+   "titulo": "Marlon Brando"
+  },
+  "Tom Cruise": {
+   "v": 154031,
+   "wiki": "pt",
+   "pt": 154031,
+   "en": 5447074,
+   "titulo": "Tom Cruise"
+  },
+  "Will Smith": {
+   "v": 81556,
+   "wiki": "pt",
+   "pt": 81556,
+   "en": 2437075,
+   "titulo": "Will Smith"
+  },
+  "Johnny Depp": {
+   "v": 101380,
+   "wiki": "pt",
+   "pt": 101380,
+   "en": 3377252,
+   "titulo": "Johnny Depp"
+  },
+  "Sylvester Stallone": {
+   "v": 172671,
+   "wiki": "pt",
+   "pt": 172671,
+   "en": 4344782,
+   "titulo": "Sylvester Stallone"
+  },
+  "Dwayne Johnson": {
+   "v": 385793,
+   "wiki": "pt",
+   "pt": 385793,
+   "en": 3934233,
+   "titulo": "Dwayne Johnson"
+  },
+  "Scarlett Johansson": {
+   "v": 105589,
+   "wiki": "pt",
+   "pt": 105589,
+   "en": 5287226,
+   "titulo": "Scarlett Johansson"
+  },
+  "Julia Roberts": {
+   "v": 80836,
+   "wiki": "pt",
+   "pt": 80836,
+   "en": 3271480,
+   "titulo": "Julia Roberts"
+  },
+  "Viola Davis": {
+   "v": 44205,
+   "wiki": "pt",
+   "pt": 44205,
+   "en": 1291186,
+   "titulo": "Viola Davis"
+  },
+  "Chadwick Boseman": {
+   "v": 95359,
+   "wiki": "pt",
+   "pt": 95359,
+   "en": 1997949,
+   "titulo": "Chadwick Boseman"
+  },
+  "Keanu Reeves": {
+   "v": 190160,
+   "wiki": "pt",
+   "pt": 190160,
+   "en": 5179384,
+   "titulo": "Keanu Reeves"
+  },
+  "Jim Carrey": {
+   "v": 118250,
+   "wiki": "pt",
+   "pt": 118250,
+   "en": 3867022,
+   "titulo": "Jim Carrey"
+  },
+  "Arnold Schwarzenegger": {
+   "v": 172727,
+   "wiki": "pt",
+   "pt": 172727,
+   "en": 4483388,
+   "titulo": "Arnold Schwarzenegger"
+  },
+  "Audrey Hepburn": {
+   "v": 78053,
+   "wiki": "pt",
+   "pt": 78053,
+   "en": 2785866,
+   "titulo": "Audrey Hepburn"
+  },
+  "Anthony Hopkins": {
+   "v": 78931,
+   "wiki": "pt",
+   "pt": 78931,
+   "en": 2394388,
+   "titulo": "Anthony Hopkins"
+  },
+  "Daniel Radcliffe": {
+   "v": 92546,
+   "wiki": "pt",
+   "pt": 92546,
+   "en": 2653384,
+   "titulo": "Daniel Radcliffe"
+  },
+  "Emma Watson": {
+   "v": 91792,
+   "wiki": "pt",
+   "pt": 91792,
+   "en": 3001491,
+   "titulo": "Emma Watson"
+  },
+  "Rowan Atkinson": {
+   "v": 90098,
+   "wiki": "pt",
+   "pt": 90098,
+   "en": 3489078,
+   "titulo": "Rowan Atkinson"
+  },
+  "Sean Connery": {
+   "v": 68828,
+   "wiki": "pt",
+   "pt": 68828,
+   "en": 2654196,
+   "titulo": "Sean Connery"
+  },
+  "Kate Winslet": {
+   "v": 89619,
+   "wiki": "pt",
+   "pt": 89619,
+   "en": 3046897,
+   "titulo": "Kate Winslet"
+  },
+  "Sophia Loren": {
+   "v": 53900,
+   "wiki": "pt",
+   "pt": 53900,
+   "en": 1505897,
+   "titulo": "Sophia Loren"
+  },
+  "Penélope Cruz": {
+   "v": 90716,
+   "wiki": "pt",
+   "pt": 90716,
+   "en": 2502904,
+   "titulo": "Penélope Cruz"
+  },
+  "Antonio Banderas": {
+   "v": 55271,
+   "wiki": "pt",
+   "pt": 55271,
+   "en": 1555847,
+   "titulo": "Antonio Banderas"
+  },
+  "Alain Delon": {
+   "v": 45070,
+   "wiki": "pt",
+   "pt": 45070,
+   "en": 848591,
+   "titulo": "Alain Delon"
+  },
+  "Marion Cotillard": {
+   "v": 20813,
+   "wiki": "pt",
+   "pt": 20813,
+   "en": 1084203,
+   "titulo": "Marion Cotillard"
+  },
+  "Fernanda Montenegro": {
+   "v": 196456,
+   "wiki": "pt",
+   "pt": 196456,
+   "en": 61914,
+   "titulo": "Fernanda Montenegro"
+  },
+  "Fernanda Torres": {
+   "v": 154041,
+   "wiki": "pt",
+   "pt": 154041,
+   "en": 84930,
+   "titulo": "Fernanda Torres"
+  },
+  "Wagner Moura": {
+   "v": 365892,
+   "wiki": "pt",
+   "pt": 365892,
+   "en": 1515353,
+   "titulo": "Wagner Moura"
+  },
+  "Rodrigo Santoro": {
+   "v": 106976,
+   "wiki": "pt",
+   "pt": 106976,
+   "en": 451521,
+   "titulo": "Rodrigo Santoro"
+  },
+  "Sônia Braga": {
+   "v": 92945,
+   "wiki": "pt",
+   "pt": 92945,
+   "en": 273987,
+   "titulo": "Sônia Braga"
+  },
+  "Salma Hayek": {
+   "v": 56132,
+   "wiki": "pt",
+   "pt": 56132,
+   "en": 2036181,
+   "titulo": "Salma Hayek"
+  },
+  "Cantinflas": {
+   "v": 15333,
+   "wiki": "pt",
+   "pt": 15333,
+   "en": 190222,
+   "titulo": "Cantinflas"
+  },
+  "Ricardo Darín": {
+   "v": 13233,
+   "wiki": "pt",
+   "pt": 13233,
+   "en": 65247,
+   "titulo": "Ricardo Darín"
+  },
+  "Pedro Pascal": {
+   "v": 128675,
+   "wiki": "pt",
+   "pt": 128675,
+   "en": 3821001,
+   "titulo": "Pedro Pascal"
+  },
+  "Charlize Theron": {
+   "v": 132201,
+   "wiki": "pt",
+   "pt": 132201,
+   "en": 4864367,
+   "titulo": "Charlize Theron"
+  },
+  "Lupita Nyong'o": {
+   "v": 46467,
+   "wiki": "pt",
+   "pt": 46467,
+   "en": 2452669,
+   "titulo": "Lupita Nyong'o"
+  },
+  "Omar Sharif": {
+   "v": 21237,
+   "wiki": "pt",
+   "pt": 21237,
+   "en": 744011,
+   "titulo": "Omar Sharif"
+  },
+  "Djimon Hounsou": {
+   "v": 23710,
+   "wiki": "pt",
+   "pt": 23710,
+   "en": 1100471,
+   "titulo": "Djimon Hounsou"
+  },
+  "Shah Rukh Khan": {
+   "v": 4435,
+   "wiki": "pt",
+   "pt": 4435,
+   "en": 2282794,
+   "titulo": "Shah Rukh Khan"
+  },
+  "Amitabh Bachchan": {
+   "v": 1571,
+   "wiki": "pt",
+   "pt": 1571,
+   "en": 1841149,
+   "titulo": "Amitabh Bachchan"
+  },
+  "Toshiro Mifune": {
+   "v": 6225,
+   "wiki": "pt",
+   "pt": 6225,
+   "en": 432337,
+   "titulo": "Toshiro Mifune"
+  },
+  "Michelle Yeoh": {
+   "v": 23003,
+   "wiki": "pt",
+   "pt": 23003,
+   "en": 1739313,
+   "titulo": "Michelle Yeoh"
+  },
+  "Gong Li": {
+   "v": 4865,
+   "wiki": "pt",
+   "pt": 4865,
+   "en": 365741,
+   "titulo": "Gong Li"
+  },
+  "Song Kang-ho": {
+   "v": 3777,
+   "wiki": "pt",
+   "pt": 3777,
+   "en": 442275,
+   "titulo": "Song Kang-ho"
+  },
+  "Lee Jung-jae": {
+   "v": 10734,
+   "wiki": "pt",
+   "pt": 10734,
+   "en": 422470,
+   "titulo": "Lee Jung-jae"
+  },
+  "Margot Robbie": {
+   "v": 113425,
+   "wiki": "pt",
+   "pt": 113425,
+   "en": 3665818,
+   "titulo": "Margot Robbie"
+  },
+  "Chris Hemsworth": {
+   "v": 94304,
+   "wiki": "pt",
+   "pt": 94304,
+   "en": 3122313,
+   "titulo": "Chris Hemsworth"
+  },
+  "Cate Blanchett": {
+   "v": 48734,
+   "wiki": "pt",
+   "pt": 48734,
+   "en": 1839827,
+   "titulo": "Cate Blanchett"
+  },
+  "Russell Crowe": {
+   "v": 56689,
+   "wiki": "pt",
+   "pt": 56689,
+   "en": 2206255,
+   "titulo": "Russell Crowe"
+  },
+  "Taika Waititi": {
+   "v": 10249,
+   "wiki": "pt",
+   "pt": 10249,
+   "en": 1479032,
+   "titulo": "Taika Waititi"
+  }
+ }
+}

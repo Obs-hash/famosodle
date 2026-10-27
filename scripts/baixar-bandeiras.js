@@ -2,7 +2,9 @@
 // licença e página do arquivo. O arquivo de cada país vem do Wikidata (propriedade P41, bandeira, do item com o
 // código ISO P297), e a imagem é a miniatura PNG que a própria Wikimedia gera a partir do SVG do Commons.
 // O jogo mostra essas imagens no lugar do emoji de bandeira, que o Windows desenha como duas letras ("BR").
-// Uso: npm run baixar-bandeiras   (depois rode npm run build e faça commit da pasta bandeiras/)
+// Por padrão só baixa os países que ainda não têm bandeira; as que já existem ficam como estão. Com --todas, baixa todas.
+// Uso: npm run baixar-bandeiras   ou   npm run baixar-bandeiras -- --todas
+// (depois rode npm run build e faça commit da pasta bandeiras/)
 "use strict";
 const fs = require("fs");
 const path = require("path");
@@ -14,12 +16,23 @@ const ARQUIVOS = {};
 const RAIZ = path.join(__dirname, "..", "bandeiras");
 const TEMP = path.join(RAIZ, ".baixando");
 const PAGINA = /^https:\/\/commons\.wikimedia\.org\/wiki\/File:/;
+const CREDITOS = path.join(RAIZ, "creditos.json");
+const TODAS = process.argv.includes("--todas");
 
 (async () => {
   const dados = path.join(__dirname, "..", "dados", "data.json");
   if (!fs.existsSync(dados)) throw new Error("Rode antes: npm run dados");
   const paises = JSON.parse(fs.readFileSync(dados, "utf8")).countries;
-  const codigos = Object.keys(paises).sort();
+  // bandeiras que já existem, com arquivo presente, ficam como estão
+  const atuais = {};
+  if (!TODAS && fs.existsSync(CREDITOS)) {
+    for (const [c, e] of Object.entries((JSON.parse(fs.readFileSync(CREDITOS, "utf8")) || {}).bandeiras || {})) {
+      if (paises[c] && e && e.f === c.toLowerCase() + ".png" && fs.existsSync(path.join(RAIZ, e.f))) atuais[c] = e;
+    }
+  }
+  const codigos = Object.keys(paises).filter(c => !atuais[c]).sort();
+  if (!TODAS) console.log(`${Object.keys(atuais).length} países já têm bandeira e ficam como estão.`);
+  if (!codigos.length) { console.log("Nenhuma bandeira faltando."); return; }
 
   console.log(`Buscando no Wikidata a bandeira de ${codigos.length} países...`);
   const sparql = `SELECT ?code ?flag WHERE { VALUES ?code { ${codigos.map(c => `"${c}"`).join(" ")} } ?item wdt:P297 ?code; wdt:P41 ?flag. }`;
@@ -81,15 +94,17 @@ const PAGINA = /^https:\/\/commons\.wikimedia\.org\/wiki\/File:/;
     fs.rmSync(TEMP, { recursive: true, force: true });
     throw new Error("Nenhuma bandeira baixada; nada foi alterado na pasta bandeiras/.\n  " + problemas.join("\n  "));
   }
-  fs.writeFileSync(path.join(TEMP, "creditos.json"), JSON.stringify({ gerado: new Date().toISOString(), fonte: "Wikimedia Commons", bandeiras }, null, 1) + "\n");
-  // troca os arquivos antigos pelos novos só no fim
-  for (const f of fs.readdirSync(RAIZ)) if (/^([a-z]{2}\.png|creditos\.json)$/.test(f)) fs.rmSync(path.join(RAIZ, f));
+  // créditos em ordem de código: os que já existiam e os novos
+  const todas = Object.fromEntries(Object.entries({ ...atuais, ...bandeiras }).sort(([a], [b]) => a.localeCompare(b)));
+  fs.writeFileSync(path.join(TEMP, "creditos.json"), JSON.stringify({ gerado: new Date().toISOString(), fonte: "Wikimedia Commons", bandeiras: todas }, null, 1) + "\n");
+  // troca os arquivos só no fim; sem --todas, as bandeiras antigas ficam onde estão
+  if (TODAS) for (const f of fs.readdirSync(RAIZ)) if (/^([a-z]{2}\.png|creditos\.json)$/.test(f)) fs.rmSync(path.join(RAIZ, f));
   for (const f of fs.readdirSync(TEMP)) fs.renameSync(path.join(TEMP, f), path.join(RAIZ, f));
   fs.rmSync(TEMP, { recursive: true, force: true });
 
-  console.log(`Pronto: ${Object.keys(bandeiras).length} de ${codigos.length} bandeiras, ${(bytes / 1024).toFixed(0)} KB`);
+  console.log(`Pronto: ${Object.keys(bandeiras).length} de ${codigos.length} bandeiras ${TODAS ? "" : "novas "}(${(bytes / 1024).toFixed(0)} KB) | no pacote: ${Object.keys(todas).length}`);
   const licencas = {};
-  for (const b of Object.values(bandeiras)) licencas[b.l || "sem licença"] = (licencas[b.l || "sem licença"] || 0) + 1;
+  for (const b of Object.values(todas)) licencas[b.l || "sem licença"] = (licencas[b.l || "sem licença"] || 0) + 1;
   console.log("Licenças:", JSON.stringify(licencas));
   if (problemas.length) console.log(`Sem bandeira (o jogo mostra o emoji):\n  ` + problemas.join("\n  "));
 })().catch(e => { console.error("\nErro:", e.message); process.exit(1); });

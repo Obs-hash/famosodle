@@ -47,9 +47,11 @@ test("abre por file://, mostra os botões e gera o pacote de fotos e a cópia of
   expect(zip.suggestedFilename()).toBe("famosodle-fotos.zip");
   const nomes = nomesNoZip(fs.readFileSync(await zip.path()));
   expect(nomes).toContain("fotos-1/creditos.json");
-  expect(nomes).toContain("fotos-4/p375.jpg");
+  // 99 fotos por pasta: a última figura cai na última pasta
+  const ultima = DATA.people[DATA.people.length - 1].id, pastaFinal = Math.floor((Number(ultima.slice(1)) - 1) / 99) + 1;
+  expect(nomes).toContain(`fotos-${pastaFinal}/${ultima}.jpg`);
   expect(nomes.filter(n => n.endsWith(".jpg"))).toHaveLength(DATA.people.length);
-  for (const d of ["fotos-1", "fotos-2", "fotos-3", "fotos-4"]) expect(nomes.filter(n => n.startsWith(d + "/")).length).toBeLessThanOrEqual(100);
+  for (let d = 1; d <= pastaFinal; d++) expect(nomes.filter(n => n.startsWith(`fotos-${d}/`)).length).toBeLessThanOrEqual(100);
   await expect(page.locator("[data-build-status]")).toContainText("Pronto:");
 
   const [copia] = await Promise.all([page.waitForEvent("download", { timeout: 180000 }), page.click("[data-build]")]);

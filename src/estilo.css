@@ -86,6 +86,24 @@ img.flag { height: .78em; width: auto; vertical-align: -.1em; border-radius: 2px
 .regions .ck { width: 15px; height: 15px; border-radius: 50%; background: var(--ok); display: grid; place-items: center; }
 .regions .ck svg { width: 10px; height: 10px; fill: none; stroke: #fff; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
 
+/* nível: botões de rádio do navegador (setas e anúncio prontos) com cara de controle segmentado */
+.levels { border: 0; margin: 0; padding: 0; min-width: 0; }
+.levels legend { float: left; width: 100%; padding: 0; margin: 0 0 6px; text-align: center; color: var(--muted); }
+.levels .seg { clear: both; display: flex; gap: 4px; width: min(100%, 520px); margin-inline: auto; padding: 4px; border: 1.5px solid var(--ink); border-radius: 999px; }
+.levels label { position: relative; flex: 1 1 0; min-width: 0; }
+.levels input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: pointer; }
+.levels .opt { position: relative; display: flex; align-items: center; justify-content: center; min-height: 44px; padding: 6px 4px; border-radius: 999px; font-weight: 600; font-size: 13px; white-space: nowrap; pointer-events: none; }
+.levels input:hover + .opt { background: var(--sand); }
+.levels input:checked + .opt { background: var(--ink); color: var(--paper); }
+.levels input:focus-visible + .opt { outline: 3px solid var(--ink); outline-offset: 2px; }
+/* selo de resolvido hoje, no canto de cada nível */
+.levels .ck { position: absolute; top: -7px; right: -3px; width: 16px; height: 16px; border-radius: 50%; background: var(--ok); display: grid; place-items: center; box-shadow: 0 0 0 2px var(--paper); }
+.levels .ck svg { width: 10px; height: 10px; fill: none; stroke: #fff; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+/* nas estatísticas: cinco opções em pílulas soltas, que quebram linha em telas estreitas */
+.levels.light .seg { width: auto; flex-wrap: wrap; justify-content: center; gap: 6px; padding: 0; border: 0; border-radius: 0; }
+.levels.light label { flex: none; }
+.levels.light .opt { padding: 6px 14px; border: 1.5px solid var(--ink); }
+
 /* cartão do desafio */
 .prompt { border-radius: var(--r); padding: 20px 22px 22px; display: grid; gap: 14px; max-width: 700px; width: 100%; margin-inline: auto; }
 .meta { min-height: 1.5em; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; font-size: 11.5px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--muted-d); }
@@ -278,6 +296,8 @@ dialog::backdrop { background: rgba(20, 16, 18, .6); }
   .countdown { margin-left: 0; width: 100%; }
   .cols div { grid-template-columns: 1fr; gap: 0; }
   .prompt { padding: 18px 16px 18px; }
+  /* ficha e data em duas linhas fixas, com o espaço reservado: o texto chega pelo JavaScript e não empurra nada */
+  .meta { flex-direction: column; gap: 0; min-height: 3em; letter-spacing: .08em; }
   .quote { padding-left: 46px; }
   .glist li { grid-template-columns: 1fr; }
   .glist .tags { justify-content: flex-start; }

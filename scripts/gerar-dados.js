@@ -6,7 +6,7 @@ const path = require("path");
 const wc = require("world-countries");
 const cc = require("@rapideditor/country-coder");
 
-const nomeBR = { NL: "Países Baixos", PL: "Polônia", PS: "Palestina", IR: "Irã", KE: "Quênia", VN: "Vietnã", SG: "Cingapura", CZ: "Tchéquia", RO: "Romênia", TW: "Taiwan", PE: "Peru", ZW: "Zimbábue", MM: "Mianmar", UA: "Ucrânia", KR: "Coreia do Sul", RW: "Ruanda", HU: "Hungria", HR: "Croácia", GW: "Guiné-Bissau", MZ: "Moçambique", SE: "Suécia", CH: "Suíça", IE: "Irlanda", NI: "Nicarágua", HT: "Haiti" };
+const nomeBR = { NL: "Países Baixos", PL: "Polônia", PS: "Palestina", IR: "Irã", KE: "Quênia", VN: "Vietnã", SG: "Cingapura", CZ: "Tchéquia", RO: "Romênia", TW: "Taiwan", PE: "Peru", ZW: "Zimbábue", MM: "Mianmar", UA: "Ucrânia", KR: "Coreia do Sul", RW: "Ruanda", HU: "Hungria", HR: "Croácia", GW: "Guiné-Bissau", MZ: "Moçambique", SE: "Suécia", CH: "Suíça", IE: "Irlanda", NI: "Nicarágua", HT: "Haiti", MC: "Mônaco", SI: "Eslovênia" };
 const contBR = { Africa: "África", Americas: "América", Asia: "Ásia", Europe: "Europa", Oceania: "Oceania" };
 const contId = { Africa: "af", Americas: "am", Asia: "as", Europe: "eu", Oceania: "oc" };
 const AREAS = ["pol", "cie", "art", "mus", "lit", "esp", "ati", "exp", "mil", "fil", "neg", "cin", "rel"];
@@ -47,11 +47,19 @@ const ALIAS = {
   "Pedro, o Grande": ["Pedro I da Russia"], "Luís XIV": ["Rei Sol", "Luis 14"], "Henrique VIII": ["Henrique 8"], "Josip Broz Tito": ["Tito"],
   "Frederik de Klerk": ["F W de Klerk", "de Klerk"], "Chiang Kai-shek": ["Chiang Kai shek"], "Park Chung-hee": ["Park Chung hee"], "Ban Ki-moon": ["Ban Ki moon"],
   "Cristina Kirchner": ["Cristina Fernandez de Kirchner"], "Charles de Gaulle": ["De Gaulle"], "Grigori Rasputin": ["Rasputin"],
+  "Josef Stálin": ["Stalin", "Joseph Stalin", "Estaline"], "Nikita Kruschev": ["Khrushchev", "Kruschov", "Krushchev"], "Ronaldinho": ["Ronaldinho Gaucho"],
+  "Vinícius Júnior": ["Vini Jr", "Vinicius Jr"], "Mário Zagallo": ["Zagalo"], "Shaquille O'Neal": ["Shaq"], "Magic Johnson": ["Earvin Johnson"],
+  "Dwayne Johnson": ["The Rock"], "Stephen Curry": ["Steph Curry"], "Pep Guardiola": ["Josep Guardiola"], "Alex Ferguson": ["Sir Alex Ferguson"],
+  "Hortência": ["Hortencia Marcari"], "Oscar Schmidt": ["Mao Santa"], "Rubens Barrichello": ["Rubinho"], "Shah Rukh Khan": ["SRK"],
+  "Cantinflas": ["Mario Moreno"], "Zlatan Ibrahimović": ["Ibra"], "Lev Yashin": ["Lev Iashin", "Aranha Negra"],
 };
 
 const ROOT = path.join(__dirname, "..");
 const DADOS = path.join(ROOT, "dados");
-const lines = ["figuras.txt", "figuras-extra.txt"].map(f => fs.readFileSync(path.join(DADOS, f), "utf8")).join("\n").split(/\r?\n/).filter(l => l.trim() && !l.startsWith("#"));
+// lê um texto sem a marca de UTF-8 (BOM) que alguns editores, como o Bloco de Notas, põem no começo do arquivo
+const BOM = String.fromCharCode(0xfeff);
+const lerTexto = f => fs.readFileSync(f, "utf8").replace(new RegExp("^" + BOM), "");
+const lines = ["figuras.txt", "figuras-extra.txt"].map(f => lerTexto(path.join(DADOS, f))).join("\n").split(/\r?\n/).filter(l => l.trim() && !l.startsWith("#"));
 const errs = [], avisos = [];
 const countries = {};
 const people = lines.map((l, i) => {
@@ -122,13 +130,61 @@ if (fs.existsSync(credBandeiras)) {
 }
 if (comBandeira < Object.keys(countries).length) avisos.push(`${Object.keys(countries).length - comBandeira} países sem bandeira em imagem (rode npm run baixar-bandeiras); o jogo mostra o emoji`);
 
+// fama de cada figura do ponto de vista de quem joga no Brasil: 1 Iniciante, 2 Fácil, 3 Médio, 4 Difícil
+const famaArq = path.join(DADOS, "fama.txt"), fama = new Map();
+if (!fs.existsSync(famaArq)) errs.push("falta dados/fama.txt");
+else {
+  lerTexto(famaArq).split(/\r?\n/).filter(l => l.trim() && !l.startsWith("#")).forEach(l => {
+    const [n, nv, ...resto] = l.split("|");
+    if (nv === undefined || resto.length) { errs.push("linha inválida em fama.txt (use nome|nível): " + l); return; }
+    if (fama.has(n)) errs.push("nome repetido em fama.txt: " + n);
+    if (!/^[1-4]$/.test(nv)) errs.push("nível fora de 1 a 4 em fama.txt: " + l);
+    if (!names.has(n)) errs.push("nome em fama.txt que não é de nenhuma figura: " + n);
+    fama.set(n, Number(nv));
+  });
+  people.forEach(p => { if (!fama.has(p.n)) errs.push("figura sem nível em fama.txt: " + p.n); });
+}
+// visitas de 12 meses na Wikipedia (dados/visitas.json, gerado por npm run visitas): desempate dentro do mesmo nível de fama
+const visArq = path.join(DADOS, "visitas.json"), vis = new Map();
+if (fs.existsSync(visArq)) {
+  for (const [n, e] of Object.entries((JSON.parse(fs.readFileSync(visArq, "utf8")) || {}).visitas || {})) if (e && Number.isFinite(e.v)) vis.set(n, e.v);
+} else avisos.push("sem dados/visitas.json: dentro de cada nível de fama vale a ordem dos ids (rode npm run visitas)");
+
 if (errs.length) { console.log(errs); process.exit(1); }
 avisos.forEach(a => console.log("aviso:", a));
 
-const out = { people, countries, conts: Object.entries(contId).map(([en, id]) => ({ id, n: contBR[en] })) };
+/* ---------- níveis de dificuldade ---------- */
+// cada modo divide as figuras que podem ser resposta em 4 faixas sem repetição. As faixas seguem a fama; em modos
+// pequenos, cada faixa tem pelo menos MIN figuras, então os níveis viram relativos (Iniciante na África são os africanos
+// mais famosos). Mesma definição de modo que o jogo usa em src/app.js.
+const NIVEIS = ["Iniciante", "Fácil", "Médio", "Difícil"];
+const MODOS = {
+  g: ["Global", () => true], af: ["África", p => countries[p.c].ct === "af"], am: ["América", p => countries[p.c].ct === "am"],
+  as: ["Ásia", p => countries[p.c].ct === "as"], eu: ["Europa", p => countries[p.c].ct === "eu"], oc: ["Oceania", p => countries[p.c].ct === "oc"],
+  foto: ["Foto", p => p.ph || !comFoto], frase: ["Frase", p => !!p.q]
+};
+function faixas(lista) {
+  // mais famoso primeiro: nível de fama, depois mais visitas (quem não tem visitas vai para o fim do nível), depois id
+  const ord = lista.slice().sort((a, b) => fama.get(a.n) - fama.get(b.n) || vis.has(b.n) - vis.has(a.n) || (vis.get(b.n) || 0) - (vis.get(a.n) || 0) || a.id.localeCompare(b.id));
+  const N = ord.length, MIN = Math.min(12, Math.floor(N / 4));
+  let [b1, b2, b3] = [1, 2, 3].map(k => ord.filter(p => fama.get(p.n) <= k).length);
+  b1 = Math.max(b1, MIN); b2 = Math.max(b2, b1 + MIN); b3 = Math.max(b3, b2 + MIN);
+  b3 = Math.min(b3, N - MIN); b2 = Math.min(b2, b3 - MIN); b1 = Math.min(b1, b2 - MIN);
+  return [ord.slice(0, b1), ord.slice(b1, b2), ord.slice(b2, b3), ord.slice(b3)].map(f => f.map(p => p.id));
+}
+const levels = {};
+for (const [m, [nome, filtro]] of Object.entries(MODOS)) {
+  levels[m] = faixas(people.filter(filtro));
+  levels[m].forEach((f, i) => { if (!f.length) errs.push(`o nível ${NIVEIS[i]} do modo ${nome} ficou vazio`); });
+}
+if (errs.length) { console.log(errs); process.exit(1); }
+
+const out = { people, countries, conts: Object.entries(contId).map(([en, id]) => ({ id, n: contBR[en] })), levels };
 fs.writeFileSync(path.join(DADOS, "data.json"), JSON.stringify(out));
 const byC = {};
 people.forEach(p => { const ct = countries[p.c].ct; byC[ct] = (byC[ct] || 0) + 1; });
 console.log("figuras", people.length, "| por continente", byC, "| com frase", people.filter(p => p.q).length, "| com foto", comFoto,
   "| vivos", people.filter(p => p.d === null).length, "| países", Object.keys(countries).length, "| bandeiras", comBandeira,
   "| mulheres", people.filter(p => p.g === "F").length, "|", (JSON.stringify(out).length / 1024).toFixed(1), "KB");
+console.log("figuras por nível:   " + NIVEIS.map(n => n.padStart(9)).join("") + "    total");
+for (const [m, [nome]] of Object.entries(MODOS)) console.log("  " + nome.padEnd(18) + levels[m].map(f => String(f.length).padStart(9)).join("") + String(levels[m].flat().length).padStart(9));

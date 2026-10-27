@@ -47,6 +47,16 @@
     </div>
   </header>
 
+  <fieldset class="levels" id="levels" role="radiogroup" aria-labelledby="levels-legend">
+    <legend class="eyebrow" id="levels-legend">Nível</legend>
+    <div class="seg">
+      <label><input type="radio" name="nivel" id="lv-1" value="1" checked><span class="opt">Iniciante<span class="ck" aria-hidden="true" hidden><svg viewBox="0 0 12 12"><path d="M2.5 6.3l2.2 2.2 4.8-5"/></svg></span></span><span class="sr" data-done></span></label>
+      <label><input type="radio" name="nivel" id="lv-2" value="2"><span class="opt">Fácil<span class="ck" aria-hidden="true" hidden><svg viewBox="0 0 12 12"><path d="M2.5 6.3l2.2 2.2 4.8-5"/></svg></span></span><span class="sr" data-done></span></label>
+      <label><input type="radio" name="nivel" id="lv-3" value="3"><span class="opt">Médio<span class="ck" aria-hidden="true" hidden><svg viewBox="0 0 12 12"><path d="M2.5 6.3l2.2 2.2 4.8-5"/></svg></span></span><span class="sr" data-done></span></label>
+      <label><input type="radio" name="nivel" id="lv-4" value="4"><span class="opt">Difícil<span class="ck" aria-hidden="true" hidden><svg viewBox="0 0 12 12"><path d="M2.5 6.3l2.2 2.2 4.8-5"/></svg></span></span><span class="sr" data-done></span></label>
+    </div>
+  </fieldset>
+
   <noscript><p class="noscript">O Famosodle precisa do JavaScript ativado no navegador para funcionar.</p></noscript>
 
   <main class="stack">
@@ -144,6 +154,8 @@
     <header><h2 class="disp" id="help-title">Como jogar</h2><button type="button" class="iconbtn" data-close aria-label="Fechar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></button></header>
     <div class="body">
       <p>Todo dia há uma figura secreta nova em cada modo, igual para todo mundo. A virada acontece à meia-noite, no horário de Brasília. Não há limite de tentativas.</p>
+      <h3>Níveis</h3>
+      <p>Cada modo tem quatro níveis, Iniciante, Fácil, Médio e Difícil, cada um com a sua figura do dia. O nível depende de quão conhecida a figura é no Brasil; na África, na Ásia, na Oceania e no modo frase, que têm menos figuras, o nível é relativo: Iniciante traz as mais conhecidas daquele grupo.</p>
       <h3>Modo clássico</h3>
       <p>Escolha Global ou um continente. Cada palpite mostra o que a figura tem em comum com a secreta. Verde (✓) é igual, amarelo (≈) é perto e vermelho (✕) é diferente.</p>
       <dl class="cols">
@@ -159,7 +171,7 @@
       <h3>Dicas</h3>
       <p>Em todos os modos, a primeira dica libera depois de 5 erros e a segunda depois de 10.</p>
       <h3>Treino e progresso</h3>
-      <p>Depois de acertar, jogue com figuras aleatórias quantas vezes quiser. O treino não conta nas estatísticas. Não há cadastro: o progresso fica salvo só neste navegador.</p>
+      <p>Depois de acertar, jogue com figuras aleatórias do mesmo nível quantas vezes quiser. O treino não conta nas estatísticas. Não há cadastro: o progresso fica salvo só neste navegador.</p>
     </div>
   </div>
 </dialog>
@@ -168,7 +180,18 @@
   <div class="dlg">
     <header><h2 class="disp" id="stats-title">Estatísticas</h2><button type="button" class="iconbtn" data-close aria-label="Fechar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></button></header>
     <div class="body">
+      <fieldset class="levels light" id="stats-levels" role="radiogroup" aria-labelledby="stats-levels-legend">
+        <legend class="sr" id="stats-levels-legend">Mostrar estatísticas de</legend>
+        <div class="seg">
+          <label><input type="radio" name="stats-nivel" id="st-1" value="1" checked><span class="opt">Iniciante</span></label>
+          <label><input type="radio" name="stats-nivel" id="st-2" value="2"><span class="opt">Fácil</span></label>
+          <label><input type="radio" name="stats-nivel" id="st-3" value="3"><span class="opt">Médio</span></label>
+          <label><input type="radio" name="stats-nivel" id="st-4" value="4"><span class="opt">Difícil</span></label>
+          <label><input type="radio" name="stats-nivel" id="st-t" value="t"><span class="opt">Total</span></label>
+        </div>
+      </fieldset>
       <div class="scroll-x"><table class="stattable" id="stats-table"></table></div>
+      <p class="note" id="stats-total-note" hidden>O total soma os quatro níveis e as partidas de antes dos níveis. Sequência e recorde são os maiores entre eles.</p>
       <p class="note">Guardadas só neste navegador.</p>
     </div>
   </div>

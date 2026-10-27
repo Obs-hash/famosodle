@@ -196,4 +196,33 @@ Com isso o modo Frase tem 60 figuras (eram 61).
 - Sem git neste computador, não houve commits por fase. O backup do estado original ficou fora do projeto.
 - O Lighthouse foi medido no servidor local com rede simulada. Na Vercel os números podem variar um pouco; o DEPLOY.md mostra como conferir depois do deploy.
 - Os testes rodam só no Chrome. Firefox e Safari não foram testados automaticamente.
-- A conferência dos fatos vale para 26/10/2026. Rode `npm run verificar-dados` antes de novas levas de mudanças.
+- A conferência dos fatos vale para 27/10/2026. Rode `npm run verificar-dados` antes de novas levas de mudanças.
+
+## Atualização de 27/10/2026: níveis e 150 figuras
+
+- 150 figuras novas no fim de `dados/figuras-extra.txt` (4 de política, 46 do futebol, 19 da Fórmula 1, 22 do basquete e 59 do cinema), ids p376 a p525. Nenhuma linha antiga mudou de lugar. Com elas entram 8 países (Benin, Eslovênia, Finlândia, Malásia, Marrocos, Mônaco, Noruega e Sérvia), com bandeira do Commons em domínio público.
+- Quatro níveis de dificuldade em todos os modos, a partir de `dados/fama.txt` (525 figuras) e das visitas na Wikipedia em português (`dados/visitas.json`). Regras e tamanhos das faixas no CLAUDE.md.
+- O progresso passou para `famosodle:v2`, com partidas e estatísticas por nível. As estatísticas antigas entram no total de cada modo; o `famosodle:v1` fica guardado como estava.
+
+### Conferência das figuras novas
+
+| Item | Situação |
+|---|---|
+| Datas de nascimento e morte e gênero das 150 figuras. | Conferidos com o Wikidata: tudo bate, inclusive a morte do Oscar Schmidt em 2026 e quem está vivo. |
+| Título da Wikipedia do Luis Suárez apontava para uma página de desambiguação. | Corrigido para `Luis_Suárez_(Uruguayan_footballer)`. |
+| Dica da Angelina Jolie dizia que ela é enviada especial da ONU para refugiados. | Corrigido: ela deixou o cargo em 2022. A dica agora diz que foi enviada especial até 2022. |
+| Dicas, feitos e frases das outras figuras. | Conferidos um a um; sem mudanças. As frases de atores são falas curtas e conhecidas de filmes, traduzidas; nenhuma letra de música. |
+| País do Josef Stálin (RU), nascido na Geórgia. | Mantido: segue a regra do "país mais associado", como Trotsky (RU) e Golda Meir (IL). |
+| Fotos das 150 figuras. | Todas com licença livre e crédito, conferidas uma a uma numa folha de contato. O artigo do Lee Jung-jae não tem imagem principal: entrou um retrato livre do Commons (`ALTERNATIVAS`). A imagem do Cantinflas é WebP: o `baixar-fotos` passou a converter WebP para JPEG pelo Chrome. Pacote: 524 fotos, cerca de 33 MB; só o Eddie Mabo segue sem foto. |
+| O `baixar-fotos` e o `baixar-bandeiras` refaziam o pacote inteiro. | Agora só baixam o que falta; as 374 fotos e as 75 bandeiras antigas ficaram com os mesmos bytes. |
+
+### Problemas encontrados durante a atualização
+
+| Item | Gravidade | Situação |
+|---|---|---|
+| Quem trocava de região (ou agora de nível) logo depois de acertar, antes do cartão do resultado aparecer, perdia o foco ao voltar: o cartão aparecia animado e puxava o foco. | baixa | Corrigido: trocar de aba, região ou nível esquece o momento do acerto. Teste novo. |
+| "A figura de ontem" mostraria, no dia de uma mudança nas figuras, uma resposta calculada com os dados novos, que ninguém jogou. | média | Corrigido: o build grava o dia em que foi feito (`BUILT`) e a linha só aparece quando os dados já valiam ontem. |
+| Um `fama.txt` ou lista de figuras salvo com BOM (o Bloco de Notas às vezes faz isso) quebraria o build. | baixa | Corrigido: o `gerar-dados` ignora o BOM. |
+| Com o nome do nível, a linha "Ficha nº · modo · nível" e a data deixaram de caber numa linha em celulares de 412 px: o texto quebrava quando chegava pelo JavaScript e empurrava a página (CLS 0,006). | baixa | Corrigido: em telas estreitas a data fica sempre na segunda linha, com as duas linhas reservadas. CLS de volta a zero. |
+
+Lighthouse depois da atualização (mesmo método, mediana de 3 rodadas): desempenho 99, acessibilidade 100, boas práticas 100, SEO 100, CLS 0. O JavaScript passou de 39 KB para 51 KB com gzip, quase tudo por causa dos dados das 150 figuras e das faixas de nível.

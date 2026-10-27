@@ -1,5 +1,5 @@
 {
- "gerado": "2026-10-27T00:48:38.076Z",
+ "gerado": "2026-10-27T16:33:34.264Z",
  "fonte": "Wikimedia Commons",
  "bandeiras": {
   "AO": {
@@ -51,6 +51,16 @@
    "l": "Domínio público",
    "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Burkina_Faso.svg",
    "n": "Burkina Faso"
+  },
+  "BJ": {
+   "f": "bj.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Benin.svg",
+   "a": "Drawn by SKopp, rewritten by Gabbe",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Benin.svg",
+   "n": "Benin"
   },
   "BO": {
    "f": "bo.png",
@@ -221,6 +231,16 @@
    "l": "Domínio público",
    "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Ethiopia.svg",
    "n": "Etiópia"
+  },
+  "FI": {
+   "f": "fi.png",
+   "w": 120,
+   "h": 74,
+   "file": "Flag_of_Finland.svg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Finland.svg",
+   "n": "Finlândia"
   },
   "FR": {
    "f": "fr.png",
@@ -442,6 +462,26 @@
    "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Libya.svg",
    "n": "Líbia"
   },
+  "MA": {
+   "f": "ma.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Morocco.svg",
+   "a": "Denelson83, Zscout370",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Morocco.svg",
+   "n": "Marrocos"
+  },
+  "MC": {
+   "f": "mc.png",
+   "w": 120,
+   "h": 96,
+   "file": "Flag_of_Monaco.svg",
+   "a": "Drawn by SKopp",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Monaco.svg",
+   "n": "Mônaco"
+  },
   "ML": {
    "f": "ml.png",
    "w": 120,
@@ -482,6 +522,16 @@
    "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Mexico.svg",
    "n": "México"
   },
+  "MY": {
+   "f": "my.png",
+   "w": 120,
+   "h": 60,
+   "file": "Flag_of_Malaysia.svg",
+   "a": "MapGrid (old version SKopp, Zscout370 and Ranking Update)",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Malaysia.svg",
+   "n": "Malásia"
+  },
   "MZ": {
    "f": "mz.png",
    "w": 120,
@@ -521,6 +571,16 @@
    "l": "Domínio público",
    "u": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Netherlands.svg",
    "n": "Países Baixos"
+  },
+  "NO": {
+   "f": "no.png",
+   "w": 120,
+   "h": 88,
+   "file": "Flag_of_Norway.svg",
+   "a": "Original: Fredrik Meltzer Vector: Gutten på Hemsen",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Norway.svg",
+   "n": "Noruega"
   },
   "NZ": {
    "f": "nz.png",
@@ -582,6 +642,16 @@
    "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Portugal_(official).svg",
    "n": "Portugal"
   },
+  "RS": {
+   "f": "rs.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Serbia.svg",
+   "a": "",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Serbia.svg",
+   "n": "Sérvia"
+  },
   "RU": {
    "f": "ru.png",
    "w": 120,
@@ -621,6 +691,16 @@
    "l": "Domínio público",
    "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Singapore.svg",
    "n": "Cingapura"
+  },
+  "SI": {
+   "f": "si.png",
+   "w": 120,
+   "h": 60,
+   "file": "Flag_of_Slovenia.svg",
+   "a": "Original: Marko Pogačnik Vector: Achim1999",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Slovenia.svg",
+   "n": "Eslovênia"
   },
   "SN": {
    "f": "sn.png",

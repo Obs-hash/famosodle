@@ -1,6 +1,6 @@
 // Fluxos do jogo: palpites em todos os modos, vitória, derrota, dicas, progresso salvo, teclado e virada do dia
 const { test, expect } = require("@playwright/test");
-const { DATA, cont, nomes, preparar, semErros, palpite, resolver, semRolagemLateral } = require("./ajuda");
+const { DATA, cont, nomes, preparar, semErros, palpite, resolver, semRolagemLateral, chaveHoje } = require("./ajuda");
 
 const REGIOES = [["g", null], ["af", "af"], ["am", "am"], ["as", "as"], ["eu", "eu"], ["oc", "oc"]];
 const OCEANIA = nomes(p => cont(p) === "oc");
@@ -16,7 +16,9 @@ test("carrega sem erros, sem violações de CSP e com a ajuda na primeira visita
   await page.keyboard.press("Escape");
   await expect(page.locator("#dlg-help")).toBeHidden();
   await expect(page.locator("#classic-meta")).toContainText("Ficha nº");
-  await expect(page.locator("#foot-count")).toHaveText(`${DATA.people.length} figuras · ${Object.keys(DATA.countries).length} países · 8 modos`);
+  await expect(page.locator("#foot-count")).toHaveText(`${DATA.people.length} figuras · ${Object.keys(DATA.countries).length} países · 8 modos · 4 níveis`);
+  // no dia do build, a figura de ontem não aparece: ontem os dados (e as respostas) eram outros
+  await expect(page.locator("#classic-yesterday")).toHaveText("");
   await semErros(page, erros);
 });
 
@@ -112,7 +114,7 @@ test("vitória no dia, compartilhar, treino com vitória e treino com derrota (t
   await expect(page.locator("#toast")).toHaveText("Resultado copiado");
   // no Windows a área de transferência troca \n por \r\n
   const texto = (await page.evaluate(() => navigator.clipboard.readText())).replace(/\r\n/g, "\n");
-  expect(texto).toMatch(/^Famosodle nº \d+ · Clássico Oceania\nAcertei em \d+ palpites?\n/);
+  expect(texto).toMatch(/^Famosodle #\d+ · Oceania · Iniciante\nAcertei em \d+ palpites?\n/);
   expect(texto.trim().endsWith("http://127.0.0.1:4173/")).toBe(true);
   // treino: vitória
   await page.click('[data-act="practice"]');
@@ -125,7 +127,7 @@ test("vitória no dia, compartilhar, treino com vitória e treino com derrota (t
   await palpite(page, "classic", OCEANIA[0]);
   if (await page.locator("#classic-reveal").isVisible()) {
     await page.click("#classic-reveal");
-    await expect(page.locator("#classic-result .kicker")).toHaveText("Resposta revelada");
+    await expect(page.locator("#classic-result .kicker")).toHaveText("Treino · Iniciante · Resposta revelada");
   }
   await page.click('[data-act="daily"]');
   await expect(page.locator("#classic-meta")).toContainText("Ficha nº");
@@ -193,7 +195,8 @@ test("teclado: setas, Enter e Esc na busca, setas nas abas e foco de volta ao fe
 });
 
 test("virada da meia-noite de Brasília com a página aberta", async ({ page }) => {
-  await page.clock.install({ time: new Date("2026-10-27T02:59:57Z") }); // 23:59:57 em Brasília
+  // amanhã às 23:59:57 em Brasília: depois da virada, "ontem" já é um dia com os dados deste build
+  await page.clock.install({ time: new Date(`${chaveHoje(1)}T23:59:57-03:00`) });
   const erros = await preparar(page);
   await page.goto("/");
   const antes = Number((await page.locator("#classic-meta").textContent()).match(/nº (\d+)/)[1]);
@@ -216,7 +219,7 @@ for (const largura of [360, 390, 430]) {
     const caixa = await page.evaluate(() => { const h = document.querySelector(".cover h1").getBoundingClientRect(), c = document.querySelector(".cover").getBoundingClientRect(); return { h: h.right, c: c.right, larg: document.querySelector(".cover h1").scrollWidth, vis: document.querySelector(".cover h1").clientWidth }; });
     expect(caixa.larg).toBeLessThanOrEqual(caixa.vis + 1);
     // áreas de toque com pelo menos 44 px
-    for (const sel of ["#tab-classic", "#btn-help", "#btn-stats", '[data-region="g"]', "#classic-go"]) {
+    for (const sel of ["#tab-classic", "#btn-help", "#btn-stats", '[data-region="g"]', "#classic-go", "label:has(#lv-1)", "label:has(#lv-4)"]) {
       const b = await page.locator(sel).boundingBox();
       expect(Math.round(b.height), sel).toBeGreaterThanOrEqual(44);
     }

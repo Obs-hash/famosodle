@@ -214,3 +214,160 @@ Kylie Minogue|Kylie_Minogue|F|AU|mus|1968|-|Cantora|Uma das cantoras pop de maio
 Lorde|Lorde|F|NZ|mus|1996|-|Cantora|Ganhou o Grammy ainda adolescente|
 Heath Ledger|Heath_Ledger|M|AU|cin|1979|2008|Ator|Ganhou um Oscar póstumo por interpretar o Coringa|
 Mary MacKillop|Mary_MacKillop|F|AU|rel|1842|1909|Freira e educadora|Primeira santa da Austrália|
+# Figuras novas da atualização de níveis. Acrescentar no FIM de dados/figuras-extra.txt, nesta ordem.
+# Formato: nome|tituloWikipedia|gênero|país|áreas|nascimento|morte|dica1|dica2|frase
+# Política e história
+Josef Stálin|Joseph_Stalin|M|RU|pol|1878|1953|Líder da União Soviética|Comandou a União Soviética durante a Segunda Guerra Mundial|
+Angela Davis|Angela_Davis|F|US|ati,fil|1944|-|Ativista e filósofa|Foi candidata a vice-presidente dos EUA pelo Partido Comunista em 1980 e 1984|
+Nikita Kruschev|Nikita_Khrushchev|M|RU|pol|1894|1971|Líder da União Soviética|Governava a URSS durante a Crise dos Mísseis de Cuba|Nós vamos enterrar vocês.
+Benito Mussolini|Benito_Mussolini|M|IT|pol|1883|1945|Ditador da Itália|Fundou o fascismo e governou a Itália de 1922 a 1943|
+# Futebol
+Ronaldinho|Ronaldinho|M|BR|esp|1980|-|Jogador de futebol|Eleito o melhor jogador do mundo pela FIFA em 2004 e 2005|
+Kaká|Kaká|M|BR|esp|1982|-|Jogador de futebol|Ganhou a Bola de Ouro de 2007 jogando pelo Milan|
+Romário|Romário|M|BR|esp,pol|1966|-|Jogador de futebol e senador|Craque do Brasil no tetra da Copa de 1994|O Pelé calado é um poeta.
+Zico|Zico_(footballer)|M|BR|esp|1953|-|Jogador de futebol|Ídolo do Flamengo, campeão mundial de clubes em 1981|
+Rivaldo|Rivaldo|M|BR|esp|1972|-|Jogador de futebol|Ganhou a Bola de Ouro de 1999 e a Copa do Mundo de 2002|
+Cafu|Cafu|M|BR|esp|1970|-|Lateral de futebol|Capitão do penta em 2002, jogou três finais de Copa seguidas|
+Vinícius Júnior|Vinícius_Júnior|M|BR|esp|2000|-|Jogador de futebol|Eleito o melhor jogador do mundo pela FIFA em 2024|
+Mário Zagallo|Mário_Zagallo|M|BR|esp|1931|2024|Jogador e técnico de futebol|Primeiro a ganhar a Copa do Mundo como jogador e como técnico|Vocês vão ter que me engolir!
+Franz Beckenbauer|Franz_Beckenbauer|M|DE|esp|1945|2024|Zagueiro e técnico de futebol|Campeão do mundo como capitão em 1974 e como técnico em 1990|
+Ferenc Puskás|Ferenc_Puskás|M|HU|esp|1927|2006|Atacante de futebol|Dá nome ao prêmio da FIFA para o gol mais bonito do ano|
+Eusébio|Eusébio|M|PT|esp|1942|2014|Atacante de futebol|Artilheiro da Copa do Mundo de 1966|
+Kylian Mbappé|Kylian_Mbappé|M|FR|esp|1998|-|Atacante de futebol|Campeão do mundo aos 19 anos e autor de três gols numa final de Copa|
+Erling Haaland|Erling_Haaland|M|NO|esp|2000|-|Atacante de futebol|Recordista de gols numa única temporada da Premier League|
+Robert Lewandowski|Robert_Lewandowski|M|PL|esp|1988|-|Atacante de futebol|Marcou cinco gols em nove minutos num jogo do Bayern|
+Luka Modrić|Luka_Modrić|M|HR|esp|1985|-|Meio-campista de futebol|Ganhou a Bola de Ouro de 2018, quebrando a sequência de Messi e Cristiano|
+Zlatan Ibrahimović|Zlatan_Ibrahimović|M|SE|esp|1981|-|Atacante de futebol|Maior artilheiro da história da seleção sueca|Uma Copa do Mundo sem mim não vale a pena ser vista.
+David Beckham|David_Beckham|M|GB|esp|1975|-|Jogador de futebol|Famoso pelos cruzamentos e cobranças de falta no Manchester United|
+Andrés Iniesta|Andrés_Iniesta|M|ES|esp|1984|-|Meio-campista de futebol|Marcou o gol do título da Espanha na final da Copa de 2010|
+Gianluigi Buffon|Gianluigi_Buffon|M|IT|esp|1978|-|Goleiro de futebol|Campeão do mundo com a Itália em 2006|
+Paolo Maldini|Paolo_Maldini|M|IT|esp|1968|-|Zagueiro de futebol|Ídolo do Milan, cinco vezes campeão europeu|
+Roberto Baggio|Roberto_Baggio|M|IT|esp|1967|-|Jogador de futebol|Perdeu o pênalti decisivo na final da Copa de 1994|
+Michel Platini|Michel_Platini|M|FR|esp|1955|-|Meio-campista de futebol|Ganhou três Bolas de Ouro seguidas nos anos 1980|
+George Best|George_Best|M|GB|esp|1946|2005|Atacante de futebol|Ídolo do Manchester United nos anos 1960|
+Lev Yashin|Lev_Yashin|M|RU|esp|1929|1990|Goleiro de futebol|Único goleiro a ganhar a Bola de Ouro|
+Thierry Henry|Thierry_Henry|M|FR|esp|1977|-|Atacante de futebol|Maior artilheiro da história do Arsenal|
+Pep Guardiola|Pep_Guardiola|M|ES|esp|1971|-|Técnico de futebol|Ganhou a tríplice coroa com o Barcelona e com o Manchester City|
+José Mourinho|José_Mourinho|M|PT|esp|1963|-|Técnico de futebol|Ganhou a Liga dos Campeões com o Porto e com a Inter de Milão|Não me chamem de arrogante, mas sou campeão europeu e acho que sou especial.
+Alex Ferguson|Alex_Ferguson|M|GB|esp|1941|-|Técnico de futebol|Treinou o Manchester United por 26 anos|
+Carlo Ancelotti|Carlo_Ancelotti|M|IT|esp|1959|-|Técnico de futebol|Recordista de títulos da Liga dos Campeões como técnico|
+Alexia Putellas|Alexia_Putellas|F|ES|esp|1994|-|Jogadora de futebol|Ganhou a Bola de Ouro feminina em 2021 e 2022|
+Sadio Mané|Sadio_Mané|M|SN|esp|1992|-|Atacante de futebol|Campeão da Copa Africana de Nações com Senegal|
+Roger Milla|Roger_Milla|M|CM|esp|1952|-|Atacante de futebol|Marcou gol numa Copa do Mundo aos 42 anos|
+Jay-Jay Okocha|Jay-Jay_Okocha|M|NG|esp|1973|-|Meio-campista de futebol|Famoso pelos dribles, campeão olímpico em 1996|
+Achraf Hakimi|Achraf_Hakimi|M|MA|esp|1998|-|Lateral de futebol|Destaque do Marrocos semifinalista da Copa de 2022|
+Yaya Touré|Yaya_Touré|M|CI|esp|1983|-|Meio-campista de futebol|Eleito melhor jogador africano quatro vezes seguidas|
+Son Heung-min|Son_Heung-min|M|KR|esp|1992|-|Atacante de futebol|Primeiro asiático a ser artilheiro da Premier League|
+Hidetoshi Nakata|Hidetoshi_Nakata|M|JP|esp|1977|-|Meio-campista de futebol|Campeão italiano com a Roma em 2001|
+Ali Daei|Ali_Daei|M|IR|esp|1969|-|Atacante de futebol|Foi o maior artilheiro de seleções até ser superado por Cristiano Ronaldo|
+Sam Kerr|Sam_Kerr|F|AU|esp|1993|-|Atacante de futebol|Maior artilheira da história da seleção australiana|
+Tim Cahill|Tim_Cahill|M|AU|esp|1979|-|Meio-campista de futebol|Maior artilheiro da seleção masculina australiana|
+Megan Rapinoe|Megan_Rapinoe|F|US|esp,ati|1985|-|Jogadora de futebol|Bicampeã mundial e melhor jogadora da Copa de 2019|
+Luis Suárez|Luis_Suárez_(Uruguayan_footballer)|M|UY|esp|1987|-|Atacante de futebol|Maior artilheiro da história da seleção uruguaia|
+Hugo Sánchez|Hugo_Sánchez|M|MX|esp|1958|-|Atacante de futebol|Cinco vezes artilheiro do Campeonato Espanhol|
+James Rodríguez|James_Rodríguez|M|CO|esp|1991|-|Meio-campista de futebol|Artilheiro da Copa do Mundo de 2014|
+Alfredo Di Stéfano|Alfredo_Di_Stéfano|M|AR|esp|1926|2014|Atacante de futebol|Lenda do Real Madrid, campeão de cinco Copas dos Campeões seguidas|
+Gabriel Batistuta|Gabriel_Batistuta|M|AR|esp|1969|-|Atacante de futebol|Ídolo da Fiorentina e maior artilheiro da Argentina até ser superado por Messi|
+# Fórmula 1
+Lewis Hamilton|Lewis_Hamilton|M|GB|esp|1985|-|Piloto de Fórmula 1|Sete vezes campeão mundial de Fórmula 1|
+Max Verstappen|Max_Verstappen|M|NL|esp|1997|-|Piloto de Fórmula 1|Campeão mundial de Fórmula 1 quatro vezes seguidas, de 2021 a 2024|
+Lando Norris|Lando_Norris|M|GB|esp|1999|-|Piloto de Fórmula 1|Campeão mundial de Fórmula 1 em 2025 pela McLaren|
+Oscar Piastri|Oscar_Piastri|M|AU|esp|2001|-|Piloto de Fórmula 1|Campeão da Fórmula 3 e da Fórmula 2 em anos seguidos antes de chegar à F1|
+Daniel Ricciardo|Daniel_Ricciardo|M|AU|esp|1989|-|Piloto de Fórmula 1|Famoso por beber champanhe na sapatilha no pódio|
+Jack Brabham|Jack_Brabham|M|AU|esp|1926|2014|Piloto de Fórmula 1|Único campeão mundial com um carro de sua própria equipe|
+Alain Prost|Alain_Prost|M|FR|esp|1955|-|Piloto de Fórmula 1|Tetracampeão mundial e grande rival de Senna|
+Niki Lauda|Niki_Lauda|M|AT|esp|1949|2019|Piloto de Fórmula 1|Voltou a correr semanas depois de um acidente com fogo em 1976|
+Fernando Alonso|Fernando_Alonso|M|ES|esp|1981|-|Piloto de Fórmula 1|Bicampeão mundial pela Renault em 2005 e 2006|
+Sebastian Vettel|Sebastian_Vettel|M|DE|esp|1987|-|Piloto de Fórmula 1|Tetracampeão mundial seguido pela Red Bull|
+Kimi Räikkönen|Kimi_Räikkönen|M|FI|esp|1979|-|Piloto de Fórmula 1|Campeão mundial pela Ferrari em 2007|
+Mika Häkkinen|Mika_Häkkinen|M|FI|esp|1968|-|Piloto de Fórmula 1|Bicampeão mundial pela McLaren em 1998 e 1999|
+Nelson Piquet|Nelson_Piquet|M|BR|esp|1952|-|Piloto de Fórmula 1|Tricampeão mundial de Fórmula 1 nos anos 1980|
+Emerson Fittipaldi|Emerson_Fittipaldi|M|BR|esp|1946|-|Piloto de Fórmula 1|Primeiro brasileiro campeão mundial de Fórmula 1, em 1972|
+Rubens Barrichello|Rubens_Barrichello|M|BR|esp|1972|-|Piloto de Fórmula 1|Vice-campeão mundial pela Ferrari em 2002 e 2004|
+Felipe Massa|Felipe_Massa|M|BR|esp|1981|-|Piloto de Fórmula 1|Perdeu o título de 2008 por um ponto na última corrida|
+Jackie Stewart|Jackie_Stewart|M|GB|esp|1939|-|Piloto de Fórmula 1|Tricampeão mundial e defensor da segurança nas pistas|
+Charles Leclerc|Charles_Leclerc|M|MC|esp|1997|-|Piloto de Fórmula 1|Venceu o GP de Mônaco em casa, pela Ferrari, em 2024|
+Sergio Pérez|Sergio_Pérez|M|MX|esp|1990|-|Piloto de Fórmula 1|Piloto mexicano com mais vitórias na Fórmula 1|
+# Basquete
+LeBron James|LeBron_James|M|US|esp|1984|-|Jogador de basquete|Maior pontuador da história da NBA|Vou levar meus talentos para South Beach.
+Kobe Bryant|Kobe_Bryant|M|US|esp|1978|2020|Jogador de basquete|Marcou 81 pontos num único jogo da NBA|
+Magic Johnson|Magic_Johnson|M|US|esp,ati|1959|-|Jogador de basquete|Cinco vezes campeão pelos Lakers e ativista na luta contra a aids|
+Larry Bird|Larry_Bird|M|US|esp|1956|-|Jogador de basquete|Ídolo do Boston Celtics nos anos 1980|
+Shaquille O'Neal|Shaquille_O'Neal|M|US|esp|1972|-|Jogador de basquete|Pivô gigante, tricampeão seguido pelos Lakers|
+Stephen Curry|Stephen_Curry|M|US|esp|1988|-|Jogador de basquete|Recordista de cestas de três pontos da história da NBA|
+Kareem Abdul-Jabbar|Kareem_Abdul-Jabbar|M|US|esp|1947|-|Jogador de basquete|Foi o maior pontuador da NBA por quase 40 anos|
+Wilt Chamberlain|Wilt_Chamberlain|M|US|esp|1936|1999|Jogador de basquete|Marcou 100 pontos num único jogo da NBA|
+Bill Russell|Bill_Russell|M|US|esp,ati|1934|2022|Jogador de basquete|Ganhou 11 títulos da NBA pelo Boston Celtics|
+Giannis Antetokounmpo|Giannis_Antetokounmpo|M|GR|esp|1994|-|Jogador de basquete|Campeão da NBA pelo Milwaukee Bucks em 2021|
+Dirk Nowitzki|Dirk_Nowitzki|M|DE|esp|1978|-|Jogador de basquete|Campeão da NBA pelo Dallas Mavericks em 2011|
+Nikola Jokić|Nikola_Jokić|M|RS|esp|1995|-|Jogador de basquete|Campeão da NBA pelo Denver Nuggets em 2023|
+Luka Dončić|Luka_Dončić|M|SI|esp|1999|-|Jogador de basquete|Campeão europeu com a seleção da Eslovênia em 2017|
+Yao Ming|Yao_Ming|M|CN|esp|1980|-|Jogador de basquete|Pivô de 2,29 m, maior astro chinês da NBA|
+Manu Ginóbili|Manu_Ginóbili|M|AR|esp|1977|-|Jogador de basquete|Campeão olímpico com a Argentina em 2004|
+Oscar Schmidt|Oscar_Schmidt|M|BR|esp|1958|2026|Jogador de basquete|Maior pontuador da história do basquete olímpico|
+Hortência|Hortência_Marcari|F|BR|esp|1959|-|Jogadora de basquete|Campeã mundial com a seleção brasileira em 1994|
+Dikembe Mutombo|Dikembe_Mutombo|M|CD|esp,ati|1966|2024|Jogador de basquete|Famoso pelos tocos e pelo dedo balançando depois deles|
+Hakeem Olajuwon|Hakeem_Olajuwon|M|NG|esp|1963|-|Jogador de basquete|Bicampeão da NBA pelo Houston Rockets nos anos 1990|
+Lauren Jackson|Lauren_Jackson|F|AU|esp|1981|-|Jogadora de basquete|Eleita três vezes a melhor jogadora da WNBA|
+Patty Mills|Patty_Mills|M|AU|esp|1988|-|Jogador de basquete|Campeão da NBA pelo San Antonio Spurs em 2014|
+Rui Hachimura|Rui_Hachimura|M|JP|esp|1998|-|Jogador de basquete|Primeiro japonês escolhido na primeira rodada do draft da NBA|
+# Cinema
+Tom Hanks|Tom_Hanks|M|US|cin|1956|-|Ator|Protagonista de Forrest Gump, que lhe deu o Oscar de melhor ator|Minha mãe dizia que a vida é como uma caixa de chocolates.
+Leonardo DiCaprio|Leonardo_DiCaprio|M|US|cin,ati|1974|-|Ator|Protagonista de Titanic, ganhou o Oscar por O Regresso|Eu sou o rei do mundo!
+Meryl Streep|Meryl_Streep|F|US|cin|1949|-|Atriz|Recordista de indicações ao Oscar entre atores e atrizes|
+Brad Pitt|Brad_Pitt|M|US|cin|1963|-|Ator|Estrelou Clube da Luta e ganhou o Oscar por Era uma Vez em Hollywood|
+Angelina Jolie|Angelina_Jolie|F|US|cin,ati|1975|-|Atriz|Estrela de Malévola, foi enviada especial da ONU para refugiados até 2022|
+Denzel Washington|Denzel_Washington|M|US|cin|1954|-|Ator|Ganhou o Oscar de melhor ator por Dia de Treinamento|
+Morgan Freeman|Morgan_Freeman|M|US|cin|1937|-|Ator|Famoso pela voz de narrador e por Um Sonho de Liberdade|
+Robert De Niro|Robert_De_Niro|M|US|cin|1943|-|Ator|Estrelou Taxi Driver e O Poderoso Chefão Parte II|Você está falando comigo?
+Al Pacino|Al_Pacino|M|US|cin|1940|-|Ator|Interpretou Michael Corleone em O Poderoso Chefão|Diga olá para o meu amiguinho!
+Marlon Brando|Marlon_Brando|M|US|cin|1924|2004|Ator|Interpretou Vito Corleone em O Poderoso Chefão|Vou fazer uma oferta que ele não poderá recusar.
+Tom Cruise|Tom_Cruise|M|US|cin|1962|-|Ator|Faz as próprias cenas de ação na série Missão Impossível|
+Will Smith|Will_Smith|M|US|cin,mus|1968|-|Ator e rapper|Estrelou Um Maluco no Pedaço e MIB: Homens de Preto|
+Johnny Depp|Johnny_Depp|M|US|cin|1963|-|Ator|Interpretou Jack Sparrow em Piratas do Caribe|
+Sylvester Stallone|Sylvester_Stallone|M|US|cin|1946|-|Ator|Criou e interpretou o boxeador Rocky Balboa|
+Dwayne Johnson|Dwayne_Johnson|M|US|cin,esp|1972|-|Ator e lutador|Ficou famoso como The Rock na luta livre|
+Scarlett Johansson|Scarlett_Johansson|F|US|cin|1984|-|Atriz|Interpretou a Viúva Negra nos filmes da Marvel|
+Julia Roberts|Julia_Roberts|F|US|cin|1967|-|Atriz|Estrela de Uma Linda Mulher, ganhou o Oscar por Erin Brockovich|
+Viola Davis|Viola_Davis|F|US|cin|1965|-|Atriz|Primeira pessoa negra a ganhar Oscar, Emmy e Tony de atuação|
+Chadwick Boseman|Chadwick_Boseman|M|US|cin|1976|2020|Ator|Interpretou o Pantera Negra da Marvel|
+Keanu Reeves|Keanu_Reeves|M|CA|cin|1964|-|Ator|Estrelou Matrix e John Wick|Eu sei kung fu.
+Jim Carrey|Jim_Carrey|M|CA|cin|1962|-|Ator e comediante|Estrelou O Máskara e O Show de Truman|
+Arnold Schwarzenegger|Arnold_Schwarzenegger|M|AT|cin,pol,esp|1947|-|Ator e político|Estrelou O Exterminador do Futuro e governou a Califórnia|Eu voltarei.
+Audrey Hepburn|Audrey_Hepburn|F|GB|cin,ati|1929|1993|Atriz|Estrela de Bonequinha de Luxo e embaixadora do UNICEF|
+Anthony Hopkins|Anthony_Hopkins|M|GB|cin|1937|-|Ator|Interpretou Hannibal Lecter em O Silêncio dos Inocentes|
+Daniel Radcliffe|Daniel_Radcliffe|M|GB|cin|1989|-|Ator|Interpretou Harry Potter nos cinemas|
+Emma Watson|Emma_Watson|F|GB|cin,ati|1990|-|Atriz|Interpretou Hermione nos filmes de Harry Potter|
+Rowan Atkinson|Rowan_Atkinson|M|GB|cin|1955|-|Ator e comediante|Criou e interpretou o Mr. Bean|
+Sean Connery|Sean_Connery|M|GB|cin|1930|2020|Ator|Primeiro James Bond do cinema|Bond. James Bond.
+Kate Winslet|Kate_Winslet|F|GB|cin|1975|-|Atriz|Interpretou Rose em Titanic|
+Sophia Loren|Sophia_Loren|F|IT|cin|1934|-|Atriz|Primeira a ganhar o Oscar de atuação num filme não falado em inglês|
+Penélope Cruz|Penélope_Cruz|F|ES|cin|1974|-|Atriz|Primeira atriz espanhola a ganhar um Oscar|
+Antonio Banderas|Antonio_Banderas|M|ES|cin|1960|-|Ator|Interpretou o Zorro e dublou o Gato de Botas em inglês|
+Alain Delon|Alain_Delon|M|FR|cin|1935|2024|Ator|Galã do cinema francês, estrelou O Sol por Testemunha|
+Marion Cotillard|Marion_Cotillard|F|FR|cin|1975|-|Atriz|Ganhou o Oscar interpretando a cantora Édith Piaf|
+Fernanda Montenegro|Fernanda_Montenegro|F|BR|cin|1929|-|Atriz|Primeira brasileira indicada ao Oscar de melhor atriz, por Central do Brasil|
+Fernanda Torres|Fernanda_Torres|F|BR|cin|1965|-|Atriz|Ganhou o Globo de Ouro de melhor atriz por Ainda Estou Aqui|
+Wagner Moura|Wagner_Moura|M|BR|cin|1976|-|Ator|Interpretou o Capitão Nascimento em Tropa de Elite|Pede pra sair!
+Rodrigo Santoro|Rodrigo_Santoro|M|BR|cin|1975|-|Ator|Interpretou o rei persa Xerxes em 300|
+Sônia Braga|Sônia_Braga|F|BR|cin|1950|-|Atriz|Estrelou Dona Flor e Seus Dois Maridos|
+Salma Hayek|Salma_Hayek|F|MX|cin|1966|-|Atriz|Indicada ao Oscar por interpretar Frida Kahlo|
+Cantinflas|Cantinflas|M|MX|cin|1911|1993|Ator e comediante|Estrelou A Volta ao Mundo em 80 Dias|
+Ricardo Darín|Ricardo_Darín|M|AR|cin|1957|-|Ator|Protagonista de O Segredo dos Seus Olhos, Oscar de filme estrangeiro|
+Pedro Pascal|Pedro_Pascal|M|CL|cin|1975|-|Ator|Estrelou as séries The Mandalorian e The Last of Us|
+Charlize Theron|Charlize_Theron|F|ZA|cin|1975|-|Atriz|Ganhou o Oscar por Monster e estrelou Mad Max: Estrada da Fúria|
+Lupita Nyong'o|Lupita_Nyong'o|F|KE|cin|1983|-|Atriz|Ganhou o Oscar por 12 Anos de Escravidão|
+Omar Sharif|Omar_Sharif|M|EG|cin|1932|2015|Ator|Estrelou Lawrence da Arábia e Doutor Jivago|
+Djimon Hounsou|Djimon_Hounsou|M|BJ|cin|1964|-|Ator|Indicado ao Oscar por Diamante de Sangue|
+Shah Rukh Khan|Shah_Rukh_Khan|M|IN|cin|1965|-|Ator|Conhecido como o Rei de Bollywood|
+Amitabh Bachchan|Amitabh_Bachchan|M|IN|cin|1942|-|Ator|Lenda de Bollywood desde os anos 1970|
+Toshiro Mifune|Toshiro_Mifune|M|JP|cin|1920|1997|Ator|Estrelou Os Sete Samurais, de Akira Kurosawa|
+Michelle Yeoh|Michelle_Yeoh|F|MY|cin|1962|-|Atriz|Primeira mulher asiática a ganhar o Oscar de melhor atriz|
+Gong Li|Gong_Li|F|CN|cin|1965|-|Atriz|Estrela de Lanternas Vermelhas|
+Song Kang-ho|Song_Kang-ho|M|KR|cin|1967|-|Ator|Protagonista de Parasita, primeiro filme não falado em inglês a ganhar o Oscar de melhor filme|
+Lee Jung-jae|Lee_Jung-jae|M|KR|cin|1972|-|Ator|Protagonista da série Round 6|
+Margot Robbie|Margot_Robbie|F|AU|cin|1990|-|Atriz|Protagonista e produtora do filme Barbie|
+Chris Hemsworth|Chris_Hemsworth|M|AU|cin|1983|-|Ator|Interpretou Thor nos filmes da Marvel|
+Cate Blanchett|Cate_Blanchett|F|AU|cin|1969|-|Atriz|Ganhou dois Oscars, por O Aviador e Blue Jasmine|
+Russell Crowe|Russell_Crowe|M|NZ|cin|1964|-|Ator|Ganhou o Oscar por Gladiador|
+Taika Waititi|Taika_Waititi|M|NZ|cin|1975|-|Diretor e ator|Ganhou o Oscar de roteiro por Jojo Rabbit|
