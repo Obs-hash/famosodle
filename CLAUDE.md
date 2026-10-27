@@ -22,6 +22,7 @@ Comandos:
 - `npm test` roda o build e depois os testes do Playwright (pasta `testes/`).
 - `npm run servir` serve `dist/famosodle` como a Vercel serviria.
 - `npm run baixar-fotos` baixa as fotos da Wikipedia para `fotos/` e grava os créditos.
+- `npm run baixar-bandeiras` baixa do Wikimedia Commons a bandeira de cada país das figuras para `bandeiras/` e grava os créditos. Rode depois de incluir figuras de um país novo.
 - `npm run verificar-fotos` confere os títulos da Wikipedia (artigo inexistente, redirecionamento, desambiguação, sem foto livre).
 - `npm run verificar-dados` compara nascimento, morte e gênero com o Wikidata (serve para descobrir quem morreu).
 - `npm run imagens` gera de novo `og.png`, os ícones e o `favicon.ico` em `src/estaticos/`.
@@ -42,12 +43,13 @@ dados/data.json           gerado; não edite à mão
 src/index.html            página do jogo, com marcadores que o build troca (ícones, fontes, CSS e JS)
 src/404.html              página de erro no mesmo estilo, sem JavaScript
 src/estilo.css            todo o CSS (cores, fontes de reserva, layout)
-src/app.js                toda a lógica do jogo. Marcadores /*__DATA__*/{} e /*__SITE__*/"" recebem os dados e o endereço
+src/app.js                toda a lógica do jogo. Marcadores /*__DATA__*/{}, /*__SITE__*/"" e /*__FLAGS__*/null recebem os dados, o endereço e (só no arquivo único) as bandeiras
 src/estaticos/            favicon, ícones, og.png, robots.txt, sitemap.xml e site.webmanifest (__SITE__ vira o endereço)
 scripts/gerar-dados.js    valida as listas e gera data.json
 scripts/empacotar.js      monta dist/, minifica, põe hash nos nomes e escreve os cabeçalhos de segurança
 scripts/wikimedia.js      funções comuns dos scripts que falam com a Wikimedia (User-Agent, pausas, lotes)
 scripts/baixar-fotos.js   baixa as fotos e grava fotos/fotos-1/creditos.json
+scripts/baixar-bandeiras.js baixa as bandeiras e grava bandeiras/creditos.json
 scripts/verificar-fotos.js, scripts/verificar-dados.js   conferências dos dados (não mudam arquivos)
 scripts/gerar-imagens.js  gera og.png, ícones e favicon.ico no Chrome
 scripts/calibrar-fontes.js mede o size-adjust das fontes de reserva
@@ -55,11 +57,12 @@ scripts/servir.js         servidor local com os cabeçalhos do vercel.json (test
 scripts/medir-lighthouse.js roda o Lighthouse por npx, na versão fixa 13.5.0
 testes/                   testes do Playwright
 fotos/                    fotos-1 a fotos-4 com as fotos do site e o creditos.json (vai para o git)
-dist/famosodle/           o site: index.html, 404.html, assets/, fotos, ícones e vercel.json
+bandeiras/                xx.png de cada país (código ISO em minúsculas) e o creditos.json (vai para o git)
+dist/famosodle/           o site: index.html, 404.html, assets/, fotos, bandeiras, ícones e vercel.json
 dist/famosodle.html       versão em arquivo único, sem minificar, com fontes e script embutidos
 ```
 
-As pastas `node_modules/`, `dist/`, `test-results/`, `playwright-report/` e `lighthouse/` ficam fora do git. A pasta `fotos/` **vai** para o git, porque a Vercel monta o site a partir dela.
+As pastas `node_modules/`, `dist/`, `test-results/`, `playwright-report/` e `lighthouse/` ficam fora do git. As pastas `fotos/` e `bandeiras/` **vão** para o git, porque a Vercel monta o site a partir delas.
 
 ## Formato das listas de figuras
 
@@ -155,7 +158,7 @@ O caminho principal é `npm run baixar-fotos`:
 
 Em outubro de 2026 o pacote tem 374 fotos e cerca de 23,5 MB.
 
-Cada pasta tem no máximo 100 arquivos (99 fotos, mais o `creditos.json` na primeira), porque o envio pelo site do GitHub aceita até 100 arquivos por vez. Pelo git (VS Code ou terminal) esse limite não existe. Depois de adicionar figuras, rode `npm run baixar-fotos` e `npm run build` de novo.
+Cada pasta tem no máximo 100 arquivos (99 fotos, mais o `creditos.json` na primeira). O envio pelo site do GitHub aceita **menos** de 100 arquivos por vez, então a `fotos-1`, que tem 100, precisa ir em duas vezes. Pelo git (VS Code ou terminal) esse limite não existe. Depois de adicionar figuras, rode `npm run baixar-fotos` e `npm run build` de novo.
 
 O caminho alternativo continua funcionando: na versão em arquivo único (`dist/famosodle.html`), os botões "Gerar pacote de fotos para o site" e "Salvar cópia com as fotos" fazem o pacote e a cópia offline pelo navegador. Eles dependem do `PRISTINE` e do texto exato `const PHOTO_EMBED = null; /*__EMBED__*/`, por isso o arquivo único não é minificado e o build para se o marcador sumir.
 
@@ -163,7 +166,7 @@ O caminho alternativo continua funcionando: na versão em arquivo único (`dist/
 
 - O site (`dist/famosodle/`) tem o JavaScript e o CSS minificados com esbuild e salvos em `assets/` com hash do conteúdo no nome (`app.<hash>.js`, `famosodle.<hash>.css`, `fonts/<fonte>.<hash>.woff2`). Esses arquivos têm cache `immutable` de um ano. A regra do `vercel.json` só casa com nomes nesse formato (10 dígitos hexadecimais antes da extensão), para um 404 em `/assets/` não ficar em cache. Se mudar o tamanho do hash, mude a regra também.
 - `index.html`, `404.html`, ícones, `og.png`, `robots.txt`, `sitemap.xml` e `site.webmanifest` usam o cache padrão da Vercel (revalida sempre).
-- Fotos têm um dia de cache com `stale-while-revalidate` de uma semana; o hash `v` do `creditos.json` muda a URL quando a foto muda.
+- Fotos têm um dia de cache com `stale-while-revalidate` de uma semana; o hash `v` do `creditos.json` muda a URL quando a foto muda. As bandeiras têm o mesmo cache, sem hash, porque quase nunca mudam.
 - O empacotar apaga `dist/famosodle` no começo, para não publicar arquivos velhos.
 - O HTML do site é minificado de forma leve (comentários e espaços entre tags); o modelo não tem `<pre>` nem `<textarea>`.
 - O endereço público fica na constante `SITE` de `scripts/empacotar.js` e entra na URL canônica, em `og:url`, `og:image`, `robots.txt`, `sitemap.xml` e no texto de compartilhar (no site, o texto usa o endereço da própria página).
@@ -175,8 +178,8 @@ O site foi preparado para ser público. Ao mexer no código, mantenha estas regr
 - **Cabeçalhos**: definidos em `scripts/empacotar.js` e escritos no `vercel.json` da raiz e em `dist/famosodle/vercel.json`. A Vercel lê o `vercel.json` da raiz **antes** de rodar o build, então depois de mudar cabeçalhos rode `npm run build` e faça commit do `vercel.json` (o build avisa quando ele muda).
 - **CSP**: `default-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' https://upload.wikimedia.org https://thumb.wikimedia.org; connect-src 'self' https://en.wikipedia.org; manifest-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'`. Não há `'unsafe-inline'` nem `data:`: nada de `<script>` ou `<style>` no HTML do site, nada de atributo `style` nem `onclick`, e ajustes de estilo pelo JavaScript só via CSSOM (`el.style.filter = ...`). As setas e os sinais dos quadros são SVG no próprio HTML. Qualquer domínio novo precisa entrar no CSP.
 - **CSP do arquivo único**: aberto por `file://`, ele não recebe cabeçalhos, então leva o CSP numa `<meta>` (`cspSingle` em `empacotar.js`), que vai junto para a cópia offline. Ele permite script e estilo inline (estão embutidos), fontes e imagens em `data:`, imagens e conexões só com a Wikipedia e a Wikimedia. Domínio novo entra nos dois CSPs.
-- **Fotos publicadas**: o empacotar copia de `fotos/fotos-N/` só os arquivos `pXXX.jpg` e o `creditos.json` da `fotos-1`, e ignora atalhos. Qualquer outro arquivo nessas pastas fica fora do site.
-- **Outros cabeçalhos**: HSTS de dois anos, `X-Content-Type-Options: nosniff`, `X-Frame-Options: DENY`, `Referrer-Policy: no-referrer`, `Cross-Origin-Opener-Policy: same-origin`, `Cross-Origin-Resource-Policy: same-origin` em `/assets/` e nas pastas de fotos (não em `og.png` nem nos ícones, que outros sites mostram) e `Permissions-Policy` para câmera, microfone, localização, pagamento e USB. Não use `interest-cohort` (o Chrome registra erro) nem COEP `require-corp` (bloquearia as imagens da Wikimedia).
+- **Fotos publicadas**: o empacotar copia de `fotos/fotos-N/` só os arquivos `pXXX.jpg` e o `creditos.json` da `fotos-1`, e ignora atalhos. Qualquer outro arquivo nessas pastas fica fora do site. De `bandeiras/` ele copia só o `xx.png` dos países que estão nos dados, e para o build se faltar o crédito (licença e página do arquivo no Commons) de alguma.
+- **Outros cabeçalhos**: HSTS de dois anos, `X-Content-Type-Options: nosniff`, `X-Frame-Options: DENY`, `Referrer-Policy: no-referrer`, `Cross-Origin-Opener-Policy: same-origin`, `Cross-Origin-Resource-Policy: same-origin` em `/assets/`, nas pastas de fotos e em `/bandeiras/` (não em `og.png` nem nos ícones, que outros sites mostram) e `Permissions-Policy` para câmera, microfone, localização, pagamento e USB. Não use `interest-cohort` (o Chrome registra erro) nem COEP `require-corp` (bloquearia as imagens da Wikimedia).
 - **Texto de fora**: dados da Wikipedia entram com `textContent` ou passam por `textOnly()` (remove script, style e caracteres invisíveis ou de controle bidirecional, com limite de tamanho) e `esc()`. Ao montar HTML com `innerHTML`, passe todo valor variável por `esc()`, inclusive bandeiras.
 - **localStorage e creditos.json**: tudo que é lido de volta é tratado como não confiável. Ids precisam ter o formato `p000` e existir nos dados (`isId`); os índices usam objetos sem protótipo, para `__proto__` e `constructor` não passarem. Endereços de foto em cache só valem se forem dos domínios da Wikimedia (`IMG_HOST`), com data finita e no passado; caminhos locais precisam bater com `LOCAL_PATH`, páginas de arquivo com `PAGE_URL`, e fotos embutidas na cópia offline precisam ser JPEG em `data:` (`embedded()`).
 - **Rede**: o site só fala com a própria origem, `en.wikipedia.org`, `upload.wikimedia.org` e `thumb.wikimedia.org`, sempre com `credentials: "omit"`. Links externos usam `rel="noopener noreferrer"` e só `https`.
@@ -210,6 +213,8 @@ Fontes:
 - Instrument Serif e Open Sauce Sans vêm dos pacotes `@fontsource` (licença OFL). O site usa os arquivos em `assets/fonts/`, com `preload` das três do primeiro desenho (Open Sauce 400 e 600, Instrument Serif 400) e `font-display: swap`; o arquivo único leva as fontes embutidas em base64.
 - O `.woff2` do peso 400 da Open Sauce vem corrompido no pacote 5.3.0, então esse peso usa o `.woff`. O empacotar confere a assinatura de cada fonte e para o build se alguma estiver quebrada.
 - Enquanto as fontes carregam, o texto usa fontes de reserva com `size-adjust` calibrado (Arial para a Open Sauce, Times New Roman para a Instrument Serif), para nada mudar de lugar quando elas chegam. Se as fontes mudarem, rode `node scripts/calibrar-fontes.js` e atualize os valores no topo de `src/estilo.css`.
+
+As bandeiras são imagens, não emoji, porque o Windows desenha o emoji de bandeira como duas letras ("BR"). Elas vêm do Wikimedia Commons: o `baixar-bandeiras` pega no Wikidata o arquivo da bandeira (P41) do país com o código ISO (P297) e baixa a miniatura PNG de 120 px que a Wikimedia gera do SVG. O `gerar-dados` grava o tamanho em `countries[c].fl`; sem imagem, o jogo mostra o emoji (`countries[c].f`). No site elas ficam em `bandeiras/`; no arquivo único vão embutidas em `FLAG_EMBED`. O crédito de cada uma (autor, licença e link) aparece numa lista dentro do diálogo "Sobre as imagens", montada pelo empacotar no marcador `<!--__BANDEIRAS__-->`. Quando o Wikidata não indicar um arquivo só, ponha o arquivo em `ARQUIVOS` no começo do script.
 
 Na linha de palpites, a sugestão mostra a bandeira e o nome; depois do Enter, o primeiro quadro mostra a foto com o nome por cima (`.tile-person`). Sem foto, aparecem as iniciais. Em telas estreitas o tabuleiro rola de lado e a coluna da pessoa fica fixa.
 

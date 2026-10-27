@@ -2,6 +2,7 @@
 // cópia do HTML original, usada para gerar a versão com as fotos embutidas
 const PRISTINE = "<!doctype html>\n" + document.documentElement.outerHTML;
 const PHOTO_EMBED = null; /*__EMBED__*/
+const FLAG_EMBED = /*__FLAGS__*/null;
 const DATA = /*__DATA__*/{};
 const SITE = /*__SITE__*/"";
 const $ = s => document.querySelector(s);
@@ -88,7 +89,13 @@ const age = p => span(p.b, alive(p) ? curYear : p.d);
 const lifeSpan = p => alive(p) ? `nasceu em ${yr(p.b, p.bc)}` : `${yr(p.b, p.bc)} a ${yr(p.d, p.dc)}`;
 const ctryName = c => CTRY[c].n;
 const areasTxt = p => p.a.map(a => AREA[a]).join(" e ");
-const flag = p => `<span class="flag" aria-hidden="true">${esc(CTRY[p.c].f)}</span>`;
+// bandeira em imagem, porque o Windows desenha o emoji como duas letras ("BR"). No site as imagens ficam em
+// bandeiras/; no arquivo único vêm embutidas em FLAG_EMBED. Sem imagem, fica o emoji.
+const flag = p => {
+  const c = CTRY[p.c], src = c.fl && (FLAG_EMBED ? FLAG_EMBED[p.c] : `bandeiras/${p.c.toLowerCase()}.png`);
+  return src ? `<img class="flag" src="${esc(src)}" alt="" width="${c.fl[0]}" height="${c.fl[1]}" decoding="async">`
+    : `<span class="flag" aria-hidden="true">${esc(c.f)}</span>`;
+};
 const initials = n => n.replace(/[^\p{L}\p{N} ]/gu, " ").split(/\s+/).filter(w => w && !/^(de|da|do|dos|d|o|a|e|van|von|jr)$/i.test(w)).slice(0, 2).map(w => w[0].toUpperCase()).join("");
 
 /* ---------- comparação do modo clássico ---------- */
@@ -438,7 +445,7 @@ function downloadBlob(blob, name) {
   document.body.appendChild(a); a.click(); a.remove();
   setTimeout(() => URL.revokeObjectURL(a.href), 60000);
 }
-// pacote para hospedar as fotos no site: no máximo 100 arquivos por pasta (limite de envio do GitHub pelo navegador)
+// pacote para hospedar as fotos no site: no máximo 100 arquivos por pasta (o envio do GitHub pelo navegador aceita menos de 100 por vez)
 async function buildPhotoPack() {
   if (building || PHOTO_EMBED) return;
   building = true;
@@ -477,7 +484,7 @@ async function buildPhotoPack() {
     "Como usar:",
     `- Coloque as pastas ${folders.join(", ")} na mesma pasta do index.html do Famosodle.`,
     "- Se você usa o projeto completo (a pasta com o CLAUDE.md), coloque as pastas dentro da pasta fotos do projeto e rode npm run build. Lá também existe o comando npm run baixar-fotos, que faz este mesmo pacote sem o navegador.",
-    "- No GitHub, envie uma pasta de cada vez, arrastando a pasta inteira para a página de upload. O envio pelo navegador aceita até 100 arquivos por vez, e cada pasta tem no máximo 100.",
+    "- No GitHub, envie uma pasta de cada vez, arrastando a pasta inteira para a página de upload. O envio pelo navegador aceita menos de 100 arquivos por vez; a pasta fotos-1 tem 100, então envie os arquivos dela em duas vezes.",
     "- Não renomeie as pastas nem os arquivos.",
     "- O arquivo fotos-1/creditos.json guarda o autor e a licença de cada foto. O jogo mostra esses créditos em cada imagem, então mantenha esse arquivo junto com as fotos.",
     "- Se alguma foto faltar, o jogo busca a imagem direto na Wikipedia.", ""

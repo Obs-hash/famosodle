@@ -57,6 +57,10 @@ test("abre por file://, mostra os botões e gera o pacote de fotos e a cópia of
   const destino = info.outputPath("famosodle-com-fotos.html");
   await copia.saveAs(destino);
   expect(fs.readFileSync(destino, "utf8")).toContain('<meta http-equiv="Content-Security-Policy"');
+  // no arquivo único as bandeiras vêm embutidas, porque não existe a pasta bandeiras/ ao lado dele
+  await page.locator("#classic-input").fill(DATA.people[0].n);
+  await page.locator("#classic-input").press("Enter");
+  await expect(page.locator("#classic-board .row:not(.heads)").first().locator(".tile").nth(2).locator("img.flag")).toHaveAttribute("src", /^data:image\/png;base64,/);
   await semErros(page, erros);
 
   // a cópia offline funciona sem rede nenhuma

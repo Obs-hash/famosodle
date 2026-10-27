@@ -1,0 +1,756 @@
+{
+ "gerado": "2026-10-27T00:48:38.076Z",
+ "fonte": "Wikimedia Commons",
+ "bandeiras": {
+  "AO": {
+   "f": "ao.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Angola.svg",
+   "a": "Original: Henrique de Carvalho Santos Vector: SKopp",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Angola.svg",
+   "n": "Angola"
+  },
+  "AR": {
+   "f": "ar.png",
+   "w": 120,
+   "h": 75,
+   "file": "Flag_of_Argentina.svg",
+   "a": "Manuel Belgrano",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Argentina.svg",
+   "n": "Argentina"
+  },
+  "AT": {
+   "f": "at.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Austria.svg",
+   "a": "Bundesministerium für Landesverteidigung",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Austria.svg",
+   "n": "Áustria"
+  },
+  "AU": {
+   "f": "au.png",
+   "w": 120,
+   "h": 60,
+   "file": "Flag_of_Australia_(converted).svg",
+   "a": "Autor desconhecido (Vector graphics image by Ian Fieggen) (only minor code changes by uploader.)",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Australia_(converted).svg",
+   "n": "Austrália"
+  },
+  "BF": {
+   "f": "bf.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Burkina_Faso.svg",
+   "a": "Drawn by SKopp, rewritten by Gabbe and Андрей Перцев",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Burkina_Faso.svg",
+   "n": "Burkina Faso"
+  },
+  "BO": {
+   "f": "bo.png",
+   "w": 120,
+   "h": 82,
+   "file": "Flag_of_Bolivia.svg",
+   "a": "",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Bolivia.svg",
+   "n": "Bolívia"
+  },
+  "BR": {
+   "f": "br.png",
+   "w": 120,
+   "h": 84,
+   "file": "Flag_of_Brazil.svg",
+   "a": "Raimundo Teixeira Mendes",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg",
+   "n": "Brasil"
+  },
+  "CA": {
+   "f": "ca.png",
+   "w": 120,
+   "h": 60,
+   "file": "Flag_of_Canada_(Pantone).svg",
+   "a": "Original: George F. G. Stanley Modified by: The original uploader was Illegitimate Barrister at…",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Canada_(Pantone).svg",
+   "n": "Canadá"
+  },
+  "CD": {
+   "f": "cd.png",
+   "w": 120,
+   "h": 90,
+   "file": "Flag_of_the_Democratic_Republic_of_the_Congo.svg",
+   "a": "Nightstallion",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Democratic_Republic_of_the_Congo.svg",
+   "n": "República Democrática do Congo"
+  },
+  "CH": {
+   "f": "ch.png",
+   "w": 120,
+   "h": 120,
+   "file": "Flag_of_Switzerland.svg",
+   "a": "Original: Unknown Vector: Marc Mongenet Credits: -xfi- Zscout370",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Switzerland.svg",
+   "n": "Suíça"
+  },
+  "CI": {
+   "f": "ci.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Côte_d'Ivoire.svg",
+   "a": "",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_C%C3%B4te_d%27Ivoire.svg",
+   "n": "Costa do Marfim"
+  },
+  "CL": {
+   "f": "cl.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Chile.svg",
+   "a": "",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Chile.svg",
+   "n": "Chile"
+  },
+  "CM": {
+   "f": "cm.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Cameroon.svg",
+   "a": "(of code) -xfi-",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Cameroon.svg",
+   "n": "Camarões"
+  },
+  "CN": {
+   "f": "cn.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_the_People's_Republic_of_China.svg",
+   "a": "Zeng Liansong",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg",
+   "n": "China"
+  },
+  "CO": {
+   "f": "co.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Colombia.svg",
+   "a": "Drawn by SKopp",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Colombia.svg",
+   "n": "Colômbia"
+  },
+  "CU": {
+   "f": "cu.png",
+   "w": 120,
+   "h": 60,
+   "file": "Flag_of_Cuba.svg",
+   "a": "Miguel Teurbe Tolón and Narciso López",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Cuba.svg",
+   "n": "Cuba"
+  },
+  "CZ": {
+   "f": "cz.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_the_Czech_Republic.svg",
+   "a": "Jaroslav Kursa",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
+   "n": "Tchéquia"
+  },
+  "DE": {
+   "f": "de.png",
+   "w": 120,
+   "h": 72,
+   "file": "Flag_of_Germany.svg",
+   "a": "SKopp, Madden, and other users",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany.svg",
+   "n": "Alemanha"
+  },
+  "DZ": {
+   "f": "dz.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Algeria.svg",
+   "a": "Original: National Liberation Front of Algeria Vector: SKopp",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Algeria.svg",
+   "n": "Argélia"
+  },
+  "EG": {
+   "f": "eg.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Egypt.svg",
+   "a": "",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Egypt.svg",
+   "n": "Egito"
+  },
+  "ES": {
+   "f": "es.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Spain.svg",
+   "a": "RelShot 263, Echando una mano; earlier version was Pedro A. Gracia Fajardo, escudo de Manual de…",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
+   "n": "Espanha"
+  },
+  "ET": {
+   "f": "et.png",
+   "w": 120,
+   "h": 60,
+   "file": "Flag_of_Ethiopia.svg",
+   "a": "Drawn by SKopp",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Ethiopia.svg",
+   "n": "Etiópia"
+  },
+  "FR": {
+   "f": "fr.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_France.svg",
+   "a": "Original: Unknown Vector: SKopp",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+   "n": "França"
+  },
+  "GB": {
+   "f": "gb.png",
+   "w": 120,
+   "h": 72,
+   "file": "Flag_of_the_United_Kingdom_(3-5).svg",
+   "a": "Original: Acts of Union 1800 Vector: Yaddah",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom_(3-5).svg",
+   "n": "Reino Unido"
+  },
+  "GH": {
+   "f": "gh.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Ghana.svg",
+   "a": "Theodosia Okoh",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Ghana.svg",
+   "n": "Gana"
+  },
+  "GR": {
+   "f": "gr.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Greece.svg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+   "n": "Grécia"
+  },
+  "GT": {
+   "f": "gt.png",
+   "w": 120,
+   "h": 75,
+   "file": "Flag_of_Guatemala.svg",
+   "a": "K21edgo",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Guatemala.svg",
+   "n": "Guatemala"
+  },
+  "GW": {
+   "f": "gw.png",
+   "w": 120,
+   "h": 60,
+   "file": "Flag_of_Guinea-Bissau.svg",
+   "a": "Drawn by SKopp",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Guinea-Bissau.svg",
+   "n": "Guiné-Bissau"
+  },
+  "HR": {
+   "f": "hr.png",
+   "w": 120,
+   "h": 60,
+   "file": "Flag_of_Croatia.svg",
+   "a": "Nightstallion, Elephantus, Neoneo13, Denelson83, Rainman, R-41, Minestrone, Lupo, Zscout370, Ma Ga…",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Croatia.svg",
+   "n": "Croácia"
+  },
+  "HT": {
+   "f": "ht.png",
+   "w": 120,
+   "h": 72,
+   "file": "Flag_of_Haiti.svg",
+   "a": "(colours and size changes of the now deleted versions) Madden, Vzb83, Denelson83, Chanheigeorge,…",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Haiti.svg",
+   "n": "Haiti"
+  },
+  "HU": {
+   "f": "hu.png",
+   "w": 120,
+   "h": 60,
+   "file": "Flag_of_Hungary.svg",
+   "a": "SKopp",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Hungary.svg",
+   "n": "Hungria"
+  },
+  "ID": {
+   "f": "id.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Indonesia.svg",
+   "a": "Jayakatwang",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Indonesia.svg",
+   "n": "Indonésia"
+  },
+  "IE": {
+   "f": "ie.png",
+   "w": 120,
+   "h": 60,
+   "file": "Flag_of_Ireland.svg",
+   "a": "Éire",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Ireland.svg",
+   "n": "Irlanda"
+  },
+  "IL": {
+   "f": "il.png",
+   "w": 120,
+   "h": 88,
+   "file": "Flag_of_Israel.svg",
+   "a": "Israel Belkind and Fanny Abramovitch (original) “The Provisional Council of State Proclamation of…",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Israel.svg",
+   "n": "Israel"
+  },
+  "IN": {
+   "f": "in.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_India.svg",
+   "a": "Government of India",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_India.svg",
+   "n": "Índia"
+  },
+  "IR": {
+   "f": "ir.png",
+   "w": 120,
+   "h": 69,
+   "file": "Flag_of_Iran.svg",
+   "a": "SVG file: SiBr 4 Designer: Hamid Nadimi Construction: ISIRI",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Iran.svg",
+   "n": "Irã"
+  },
+  "IT": {
+   "f": "it.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Italy.svg",
+   "a": "",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Italy.svg",
+   "n": "Itália"
+  },
+  "JM": {
+   "f": "jm.png",
+   "w": 120,
+   "h": 60,
+   "file": "Flag_of_Jamaica.svg",
+   "a": "SKopp, and then manually edited by Zscout370, Madden and others.",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Jamaica.svg",
+   "n": "Jamaica"
+  },
+  "JP": {
+   "f": "jp.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Japan.svg",
+   "a": "Vários autores",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan.svg",
+   "n": "Japão"
+  },
+  "KE": {
+   "f": "ke.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Kenya.svg",
+   "a": "Pumbaa80",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg",
+   "n": "Quênia"
+  },
+  "KP": {
+   "f": "kp.png",
+   "w": 120,
+   "h": 60,
+   "file": "Flag_of_North_Korea.svg",
+   "a": "Original: Unknown author Vector: Zscout370",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_North_Korea.svg",
+   "n": "Coreia do Norte"
+  },
+  "KR": {
+   "f": "kr.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_South_Korea.svg",
+   "a": "Original: Government of the Republic of Korea Vector: Great Brightstar and others",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
+   "n": "Coreia do Sul"
+  },
+  "LR": {
+   "f": "lr.png",
+   "w": 120,
+   "h": 64,
+   "file": "Flag_of_Liberia.svg",
+   "a": "Government of Liberia",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Liberia.svg",
+   "n": "Libéria"
+  },
+  "LY": {
+   "f": "ly.png",
+   "w": 120,
+   "h": 60,
+   "file": "Flag_of_Libya.svg",
+   "a": "Vários autores",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Libya.svg",
+   "n": "Líbia"
+  },
+  "ML": {
+   "f": "ml.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Mali.svg",
+   "a": "SKopp",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Mali.svg",
+   "n": "Mali"
+  },
+  "MM": {
+   "f": "mm.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Myanmar.svg",
+   "a": "Autor desconhecido",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Myanmar.svg",
+   "n": "Mianmar"
+  },
+  "MN": {
+   "f": "mn.png",
+   "w": 120,
+   "h": 60,
+   "file": "Flag_of_Mongolia.svg",
+   "a": "",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Mongolia.svg",
+   "n": "Mongólia"
+  },
+  "MX": {
+   "f": "mx.png",
+   "w": 120,
+   "h": 69,
+   "file": "Flag_of_Mexico.svg",
+   "a": "Omar Alejandro Covarrubias Neri, 9 April 2006. Based on the 1968 arms by Francisco Eppens Helguera…",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Mexico.svg",
+   "n": "México"
+  },
+  "MZ": {
+   "f": "mz.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Mozambique.svg",
+   "a": "FRELIMO",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Mozambique.svg",
+   "n": "Moçambique"
+  },
+  "NG": {
+   "f": "ng.png",
+   "w": 120,
+   "h": 60,
+   "file": "Flag_of_Nigeria.svg",
+   "a": "Jon Harald Søby.",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Nigeria.svg",
+   "n": "Nigéria"
+  },
+  "NI": {
+   "f": "ni.png",
+   "w": 120,
+   "h": 72,
+   "file": "Flag_of_Nicaragua.svg",
+   "a": "C records",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Nicaragua.svg",
+   "n": "Nicarágua"
+  },
+  "NL": {
+   "f": "nl.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_the_Netherlands.svg",
+   "a": "Zscout370",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Netherlands.svg",
+   "n": "Países Baixos"
+  },
+  "NZ": {
+   "f": "nz.png",
+   "w": 120,
+   "h": 60,
+   "file": "Flag_of_New_Zealand.svg",
+   "a": "Original: Albert Hastings Markham Vector: Zscout370, Hugh Jass, s. File history",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_New_Zealand.svg",
+   "n": "Nova Zelândia"
+  },
+  "PE": {
+   "f": "pe.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Peru.svg",
+   "a": "David Benbennick",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Peru.svg",
+   "n": "Peru"
+  },
+  "PK": {
+   "f": "pk.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Pakistan.svg",
+   "a": "Zscout370",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Pakistan.svg",
+   "n": "Paquistão"
+  },
+  "PL": {
+   "f": "pl.png",
+   "w": 120,
+   "h": 75,
+   "file": "Flag_of_Poland.svg",
+   "a": "",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Poland.svg",
+   "n": "Polônia"
+  },
+  "PS": {
+   "f": "ps.png",
+   "w": 120,
+   "h": 60,
+   "file": "Flag_of_Palestine.svg",
+   "a": "Orionist, previous versions by Makaristos, Mysid, etc.",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Palestine.svg",
+   "n": "Palestina"
+  },
+  "PT": {
+   "f": "pt.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Portugal_(official).svg",
+   "a": "Original: Columbano Bordalo Pinheiro Vector: Vítor Luís Rodrigues, António Martins-Tuválkin",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Portugal_(official).svg",
+   "n": "Portugal"
+  },
+  "RU": {
+   "f": "ru.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Russia.svg",
+   "a": "Peter the Great",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg",
+   "n": "Rússia"
+  },
+  "RW": {
+   "f": "rw.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Rwanda.svg",
+   "a": "Original: Unknown Vector: Zscout370",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Rwanda.svg",
+   "n": "Ruanda"
+  },
+  "SE": {
+   "f": "se.png",
+   "w": 120,
+   "h": 75,
+   "file": "Flag_of_Sweden.svg",
+   "a": "Jon Harald Søby and others.",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Sweden.svg",
+   "n": "Suécia"
+  },
+  "SG": {
+   "f": "sg.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Singapore.svg",
+   "a": "Original: Government of Singapore Vector: Zscout370",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Singapore.svg",
+   "n": "Cingapura"
+  },
+  "SN": {
+   "f": "sn.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Senegal.svg",
+   "a": "Original upload by Nightstallion",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Senegal.svg",
+   "n": "Senegal"
+  },
+  "SV": {
+   "f": "sv.png",
+   "w": 120,
+   "h": 68,
+   "file": "Flag_of_El_Salvador.svg",
+   "a": "",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador.svg",
+   "n": "El Salvador"
+  },
+  "TN": {
+   "f": "tn.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Tunisia.svg",
+   "a": "Various Wikimedia Commons' contributors",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Tunisia.svg",
+   "n": "Tunísia"
+  },
+  "TR": {
+   "f": "tr.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Turkey.svg",
+   "a": "David Benbennick (original author)",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkey.svg",
+   "n": "Turquia"
+  },
+  "TW": {
+   "f": "tw.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_the_Republic_of_China.svg",
+   "a": "Sun Yat-sen",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_China.svg",
+   "n": "Taiwan"
+  },
+  "TZ": {
+   "f": "tz.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Tanzania.svg",
+   "a": "",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Tanzania.svg",
+   "n": "Tanzânia"
+  },
+  "UA": {
+   "f": "ua.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Ukraine.svg",
+   "a": "Government of Ukraine",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Ukraine.svg",
+   "n": "Ucrânia"
+  },
+  "US": {
+   "f": "us.png",
+   "w": 120,
+   "h": 64,
+   "file": "Flag_of_the_United_States_(DDD-F-416E_specifications).svg",
+   "a": "Vector file created by Dbenbenn, Zscout370, Jacobolus, Indolences, and Technion.",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States_(DDD-F-416E_specifications).svg",
+   "n": "Estados Unidos"
+  },
+  "UY": {
+   "f": "uy.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Uruguay.svg",
+   "a": "",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Uruguay.svg",
+   "n": "Uruguai"
+  },
+  "VE": {
+   "f": "ve.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Venezuela.svg",
+   "a": "Vários autores",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Venezuela.svg",
+   "n": "Venezuela"
+  },
+  "VN": {
+   "f": "vn.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_Vietnam.svg",
+   "a": "",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam.svg",
+   "n": "Vietnã"
+  },
+  "ZA": {
+   "f": "za.png",
+   "w": 120,
+   "h": 80,
+   "file": "Flag_of_South_Africa.svg",
+   "a": "Flag design by Frederick Brownell, image by Wikimedia Commons users",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Africa.svg",
+   "n": "África do Sul"
+  },
+  "ZW": {
+   "f": "zw.png",
+   "w": 120,
+   "h": 60,
+   "file": "Flag_of_Zimbabwe.svg",
+   "a": "Own work. Based on: FOTW; See also:",
+   "l": "Domínio público",
+   "u": "https://commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg",
+   "n": "Zimbábue"
+  }
+ }
+}

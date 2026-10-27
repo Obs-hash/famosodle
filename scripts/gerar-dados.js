@@ -1,5 +1,6 @@
-// Gera dados/data.json a partir de dados/figuras.txt, dados/figuras-extra.txt, da base de países
-// e do pacote de fotos (fotos/fotos-1/creditos.json), que define quem entra no modo Foto.
+// Gera dados/data.json a partir de dados/figuras.txt, dados/figuras-extra.txt, da base de países,
+// do pacote de fotos (fotos/fotos-1/creditos.json), que define quem entra no modo Foto,
+// e das bandeiras (bandeiras/creditos.json), que dá o tamanho de cada imagem.
 const fs = require("fs");
 const path = require("path");
 const wc = require("world-countries");
@@ -107,6 +108,20 @@ if (fs.existsSync(creditos)) {
   });
 } else avisos.push("sem fotos/fotos-1/creditos.json: o modo Foto vai sortear entre todas as figuras e buscar as imagens na Wikipedia");
 
+// países com bandeira em imagem ganham fl: [largura, altura]; os outros ficam com o emoji
+const credBandeiras = path.join(ROOT, "bandeiras", "creditos.json");
+let comBandeira = 0;
+if (fs.existsSync(credBandeiras)) {
+  const bandeiras = (JSON.parse(fs.readFileSync(credBandeiras, "utf8")) || {}).bandeiras || {};
+  Object.keys(countries).forEach(c => {
+    const e = Object.prototype.hasOwnProperty.call(bandeiras, c) && bandeiras[c];
+    if (e && e.f === c.toLowerCase() + ".png" && Number.isInteger(e.w) && Number.isInteger(e.h) && e.w > 0 && e.h > 0 && fs.existsSync(path.join(ROOT, "bandeiras", e.f))) {
+      countries[c].fl = [e.w, e.h]; comBandeira++;
+    }
+  });
+}
+if (comBandeira < Object.keys(countries).length) avisos.push(`${Object.keys(countries).length - comBandeira} países sem bandeira em imagem (rode npm run baixar-bandeiras); o jogo mostra o emoji`);
+
 if (errs.length) { console.log(errs); process.exit(1); }
 avisos.forEach(a => console.log("aviso:", a));
 
@@ -115,5 +130,5 @@ fs.writeFileSync(path.join(DADOS, "data.json"), JSON.stringify(out));
 const byC = {};
 people.forEach(p => { const ct = countries[p.c].ct; byC[ct] = (byC[ct] || 0) + 1; });
 console.log("figuras", people.length, "| por continente", byC, "| com frase", people.filter(p => p.q).length, "| com foto", comFoto,
-  "| vivos", people.filter(p => p.d === null).length, "| países", Object.keys(countries).length,
+  "| vivos", people.filter(p => p.d === null).length, "| países", Object.keys(countries).length, "| bandeiras", comBandeira,
   "| mulheres", people.filter(p => p.g === "F").length, "|", (JSON.stringify(out).length / 1024).toFixed(1), "KB");

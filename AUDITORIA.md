@@ -26,7 +26,7 @@ Lighthouse 13.5.0, perfil de celular padrão (rede e processador simulados), ser
 | SEO | 100 | 100 |
 | First Contentful Paint | 1,5 s | 1,07 s |
 | Largest Contentful Paint | 1,95 s | 2,07 s |
-| Total Blocking Time | 51 ms | 54 ms |
+| Total Blocking Time | 51 ms | 52 ms |
 | Cumulative Layout Shift | 0,267 | 0 |
 
 Na primeira visita o maior elemento da tela é o texto do diálogo "Como jogar", que abre sozinho, por isso o LCP depende do script e ficou parecido. Antes, o diálogo abria 400 ms depois do script; agora abre na hora. Em visitas seguintes o diálogo não aparece.
@@ -52,6 +52,7 @@ Na primeira visita o maior elemento da tela é o texto do diálogo "Como jogar",
 | Pedidos à Wikipedia sem tempo limite. | app.js 207-211 | baixa | Corrigido: 10 segundos. |
 | O texto de compartilhar não tinha o endereço do jogo. | app.js 672-681 | baixa | Corrigido. |
 | Encontrado durante a revisão: ao abrir uma dica, o botão some e o foco se perdia. | app.js 548-553 | baixa | Corrigido: o foco vai para a dica aberta, que também é anunciada. |
+| Apontado depois da publicação: no Windows as bandeiras apareciam como as letras do país ("BR"), porque o sistema não desenha emojis de bandeira. | app.js `flag()` | média | Corrigido: as bandeiras viraram imagens PNG de 120 px tiradas do Wikimedia Commons (todas em domínio público), baixadas por `npm run baixar-bandeiras` e servidas pelo próprio site em `bandeiras/` (84 KB no total, cada uma só carrega quando aparece). O arquivo único leva as bandeiras embutidas. O crédito de cada uma fica no diálogo "Sobre as imagens". Se alguma imagem faltar, o jogo volta ao emoji. |
 
 ## Segurança
 
@@ -194,6 +195,5 @@ Com isso o modo Frase tem 60 figuras (eram 61).
 
 - Sem git neste computador, não houve commits por fase. O backup do estado original ficou fora do projeto.
 - O Lighthouse foi medido no servidor local com rede simulada. Na Vercel os números podem variar um pouco; o DEPLOY.md mostra como conferir depois do deploy.
-- No Windows, o Chrome não tem emojis de bandeira e mostra as letras do país (BR, US). É uma limitação do sistema e já acontecia antes.
 - Os testes rodam só no Chrome. Firefox e Safari não foram testados automaticamente.
 - A conferência dos fatos vale para 26/10/2026. Rode `npm run verificar-dados` antes de novas levas de mudanças.

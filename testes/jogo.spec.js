@@ -37,6 +37,10 @@ test("um palpite em cada modo clássico mostra cores, sinais e setas", async ({ 
       // todo quadro tem o sinal que não depende de cor
       await expect(linha.locator(".tile").nth(i).locator(".mk svg")).toHaveCount(1);
     }
+    // a bandeira é imagem (o Windows desenha o emoji como duas letras) e carrega
+    const bandeira = linha.locator(".tile").nth(2).locator("img.flag");
+    await expect(bandeira).toHaveAttribute("src", `bandeiras/${DATA.people.find(p => p.n === nome).c.toLowerCase()}.png`);
+    await expect.poll(() => bandeira.evaluate(img => img.complete && img.naturalWidth)).toBeGreaterThan(0);
     // nascimento: se não é igual, tem seta
     const nasc = linha.locator(".tile").nth(4);
     if (!/\bok\b/.test(await nasc.getAttribute("class"))) await expect(nasc.locator("svg.arw")).toHaveCount(1);

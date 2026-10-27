@@ -105,7 +105,10 @@ test("cabeçalhos de segurança e de cache servidos como no vercel.json", async 
   expect(html).not.toMatch(/<script>|\son[a-z]+=|style="/i);
   const js = html.match(/assets\/app\.[0-9a-f]{10}\.js/)[0], cssArq = html.match(/assets\/famosodle\.[0-9a-f]{10}\.css/)[0];
   for (const a of [js, cssArq]) expect((await request.get("/" + a)).headers()["cache-control"]).toContain("immutable");
-  for (const a of [js, cssArq, "fotos-1/p001.jpg"]) expect((await request.get("/" + a)).headers()["cross-origin-resource-policy"], a).toBe("same-origin");
+  for (const a of [js, cssArq, "fotos-1/p001.jpg", "bandeiras/br.png"]) expect((await request.get("/" + a)).headers()["cross-origin-resource-policy"], a).toBe("same-origin");
+  const bandeira = await request.get("/bandeiras/br.png");
+  expect(bandeira.headers()["content-type"]).toBe("image/png");
+  expect(bandeira.headers()["cache-control"]).toBe("public, max-age=86400, stale-while-revalidate=604800");
   expect((await request.get("/og.png")).headers()["cross-origin-resource-policy"]).toBeUndefined();
   // um 404 em /assets/ não fica um ano em cache
   const falta = await request.get("/assets/nao-existe.js");

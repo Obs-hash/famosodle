@@ -11,7 +11,7 @@ const path = require("path");
 const crypto = require("crypto");
 const { PNG } = require("pngjs");
 const jpeg = require("jpeg-js");
-const { api, pedir, WP, lotes, titulo, seguir, figuras } = require("./wikimedia");
+const { api, WP, IMG, MAX_LADO, lotes, titulo, seguir, textoPuro, licenca, baixarImagem, ladosPng, figuras } = require("./wikimedia");
 
 const LARGURA = 500; // um dos tamanhos padrão de miniatura da Wikimedia
 const FUNDO = [43, 38, 41]; // --ink-2, a cor do quadro, para fotos com transparência
@@ -20,47 +20,9 @@ const QUALIDADE = 0.8; // mesma qualidade do botão "Gerar pacote de fotos para 
 const ALTERNATIVAS = { p167: "Darcy Ribeiro.jpg" };
 const RAIZ = path.join(__dirname, "..", "fotos");
 const TEMP = path.join(RAIZ, ".baixando");
-// as miniaturas vêm de thumb.wikimedia.org; arquivos menores que 500 px vêm inteiros de upload.wikimedia.org
-const IMG = /^https:\/\/(upload|thumb)\.wikimedia\.org\//;
 const PAGINA = /^https:\/\/(commons\.wikimedia|en\.wikipedia)\.org\/wiki\//;
 // 99 fotos por pasta; a fotos-1 leva também o creditos.json (no máximo 100 arquivos por pasta)
 const pasta = pid => `fotos-${Math.floor((Number(pid.slice(1)) - 1) / 99) + 1}`;
-
-const ENT = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " " };
-// travessões viram hífen; caracteres de controle e invisíveis viram espaço
-const TRAVESSAO = new RegExp("[" + String.fromCharCode(0x2013, 0x2014) + "]", "g");
-const INVISIVEIS = new RegExp("[" + [[0, 0x1f], [0x7f, 0x9f], [0x200b, 0x200f], [0x2028, 0x202e], [0x2060, 0x206f], [0xfeff, 0xfeff]].map(([a, b]) => String.fromCharCode(a) + "-" + String.fromCharCode(b)).join("") + "]", "g");
-const MAX_BYTES = 5 * 1048576; // nenhuma miniatura de 500 px chega perto disso
-const MAX_LADO = 4000; // PNG maior que isso não é miniatura e poderia travar a decodificação
-// texto puro a partir do HTML que o Commons devolve no campo de autor.
-// As entidades são decodificadas depois de tirar as tags, então o resultado pode conter "<": é texto,
-// e quem o puser em HTML precisa escapar (o jogo passa tudo por esc()).
-function textoPuro(html, max) {
-  let s = String(html || "").slice(0, 4000)
-    .replace(/<(script|style)\b[\s\S]*?<\/\1\s*>/gi, " ")
-    .replace(/<[^>]*>/g, " ")
-    .replace(/&(#x[0-9a-f]{1,6}|#\d{1,7}|[a-z]+);/gi, (m, e) => {
-      if (e[0] !== "#") return ENT[e.toLowerCase()] !== undefined ? ENT[e.toLowerCase()] : m;
-      const n = /x/i.test(e[1]) ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10);
-      return n > 31 && n <= 0x10ffff ? String.fromCodePoint(n) : " ";
-    })
-    .replace(TRAVESSAO, "-")
-    .replace(INVISIVEIS, " ")
-    .replace(/\s+/g, " ").trim()
-    .replace(/^(File:)?[^:]{1,160}\.(jpe?g|png|tiff?|gif|svg|webp)\s*:\s*/i, "") // "Arquivo.jpg : Autor", comum em obras derivadas
-    .replace(/\[\s*\d+\s*\]/g, "")
-    .replace(/\s*\(\s*(talk|contribs?|archived link)\b[^)]*\)/gi, "")
-    .replace(/\bUser:/g, "")
-    .replace(/^unknown\s+unknown\b/i, "Unknown")
-    .replace(/\s+/g, " ").trim()
-    .slice(0, 400)
-    .replace(/^(.+?)\s*\1$/, "$1");
-  s = s.replace(/^unknown( author| photographer)?\b\.?/i, "Autor desconhecido");
-  if (/^own work$/i.test(s)) s = "";
-  if (s.length > max) s = s.slice(0, max).replace(/\s+\S*$/, "") + "…";
-  return s;
-}
-const licenca = s => (/^public domain$/i.test(s) ? "Domínio público" : /^no restrictions$/i.test(s) ? "Sem restrições" : s);
 
 function formato(b) {
   if (b[0] === 0xff && b[1] === 0xd8 && b[2] === 0xff) return "jpeg";
@@ -71,8 +33,9 @@ function formato(b) {
 }
 // PNG para JPEG, pintando a transparência com a cor do quadro
 function pngParaJpeg(buf) {
-  // largura e altura ficam no cabeçalho IHDR; confere antes de decodificar
-  if (buf.length < 24 || buf.readUInt32BE(16) > MAX_LADO || buf.readUInt32BE(20) > MAX_LADO) throw new Error("PNG grande demais");
+  // confere largura e altura antes de decodificar
+  const lados = ladosPng(buf);
+  if (!lados || lados.some(n => n > MAX_LADO)) throw new Error("PNG grande demais");
   const png = PNG.sync.read(buf), d = png.data;
   for (let i = 0; i < d.length; i += 4) {
     const a = d[i + 3] / 255;
@@ -150,14 +113,8 @@ async function abrirCodificador() {
     if (!IMG.test(i.thumb || "") || !PAGINA.test(i.pagina || "")) { falhas.push(`${p.id} ${p.n}: endereço inesperado (${i.thumb})`); continue; }
     if (ALTERNATIVAS[p.id] && i.repo !== "shared") { falhas.push(`${p.id} ${p.n}: a alternativa precisa estar no Commons`); continue; }
     let buf;
-    try {
-      const r = await pedir(i.thumb);
-      // depois de um redirecionamento, o endereço final também precisa ser da Wikimedia
-      if (!IMG.test(r.url)) throw new Error("redirecionado para " + r.url);
-      if (Number(r.headers.get("content-length")) > MAX_BYTES) throw new Error("arquivo grande demais");
-      buf = Buffer.from(await r.arrayBuffer());
-      if (buf.length > MAX_BYTES) throw new Error("arquivo grande demais");
-    } catch (e) { falhas.push(`${p.id} ${p.n}: ${e.message}`); continue; }
+    try { buf = await baixarImagem(i.thumb); }
+    catch (e) { falhas.push(`${p.id} ${p.n}: ${e.message}`); continue; }
     const tipo = formato(buf);
     if (tipo === "png") {
       try { buf = pngParaJpeg(buf); convertidas++; } catch (e) { falhas.push(`${p.id} ${p.n}: ${e.message}`); continue; }

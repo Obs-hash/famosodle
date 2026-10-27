@@ -37,6 +37,8 @@ a { color: inherit; }
 .dark :focus-visible, .dlg header :focus-visible, .result .left :focus-visible { outline-color: var(--near); }
 .sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 .flag { font-family: var(--f-flag); font-style: normal; line-height: 1; }
+/* bandeira em imagem: mesma altura do emoji, com um contorno fino para bandeiras brancas como a do Japão */
+img.flag { height: .78em; width: auto; vertical-align: -.1em; border-radius: 2px; box-shadow: 0 0 0 1px rgba(31, 27, 29, .18); flex: none; }
 .disp { font-family: var(--f-display); font-weight: 400; text-transform: uppercase; letter-spacing: .02em; line-height: .92; }
 .wrap {
   max-width: 1040px; margin: 0 auto;
@@ -246,6 +248,12 @@ dialog::backdrop { background: rgba(20, 16, 18, .6); }
 .dlg h3 { margin: 6px 0 0; font-size: 11.5px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
 .dlg p { margin: 0; max-width: 62ch; }
 .dlg .note { font-size: 12.5px; color: var(--muted); }
+.credlist summary { cursor: pointer; font-weight: 600; min-height: 44px; display: flex; align-items: center; gap: 8px; list-style: none; }
+.credlist summary::-webkit-details-marker { display: none; }
+.credlist summary::before { content: "\25B8"; color: var(--muted); }
+.credlist[open] summary::before { content: "\25BE"; }
+.credlist ul { margin: 4px 0 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 12.5px; color: var(--muted); }
+.credlist b { color: var(--ink); }
 .scroll-x { overflow-x: auto; }
 .cols { margin: 0; display: grid; gap: 8px; }
 .cols div { display: grid; grid-template-columns: 130px 1fr; gap: 12px; }

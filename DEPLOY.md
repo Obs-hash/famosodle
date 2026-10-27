@@ -42,7 +42,7 @@ O jeito mais fácil é pelo próprio VS Code:
 - Escolha se o repositório será privado ou público. Os dois funcionam com a Vercel.
 - Espere o envio. São uns 25 MB, quase tudo fotos.
 
-Confira no site do GitHub: devem aparecer as pastas `dados`, `fotos`, `scripts`, `src` e `testes` e os arquivos `package.json`, `package-lock.json` e `vercel.json`. As pastas `node_modules` e `dist` **não** devem aparecer (o `.gitignore` deixa elas de fora de propósito).
+Confira no site do GitHub: devem aparecer as pastas `bandeiras`, `dados`, `fotos`, `scripts`, `src` e `testes` e os arquivos `package.json`, `package-lock.json` e `vercel.json`. As pastas `node_modules` e `dist` **não** devem aparecer (o `.gitignore` deixa elas de fora de propósito).
 
 Se preferir o terminal, crie antes um repositório vazio no GitHub (sem README) chamado `famosodle` e rode:
 
@@ -89,7 +89,7 @@ Cuidados:
 
 - Sempre envie o `vercel.json` junto. A Vercel lê esse arquivo antes de montar o site, e o build às vezes muda ele (o terminal avisa).
 - Mudanças nas figuras e no pacote de fotos trocam a sequência das respostas dos próximos dias. Publique essas mudanças logo depois da meia-noite de Brasília.
-- Figuras novas entram sempre no fim de `dados/figuras-extra.txt`. Depois rode `npm run verificar-fotos`, `npm run baixar-fotos` e `npm run build`.
+- Figuras novas entram sempre no fim de `dados/figuras-extra.txt`. Depois rode `npm run verificar-fotos`, `npm run baixar-fotos` e `npm run build`. Se a figura for de um país que ainda não estava no jogo, rode também `npm run baixar-bandeiras` antes do build.
 
 ## Alternativa: publicar só a pasta pronta
 
@@ -108,3 +108,5 @@ Na primeira vez, o `npx vercel` pede para entrar na Vercel e faz algumas pergunt
 - **O deploy falhou na Vercel**: abra o projeto na Vercel, clique em **Deployments**, depois no deploy com erro e em **Build Logs**. A mensagem de erro do `npm run build` aparece ali.
 - **`npm test` diz que não achou o Chrome**: instale o Google Chrome, ou rode `npx playwright install chromium` e depois, no PowerShell, `$env:PW_CHROMIUM = "1"` antes de `npm test`.
 - **As fotos não aparecem no site**: confira se a pasta `fotos` está no GitHub com as pastas `fotos-1` a `fotos-4`.
+- **As bandeiras aparecem como letras ("BR")**: confira se a pasta `bandeiras` está no GitHub, com os arquivos `.png` e o `creditos.json`.
+- **O GitHub diz "Yowza, that's a lot of files"**: o envio pelo site aceita menos de 100 arquivos por vez. Mande em partes menores.

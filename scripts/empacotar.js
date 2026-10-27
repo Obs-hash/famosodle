@@ -63,6 +63,23 @@ const jsSite = esbuild.transformSync(app, { loader: "js", minify: true, format: 
 const jsNome = comHash("app.js", Buffer.from(jsSite));
 gravar("assets/" + jsNome, jsSite);
 
+/* ---------- bandeiras: bandeiras/xx.png, com autor, licença e página do arquivo em bandeiras/creditos.json ---------- */
+// entram os países que o gerar-dados marcou com fl (ele já conferiu o arquivo e o tamanho)
+const escHtml = s => String(s).replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
+const PAGINA_COMMONS = /^https:\/\/commons\.wikimedia\.org\/wiki\/File:[^\s"'<>]+$/;
+const bandeirasDir = path.join(ROOT, "bandeiras");
+const credB = fs.existsSync(path.join(bandeirasDir, "creditos.json")) ? JSON.parse(fs.readFileSync(path.join(bandeirasDir, "creditos.json"), "utf8")).bandeiras || {} : {};
+const bandeiras = Object.entries(JSON.parse(data).countries).filter(([, c]) => c.fl)
+  .map(([cod, c]) => ({ cod, nome: c.n, e: credB[cod], arq: path.join(bandeirasDir, cod.toLowerCase() + ".png") }))
+  .sort((x, y) => x.nome.localeCompare(y.nome, "pt-BR"));
+for (const b of bandeiras) if (!b.e || !PAGINA_COMMONS.test(b.e.u || "") || !b.e.l) throw new Error("crédito incompleto da bandeira " + b.cod);
+const listaBandeiras = bandeiras.length
+  ? "<ul>" + bandeiras.map(b => `<li><b>${escHtml(b.nome)}</b>: ${b.e.a ? escHtml(b.e.a) + " · " : ""}${escHtml(b.e.l)} · <a href="${escHtml(b.e.u)}" target="_blank" rel="noopener noreferrer">Commons</a></li>`).join("") + "</ul>"
+  : "<p>Nenhuma bandeira em imagem; o jogo mostra o emoji.</p>";
+// no arquivo único as bandeiras vão embutidas no script, porque ele abre sozinho, sem a pasta bandeiras/
+if (!app.includes("/*__FLAGS__*/null")) throw new Error("o marcador do FLAG_EMBED sumiu de src/app.js");
+const appSingle = app.replace("/*__FLAGS__*/null", () => JSON.stringify(Object.fromEntries(bandeiras.map(b => [b.cod, "data:image/png;base64," + fs.readFileSync(b.arq).toString("base64")]))));
+
 /* ---------- páginas ---------- */
 const favicon = fs.readFileSync(path.join(ROOT, "src", "estaticos", "favicon.svg"), "utf8").trim();
 // minificação leve e segura: tira comentários e junta espaços entre tags (o modelo não tem <pre> nem <textarea>)
@@ -75,6 +92,7 @@ function pagina(tpl, abs) {
     .replace("<!--__PRELOAD__-->", () => faces.filter(f => f.preload).map(f => `<link rel="preload" href="${b}assets/${f.url}" as="font" type="font/${fmt(f.file)}" crossorigin>`).join(""))
     .replace("<!--__CSS__-->", () => `<link rel="stylesheet" href="${b}assets/${cssNome}">`)
     .replace("<!--__JS__-->", () => `<script src="${b}assets/${jsNome}" defer></script>`)
+    .replace("<!--__BANDEIRAS__-->", () => listaBandeiras)
     .replace(/__SITE__/g, SITE);
 }
 const index = minHtml(pagina(ler("src/index.html"), false));
@@ -94,7 +112,8 @@ const single = ler("src/index.html")
   .replace("<!--__ICONS__-->", () => `<meta http-equiv="Content-Security-Policy" content="${cspSingle}">\n<link rel="icon" href="data:image/svg+xml,${encodeURIComponent(favicon)}">`)
   .replace("<!--__PRELOAD__-->", "")
   .replace("<!--__CSS__-->", () => `<style>\n${faceCss(true)}\n${css}</style>`)
-  .replace("<!--__JS__-->", () => `<script>\n${app}\n</script>`)
+  .replace("<!--__JS__-->", () => `<script>\n${appSingle}\n</script>`)
+  .replace("<!--__BANDEIRAS__-->", () => listaBandeiras)
   .replace(/__SITE__/g, SITE);
 fs.writeFileSync(path.join(DIST, "famosodle.html"), single);
 
@@ -128,13 +147,15 @@ const headers = [
     { key: "Cross-Origin-Opener-Policy", value: "same-origin" },
     { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), payment=(), usb=()" }
   ] },
-  // JS, CSS, fontes e fotos só servem para o próprio site; og.png e os ícones ficam de fora, porque outros sites mostram essas imagens
-  { source: "/(assets|fotos-\\d+)/(.*)", headers: [{ key: "Cross-Origin-Resource-Policy", value: "same-origin" }] },
+  // JS, CSS, fontes, fotos e bandeiras só servem para o próprio site; og.png e os ícones ficam de fora, porque outros sites mostram essas imagens
+  { source: "/(assets|fotos-\\d+|bandeiras)/(.*)", headers: [{ key: "Cross-Origin-Resource-Policy", value: "same-origin" }] },
   // nomes com hash do conteúdo: podem ficar em cache para sempre. A regra só casa com nomes nesse formato,
   // para um 404 em /assets/ não ficar um ano em cache
   { source: "/assets/(.*\\.[0-9a-f]{10}\\.(?:js|css|woff2?))", headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }] },
   // fotos: um dia de cache; quando uma foto muda, o creditos.json leva um hash novo na URL dela
-  { source: "/fotos-(\\d+)/(.*)", headers: [{ key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" }] }
+  { source: "/fotos-(\\d+)/(.*)", headers: [{ key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" }] },
+  // bandeiras: quase nunca mudam; um dia de cache e uma semana servindo a cópia antiga enquanto revalida
+  { source: "/bandeiras/(.*)", headers: [{ key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" }] }
 ];
 gravar("vercel.json", JSON.stringify({ headers }, null, 2) + "\n");
 const raiz = path.join(ROOT, "vercel.json");
@@ -159,5 +180,9 @@ if (fs.existsSync(fotosDir)) {
     }
   }
 }
+for (const b of bandeiras) {
+  fs.mkdirSync(path.join(out, "bandeiras"), { recursive: true });
+  fs.copyFileSync(b.arq, path.join(out, "bandeiras", path.basename(b.arq)));
+}
 const gz = s => zlib.gzipSync(s).length;
-console.log(`ok | index.html ${kb(index.length)} (${kb(gz(index))} gzip) | ${cssNome} ${kb(cssSite.length)} (${kb(gz(cssSite))}) | ${jsNome} ${kb(jsSite.length)} (${kb(gz(jsSite))}) | famosodle.html ${kb(Buffer.byteLength(single))} | ${nFotos ? nFotos + " fotos copiadas de /fotos" : "sem pasta /fotos, o site usa a Wikipedia"}`);
+console.log(`ok | index.html ${kb(index.length)} (${kb(gz(index))} gzip) | ${cssNome} ${kb(cssSite.length)} (${kb(gz(cssSite))}) | ${jsNome} ${kb(jsSite.length)} (${kb(gz(jsSite))}) | famosodle.html ${kb(Buffer.byteLength(single))} | ${nFotos ? nFotos + " fotos copiadas de /fotos" : "sem pasta /fotos, o site usa a Wikipedia"} | ${bandeiras.length} bandeiras`);
